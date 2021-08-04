@@ -17,9 +17,10 @@ jobs:
             echo "setting upstream repository to usegalaxy-eu-tools"
             git remote add upstream https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git
          fi
+       run: git branch -r
      - name: Retrieve tools_iuc.yaml.lock from usegalaxy-eu-tools (upstream)
        run: |
-         git show remotes/upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
+         git show upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
      - name: Compare to previous tool list
        run: |
          if cmp --silent -- "tmp_tools_iuc_eu.yaml.lock" "tools_iuc_eu.yaml.lock"; then
