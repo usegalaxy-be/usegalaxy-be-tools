@@ -32,7 +32,7 @@ jobs:
             rm tmp_tools_iuc_eu.yaml.lock
          else
             echo "tools_iuc_eu.yaml.lock has been updated on usegalaxy-eu-tools"
-            rm tools_iuc_eu.yaml.lock
+            rm -f tools_iuc_eu.yaml.lock
             mv tmp_tools_iuc_eu.yaml.lock tools_iuc_eu.yaml.lock
             python3 process_yaml.py --merge --base_file tools_iuc.yaml.lock --tools_yaml tools_iuc_eu.yaml.lock -o out_tools.yaml.lock
          fi
