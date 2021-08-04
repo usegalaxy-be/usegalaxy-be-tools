@@ -42,5 +42,9 @@ jobs:
          git add .
          git commit -m "scheduled tool list update"
      - name: Push changes
-       run: |
-         git push
+       uses: ad-m/github-push-action@master
+       with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         force: true
+      #  run: |
+      #    git push
