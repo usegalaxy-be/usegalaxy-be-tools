@@ -1,8 +1,9 @@
   
 name: Update tool list using with usegalaxy-eu-tools
-on:
-  schedule:
-  - cron: $cron-weekly
+on: [push]
+# on:
+#   schedule:
+#   - cron: 0 0 * * Sun
 jobs:
   retrieve-tools-list:
     runs-on: ubuntu-latest
