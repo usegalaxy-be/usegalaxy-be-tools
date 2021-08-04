@@ -19,7 +19,7 @@ jobs:
          fi
      - name: List branches
        run: |
-         git branch -r
+         git remote -v
      - name: Retrieve tools_iuc.yaml.lock from usegalaxy-eu-tools (upstream)
        run: |
          git show upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
