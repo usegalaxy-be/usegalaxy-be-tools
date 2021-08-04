@@ -1,0 +1,24 @@
+name: Update tool list using with usegalaxy-eu-tools
+on: [push]
+# on:
+#   schedule:
+#   - cron: 0 0 * * Sun
+jobs:
+  retrieve-tools-list:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Check out repository code
+       uses: actions/checkout@v2
+     - name: Retrieve tools_iuc.yaml.lock from usegalaxy-eu-tools (upstream)
+       run: git show remotes/upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
+     - name: Compare to previous tool list
+       run: |
+         if cmp --silent -- "tmp_tools_iuc_eu.yaml.lock" "tools_iuc_eu.yaml.lock"; then
+            echo "tools_iuc_eu.yaml.lock has not been updated on usegalaxy-eu-tools"
+            rm tmp_tools_iuc_eu.yaml.lock
+         else
+            echo "tools_iuc_eu.yaml.lock has been updated on usegalaxy-eu-tools"
+            rm tools_iuc_eu.yaml.lock
+            mv tmp_tools_iuc_eu.yaml.lock tools_iuc_eu.yaml.lock
+            python3 process_yaml.py --merge --base_file tools_iuc.yaml.lock --tools_yaml tools_iuc_eu.yaml.lock -o out_tools.yaml.lock
+         fi
