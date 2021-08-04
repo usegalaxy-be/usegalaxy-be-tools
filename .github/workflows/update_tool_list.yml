@@ -39,3 +39,8 @@ jobs:
      - name: Commit new files
        run: |
          git status
+         git add .
+         git commit -m "scheduled tool list update"
+     - name: Push changes
+       run: |
+         git push
