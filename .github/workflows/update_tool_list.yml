@@ -36,3 +36,6 @@ jobs:
             mv tmp_tools_iuc_eu.yaml.lock tools_iuc_eu.yaml.lock
             python3 process_yaml.py --merge --base_file tools_iuc.yaml.lock --tools_yaml tools_iuc_eu.yaml.lock -o out_tools.yaml.lock
          fi
+     - name: Commit new files
+       run: |
+         git status
