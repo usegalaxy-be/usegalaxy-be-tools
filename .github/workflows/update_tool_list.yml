@@ -10,7 +10,8 @@ jobs:
      - name: Check out repository code
        uses: actions/checkout@v2
      - name: Retrieve tools_iuc.yaml.lock from usegalaxy-eu-tools (upstream)
-       run: git show remotes/upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
+       run: |
+         git show remotes/upstream/master:tools_iuc.yaml.lock > tmp_tools_iuc_eu.yaml.lock
      - name: Compare to previous tool list
        run: |
          if cmp --silent -- "tmp_tools_iuc_eu.yaml.lock" "tools_iuc_eu.yaml.lock"; then
