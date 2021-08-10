@@ -1,0 +1,289 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tools:
+- name: busco
+  owner: iuc
+  revisions:
+  - 0d243f458b53
+  tool_panel_section_label: Annotation
+- name: flair_collapse
+  owner: iuc
+  revisions:
+  - 03b7b7811ea6
+  tool_panel_section_label: Nanopore
+- name: raceid_filtnormconf
+  owner: iuc
+  revisions:
+  - 43c146e25a43
+  tool_panel_section_label: Single-cell
+- name: strelka_germline
+  owner: iuc
+  revisions:
+  - 19481653a22f
+  tool_panel_section_label: Variant Calling
+- name: irissv
+  owner: iuc
+  revisions:
+  - 1d4f065fa0ef
+  tool_panel_section_label: Variant Calling
+- name: jasminesv
+  owner: iuc
+  revisions:
+  - 2b62154e39c8
+  tool_panel_section_label: Variant Calling
+- name: sansa_annotate
+  owner: iuc
+  revisions:
+  - 30079fa4e2fd
+  tool_panel_section_label: Variant Calling
+- name: medaka_consensus
+  owner: iuc
+  revisions:
+  - 0413e62b757a
+  tool_panel_section_label: Nanopore
+- name: medaka_consensus_pipeline
+  owner: iuc
+  revisions:
+  - 1ca4ce7241fd
+  tool_panel_section_label: Nanopore
+- name: medaka_variant_pipeline
+  owner: iuc
+  revisions:
+  - 1040a307be0c
+  tool_panel_section_label: Nanopore
+- name: slamdunk
+  owner: iuc
+  revisions:
+  - 141f65f7c7c8
+  tool_panel_section_label: RNA Analysis
+- name: mash_sketch
+  owner: iuc
+  revisions:
+  - 43f9ca23c132
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_dada
+  owner: iuc
+  revisions:
+  - 18a502a9d287
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_removebimeradenovo
+  owner: iuc
+  revisions:
+  - 04144473e59e
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_learnerrors
+  owner: iuc
+  revisions:
+  - 04c15826a0b8
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_makesequencetable
+  owner: iuc
+  revisions:
+  - 1c9b3bcd4261
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_seqcounts
+  owner: iuc
+  revisions:
+  - 0a1224c4b781
+  tool_panel_section_label: Metagenomic Analysis
+- name: kallisto_pseudo
+  owner: iuc
+  revisions:
+  - 01247aaf0a10
+  tool_panel_section_label: RNA Analysis
+- name: intervene
+  owner: iuc
+  revisions:
+  - 08780101bc36
+  tool_panel_section_label: Graph/Display Data
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 02026300aa45
+  tool_panel_section_label: Text Manipulation
+- name: crossmap_vcf
+  owner: iuc
+  revisions:
+  - 71730c177cdf
+  tool_panel_section_label: Convert Formats
+- name: crossmap_wig
+  owner: iuc
+  revisions:
+  - 282a658c6569
+  tool_panel_section_label: Convert Formats
+- name: fasta_stats
+  owner: iuc
+  revisions:
+  - 16f1f3e2de42
+  tool_panel_section_label: FASTA/FASTQ
+- name: bio_hansel
+  owner: iuc
+  revisions:
+  - 4deefd708943
+  tool_panel_section_label: Metagenomic Analysis
+- name: khmer_count_median
+  owner: iuc
+  revisions:
+  - 06d1d91c67e5
+  tool_panel_section_label: Metagenomic Analysis
+- name: novoplasty
+  owner: iuc
+  revisions:
+  - 64a1c751d99b
+  tool_panel_section_label: Assembly
+- name: lastz
+  owner: devteam
+  revisions:
+  - 2ff111fac1d7
+  tool_panel_section_label: Mapping
+- name: minimap2
+  owner: iuc
+  revisions:
+  - 037c6e54df11
+  tool_panel_section_label: Mapping
+- name: trinity_filter_low_expr_transcripts
+  owner: iuc
+  revisions:
+  - 1007cdb58d91
+  tool_panel_section_label: RNA Analysis
+- name: mitos
+  owner: iuc
+  revisions:
+  - 1f4933f5a323
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmalign
+  owner: iuc
+  revisions:
+  - 24fa8e890f08
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmscan
+  owner: iuc
+  revisions:
+  - be072920a53e
+  tool_panel_section_label: Annotation
+- name: hmmer_alimask
+  owner: iuc
+  revisions:
+  - 80c713789d13
+  tool_panel_section_label: Annotation
+- name: bcftools_cnv
+  owner: iuc
+  revisions:
+  - 01d6b7d6365e
+  tool_panel_section_label: Variant Calling
+- name: hicexplorer_chicplotviewpoint
+  owner: bgruening
+  revisions:
+  - 031872f8e2e0
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_hicmergematrixbins
+  owner: bgruening
+  revisions:
+  - 03dd3c16ae4e
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_hicnormalize
+  owner: bgruening
+  revisions:
+  - 05257e5d5016
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_hicaverageregions
+  owner: bgruening
+  revisions:
+  - 03d7978293fe
+  tool_panel_section_label: HiCExplorer
+- name: porechop
+  owner: iuc
+  revisions:
+  - 5f76b20953e5
+  tool_panel_section_label: Nanopore
+- name: hyphy_prime
+  owner: iuc
+  revisions:
+  - 02f0dfb10421
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_bgm
+  owner: iuc
+  revisions:
+  - 0286ee7cc27d
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_gard
+  owner: iuc
+  revisions:
+  - 02b8758214b0
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_relax
+  owner: iuc
+  revisions:
+  - 098451b762fb
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_meme
+  owner: iuc
+  revisions:
+  - 0052303cfa41
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_fel
+  owner: iuc
+  revisions:
+  - 09afc9104fc8
+  tool_panel_section_label: Phylogenetics
+- name: chira_collapse
+  owner: iuc
+  revisions:
+  - 00187b27f5e5
+  tool_panel_section_label: RNA Analysis
+- name: spyboat
+  owner: iuc
+  revisions:
+  - 4626a83601d4
+  tool_panel_section_label: Imaging
+- name: ivar_consensus
+  owner: iuc
+  revisions:
+  - 5e668dc9f379
+  tool_panel_section_label: Virology
+- name: ivar_trim
+  owner: iuc
+  revisions:
+  - 364f4ffec275
+  tool_panel_section_label: Virology
+- name: humann2_barplot
+  owner: iuc
+  revisions:
+  - 09c1bbec1032
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_genefamilies_genus_level
+  owner: iuc
+  revisions:
+  - 654548ae1357
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_renorm_table
+  owner: iuc
+  revisions:
+  - c6676a890f50
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_rna_dna_norm
+  owner: iuc
+  revisions:
+  - 6893a2b1da17
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_split_stratified_table
+  owner: iuc
+  revisions:
+  - 28763c8b43f8
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_split_table
+  owner: iuc
+  revisions:
+  - 63cc5fd0f8d6
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_strain_profiler
+  owner: iuc
+  revisions:
+  - 1595f7cadbf9
+  tool_panel_section_label: Metagenomic Analysis
+- name: humann2_unpack_pathways
+  owner: iuc
+  revisions:
+  - 3115a530686e
+  tool_panel_section_label: Metagenomic Analysis
