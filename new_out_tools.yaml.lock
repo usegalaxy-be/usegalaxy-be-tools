@@ -112,6 +112,11 @@ tools:
   revisions:
   - 484e86282f4b
   tool_panel_section_label: FASTA/FASTQ
+- name: rcorrector
+  owner: iuc
+  revisions:
+  - 6703b98884a2
+  tool_panel_section_label: FASTA/FASTQ
 - name: mitobim
   owner: iuc
   revisions:

@@ -1521,6 +1521,11 @@ tools:
   revisions:
   - 2dcfbbf9071a
   tool_panel_section_label: FASTA/FASTQ
+- name: rcorrector
+  owner: iuc
+  revisions:
+  - 6703b98884a2
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer_by_quality
   owner: devteam
   revisions:
@@ -4548,7 +4553,7 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
-  - 5e668dc9f379
+  - 2d9926ce62be
   - 78bbd17d0703
   - 7f781286b55f
   - a38934e303b9
@@ -4562,6 +4567,7 @@ tools:
 - name: ivar_removereads
   owner: iuc
   revisions:
+  - 28a6f1908fcc
   - 3d18f8c3c0f6
   - 94df24c6bc00
   - 9eaadf03e0df
