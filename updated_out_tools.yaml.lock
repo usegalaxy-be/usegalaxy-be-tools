@@ -240,7 +240,12 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
-  - 5e668dc9f379
+  - 2d9926ce62be
+  tool_panel_section_label: Virology
+- name: ivar_removereads
+  owner: iuc
+  revisions:
+  - 28a6f1908fcc
   tool_panel_section_label: Virology
 - name: ivar_trim
   owner: iuc
