@@ -36,6 +36,13 @@ jobs:
             mv tmp_tools_iuc_eu.yaml.lock tools_iuc_eu.yaml.lock
             python3 process_yaml.py --merge --base_file tools_iuc.yaml.lock --tools_yaml tools_iuc_eu.yaml.lock -o out_tools.yaml.lock
          fi
+     - name: install ephimeris
+       run: |
+          python -m pip install --upgrade pip
+          pip install ephemeris
+    #  - name: install tools
+    #    run: |
+    #       shed-install -t new_out_tools.yaml.lock -a $GALAXY_API_KEY --galaxy https://galaxy.uni-freiburg.de
      - name: setup git config
        run: |
          # setup the username and email.
