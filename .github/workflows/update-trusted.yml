@@ -32,15 +32,16 @@ jobs:
             make lint -j $(nproc)
             make update_trusted -j $(nproc)
 
-      - name: Commit files
+      - name: Commit and files
         run: |
           git config --local user.email "github-bot@github.com"
           git config --local user.name "github-actions[bot]"
           git add *.lock
           git commit -m "Updated trusted tools ($(date -I))" || true
+          git push
 
-      - name: Push changes
-        uses: ad-m/github-push-action@git-actions-test
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@git-actions-test
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: ${{ github.ref }}
