@@ -1,6 +1,6 @@
 name: Update Trusted Tools
 
-on: workflow_dispatch
+on: push
   # schedule:
   #   # * is a special character in YAML so you have to quote this string
   #   # We'll run this weekly at 9.
