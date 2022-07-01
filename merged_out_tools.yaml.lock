@@ -2,6 +2,11 @@ install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
 tools:
+- name: barrnap
+  owner: iuc
+  revisions:
+  - 7355bbf5e05f
+  tool_panel_section_label: RNA Analysis
 - name: binning_refiner
   owner: iuc
   revisions:
@@ -70,7 +75,7 @@ tools:
 - name: malt_run
   owner: iuc
   revisions:
-  - d505990b8c89
+  - 87a1202c03e8
   tool_panel_section_label: Metagenomic Analysis
 - name: maaslin2
   owner: iuc
@@ -621,6 +626,7 @@ tools:
 - name: vg_deconstruct
   owner: iuc
   revisions:
+  - 76d18b1e970b
   - a347dad1f305
   tool_panel_section_label: Variant Calling
 - name: vg_view
@@ -739,7 +745,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
-  - 1a7773882d2c
+  - 0622d99c2619
   tool_panel_section_label: Get Data
 - name: dada2_filterandtrim
   owner: iuc
@@ -1074,6 +1080,7 @@ tools:
 - name: join
   owner: devteam
   revisions:
+  - 718d04143c31
   - a10f49d9218a
   tool_panel_section_label: Text Manipulation
 - name: cluster
@@ -1198,6 +1205,21 @@ tools:
   revisions:
   - b79f6002b176
   tool_panel_section_label: Convert Formats
+- name: seqcomplexity
+  owner: iuc
+  revisions:
+  - f14a21f3d5b1
+  tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_stats
+  owner: iuc
+  revisions:
+  - 191738d53912
+  tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_fx2tab
+  owner: iuc
+  revisions:
+  - c1aa9a90b4c4
+  tool_panel_section_label: FASTA/FASTQ
 - name: cutadapt
   owner: lparsons
   revisions:
@@ -1249,6 +1271,11 @@ tools:
   owner: iuc
   revisions:
   - 2ca1baabdae0
+  tool_panel_section_label: Extract Features
+- name: orfipy
+  owner: iuc
+  revisions:
+  - c147914c9f02
   tool_panel_section_label: Extract Features
 - name: extract_genomic_dna
   owner: iuc
@@ -1572,7 +1599,7 @@ tools:
 - name: meryl
   owner: iuc
   revisions:
-  - 31fa26c0692b
+  - 29dabd8db6f2
   tool_panel_section_label: Assembly
 - name: genomescope
   owner: iuc
@@ -2367,6 +2394,15 @@ tools:
   revisions:
   - 0aa87d97847f
   tool_panel_section_label: Variant Calling
+- name: ensembl_vep
+  owner: iuc
+  revisions:
+  - 7303183cdb87
+  tool_panel_section_label: Variant Calling
+- name: data_manager_vep_cache_downloader
+  owner: iuc
+  revisions:
+  - 1439dface5bf
 - name: vcf2pgsnp
   owner: devteam
   revisions:
@@ -2427,6 +2463,7 @@ tools:
 - name: mitos2
   owner: iuc
   revisions:
+  - 624606f7c996
   - 79e259afea34
   tool_panel_section_label: Annotation
 - name: optitype
@@ -2744,6 +2781,7 @@ tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
+  - 0e3cf9594bb7
   - 2889433c7ae1
   tool_panel_section_label: NCBI Blast
 - name: bbtools_bbduk
@@ -3877,7 +3915,7 @@ tools:
 - name: spaln
   owner: iuc
   revisions:
-  - 32c11a4b5dbf
+  - 2e92e1929cb1
   - 37b5e1f0b544
   - 95ea8d97abb4
   tool_panel_section_label: Annotation
@@ -4991,6 +5029,11 @@ tools:
   - 1883d2bffd14
   - 2e0e9c418a85
   tool_panel_section_label: Proteomics
+- name: prot_scriber
+  owner: iuc
+  revisions:
+  - 1e9a43cbf524
+  tool_panel_section_label: Proteomics
 - name: read_it_and_keep
   owner: iuc
   revisions:
@@ -5316,3 +5359,23 @@ tools:
   revisions:
   - d7c48cf1bf50
   tool_panel_section_label: Assembly
+- name: parse_mito_blast
+  owner: iuc
+  revisions:
+  - 3c9ad4adf8d2
+  tool_panel_section_label: Extract Features
+- name: breseq
+  owner: iuc
+  revisions:
+  - 0d18a3ba2d1c
+  tool_panel_section_label: Variant Calling
+- name: mcl
+  owner: iuc
+  revisions:
+  - 649b9cb20668
+  tool_panel_section_label: Machine Learning
+- name: syndiva
+  owner: iuc
+  revisions:
+  - 0254731f047b
+  tool_panel_section_label: Proteomics
