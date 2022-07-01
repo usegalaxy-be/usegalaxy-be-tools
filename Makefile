@@ -17,15 +17,15 @@ fix: $(CORRECT_YAMLS) ## Fix any issues (missing hashes, missing lockfiles, etc.
 install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 
 %.lint: %
-	python scripts/fix-lockfile.py $<
+	python scripts/fix-lockfile.py tools_iuc.yaml
 	pykwalify -d tools_iuc.yaml -s .schema.yaml
-	python scripts/identify-unpinned.py $<
+	python scripts/identify-unpinned.py tools_iuc.yaml
 
 %.fix: %
 	@# Generates the lockfile or updates it if it is missing tools
-	python scripts/fix-lockfile.py $<
+	python scripts/fix-lockfile.py tools_iuc.yaml
 	@# --without says only add those hashes for those missing hashes (i.e. new tools)
-	python scripts/update-tool.py $< --without
+	python scripts/update-tool.py tools_iuc.yaml --without
 
 %.install: %
 	@echo "Installing any updated versions of $<"
@@ -55,11 +55,11 @@ update_all: $(UPDATED_YAMLS)
 
 %.update: ## Update all of the tools
 	@# Missing --without, so this updates all tools in the file.
-	python scripts/update-tool.py $<
+	python scripts/update-tool.py tools_iuc.yaml
 
 %.update_trusted_iuc: %
 	@# Update any tools owned by IUC in any other yaml file
-	python scripts/update-tool.py --owner iuc $<
+	python scripts/update-tool.py --owner iuc tools_iuc.yaml
 
 
 .PHONY: pr_check lint update_trusted help
