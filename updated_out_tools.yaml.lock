@@ -152,6 +152,11 @@ tools:
   revisions:
   - 1040a307be0c
   tool_panel_section_label: Nanopore
+- name: vg_deconstruct
+  owner: iuc
+  revisions:
+  - 76d18b1e970b
+  tool_panel_section_label: Variant Calling
 - name: plink
   owner: iuc
   revisions:
@@ -231,6 +236,11 @@ tools:
   owner: devteam
   revisions:
   - 02026300aa45
+  tool_panel_section_label: Text Manipulation
+- name: join
+  owner: devteam
+  revisions:
+  - 718d04143c31
   tool_panel_section_label: Text Manipulation
 - name: crossmap_vcf
   owner: iuc
@@ -357,6 +367,11 @@ tools:
   revisions:
   - 23494763e39e
   tool_panel_section_label: Annotation
+- name: mitos2
+  owner: iuc
+  revisions:
+  - 624606f7c996
+  tool_panel_section_label: Annotation
 - name: repeat_masker
   owner: bgruening
   revisions:
@@ -387,6 +402,11 @@ tools:
   revisions:
   - 1aac2a13842a
   tool_panel_section_label: Picard
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 0e3cf9594bb7
+  tool_panel_section_label: NCBI Blast
 - name: bcftools_merge
   owner: iuc
   revisions:
@@ -500,7 +520,7 @@ tools:
 - name: spaln
   owner: iuc
   revisions:
-  - 32c11a4b5dbf
+  - 2e92e1929cb1
   tool_panel_section_label: Annotation
 - name: biom_convert
   owner: iuc
