@@ -1,5 +1,5 @@
-name: Update tool list using with usegalaxy-eu-tools
-on: [push]
+name: Update tool list with usegalaxy-eu-tools
+on: workflow_dispatch
 # on:
 #   schedule:
 #   - cron: 0 0 * * Sun
