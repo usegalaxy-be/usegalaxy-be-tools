@@ -1,5 +1,4 @@
 import yaml
-import os
 import sys
 import argparse
 
@@ -7,13 +6,13 @@ import argparse
 def update_file(fn):
     # If a lock file exists, load it from that file
     with open(fn + '.lock', 'r') as handle:
-        locked = yaml.load(handle)
+        locked = yaml.safe_load(handle)
 
     exit_code = 0
     # As here we add any new tools in.
     unpinned = []
     for tool in locked['tools']:
-        if 'revisions' not in tool:
+        if len(tool.get('revisions', [])) == 0:
             exit_code = 1
             unpinned.append(tool)
 
