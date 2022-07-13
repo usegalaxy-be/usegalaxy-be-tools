@@ -39,4 +39,3 @@ mapping:
                         'Apollo', 'MiModD', 'Single-cell', 'Expression Tools', 'Nanopore', 'Metagenomic Analysis',
                         'SAM/BAM', 'Imaging', 'Virology', 'FASTQ Quality Control'
                     ]
-                    required: true
