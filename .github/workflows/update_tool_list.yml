@@ -1,6 +1,6 @@
 name: Update tool list with usegalaxy-eu-tools
 
-on: workflow_dispatch
+on: push
 # on:
 #   schedule:
 #   - cron: 0 0 * * Sun
@@ -18,32 +18,25 @@ jobs:
             echo "setting upstream repository to usegalaxy-eu-tools"
             git remote add upstream https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git
          fi
-     - name: List branches
-       run: |
-         git remote -v
-         git fetch upstream
-         git branch -r
+    #  - name: List branches
+    #    run: |
+    #      git remote -v
+    #      git fetch upstream
+    #      git branch -r
      - name: Retrieve tools_iuc.yaml from usegalaxy-eu-tools (upstream)
        run: |
-         git show upstream/master:tools_iuc.yaml > tmp_tools_iuc_eu.yaml
-     - name: Compare to previous tool list
-       run: |
-         if cmp --silent -- "tmp_tools_iuc_eu.yaml" "tools_iuc_eu.yaml"; then
-            echo "tools_iuc_eu.yaml has not been updated on usegalaxy-eu-tools"
-            rm tmp_tools_iuc_eu.yaml
-         else
-            echo "tools_iuc_eu.yaml has been updated on usegalaxy-eu-tools"
-            rm -f tools_iuc_eu.yaml
-            mv tmp_tools_iuc_eu.yaml tools_iuc_eu.yaml
-            python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file 
-         fi
-     - name: install ephimeris
-       run: |
-          python -m pip install --upgrade pip
-          pip install ephemeris
-    #  - name: install tools
+         git show upstream/master:tools_iuc.yaml > tools_iuc_eu.yaml
+    #  - name: Compare to previous tool list
     #    run: |
-    #       shed-install -t new_out_tools.yaml.lock -a $GALAXY_API_KEY --galaxy https://galaxy.uni-freiburg.de
+    #      if cmp --silent -- "tmp_tools_iuc_eu.yaml" "tools_iuc_eu.yaml"; then
+    #         echo "tools_iuc_eu.yaml has not been updated on usegalaxy-eu-tools"
+    #         rm tmp_tools_iuc_eu.yaml
+    #      else
+    #         echo "tools_iuc_eu.yaml has been updated on usegalaxy-eu-tools"
+    #         rm -f tools_iuc_eu.yaml
+    #         mv tmp_tools_iuc_eu.yaml tools_iuc_eu.yaml
+    #         python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file 
+    #      fi
      - name: setup git config
        run: |
          # setup the username and email.
