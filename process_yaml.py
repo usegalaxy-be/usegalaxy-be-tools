@@ -280,16 +280,16 @@ if __name__ == '__main__':
 
     # Load updated/full file contents
     tools_file = open(args.tools_yaml)
-    tools_yaml = yaml.load(tools_file)
+    tools_yaml = yaml.safe_load(tools_file)
 
     if args.update:
         base_file = open(args.base_file_path)
-        base_yaml = yaml.load(base_file)
+        base_yaml = yaml.safe_load(base_file)
         parsed_dict = update_from_base(base_yaml, tools_yaml)
         
     elif args.merge:
         base_file = open(args.base_file_path)
-        base_yaml = yaml.load(base_file)
+        base_yaml = yaml.safe_load(base_file)
         parsed_list = update_revision_from_base(base_yaml, tools_yaml)
 
         # store the merged, new and updated tool lists to a file with a prefix for each
@@ -309,7 +309,7 @@ if __name__ == '__main__':
     elif args.merge_yaml:
          
         yaml1_path = open(args.base_file_path)
-        yaml1 = yaml.load(yaml1_path)
+        yaml1 = yaml.safe_load(yaml1_path)
         updated_yaml = merge_yamls(yaml1, tools_yaml)
 
         with open(args.out_file, 'w') as outfile:
@@ -322,11 +322,11 @@ if __name__ == '__main__':
         else:
             if args.add_sections:
                 base_file = open(args.base_file_path)
-                base_yaml = yaml.load(base_file)
+                base_yaml = yaml.safe_load(base_file)
                 parsed_dict = add_sections(base_yaml, tools_yaml)
             else:
                 parsed_dict = get_latest_only(tools_yaml)
 
-    if not args.lint and not args.merge:
-        with open(args.out_file, 'w') as outfile:
-            yaml.dump(parsed_dict, outfile, default_flow_style=False)
+    # if not args.lint and not args.merge:
+    #     with open(args.out_file, 'w') as outfile:
+    #         yaml.dump(parsed_dict, outfile, default_flow_style=False)
