@@ -26,7 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Fetch tools from usegalaxy-eu-tools
-        uses: ./.github/workflows/update-tool-list
+        uses: ./.github/workflows/update-tool-list.yml
       - name: Perform linting
         run: |
             # Update the trusted tools.

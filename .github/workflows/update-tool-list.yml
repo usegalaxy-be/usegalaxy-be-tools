@@ -1,53 +1,53 @@
 name: Update tool list with usegalaxy-eu-tools
-# on: push
+on: workflow_call
 # on:
 #   schedule:
 #   - cron: 0 0 * * Sun
-runs:
-  using: "composite"
-  # retrieve-tools-list:
-  #   runs-on: ubuntu-latest
-  steps:
-    - name: Check out repository code
-      uses: actions/checkout@v2
-    - name: Set upstream
-      run: |
-        if git remote -v | egrep -q 'https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git'; then
-          echo "upstream repository is already set to usegalaxy-eu-tools"
-        else
-          echo "setting upstream repository to usegalaxy-eu-tools"
-          git remote add upstream https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git
-        fi
-    - name: List branches
-      run: |
-        git remote -v
-        git fetch upstream
-        git branch -r
-    - name: Retrieve tools_iuc.yaml from usegalaxy-eu-tools (upstream) and write to tools_iuc_eu.yaml
-      run: |
-        git show upstream/master:tools_iuc.yaml > tools_iuc_eu.yaml
-    - name: Update tools_iuc.yaml from tools_iuc_eu.yaml
-      run: |
-        python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file tools_iuc.yaml
-    #  - name: Compare to previous tool list
-    #    run: |
-    #      if cmp --silent -- "tmp_tools_iuc_eu.yaml" "tools_iuc_eu.yaml"; then
-    #         echo "tools_iuc_eu.yaml has not been updated on usegalaxy-eu-tools"
-    #         rm tmp_tools_iuc_eu.yaml
-    #      else
-    #         echo "tools_iuc_eu.yaml has been updated on usegalaxy-eu-tools"
-    #         rm -f tools_iuc_eu.yaml
-    #         mv tmp_tools_iuc_eu.yaml tools_iuc_eu.yaml
-    #         python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file tools_iuc.yaml
-    #      fi
-    #  - name: setup git config
-    #    run: |
-    #      # setup the username and email.
-    #      git config user.name "GitHub Actions Bot"
-    #      git config user.email "<>"
-    #  - name: Commit new files
-    #    run: |
-    #      git status
-    #      git add .
-    #      git commit -m "scheduled tool list update"
-    #      git push
+jobs:
+  # using: "composite"
+  retrieve-tools-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Set upstream
+        run: |
+          if git remote -v | egrep -q 'https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git'; then
+            echo "upstream repository is already set to usegalaxy-eu-tools"
+          else
+            echo "setting upstream repository to usegalaxy-eu-tools"
+            git remote add upstream https://github.com/usegalaxy-eu/usegalaxy-eu-tools.git
+          fi
+      - name: List branches
+        run: |
+          git remote -v
+          git fetch upstream
+          git branch -r
+      - name: Retrieve tools_iuc.yaml from usegalaxy-eu-tools (upstream) and write to tools_iuc_eu.yaml
+        run: |
+          git show upstream/master:tools_iuc.yaml > tools_iuc_eu.yaml
+      - name: Update tools_iuc.yaml from tools_iuc_eu.yaml
+        run: |
+          python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file tools_iuc.yaml
+      #  - name: Compare to previous tool list
+      #    run: |
+      #      if cmp --silent -- "tmp_tools_iuc_eu.yaml" "tools_iuc_eu.yaml"; then
+      #         echo "tools_iuc_eu.yaml has not been updated on usegalaxy-eu-tools"
+      #         rm tmp_tools_iuc_eu.yaml
+      #      else
+      #         echo "tools_iuc_eu.yaml has been updated on usegalaxy-eu-tools"
+      #         rm -f tools_iuc_eu.yaml
+      #         mv tmp_tools_iuc_eu.yaml tools_iuc_eu.yaml
+      #         python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml tools_iuc_eu.yaml --out_file tools_iuc.yaml
+      #      fi
+      #  - name: setup git config
+      #    run: |
+      #      # setup the username and email.
+      #      git config user.name "GitHub Actions Bot"
+      #      git config user.email "<>"
+      #  - name: Commit new files
+      #    run: |
+      #      git status
+      #      git add .
+      #      git commit -m "scheduled tool list update"
+      #      git push
