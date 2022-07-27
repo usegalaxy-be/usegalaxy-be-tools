@@ -1041,18 +1041,21 @@ tools:
 - name: idba_ud
   owner: iuc
   revisions:
+  - 1542a2fffe0c
   - 2ed5c0795f99
   - 694b0f55b744
   tool_panel_section_label: Assembly
 - name: idba_tran
   owner: iuc
   revisions:
+  - 03de4e0f84c2
   - 33f00ff1cb22
   - a30d991a3fdd
   tool_panel_section_label: Assembly
 - name: idba_hybrid
   owner: iuc
   revisions:
+  - 5c5806e23338
   - 5ece301faf6b
   - a81c5169e9fc
   tool_panel_section_label: Assembly
@@ -1282,6 +1285,7 @@ tools:
   revisions:
   - 1ebd14235b92
   - 333a6e13b622
+  - cef79931dda5
   tool_panel_section_label: RNA Analysis
 - name: dexseq
   owner: iuc
@@ -1798,17 +1802,20 @@ tools:
   owner: iuc
   revisions:
   - 1829900b5dcd
+  - d37e313a41be
   - edc3d484b99a
   tool_panel_section_label: Variant Calling
 - name: bcftools_call
   owner: iuc
   revisions:
   - 01fd33bc2e75
+  - c37b684e7f4e
   - d267bcfdc8fe
   tool_panel_section_label: Variant Calling
 - name: bcftools_norm
   owner: iuc
   revisions:
+  - 021693fdadaa
   - 19905c025d2a
   - 481476814acc
   tool_panel_section_label: Variant Calling
@@ -1816,11 +1823,13 @@ tools:
   owner: iuc
   revisions:
   - 039ea3f1dea9
+  - 64a8f7dae3ad
   - 68216882a410
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
   owner: iuc
   revisions:
+  - 03e6fb76e969
   - 48ac4d611e92
   - 58341ad4fb42
   tool_panel_section_label: Variant Calling
@@ -1829,11 +1838,13 @@ tools:
   revisions:
   - 05928e15da21
   - 4e85a3a5dbd1
+  - 7ef488b08a23
   tool_panel_section_label: Variant Calling
 - name: bcftools_cnv
   owner: iuc
   revisions:
   - 13fe14c56f6d
+  - 8627b2b383b4
   - 8d637025a905
   tool_panel_section_label: Variant Calling
 - name: vcftools_merge
@@ -2035,40 +2046,47 @@ tools:
   revisions:
   - 124c5faef773
   - 7d75673f4d6f
+  - c2a413e47fe9
   tool_panel_section_label: Gemini Tools
 - name: gemini_inheritance
   owner: iuc
   revisions:
   - 162a9d4a3bdc
   - 18d13111692b
+  - 2c68e29c3527
   tool_panel_section_label: Gemini Tools
 - name: gemini_windower
   owner: iuc
   revisions:
   - 0c58ba91d018
+  - 406d3552beca
   tool_panel_section_label: Gemini Tools
 - name: gemini_burden
   owner: iuc
   revisions:
   - 12112e6e5ea4
   - df57188562f0
+  - f0bf88e9e689
   tool_panel_section_label: Gemini Tools
 - name: gemini_gene_wise
   owner: iuc
   revisions:
   - 0db31ae5295e
   - 452104bdc655
+  - e57a1b0ac6be
   tool_panel_section_label: Gemini Tools
 - name: gemini_stats
   owner: iuc
   revisions:
   - 4de57a28e609
   - 5c9efee9cb1e
+  - b92cfa44f5be
   tool_panel_section_label: Gemini Tools
 - name: gemini_amend
   owner: iuc
   revisions:
   - 2281967e7bc3
+  - 334e946cacd4
   - be828b79bd4d
   tool_panel_section_label: Gemini Tools
 - name: gemini_pathways
@@ -2076,22 +2094,26 @@ tools:
   revisions:
   - 2bce41988d8e
   - 9199331c3421
+  - 9551b3da9f5d
   tool_panel_section_label: Gemini Tools
 - name: gemini_actionable_mutations
   owner: iuc
   revisions:
   - 142d95ab942e
+  - db47f4939381
   tool_panel_section_label: Gemini Tools
 - name: gemini_lof_sieve
   owner: iuc
   revisions:
   - 295814260d95
   - 2969a1f43b7d
+  - 4b5123d51e8c
   tool_panel_section_label: Gemini Tools
 - name: gemini_query
   owner: iuc
   revisions:
   - 18f459744a97
+  - 77a1e60fd1de
   - da74170c55c7
   tool_panel_section_label: Gemini Tools
 - name: gemini_fusions
@@ -2099,10 +2121,12 @@ tools:
   revisions:
   - 37f9901b674d
   - 8151a5a0e4f6
+  - c00dcd1455a0
   tool_panel_section_label: Gemini Tools
 - name: gemini_load
   owner: iuc
   revisions:
+  - 2270a8b83c12
   - 269c40fdcccb
   - 45296e47d565
   tool_panel_section_label: Gemini Tools
@@ -2110,23 +2134,27 @@ tools:
   owner: iuc
   revisions:
   - 0c8f7322f8fc
+  - cf0f0f05ba9f
   - f2f3bc622a16
   tool_panel_section_label: Gemini Tools
 - name: gemini_roh
   owner: iuc
   revisions:
   - 345d41f3f574
+  - e8349da26ed5
   tool_panel_section_label: Gemini Tools
 - name: gemini_set_somatic
   owner: iuc
   revisions:
   - 230c975e7759
+  - 7814e39409d1
   - e4e2128460e3
   tool_panel_section_label: Gemini Tools
 - name: gemini_qc
   owner: iuc
   revisions:
   - 137a3e07062e
+  - 20f2ecf46dcb
   - 86e46972e183
   tool_panel_section_label: Gemini Tools
 - name: gemini_interactions
@@ -2134,6 +2162,7 @@ tools:
   revisions:
   - 184aa4e686e2
   - 2550239feed5
+  - f745f54638e5
   tool_panel_section_label: Gemini Tools
 - name: stacks_sstacks
   owner: iuc
@@ -2209,6 +2238,7 @@ tools:
 - name: column_remove_by_header
   owner: iuc
   revisions:
+  - 2040e4c2750a
   - 372967836e98
   tool_panel_section_label: Text Manipulation
 - name: metagenomeseq_normalization
@@ -2375,6 +2405,7 @@ tools:
   owner: iuc
   revisions:
   - 280386b252a5
+  - 45210df786b9
   tool_panel_section_label: Metagenomic analyses
 - name: gdcwebapp
   owner: iuc
@@ -2396,6 +2427,7 @@ tools:
   owner: iuc
   revisions:
   - 1f0a3e4497d4
+  - 2dfb2fba4081
   tool_panel_section_label: Extract Features
 - name: gffcompare
   owner: iuc
@@ -3472,6 +3504,7 @@ tools:
   owner: iuc
   revisions:
   - 95e4757d8da7
+  - bb51c75a0157
   tool_panel_section_label: Nanopore
 - name: ont_fast5_api_fast5_subset
   owner: iuc
@@ -3759,6 +3792,7 @@ tools:
 - name: bcftools_concat
   owner: iuc
   revisions:
+  - 6b6c992d3a14
   - 874cc12ae316
   - fc47ffec447e
   tool_panel_section_label: Variant Calling
@@ -4382,6 +4416,7 @@ tools:
   owner: iuc
   revisions:
   - 798c063f8fc9
+  - 86296490704e
   - 9473302f4588
   tool_panel_section_label: Variant Calling
 - name: bcftools_stats
@@ -4389,6 +4424,7 @@ tools:
   revisions:
   - 80844da35ed5
   - b17394940c7a
+  - e8af591435d1
   tool_panel_section_label: Variant Calling
 - name: samtools_markdup
   owner: iuc
@@ -4703,6 +4739,7 @@ tools:
   owner: iuc
   revisions:
   - 14eb2acf30e3
+  - 29ff6a849eac
   - 73a469f7dc96
   tool_panel_section_label: Phylogenetics
 - name: hyphy_prime
@@ -4823,6 +4860,7 @@ tools:
   - 78bbd17d0703
   - 7f781286b55f
   - a38934e303b9
+  - e319b5b65879
   tool_panel_section_label: Virology
 - name: ivar_getmasked
   owner: iuc
@@ -4837,16 +4875,19 @@ tools:
   - 8d36959b000d
   - 94df24c6bc00
   - 9eaadf03e0df
+  - ee29337f905c
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
   owner: iuc
   revisions:
+  - 0135f1d487a0
   - 2b95d5c04908
   - 47a27906d750
   tool_panel_section_label: Virology
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 5671e1d3d5ee
   - 5d6ed46cc101
   - 8858fa037a15
   - 9f978da6528a
@@ -4856,6 +4897,7 @@ tools:
   revisions:
   - 12d66d0d05ac
   - 3888bbe7a9ca
+  - 584beffa972b
   tool_panel_section_label: Virology
 - name: bayescan
   owner: iuc
@@ -4958,6 +5000,7 @@ tools:
   - 0ec813ad2910
   - 42126b414951
   - 514a786baaa9
+  - 77402759b866
   - a2099fb98cdb
   - b6abccb1f25b
   tool_panel_section_label: Phylogenetics
