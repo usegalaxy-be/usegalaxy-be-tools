@@ -2501,3 +2501,6 @@ tools:
 - name: pe_histogram
   owner: iuc
   tool_panel_section_label: Graph/Display Data
+- name: das_tool
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
