@@ -35,14 +35,23 @@ jobs:
             make fix -j $(nproc)
             # make lint -j $(nproc)
             make update_trusted -j $(nproc)
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Updated trusted tools ($(date -I))"
+          title: 'Updated list of trusted tools'
+          body: >
+            This PR is auto-generated.
+          labels: report, automated pr
 
-      - name: Commit and files
-        run: |
-          git config --local user.email "github-bot@github.com"
-          git config --local user.name "github-actions[bot]"
-          git add *.lock
-          git commit -m "Updated trusted tools ($(date -I))" || true
-          git push
+      # - name: Commit and files
+      #   run: |
+      #     git config --local user.email "github-bot@github.com"
+      #     git config --local user.name "github-actions[bot]"
+      #     git add *.lock
+      #     git commit -m "Updated trusted tools ($(date -I))" || true
+      #     git push
 
       # - name: Push changes
       #   uses: ad-m/github-push-action@git-actions-test
