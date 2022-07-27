@@ -5014,3 +5014,8 @@ tools:
   revisions:
   - bd1416eea1f0
   tool_panel_section_label: Graph/Display Data
+- name: das_tool
+  owner: iuc
+  revisions:
+  - a8e434ebe961
+  tool_panel_section_label: Metagenomic Analysis
