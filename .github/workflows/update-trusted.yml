@@ -9,7 +9,7 @@ on: push
 
 jobs:
   call-workflow:
-    uses: ./.github/workflows/update-tool-list.yml@v1
+    uses: ./.github/workflows/update-tool-list.yml
   build:
     runs-on: ubuntu-latest
     strategy:
