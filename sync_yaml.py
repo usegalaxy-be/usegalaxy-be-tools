@@ -51,7 +51,7 @@ len(synced_tools_yaml['tools'])
 {key: synced_tools_yaml[key]
     for key in synced_tools_yaml if key != 'tools'}
 
-out_file = "/home/padge/Elixir/galaxy-tool-development/usegalaxy-be-tools/synced_tools_iuc.yaml"
+out_file = "/home/padge/Elixir/galaxy-tool-development/usegalaxy-be-tools/tools_iuc.yaml"
 with open(out_file, 'w') as outfile:
     yaml.dump(synced_tools_yaml, outfile,
               default_flow_style=False, explicit_start=True)
