@@ -1,6 +1,6 @@
 name: Update Trusted Tools
 
-on: workflow_dispatch
+on: push
   # schedule:
   #   # * is a special character in YAML so you have to quote this string
   #   # We'll run this weekly at 9.
@@ -29,7 +29,7 @@ jobs:
         with:
           repository: usegalaxy-eu/usegalaxy-eu-tools
           path: usegalaxy-eu-tools
-          ref: main
+          ref: master
       - name: Update tools_iuc.yaml from tools_iuc_eu.yaml
         run: |
           python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml /usegalaxy-eu-tools/tools_iuc.yaml --out_file tools_iuc.yaml
