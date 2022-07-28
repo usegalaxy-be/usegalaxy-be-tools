@@ -54,7 +54,7 @@ jobs:
             automatic PR
           reviewers: ieguinoa
           branch: tools-update
-          base: ${GITHUB_REF##*/}
+          base: git-actions-test
 
       - name: Check output
         run: |
