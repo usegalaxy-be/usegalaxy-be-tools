@@ -35,15 +35,28 @@ jobs:
             make fix -j $(nproc)
             # make lint -j $(nproc)
             make update_trusted -j $(nproc)
+      - name: Show differences
+        run: "git diff --stat"
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Updated trusted tools ($(date -I))"
-          title: 'Updated list of trusted tools'
-          body: >
-            This PR is auto-generated.
-          labels: report, automated pr
+          commit-message: Update Galaxy tools
+          title: "Automatic updating of the tools in tools-iuc.yaml"
+          body: |
+            This PR is automatically generated based on changes in the [usegalaxy.* tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools) tools
+            and updates to our own tools and new tools added.
+            Please verify if these changes are valid.
+          labels: |
+            automatic PR
+          reviewers: ieguinoa
+          branch: tools-update
+          base: master
+
+      - name: Check output
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
 
       # - name: Commit and files
       #   run: |
