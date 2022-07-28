@@ -35,6 +35,8 @@ jobs:
             make fix -j $(nproc)
             # make lint -j $(nproc)
             make update_trusted -j $(nproc)
+      - name: Branch name
+        run: echo running on branch ${GITHUB_REF##*/}
       - name: Show differences
         run: "git diff --stat"
       - name: Create Pull Request
@@ -52,7 +54,7 @@ jobs:
             automatic PR
           reviewers: ieguinoa
           branch: tools-update
-          base: master
+          base: ${GITHUB_REF##*/}
 
       - name: Check output
         run: |
