@@ -94,7 +94,7 @@ tools:
   tool_panel_section_label: Genome editing
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metagenomeseq_normalization
-  owner: mvdbeek
+  owner: iuc
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salmon
