@@ -1,5 +1,5 @@
-YAML_FILES := $(wildcard *.yaml)
-LOCK_FILES := $(wildcard *.yaml.lock)
+YAML_FILES := tools_iuc.yaml belgium-custom.yaml #$(wildcard *.yaml)
+LOCK_FILES := tools_iuc.yaml.lock belgium-custom.yaml.lock #$(wildcard *.yaml.lock)
 LINTED_YAMLS := $(YAML_FILES:=.lint)
 UPDATED_YAMLS := $(YAML_FILES:=.update)
 CORRECT_YAMLS := $(YAML_FILES:=.fix)
