@@ -132,6 +132,7 @@ tools:
   revisions:
   - 093678460093
   - 5915ea1ec9b1
+  - 5eb7e84243f2
   - aa784cb3810d
   tool_panel_section_label: FASTA/FASTQ
 - name: je_demultiplex
