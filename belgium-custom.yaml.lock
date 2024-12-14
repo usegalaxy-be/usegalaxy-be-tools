@@ -5,12 +5,14 @@ tools:
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   revisions:
+  - 4a82d1157b14
   - 4d3eff1bc421
   - b1bc53e9bbc5
   tool_panel_section_label: None
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
+  - 39865c64a4e1
   - 76672b83d42d
   - 83da94c0e4a6
   - 9dd107db92c2
@@ -42,6 +44,7 @@ tools:
   owner: iuc
   revisions:
   - 6ef6520f14fc
+  - 71c994a11f71
   - c520a52b5174
   - d3879aceba04
   - d63c1442407f
