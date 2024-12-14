@@ -4418,3 +4418,14 @@ tools:
 - name: fastq_dl
   owner: iuc
   tool_panel_section_label: Get Data
+- name: data_manager_groot_database_downloader
+  owner: iuc
+- name: quicktree
+  owner: iuc
+  tool_panel_section_label: Evolution
+- name: dada2_primercheck
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: sfold
+  owner: iuc
+  tool_panel_section_label: RNA Analysis
