@@ -5,12 +5,14 @@ tools:
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   revisions:
+  - 4a82d1157b14
   - 4d3eff1bc421
   - b1bc53e9bbc5
   tool_panel_section_label: None
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
+  - 39865c64a4e1
   - 76672b83d42d
   - 83da94c0e4a6
   - 9dd107db92c2
@@ -42,6 +44,7 @@ tools:
   owner: iuc
   revisions:
   - 6ef6520f14fc
+  - 71c994a11f71
   - c520a52b5174
   - d3879aceba04
   - d63c1442407f
@@ -134,6 +137,7 @@ tools:
   - 5915ea1ec9b1
   - 5eb7e84243f2
   - aa784cb3810d
+  - c0b2c2e39c9c
   tool_panel_section_label: FASTA/FASTQ
 - name: je_demultiplex
   owner: gbcs-embl-heidelberg
@@ -214,6 +218,7 @@ tools:
   revisions:
   - ac13de106677
   - ca7c12566894
+  - f432bb944473
   tool_panel_section_label: Annotation
 - name: interproscan
   owner: bgruening
@@ -252,6 +257,7 @@ tools:
   owner: bgruening
   revisions:
   - 09855551d713
+  - 0fc0f9cf035a
   - 28433faa6e42
   - bd0e53f3a891
   tool_panel_section_label: Annotation
@@ -259,6 +265,7 @@ tools:
   owner: bgruening
   revisions:
   - 1fbb1135da16
+  - aada0deea587
   - dc027fa56d55
   - f1e653756174
   tool_panel_section_label: Annotation
@@ -267,10 +274,12 @@ tools:
   revisions:
   - 15ad71e21010
   - cc51783dc93c
+  - e903e26c014d
   tool_panel_section_label: Annotation
 - name: glimmer_knowledge_based
   owner: bgruening
   revisions:
+  - 21d0af260f11
   - ce89c473666d
   tool_panel_section_label: Annotation
 - name: glimmer_not_knowledge_based
@@ -278,11 +287,13 @@ tools:
   revisions:
   - 2529762847c3
   - 73c58e2debd0
+  - 75cedbd8cf1b
   tool_panel_section_label: Annotation
 - name: glimmer_gbk_to_orf
   owner: bgruening
   revisions:
   - 04861c9bbf45
+  - 44dc09edd97b
   tool_panel_section_label: Annotation
 - name: regex_replace
   owner: kellrott
@@ -302,6 +313,7 @@ tools:
   - 18eed8fa7f23
   - 1a7773882d2c
   - a6a475ed58cb
+  - d951c5b0edd1
   tool_panel_section_label: Get Data
 - name: clipkit
   owner: padge
