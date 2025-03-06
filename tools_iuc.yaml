@@ -4418,3 +4418,152 @@ tools:
 - name: fastq_dl
   owner: iuc
   tool_panel_section_label: Get Data
+- name: autobigs
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: deeparg_predict
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: deeparg_short_reads
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: data_manager_deeparg
+  owner: iuc
+- name: data_manager_fetch_plasmidfinder
+  owner: iuc
+- name: data_manager_groot_database_downloader
+  owner: iuc
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+- name: staramr
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: data_manager_build_staramr
+  owner: iuc
+- name: staramr
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: ppanggolin_all
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: ppanggolin_msa
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: hicexplorer_hicbuildmatrixmicroc
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: fastk_logex
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: fastk_histex
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: emboss_needleall
+  owner: iuc
+  tool_panel_section_label: EMBOSS
+- name: emboss_needle
+  owner: iuc
+  tool_panel_section_label: EMBOSS
+- name: quicktree
+  owner: iuc
+  tool_panel_section_label: Evolution
+- name: seqkit_head
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: bbtools_bbnorm
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: checkm2
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_primercheck
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_add_rank_names
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_plot_bar
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: fairy_cov
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: fairy_sketch
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: binette
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: squirrel_phylo
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: squirrel_qc
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: ete_treeviewer
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: sfold
+  owner: iuc
+  tool_panel_section_label: RNA Analysis
+- name: spacexr_cside
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: spacexr_rctd
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: mudata_import_export
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: preprocess_muon
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: cluster_analyze_embed_muon
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: plot_muon
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: anndata2ri
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: cnvkit_export_bed
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_cdt
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_jtv
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_nexus_basic
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_nexus_ogt
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_seg
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_theta
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_vcf
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: data_manager_clair3_models
+  owner: iuc
+- name: data_manager_build_staramr
+  owner: iuc
+- name: gem_extract_exchange
+  owner: iuc
+  tool_panel_section_label: Metabolomics
+- name: gem_flux_distribution
+  owner: iuc
+  tool_panel_section_label: Metabolomics
+- name: gem_escher_visualization
+  owner: iuc
+  tool_panel_section_label: Metabolomics
+- name: gem_check_memote
+  owner: iuc
+  tool_panel_section_label: Metabolomics
