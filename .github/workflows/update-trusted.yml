@@ -46,7 +46,7 @@ jobs:
           ref: master
       - name: Update tools_iuc.yaml from tools_iuc_eu.yaml
         run: |
-          python3 process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml ${GITHUB_WORKSPACE}/usegalaxy-eu-tools/tools_iuc.yaml --out_file tools_iuc.yaml
+          python3 scripts/process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml ${GITHUB_WORKSPACE}/usegalaxy-eu-tools/tools_iuc.yaml --out_file tools_iuc.yaml
       - name: Deleting usegalaxy-eu-tools repository
         run: rm -r usegalaxy-eu-tools
       - name: Perform linting
