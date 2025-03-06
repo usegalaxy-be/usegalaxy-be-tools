@@ -39,7 +39,7 @@ jobs:
 
       - name: Merge and compare tool lists
         run: |
-          python scripts/compare_tools.py --current current_galaxy_tools.yaml --tools_iuc tools_iuc.yaml --belgium_custom belgium-custom.yaml --gtn_tutorials GTN_tutorials_tools.yaml
+          python scripts/compare_tools.py --current current_galaxy_tools.yaml --inputs belgium-custom.yaml.lock GTN_tutorials_tools.yaml.lock tools_iuc.yaml.lock
 
       - name: Create Pull Request
         id: cpr

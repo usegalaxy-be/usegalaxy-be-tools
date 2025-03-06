@@ -102,12 +102,17 @@ def main():
         yaml_lock = load_yaml(input)
         input_yamls.append(yaml_lock)
         merged_yaml_lock = base_yaml.copy()
-        merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools)
-        write_yaml(merged_yaml_lock, "synced_"+input)
+        if input == "belgium-custom.yaml.lock":
+            # Add all extra tools to custom tools
+            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools) + find_extra_tools(current_tools, input_yamls)
+        else:
+            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools)
+            
+        write_yaml(merged_yaml_lock, input)
 
-    extra_tools = base_yaml.copy()
-    extra_tools["tools"] = find_extra_tools(current_tools, input_yamls)
-    write_yaml(extra_tools, "extra.yaml.lock" )
+    # extra_tools = base_yaml.copy()
+    # extra_tools["tools"] = find_extra_tools(current_tools, input_yamls)
+    # write_yaml(extra_tools, "extra.yaml.lock" )
 
 if __name__ == "__main__":
     main()
