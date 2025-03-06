@@ -1,0 +1,361 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'true'
+install_tool_dependencies: 'false'
+tools:
+- name: data_manager_fetch_genome_dbkeys_all_fasta
+  owner: devteam
+  revisions:
+  - 4d3eff1bc421
+  - b1bc53e9bbc5
+  tool_panel_section_label: None
+- name: data_manager_bowtie2_index_builder
+  owner: devteam
+  revisions:
+  - 1c0f8e9d87c6
+  - 76672b83d42d
+  - 83da94c0e4a6
+  - 9dd107db92c2
+  tool_panel_section_label: None
+- name: data_manager_hisat2_index_builder
+  owner: iuc
+  revisions:
+  - a04cebcd77f4
+  - d210e1f185bd
+  - d74c740bdb25
+  tool_panel_section_label: None
+- name: data_manager_fetch_gff
+  owner: ieguinoa
+  revisions:
+  - 0bdfe2e85fb0
+  tool_panel_section_label: None
+- name: data_manager_fetch_tx2gene
+  owner: ieguinoa
+  revisions:
+  - c380b7da5b65
+  tool_panel_section_label: None
+- name: data_manager_salmon_index_builder
+  owner: ieguinoa
+  revisions:
+  - 3888ec1918d0
+  - 9004217cddf4
+  tool_panel_section_label: None
+- name: data_manager_star_index_builder
+  owner: iuc
+  revisions:
+  - 6ef6520f14fc
+  - c520a52b5174
+  - d3879aceba04
+  - d63c1442407f
+  tool_panel_section_label: None
+- name: ribo_tools
+  owner: rlegendre
+  revisions:
+  - 01b945ba3697
+  tool_panel_section_label: RNA Analysis
+- name: riboseqr_wrapper
+  owner: vimalkumarvelayudhan
+  revisions:
+  - 5a242f289347
+  tool_panel_section_label: RNA Analysis
+- name: htseq_count
+  owner: lparsons
+  revisions:
+  - 4418229c501e
+  - 67b0b160903a
+  - 7f5a8d427b39
+  - 916cb26bd9d3
+  tool_panel_section_label: RNA Analysis
+- name: trimmomatic
+  owner: pjbriggs
+  revisions:
+  - 51b771646466
+  - 898b67846b47
+  - b9aaed85cbd1
+  - d94aff5ee623
+  - dfa082f84068
+  - f8a9a5eaca8a
+  tool_panel_section_label: FASTA/FASTQ manipulation
+- name: rseqc
+  owner: nilesh
+  revisions:
+  - 1a052c827e88
+  - 27e16a30667a
+  - dbedfc5f5a3c
+  - f242ee103277
+  tool_panel_section_label: RNA Analysis
+- name: sortmerna
+  owner: rnateam
+  revisions:
+  - 10b84b577117
+  - eb35257d2e29
+  tool_panel_section_label: Metagenomics
+- name: metaphlan2
+  owner: iuc
+  revisions:
+  - 8c82c4d90cc6
+  - f60773e921fa
+  tool_panel_section_label: Metagenomic Analysis
+- name: metaphlan2krona
+  owner: iuc
+  revisions:
+  - ebb74774457e
+  - fdbd63e92b01
+  tool_panel_section_label: Metagenomic Analysis
+- name: format_metaphlan2_output
+  owner: bebatut
+  revisions:
+  - 1e74cb2c8e67
+  - 2bfa9b200600
+  - 2c87f56bd53a
+  tool_panel_section_label: Metagenomic Analysis
+- name: group_humann2_uniref_abundances_to_go
+  owner: bebatut
+  revisions:
+  - cad28d7b49d2
+  - fd2cf7c9d3ec
+  tool_panel_section_label: Metagenomic Analysis
+- name: export2graphlan
+  owner: iuc
+  revisions:
+  - 635c90a27692
+  - b16989c1e3a7
+  - ed1becc01910
+  tool_panel_section_label: Graph/Display Data
+- name: graphlan
+  owner: iuc
+  revisions:
+  - 6e8eb0c0d91f
+  - 8f62f666dcb6
+  - a490b70e46fc
+  tool_panel_section_label: Graph/Display Data
+- name: graphlan_annotate
+  owner: iuc
+  revisions:
+  - 5d6f8f0bef7c
+  - 97e3b735ed22
+  - cf1df6b2220a
+  tool_panel_section_label: Graph/Display Data
+- name: cutadapt
+  owner: lparsons
+  revisions:
+  - 01d94df2e32a
+  - 093678460093
+  - 49370cb85f0f
+  - 5915ea1ec9b1
+  - 5eb7e84243f2
+  - 660cffd8d92a
+  - aa784cb3810d
+  - f5fdf41c08b8
+  tool_panel_section_label: FASTA/FASTQ
+- name: je_demultiplex
+  owner: gbcs-embl-heidelberg
+  revisions:
+  - bd3cdf128bcb
+  tool_panel_section_label: FASTA/FASTQ
+- name: suite_mageck
+  owner: iuc
+  revisions:
+  - 1aaea8924858
+  tool_panel_section_label: Genome editing
+- name: metagenomeseq_normalization
+  owner: iuc
+  revisions:
+  - d16f7cc26516
+  tool_panel_section_label: Text Manipulation
+- name: salmon
+  owner: bgruening
+  revisions:
+  - 1b22d8a18acc
+  - 2c0ca397d302
+  - 49121db48873
+  - 4de6e2e40c7a
+  - 53e9709776a0
+  - 666bb48b1007
+  - 6b0ba6de1424
+  - 7fdb9d1591e2
+  - e7e885f718fb
+  - f4d5237a84f6
+  tool_panel_section_label: RNA Analysis
+- name: data_manager_sortmerna_database_downloader
+  owner: rnateam
+  revisions:
+  - 7d2252852f96
+  tool_panel_section_label: None
+- name: data_manager_metaphlan2_database_downloader
+  owner: iuc
+  revisions:
+  - 83f07f40b200
+  tool_panel_section_label: None
+- name: crispresso2
+  owner: ieguinoa
+  revisions:
+  - a378f3ee0137
+  - eb5dbcfac76b
+  tool_panel_section_label: Genome editing
+- name: data_manager_humann2_database_downloader
+  owner: iuc
+  revisions:
+  - 1316375a8cbb
+  - ff9cf22838d4
+  tool_panel_section_label: None
+- name: mimodd_snpeff
+  owner: wolma
+  revisions:
+  - b6da1066b2fd
+  tool_panel_section_label: MiModD
+- name: lotus2
+  owner: earlhaminst
+  revisions:
+  - 12599a8dd22f
+  - 28f284a679ce
+  - 30340f534fbe
+  - 469095a58c15
+  - 7f33525b85d0
+  - cf56a6553385
+  - eb7baf1f72ca
+  - f2bb89058e99
+  tool_panel_section_label: Metagenomic Analysis
+- name: mrbayes
+  owner: nml
+  revisions:
+  - 905d00fb5243
+  tool_panel_section_label: Phylogenetics
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 8e649f27aa0d
+  - bcfce5aac49c
+  - bf28a8cff401
+  - c5908940967d
+  - f0d493f8f84f
+  tool_panel_section_label: Multiple Alignments
+- name: ucsb_phylogenetics
+  owner: ucsb-phylogenetics
+  revisions:
+  - 51904e90a6b2
+  tool_panel_section_label: Phylogenetics
+- name: braker
+  owner: genouest
+  revisions:
+  - ac13de106677
+  - ca7c12566894
+  tool_panel_section_label: Annotation
+- name: interproscan
+  owner: bgruening
+  revisions:
+  - 0cd163d805e3
+  - 74810db257cc
+  - 98cafcbd2578
+  - c55643c3d813
+  tool_panel_section_label: Annotation
+- name: prokka
+  owner: crs4
+  revisions:
+  - 111884f0d912
+  - 3a0bd09a41dd
+  - 8a22554cdde2
+  - 95505a9fa26f
+  - a17498c603ec
+  - bf68eb663bc3
+  - eaee459f3d69
+  tool_panel_section_label: Annotation
+- name: data_manager_eggnog_mapper_abspath
+  owner: galaxyp
+  revisions:
+  - 2aec8d30ff42
+  - 81a286e4c5a2
+  - fcb8bdd124f4
+  tool_panel_section_label: Data Managers
+- name: eggnog_mapper
+  owner: galaxyp
+  revisions:
+  - 2667d24b58a0
+  - 63662ae295d6
+  - 9d1fbff733cf
+  - d9c3016f7283
+  tool_panel_section_label: Proteomics
+- name: repeat_masker
+  owner: bgruening
+  revisions:
+  - 39b40a9a6296
+  - 3f987772e283
+  - 438f65cb1d14
+  - ade773848c3d
+  - ba6d2c32f797
+  tool_panel_section_label: Annotation
+- name: augustus
+  owner: bgruening
+  revisions:
+  - 09855551d713
+  - 28433faa6e42
+  - bd0e53f3a891
+  tool_panel_section_label: Annotation
+- name: augustus_training
+  owner: bgruening
+  revisions:
+  - 1fbb1135da16
+  - 6519ebe25019
+  - dc027fa56d55
+  - f1e653756174
+  tool_panel_section_label: Annotation
+- name: glimmer_build_icm
+  owner: bgruening
+  revisions:
+  - 15ad71e21010
+  - cc51783dc93c
+  tool_panel_section_label: Annotation
+- name: glimmer_knowledge_based
+  owner: bgruening
+  revisions:
+  - ce89c473666d
+  tool_panel_section_label: Annotation
+- name: glimmer_not_knowledge_based
+  owner: bgruening
+  revisions:
+  - 2529762847c3
+  - 73c58e2debd0
+  tool_panel_section_label: Annotation
+- name: glimmer_gbk_to_orf
+  owner: bgruening
+  revisions:
+  - 04861c9bbf45
+  tool_panel_section_label: Annotation
+- name: regex_replace
+  owner: kellrott
+  revisions:
+  - 9a77d5fca67c
+  tool_panel_section_label: Text Manipulation
+- name: regex_find_replace
+  owner: galaxyp
+  revisions:
+  - 209b7c5ee9d7
+  - 399da6b5ec21
+  - 503bcd6ebe4b
+  - ae8c4b2488e7
+  tool_panel_section_label: Text Manipulation
+- name: ncbi_datasets
+  owner: iuc
+  revisions:
+  - 18eed8fa7f23
+  - 1a7773882d2c
+  - 6c829a430475
+  - a6a475ed58cb
+  tool_panel_section_label: Get Data
+- name: clipkit
+  owner: padge
+  revisions:
+  - 34f21474cdea
+  - '770695339600'
+  tool_panel_section_label: Phylogenetics
+- name: trimal
+  owner: padge
+  revisions:
+  - 0d53577b962f
+  - 4769baf47b8d
+  - 98944ec4bfc7
+  tool_panel_section_label: Multiple Alignments
+- name: cdhit
+  owner: bebatut
+  revisions:
+  - 93f25d52cfa5
+  tool_panel_section_label: Multiple Alignments
