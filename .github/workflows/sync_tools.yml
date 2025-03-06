@@ -53,7 +53,7 @@ jobs:
             Please review the changes before merging.
           labels: |
             auto-update
-          branch: tools-sync-update
+          branch: tools_sync_workflow
           base: master
 
       - name: Checkout master
