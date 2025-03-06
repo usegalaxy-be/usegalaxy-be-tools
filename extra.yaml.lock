@@ -1,0 +1,1601 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'true'
+install_tool_dependencies: 'false'
+tools:
+- name: load_ref_data
+  owner: ieguinoa
+  revisions:
+  - cccb98962d4c
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ena_webin_cli
+  owner: ieguinoa
+  revisions:
+  - 7d751b5943b0
+  tool_panel_section_label: Send Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: show_beginning
+  owner: devteam
+  revisions:
+  - b5af46a99f6e
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: diff
+  owner: bgruening
+  revisions:
+  - 02dfbbf869d8
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concatenate_multiple_datasets
+  owner: mvdbeek
+  revisions:
+  - 201c568972c3
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: graphicsmagick_image_convert
+  owner: bgruening
+  revisions:
+  - 4e9a3745dce4
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nanopolish_polya
+  owner: bgruening
+  revisions:
+  - 449e9aeded2d
+  tool_panel_section_label: Nanopore
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nanopolish_eventalign
+  owner: bgruening
+  revisions:
+  - 0938217b3221
+  tool_panel_section_label: Nanopore
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nanopolish_methylation
+  owner: bgruening
+  revisions:
+  - 02e3c674d917
+  tool_panel_section_label: Nanopore
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nanopolish_variants
+  owner: bgruening
+  revisions:
+  - bc79b5b0fe04
+  tool_panel_section_label: Nanopore
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mitohifi
+  owner: bgruening
+  revisions:
+  - 99ddbf037d98
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bismark
+  owner: bgruening
+  revisions:
+  - 8c191acde702
+  - 120b7b35e442
+  tool_panel_section_label: Mapping
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: graphmap_align
+  owner: bgruening
+  revisions:
+  - 190175f4e143
+  tool_panel_section_label: Mapping
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: graphmap_overlap
+  owner: bgruening
+  revisions:
+  - d0a712cf0518
+  tool_panel_section_label: Mapping
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mageck_gsea
+  owner: iuc
+  revisions:
+  - b946929d31c4
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mageck_mle
+  owner: iuc
+  revisions:
+  - 26126538a86f
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mageck_pathway
+  owner: iuc
+  revisions:
+  - 39a996d44e16
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: smap
+  owner: ieguinoa
+  revisions:
+  - 7d416d98d2c9
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: smap_design
+  owner: ieguinoa
+  revisions:
+  - fe9f46c3bd28
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: smap_selector
+  owner: ieguinoa
+  revisions:
+  - 10a610301cf7
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mcdoe
+  owner: padge
+  revisions:
+  - cc0957c46408
+  tool_panel_section_label: Genome editing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: marea
+  owner: bimib
+  revisions:
+  - 84da46340c39
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: astral
+  owner: padge
+  revisions:
+  - 66ebc4b19d6c
+  tool_panel_section_label: Phylogenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: maxquant_mqpar
+  owner: galaxyp
+  revisions:
+  - 2d67fb758956
+  - 3fc2116ac6d9
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xchem_transfs_scoring
+  owner: bgruening
+  revisions:
+  - f6f9b47d02b6
+  tool_panel_section_label: ChemicalToolBox
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: alphafold2
+  owner: galaxy-australia
+  revisions:
+  - 6ab1a261520a
+  tool_panel_section_label: ChemicalToolBox
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: create_tool_recommendation_model
+  owner: bgruening
+  revisions:
+  - 76251d1ccdcc
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scipy_sparse
+  owner: bgruening
+  revisions:
+  - 4807e865a946
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pandas_rolling_window
+  owner: bgruening
+  revisions:
+  - a06f7b5c4dc7
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_pca
+  owner: bgruening
+  revisions:
+  - 2d7016b3ae92
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_lightgbm
+  owner: bgruening
+  revisions:
+  - c12485d058aa
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_train_test_split
+  owner: bgruening
+  revisions:
+  - 910ebff96ddc
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_model_fit
+  owner: bgruening
+  revisions:
+  - 1c25f305db70
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_fitted_model_eval
+  owner: bgruening
+  revisions:
+  - c374098d4f5c
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_model_validation
+  owner: bgruening
+  revisions:
+  - bfc7bdfcb423
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_discriminant_classifier
+  owner: bgruening
+  revisions:
+  - 18b39ada6f35
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_regression_metrics
+  owner: bgruening
+  revisions:
+  - 649017be1c60
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_clf_metrics
+  owner: bgruening
+  revisions:
+  - 3cd0dbc038ec
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_data_preprocess
+  owner: bgruening
+  revisions:
+  - 1b5cd2d16fb1
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_feature_selection
+  owner: bgruening
+  revisions:
+  - 07b34d5284f6
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_pairwise_metrics
+  owner: bgruening
+  revisions:
+  - 96452e7461f4
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_stacking_ensemble_models
+  owner: bgruening
+  revisions:
+  - ae4b593c99f8
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_sample_generator
+  owner: bgruening
+  revisions:
+  - 3bdb5b6c8ee8
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: keras_batch_models
+  owner: bgruening
+  revisions:
+  - 000a3868885b
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sklearn_train_test_eval
+  owner: bgruening
+  revisions:
+  - e03a58b31c12
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bioimage_inference
+  owner: bgruening
+  revisions:
+  - 9b8fc55cb9eb
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: overlay_segmentation_mask
+  owner: imgteam
+  revisions:
+  - 8ad39f493587
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blast_datatypes
+  owner: devteam
+  revisions:
+  - 01b38f20197e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: data_manager_bwa_mem_index_builder
+  owner: devteam
+  revisions:
+  - 63d5652be07a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: data_manager_fetch_busco
+  owner: iuc
+  revisions:
+  - 15b97817550a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: data_manager_gemini_database_downloader
+  owner: iuc
+  revisions:
+  - b4b2b284230a
+  - 52b6a4d98009
+  - 345412d58d75
+  - 172815da3d41
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: data_manager_snpeff
+  owner: iuc
+  revisions:
+  - def511e8e005
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: data_manager_star_index_custom
+  owner: ieguinoa
+  revisions:
+  - 0cd30e1fd3eb
+  - e23440b3332a
+  tool_panel_section_label: None
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: data_manager_twobit_builder
+  owner: devteam
+  revisions:
+  - 9946bc39c834
+  - 16c0c73b28ad
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: emboss_datatypes
+  owner: devteam
+  revisions:
+  - a89163f31369
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: freebayes_0_9_14_8a407cf5f4
+  owner: devteam
+  revisions:
+  - 77a97e5d2658
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: molecule_datatypes
+  owner: iuc
+  revisions:
+  - 85eca06eefc6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: no_unzip_datatype
+  owner: lecorguille
+  revisions:
+  - 7800ba9a4c1e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_abricate_0_3
+  owner: iuc
+  revisions:
+  - 8c7976eed9c3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_aragorn_1_2_36
+  owner: iuc
+  revisions:
+  - f09e2902e6ed
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_atlas_3_10
+  owner: iuc
+  revisions:
+  - 98c017ec230d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bamtools_2_3_0_2d7685d2ae
+  owner: devteam
+  revisions:
+  - 7d6da4982f19
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bcftools_1_3
+  owner: iuc
+  revisions:
+  - 43a9aebf3adb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bedtools_2_19
+  owner: iuc
+  revisions:
+  - fb3a854c7104
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bedtools_2_24
+  owner: iuc
+  revisions:
+  - 3416a1d4a582
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bioc_hilbertvis_1_18_0
+  owner: devteam
+  revisions:
+  - ce15999e50b1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bioc_qvalue_1_34_0
+  owner: devteam
+  revisions:
+  - 11735242a19e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bioconductor_edger_3_14_0
+  owner: iuc
+  revisions:
+  - 5f4abad5b2c1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bioconductor_limma_3_28_10
+  owner: iuc
+  revisions:
+  - b313488c66bd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_biopython_1_65
+  owner: biopython
+  revisions:
+  - d8185f5631ed
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_2_26
+  owner: iuc
+  revisions:
+  - 869ee5651b61
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_2_26
+  owner: devteam
+  revisions:
+  - 85e43fb3f363
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_2_28
+  owner: iuc
+  revisions:
+  - 222036f7cab6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_2_31
+  owner: iuc
+  revisions:
+  - 921d2963a177
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_5_0
+  owner: iuc
+  revisions:
+  - 5dd2b68c7d04
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_blast_plus_2_7_1
+  owner: iuc
+  revisions:
+  - 2e9109a8924f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_boost_1_55
+  owner: iuc
+  revisions:
+  - 9cc5f2bc9a9c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_boost_1_57
+  owner: iuc
+  revisions:
+  - a0dd39685fce
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bowtie2_2_1_0
+  owner: devteam
+  revisions:
+  - 017a00c265f1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bowtie_0_12_7
+  owner: devteam
+  revisions:
+  - 9f9f38617a98
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bowtie_1_1_2
+  owner: iuc
+  revisions:
+  - a1c1a92e13a6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bowtie_2_2_6
+  owner: iuc
+  revisions:
+  - 0d9cd7487cc9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bwa_0_5_9
+  owner: devteam
+  revisions:
+  - ec2595e4d313
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bwa_0_7_10_039ea20639
+  owner: devteam
+  revisions:
+  - 5b9aca1e1c07
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bwa_0_7_12
+  owner: iuc
+  revisions:
+  - 6af9b24ddeee
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bwa_0_7_7
+  owner: iuc
+  revisions:
+  - def70e393020
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bx_python_0_7
+  owner: devteam
+  revisions:
+  - 2d0c08728bca
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bx_python_0_7
+  owner: iuc
+  revisions:
+  - 7ce9cf37130f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bz2file_0_98
+  owner: iuc
+  revisions:
+  - 73382c8fa8f3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_bzlib_1_0
+  owner: iuc
+  revisions:
+  - af4887e1f595
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cairo_1_12_14
+  owner: iuc
+  revisions:
+  - 0a73735c3161
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cairo_1_12_14
+  owner: devteam
+  revisions:
+  - cd2ed5717e38
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cairo_1_14_2
+  owner: iuc
+  revisions:
+  - 3e7cd6a990f7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ccat_3_0
+  owner: devteam
+  revisions:
+  - b65b1bab9226
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_chemfp_1_1
+  owner: iuc
+  revisions:
+  - cb2b38ca9d96
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_clustalw_2_1
+  owner: devteam
+  revisions:
+  - 09243d89e7a4
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cmake_3_2_3
+  owner: iuc
+  revisions:
+  - 1aea698a1c63
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cran_kernlab_0_1_4
+  owner: devteam
+  revisions:
+  - ea1da94c31c2
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cran_yacca_1_0
+  owner: devteam
+  revisions:
+  - 09af164052b9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cufflinks_2_1_1
+  owner: devteam
+  revisions:
+  - a8f40accd7ce
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cufflinks_2_2_1
+  owner: devteam
+  revisions:
+  - 899067a260d1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cutadapt_1_6
+  owner: lparsons
+  revisions:
+  - bbfb88b7c496
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cutadapt_1_8
+  owner: iuc
+  revisions:
+  - 980a47047f57
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_cython_0_20_1
+  owner: iuc
+  revisions:
+  - bf766623094e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_datamash_1_0_6
+  owner: iuc
+  revisions:
+  - 414953c0168d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_deseq2_1_10_0
+  owner: iuc
+  revisions:
+  - e4a11a7d33d6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_deseq2_1_8_1
+  owner: iuc
+  revisions:
+  - ab759b8c9d86
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_dexseq_1_14
+  owner: iuc
+  revisions:
+  - 8db27dbccbec
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_eigen_3_1
+  owner: iuc
+  revisions:
+  - baedf7f82cc3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_emboss_5_0_0
+  owner: devteam
+  revisions:
+  - cf998ddc0542
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_express_1_1_1
+  owner: devteam
+  revisions:
+  - 29ace4b8ed87
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_express_1_5_1
+  owner: iuc
+  revisions:
+  - 93017e8743e5
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ez_setup_0_9
+  owner: iuc
+  revisions:
+  - 10fd2e2a9f2f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fastqc_0_10_1
+  owner: devteam
+  revisions:
+  - 4c650e5219e0
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fastqc_0_11_4
+  owner: iuc
+  revisions:
+  - a8f485b2efd9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fastx_toolkit_0_0_13
+  owner: devteam
+  revisions:
+  - ec66ae4c269b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fatotwobit_35x1
+  owner: iuc
+  revisions:
+  - 46615329ea72
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fontconfig_2_11_1
+  owner: iuc
+  revisions:
+  - d88d844df0cb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_fontconfig_2_11_1
+  owner: devteam
+  revisions:
+  - 1e47d82c2c3d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_freetype_2_4
+  owner: iuc
+  revisions:
+  - b32452aa80dc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_freetype_2_5_2
+  owner: iuc
+  revisions:
+  - 1e86d1cf79a4
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_freetype_2_5_2
+  owner: devteam
+  revisions:
+  - a65217367e4a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_galaxy_ops_1_0_0
+  owner: devteam
+  revisions:
+  - eef263ff9b95
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_galaxy_sequence_utils_1_0_1
+  owner: iuc
+  revisions:
+  - c1ab450748ba
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_galaxy_utils_1_0
+  owner: devteam
+  revisions:
+  - 8882f14715b5
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gb_taxonomy_8d245994d7
+  owner: devteam
+  revisions:
+  - 7fd5de80ef6e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gdbm_1_11
+  owner: iuc
+  revisions:
+  - ed2537bccffc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gemini_0_18_1
+  owner: iuc
+  revisions:
+  - 49de32b47548
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ghostscript_9_10
+  owner: devteam
+  revisions:
+  - a285e78179bd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gnu_awk_4_1_0
+  owner: iuc
+  revisions:
+  - f145f856ec57
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gnu_coreutils_8_22
+  owner: iuc
+  revisions:
+  - ac64dfe4b1fb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gnu_coreutils_8_25
+  owner: iuc
+  revisions:
+  - a177f177d42f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gnu_grep_2_14
+  owner: iuc
+  revisions:
+  - d4d4eb7a0123
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_gnu_sed_4_2_2_sandbox
+  owner: iuc
+  revisions:
+  - de2ac3ac8138
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_goatools_0_6_4
+  owner: bebatut
+  revisions:
+  - 25b614b3491f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_graphicsmagick_1_3_20
+  owner: iuc
+  revisions:
+  - 0f9047de2cbc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_hisat_2_0
+  owner: iuc
+  revisions:
+  - c65f00072e57
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_hisat_2_0_3
+  owner: iuc
+  revisions:
+  - dc03603edd43
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_hmmer3_1b1
+  owner: iuc
+  revisions:
+  - 9b9efd1ae42b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_hmmer_3_1
+  owner: lionelguy
+  revisions:
+  - 007c736bf7e8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_hmmer_3_1b1
+  owner: iuc
+  revisions:
+  - ee143f73fee0
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_htseq_0_6
+  owner: iuc
+  revisions:
+  - fbb72996807d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_humann2_0_6_1
+  owner: bebatut
+  revisions:
+  - 655e87ac3364
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_imagemagick_6_9_3
+  owner: iuc
+  revisions:
+  - 942ae5bafee3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_imaging_1_1_7
+  owner: iuc
+  revisions:
+  - d5f2627f4cfd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_infernal_1_1rc4
+  owner: iuc
+  revisions:
+  - b9cc978bc83b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_jbrowse_1_11_6
+  owner: iuc
+  revisions:
+  - 6cc678412457
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_khmer_2_0
+  owner: iuc
+  revisions:
+  - c02c1e1abd48
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_kraken_0_10_5
+  owner: iuc
+  revisions:
+  - 89a36b0f718c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_kraken_0_10_6_eaf8fb68
+  owner: iuc
+  revisions:
+  - 0743afe4dcb8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_lapack_3_4
+  owner: iuc
+  revisions:
+  - fa453af080f9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_lastz_1_02_00
+  owner: devteam
+  revisions:
+  - 1d4a5e764543
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libcurl_7_35
+  owner: iuc
+  revisions:
+  - 0d934b13250c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libmagic_5_25
+  owner: iuc
+  revisions:
+  - 21b08f55a6ac
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libpng_1_6_7
+  owner: devteam
+  revisions:
+  - 3de32cd300a9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libpng_1_6_7
+  owner: iuc
+  revisions:
+  - 588666932a32
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libtool_2_4
+  owner: iuc
+  revisions:
+  - 7f67694b167c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libxml2_2_9_1
+  owner: iuc
+  revisions:
+  - 45b16a3ab504
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libxml2_2_9_1
+  owner: devteam
+  revisions:
+  - 3af7ad13a6fb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libxml2_2_9_3
+  owner: iuc
+  revisions:
+  - 24131daaf69f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_libxslt_1_1_28
+  owner: iuc
+  revisions:
+  - 18e2e2ef0f08
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_macs2_2_1_0
+  owner: iuc
+  revisions:
+  - 4d7ef54c3fa4
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_macs2_2_1_0_20151222
+  owner: iuc
+  revisions:
+  - e1370f7d5e2f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_macs_1_3_7_1
+  owner: devteam
+  revisions:
+  - a7ea583a35d2
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_matplotlib_1_2
+  owner: iuc
+  revisions:
+  - 48020985e28c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_meme_4_11_0
+  owner: iuc
+  revisions:
+  - 74f601c6048c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_meme_4_11_1
+  owner: iuc
+  revisions:
+  - f585fa3ee66b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_mine_1_0_1
+  owner: devteam
+  revisions:
+  - 73a01db39163
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_mono_4_0
+  owner: iuc
+  revisions:
+  - 4912e4d532cd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ncbi_vdb_2_5_2
+  owner: iuc
+  revisions:
+  - 17ae6c0040ea
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ncurses_5_9
+  owner: iuc
+  revisions:
+  - 335ebf512407
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ncurses_6_0
+  owner: iuc
+  revisions:
+  - 0efde9889efd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_networkx_1_10
+  owner: iuc
+  revisions:
+  - e761775277c1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_ngs_sdk_1_1_3
+  owner: iuc
+  revisions:
+  - 1197d3c98375
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_numpy_1_7
+  owner: iuc
+  revisions:
+  - '300877695495'
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_numpy_1_7
+  owner: devteam
+  revisions:
+  - 0c288abd2a1e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_numpy_1_9
+  owner: iuc
+  revisions:
+  - 83d12e13dbbd
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_openbabel_2_3
+  owner: iuc
+  revisions:
+  - ae369c08a2a7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pcre_8_34
+  owner: iuc
+  revisions:
+  - 5cf63114d17a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pear_0_9_6
+  owner: iuc
+  revisions:
+  - 833c4be8f4d4
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_peptideshaker_1_11
+  owner: galaxyp
+  revisions:
+  - bd41b685f845
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_perl_5_18
+  owner: iuc
+  revisions:
+  - 35f117d7396b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_perl_xml_parser_expat_2_41
+  owner: iuc
+  revisions:
+  - 5d17b1a12107
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_picard_1_56_0
+  owner: devteam
+  revisions:
+  - 99a28567c3a3
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pixman_0_32_4
+  owner: iuc
+  revisions:
+  - 32ff063c4de8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pixman_0_32_4
+  owner: devteam
+  revisions:
+  - 93cd8e03820c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pixman_0_32_6
+  owner: iuc
+  revisions:
+  - 06f701aa92e2
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_pysam_0_7_7
+  owner: iuc
+  revisions:
+  - 0a5141bdf9d0
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7
+  owner: iuc
+  revisions:
+  - f761bd14343e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_10
+  owner: iuc
+  revisions:
+  - bd7165ea6526
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_bcbiogff_0_6_2
+  owner: iuc
+  revisions:
+  - 8ee2210f6074
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_bwameth_0_2_0
+  owner: iuc
+  revisions:
+  - 54d14a994f71
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_fisher_0_1_4
+  owner: iuc
+  revisions:
+  - 07479e0cbc5f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_numpy_1_9
+  owner: iuc
+  revisions:
+  - f24fc0b630fc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_pandas_0_16
+  owner: iuc
+  revisions:
+  - 2511234c20da
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_patsy_0_4_1
+  owner: iuc
+  revisions:
+  - 91bec433bbcc
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_scipy_0_16
+  owner: iuc
+  revisions:
+  - 80f8536c6dc2
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_six_1_10_0
+  owner: iuc
+  revisions:
+  - 6944ba405057
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_statsmodels_0_6_1
+  owner: iuc
+  revisions:
+  - ae7f41481998
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_toolshed_0_4_6
+  owner: iuc
+  revisions:
+  - 0aed6209b0d7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_wget_3_2
+  owner: iuc
+  revisions:
+  - c7aaab8b0202
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_python_2_7_xlsxwriter_0_8_5
+  owner: iuc
+  revisions:
+  - 4133d7fe41e1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_2_11_0
+  owner: devteam
+  revisions:
+  - 5824d2b3bc8b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_2_15_0
+  owner: devteam
+  revisions:
+  - 6c34eaa82fed
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_3_0_1
+  owner: iuc
+  revisions:
+  - 59b82e6e0801
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_3_0_3
+  owner: iuc
+  revisions:
+  - afc48696ee5c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_3_1_2
+  owner: iuc
+  revisions:
+  - 4d2fd1413b56
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_3_2_1
+  owner: iuc
+  revisions:
+  - d9f7d84125b7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_edger_3_12_0
+  owner: iuc
+  revisions:
+  - bb14bf1e4535
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_limma_3_28_2
+  owner: iuc
+  revisions:
+  - 4fa8ed0ffea1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_r_vegan_2_3_0
+  owner: iuc
+  revisions:
+  - 1ab514ba46e7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_rdkit_2012_12
+  owner: iuc
+  revisions:
+  - 842dd2fa4ace
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_readline_6_2
+  owner: iuc
+  revisions:
+  - 5313ca2fbce6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_readline_6_3
+  owner: iuc
+  revisions:
+  - ca1a9400d4e1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_rpy2_2_7_8
+  owner: iuc
+  revisions:
+  - 304bc0447631
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_rpy_1_0_3
+  owner: devteam
+  revisions:
+  - 82170c94ca7c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_rsem_1_2_28
+  owner: iuc
+  revisions:
+  - 4567331d510a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_rseqc_2_4
+  owner: lparsons
+  revisions:
+  - 8e7baa602cec
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_sailfish_0_7_6
+  owner: iuc
+  revisions:
+  - 04996d8b8587
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_0_1_16
+  owner: devteam
+  revisions:
+  - 3cc494fb5a14
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_0_1_18
+  owner: devteam
+  revisions:
+  - 171cd8bc208d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_0_1_19
+  owner: iuc
+  revisions:
+  - c9bd782f5342
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_0_1_19
+  owner: devteam
+  revisions:
+  - 95d2c4aefb5f
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_1_1
+  owner: iuc
+  revisions:
+  - f0c7bc0159e9
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_samtools_1_2
+  owner: iuc
+  revisions:
+  - f6ae3ba3f3c1
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_scipy_0_12
+  owner: iuc
+  revisions:
+  - cfbbe183f8a7
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_screed_0_9
+  owner: iuc
+  revisions:
+  - 639e5e37404d
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_searchgui_2_9
+  owner: galaxyp
+  revisions:
+  - a04e562f2ff0
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_seqtk_1_0_r75
+  owner: iuc
+  revisions:
+  - 8b7d6f6cb89b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_setuptools_19_0
+  owner: iuc
+  revisions:
+  - cb689698d484
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_sicer_1_1
+  owner: devteam
+  revisions:
+  - 48c84c1cab2b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_snpeff_4_0
+  owner: iuc
+  revisions:
+  - 792d8f4485fb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_snpeff_4_1
+  owner: iuc
+  revisions:
+  - 374c7f8421fb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_spades_3_6_2
+  owner: nml
+  revisions:
+  - af7dfb1c3f42
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_spades_3_9_0
+  owner: nml
+  revisions:
+  - d8c8c3dc8f9a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_sqlite_3_8_3
+  owner: iuc
+  revisions:
+  - c8a5c11cc921
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_sra_toolkit_2_5_2
+  owner: iuc
+  revisions:
+  - bb51af9130ea
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_stacks_1_40
+  owner: iuc
+  revisions:
+  - 51d4ab2c4dcf
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_stringtie_0_97
+  owner: iuc
+  revisions:
+  - cfe1d3cb41d5
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_subread_1_4_6_p5
+  owner: iuc
+  revisions:
+  - 3645871df985
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_tabix_0_2_6
+  owner: iuc
+  revisions:
+  - 389d2376b60b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_taxonomy_1_0_0
+  owner: devteam
+  revisions:
+  - c011d4659306
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_tiff_4_0_3
+  owner: iuc
+  revisions:
+  - 1e6bcf7a8a03
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_tophat2_2_0_9
+  owner: devteam
+  revisions:
+  - 8549fd545473
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_transdecoder_2_0_1
+  owner: iuc
+  revisions:
+  - 1fb9f6beb8fb
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_transtermhp_2_09
+  owner: iuc
+  revisions:
+  - 0a21f73e2f15
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_trinity_2_0_6
+  owner: iuc
+  revisions:
+  - e65cf857feb6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_trinity_2_1_1
+  owner: iuc
+  revisions:
+  - 1585b0b46b84
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_trinity_2_2_0
+  owner: iuc
+  revisions:
+  - 76d63b5c571a
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_vcflib_8a5602bf07
+  owner: iuc
+  revisions:
+  - 7e67466b033e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_vcftools_0_1_11
+  owner: devteam
+  revisions:
+  - 710efaae2ff8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_velvet_1_2_10
+  owner: devteam
+  revisions:
+  - 93d32326537b
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_vsearch_1_1_3
+  owner: iuc
+  revisions:
+  - 559454eab468
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_vsearch_1_9_7
+  owner: iuc
+  revisions:
+  - 99c947b9fb31
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934
+  owner: iuc
+  revisions:
+  - 294fe74bded6
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_weblogo_3_3
+  owner: devteam
+  revisions:
+  - 648e4b32f15c
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_xz_5_0_5
+  owner: iuc
+  revisions:
+  - 944f93d45594
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: package_zlib_1_2_8
+  owner: iuc
+  revisions:
+  - 411985b46ae8
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: padaug_peptide_sequence_analysis
+  owner: jay
+  revisions:
+  - aa0416e63597
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: proteomics_datatypes
+  owner: iracooke
+  revisions:
+  - 300fc3aa6954
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rdata_camera_datatypes
+  owner: lecorguille
+  revisions:
+  - 4a51ab3d8ecf
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rdata_xcms_datatypes
+  owner: lecorguille
+  revisions:
+  - 544f6d2329ac
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rnbeads
+  owner: pavlo-lutsik
+  revisions:
+  - 6b0981ab063e
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_b2btools
+  owner: iuc
+  revisions:
+  - f339d61fcb50
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: suite_orthofinder
+  owner: iuc
+  revisions:
+  - ab50db13f007
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
