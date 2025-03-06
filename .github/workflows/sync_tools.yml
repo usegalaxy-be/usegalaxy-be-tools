@@ -2,15 +2,15 @@ name: Sync Galaxy Tools
 
 on:
   pull_request:
-      branches:
-        - master
+    branches:
+      - master
   workflow_dispatch:
   schedule:
     # Runs weekly, every Saturday at 03:00 UTC
     - cron: "0 3 * * SAT"
 
 jobs:
-  sync-tools:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -56,5 +56,6 @@ jobs:
           branch: tools_sync_workflow
           base: master
 
-      - name: Checkout master
-        run: git checkout master
+      - name: Check output
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
