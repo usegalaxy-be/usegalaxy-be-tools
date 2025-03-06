@@ -7561,10 +7561,9 @@ tools:
   - 71ad4a56c40c
   - 9570563fb686
   - a535cf1e5da4
-  tool_panel_section_label: FASTA/FASTQ
   - ae36fab06bc2
   - c4ff13d2aab3
-  tool_panel_section_label: SAM/BAM
+  tool_panel_section_label: FASTA/FASTQ
 - name: samtools_sort
   owner: devteam
   revisions:
