@@ -2,7 +2,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
-  - 89329e428dc6
+  - '440074098911'
   tool_panel_section_label: Send Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -14,8 +14,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - f5ea3ce9b9b0
   - 69ebb7f46e45
+  - f5ea3ce9b9b0
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spocc_occ
@@ -93,9 +93,9 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - a6f147a050a2
   - 9ff72e942410
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: unique
@@ -991,8 +991,8 @@ tools:
   owner: iuc
   revisions:
   - 64e2edfe7a2c
-  - 87ee588b3d45
   - b8348686a0b9
+  - 87ee588b3d45
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanopolish_polya
@@ -2153,8 +2153,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - bdd0cb7fbedf
   - e5e78d1e09a6
+  - bdd0cb7fbedf
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
@@ -2628,8 +2628,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - 1a052c827e88
   - f242ee103277
+  - 1a052c827e88
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcas
@@ -2767,8 +2767,8 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
-  - 2b80a2596064
   - 5f589c91566e
+  - 2b80a2596064
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: masigpro
@@ -2984,8 +2984,8 @@ tools:
 - name: macs2
   owner: iuc
   revisions:
-  - 01cded2297b7
   - 424aefbd7777
+  - 01cded2297b7
   tool_panel_section_label: Peak Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ccat
@@ -3376,11 +3376,11 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - a1f0b3f4b781
+  - 1cd1cf786389
   - 7d34178f2812
   - ab1f60c26526
   - 9ffcddf6f9c0
-  - 1cd1cf786389
+  - a1f0b3f4b781
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_coverage
