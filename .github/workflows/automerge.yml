@@ -1,0 +1,20 @@
+name: Auto merge workflow PRs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * 5'  # Runs every Friday at 7 PM UTC (8 PM CET)
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Automatically merge PRs
+        uses: pascalgn/automerge-action@v0.16.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MERGE_METHOD: merge  # or squash, rebase
+          MERGE_COMMIT_MESSAGE: "Auto merged by GitHub Actions"
+          MERGE_LABELS: "automerge"
