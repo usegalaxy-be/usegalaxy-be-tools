@@ -17,4 +17,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MERGE_METHOD: merge  # or squash, rebase
           MERGE_COMMIT_MESSAGE: "Auto merged by GitHub Actions"
-          MERGE_LABELS: "auto-update"
+          MERGE_LABELS: "auto-merge"
