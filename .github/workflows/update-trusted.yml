@@ -70,7 +70,8 @@ jobs:
             and updates to our own tools and new tools added.
             Please verify if these changes are valid.
           labels: |
-            automatic PR
+            auto-update
+            auto-merge
           branch: tools-update
           base: master
       - name: Check output
