@@ -41,7 +41,8 @@ jobs:
 
             Please verify if these changes are valid.
           labels: |
-            automatic PR
+            auto-update
+            auto-merge
           branch: gtn-update
           base: master
 
