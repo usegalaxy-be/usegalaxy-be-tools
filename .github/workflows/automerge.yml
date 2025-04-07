@@ -3,7 +3,7 @@ name: Auto merge workflow PRs
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 19 * * 5'  # Runs every Friday at 7 PM UTC (8 PM CET)
+    - cron: '0 6 * * MON'  # Runs every Monday at 6 AM UTC (7 AM CET)
 jobs:
   automerge:
     runs-on: ubuntu-latest
