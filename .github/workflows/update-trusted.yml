@@ -71,7 +71,7 @@ jobs:
             Please verify if these changes are valid.
           labels: |
             auto-update
-            auto-merge
+            automerge
           branch: tools-update
           base: master
       - name: Check output
