@@ -14,8 +14,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - 69ebb7f46e45
   - f5ea3ce9b9b0
+  - 69ebb7f46e45
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spocc_occ
@@ -93,8 +93,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - 9ff72e942410
+  - ddf54b12c295
   - a6f147a050a2
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -923,8 +923,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - 9676127a1ed2
   - e2c1b62e1db1
+  - 9676127a1ed2
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamtools
@@ -990,9 +990,9 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 87ee588b3d45
   - b8348686a0b9
   - 64e2edfe7a2c
+  - 87ee588b3d45
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanopolish_polya
@@ -1304,8 +1304,8 @@ tools:
 - name: dgidb_annotator
   owner: devteam
   revisions:
-  - c5bb987015c5
   - 792f3cb0eff4
+  - c5bb987015c5
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: exonerate
@@ -1815,8 +1815,8 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 8c191acde702
   - 120b7b35e442
+  - 8c191acde702
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: minimap2
@@ -1906,8 +1906,8 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - 68693743661e
   - 74aebe30fb52
+  - 68693743661e
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mimodd_main
@@ -2616,8 +2616,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - 1a052c827e88
   - f242ee103277
+  - 1a052c827e88
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcas
@@ -3364,10 +3364,10 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - a1f0b3f4b781
   - 7d34178f2812
-  - 1cd1cf786389
+  - a1f0b3f4b781
   - 9ffcddf6f9c0
+  - 1cd1cf786389
   - ab1f60c26526
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -3621,8 +3621,8 @@ tools:
 - name: kraken_report
   owner: devteam
   revisions:
-  - 1902d3de4a4f
   - 6c09bed3444f
+  - 1902d3de4a4f
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken
@@ -5839,16 +5839,16 @@ tools:
   - 73892ef177e3
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: alphafold2
+  owner: galaxy-australia
+  revisions:
+  - 3f188450ca4f
+  tool_panel_section_label: ChemicalToolBox
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xchem_transfs_scoring
   owner: bgruening
   revisions:
   - f6f9b47d02b6
-  tool_panel_section_label: ChemicalToolBox
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: alphafold2
-  owner: galaxy-australia
-  revisions:
-  - 6ab1a261520a
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gmx_sim
@@ -6394,8 +6394,8 @@ tools:
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
-  - e4b5401adcec
   - 980917b09eb8
+  - e4b5401adcec
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tsne
