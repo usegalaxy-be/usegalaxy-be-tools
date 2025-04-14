@@ -42,7 +42,7 @@ jobs:
             Please verify if these changes are valid.
           labels: |
             auto-update
-            auto-merge
+            automerge
           branch: gtn-update
           base: master
 
