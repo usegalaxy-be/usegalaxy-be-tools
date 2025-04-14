@@ -53,7 +53,7 @@ jobs:
             Please review the changes before merging.
           labels: |
             auto-update
-            auto-merge
+            automerge
           branch: tools_sync_workflow
           base: master
 
