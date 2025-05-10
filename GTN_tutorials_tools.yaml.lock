@@ -3445,6 +3445,7 @@ tools:
   - 7ebc22f77d86
   - 890fb06a2893
   - a0274bc43b7e
+  - a4774b7b2e85
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_construct_eset
