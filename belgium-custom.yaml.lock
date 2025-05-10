@@ -6972,3 +6972,9 @@ tools:
   - b694a77ca1e8
   tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - a4774b7b2e85
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu

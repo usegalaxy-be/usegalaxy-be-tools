@@ -1,10 +1,4 @@
 tools:
-- name: ena_upload
-  owner: iuc
-  revisions:
-  - '440074098911'
-  tool_panel_section_label: Send Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
   owner: ieguinoa
   revisions:
@@ -93,9 +87,9 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 9ff72e942410
-  - ddf54b12c295
   - a6f147a050a2
+  - ddf54b12c295
+  - 9ff72e942410
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: unique
@@ -302,12 +296,6 @@ tools:
   - 201c568972c3
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: gffcompare
-  owner: iuc
-  revisions:
-  - 0f710191a66d
-  tool_panel_section_label: Filter and Sort
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_arrange_by_header
   owner: bgruening
   revisions:
@@ -320,29 +308,11 @@ tools:
   - f85221724099
   tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: datamash_transpose
+- name: gffcompare
   owner: iuc
   revisions:
-  - 22c2a1ac7ae3
-  tool_panel_section_label: Join, Subtract and Group
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: datamash_reverse
-  owner: iuc
-  revisions:
-  - 0f1724dd59d2
-  tool_panel_section_label: Join, Subtract and Group
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: datamash_ops
-  owner: iuc
-  revisions:
-  - 562f3c677828
-  tool_panel_section_label: Join, Subtract and Group
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: collection_column_join
-  owner: iuc
-  revisions:
-  - 071084070619
-  tool_panel_section_label: Join, Subtract and Group
+  - 0f710191a66d
+  tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphicsmagick_image_montage
   owner: bgruening
@@ -746,12 +716,6 @@ tools:
   - 0a7799698fe5
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: fastqc
-  owner: devteam
-  revisions:
-  - 2c64fded1286
-  tool_panel_section_label: FASTQ Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
   revisions:
@@ -768,6 +732,12 @@ tools:
   owner: lparsons
   revisions:
   - 49370cb85f0f
+  tool_panel_section_label: FASTQ Quality Control
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 2c64fded1286
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trim_galore
@@ -923,8 +893,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - 9676127a1ed2
   - e2c1b62e1db1
+  - 9676127a1ed2
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamtools
@@ -990,8 +960,8 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 64e2edfe7a2c
   - 87ee588b3d45
+  - 64e2edfe7a2c
   - b8348686a0b9
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -1126,12 +1096,6 @@ tools:
   revisions:
   - 35a89f8cc96e
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: funannotate_predict
-  owner: iuc
-  revisions:
-  - 4b96ced19f75
-  tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maker_map_ids
   owner: iuc
@@ -1304,8 +1268,8 @@ tools:
 - name: dgidb_annotator
   owner: devteam
   revisions:
-  - c5bb987015c5
   - 792f3cb0eff4
+  - c5bb987015c5
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: exonerate
@@ -1488,6 +1452,12 @@ tools:
   - b3cf4684e9c7
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: funannotate_predict
+  owner: iuc
+  revisions:
+  - 4b96ced19f75
+  tool_panel_section_label: Annotation
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_compare
   owner: iuc
   revisions:
@@ -1535,12 +1505,6 @@ tools:
   revisions:
   - 04861c9bbf45
   tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: trimal
-  owner: iuc
-  revisions:
-  - e379c0202766
-  tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sina
   owner: iuc
@@ -1638,16 +1602,16 @@ tools:
   - 93f25d52cfa5
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: trimal
+  owner: iuc
+  revisions:
+  - e379c0202766
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: racon
   owner: bgruening
   revisions:
   - aa39b19ca11e
-  tool_panel_section_label: Assembly
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: mitohifi
-  owner: bgruening
-  revisions:
-  - 99ddbf037d98
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: velvetoptimiser
@@ -1788,16 +1752,16 @@ tools:
   - 3ce74eab308b
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mitohifi
+  owner: bgruening
+  revisions:
+  - 99ddbf037d98
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rgrnastar
   owner: iuc
   revisions:
   - b0f2be869d6d
-  tool_panel_section_label: Mapping
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: bowtie2
-  owner: devteam
-  revisions:
-  - d5ceb9f3c25b
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hisat2
@@ -1812,11 +1776,10 @@ tools:
   - ec9cbd6b9a49
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: bismark
-  owner: bgruening
+- name: bowtie2
+  owner: devteam
   revisions:
-  - 120b7b35e442
-  - 8c191acde702
+  - d5ceb9f3c25b
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: minimap2
@@ -1897,17 +1860,18 @@ tools:
   - 2595c27071c2
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: plink
-  owner: iuc
+- name: bismark
+  owner: bgruening
   revisions:
-  - 18be55ee8e08
-  tool_panel_section_label: Variant Calling
+  - 8c191acde702
+  - 120b7b35e442
+  tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff
   owner: iuc
   revisions:
-  - 68693743661e
   - 74aebe30fb52
+  - 68693743661e
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mimodd_main
@@ -1980,6 +1944,12 @@ tools:
   owner: iuc
   revisions:
   - 189ae8d7e08e
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: plink
+  owner: iuc
+  revisions:
+  - 18be55ee8e08
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gatk4_mutect2
@@ -2529,24 +2499,6 @@ tools:
   - cc0957c46408
   tool_panel_section_label: Genome editing
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: salmon
-  owner: bgruening
-  revisions:
-  - f4d5237a84f6
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: tximport
-  owner: iuc
-  revisions:
-  - 1906cb429215
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: featurecounts
-  owner: iuc
-  revisions:
-  - a37612abf7f9
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: chira_extract
   owner: iuc
   revisions:
@@ -2616,8 +2568,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - 1a052c827e88
   - f242ee103277
+  - 1a052c827e88
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcas
@@ -2855,10 +2807,22 @@ tools:
   - 0db979fead3a
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - a37612abf7f9
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salmonquantmerge
   owner: bgruening
   revisions:
   - 88c07fc4024c
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: salmon
+  owner: bgruening
+  revisions:
+  - f4d5237a84f6
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
@@ -2945,6 +2909,12 @@ tools:
   - e98d4ab5b5bc
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tximport
+  owner: iuc
+  revisions:
+  - 1906cb429215
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: crosscontamination_barcode_filter
   owner: iuc
   revisions:
@@ -3015,8 +2985,8 @@ tools:
 - name: seacr
   owner: iuc
   revisions:
-  - 66b7657f0bd6
   - c8ff96b9fb97
+  - 66b7657f0bd6
   tool_panel_section_label: Epigenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bwameth
@@ -3217,30 +3187,6 @@ tools:
   - 5fca46616675
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: anndata_export
-  owner: iuc
-  revisions:
-  - 83609ef746e9
-  tool_panel_section_label: Single-cell
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: anndata_manipulate
-  owner: iuc
-  revisions:
-  - d1e49c3c0aa2
-  tool_panel_section_label: Single-cell
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: anndata_import
-  owner: iuc
-  revisions:
-  - 13cf83ced60c
-  tool_panel_section_label: Single-cell
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: anndata_inspect
-  owner: iuc
-  revisions:
-  - 33c0081e16c6
-  tool_panel_section_label: Single-cell
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dropletutils
   owner: iuc
   revisions:
@@ -3251,6 +3197,18 @@ tools:
   owner: iuc
   revisions:
   - 59be31ac9dc3
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_inspect
+  owner: iuc
+  revisions:
+  - 33c0081e16c6
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_import
+  owner: iuc
+  revisions:
+  - 13cf83ced60c
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_remove_confounders
@@ -3361,14 +3319,32 @@ tools:
   - 37a47c4fd84d
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_manipulate
+  owner: iuc
+  revisions:
+  - d1e49c3c0aa2
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_export
+  owner: iuc
+  revisions:
+  - 83609ef746e9
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - a4774b7b2e85
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picard
   owner: devteam
   revisions:
-  - a1f0b3f4b781
   - ab1f60c26526
-  - 7d34178f2812
   - 1cd1cf786389
   - 9ffcddf6f9c0
+  - 7d34178f2812
+  - a1f0b3f4b781
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_coverage
@@ -3596,21 +3572,9 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - 832c20329690
   - dba489bfcd62
+  - 832c20329690
   tool_panel_section_label: EMBOSS
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: ncbi_blast_plus
-  owner: devteam
-  revisions:
-  - cbf3f518b668
-  tool_panel_section_label: NCBI Blast
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: kraken_taxonomy_report
-  owner: iuc
-  revisions:
-  - bfae8da6082c
-  tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: taxonomy_krona_chart
   owner: crs4
@@ -3635,6 +3599,18 @@ tools:
   owner: devteam
   revisions:
   - f03c7ba8d8bc
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - cbf3f518b668
+  tool_panel_section_label: NCBI Blast
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kraken_taxonomy_report
+  owner: iuc
+  revisions:
+  - bfae8da6082c
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken2
@@ -4033,24 +4009,6 @@ tools:
   - bfcd121b99bf
   tool_panel_section_label: MiModD
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: humann2
-  owner: iuc
-  revisions:
-  - cda49fede0c2
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaphlan
-  owner: iuc
-  revisions:
-  - 740fd2d16a28
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: humann
-  owner: iuc
-  revisions:
-  - fc6c328c292f
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lotus2
   owner: earlhaminst
   revisions:
@@ -4073,6 +4031,12 @@ tools:
   owner: iuc
   revisions:
   - d77397f09da1
+  tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: humann2
+  owner: iuc
+  revisions:
+  - cda49fede0c2
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: krona_text
@@ -4457,6 +4421,18 @@ tools:
   owner: iuc
   revisions:
   - bda6012394f7
+  tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: humann
+  owner: iuc
+  revisions:
+  - fc6c328c292f
+  tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaphlan
+  owner: iuc
+  revisions:
+  - 740fd2d16a28
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_contigs
@@ -5215,12 +5191,6 @@ tools:
   - 010296966465
   tool_panel_section_label: Mothur
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: maxquant
-  owner: galaxyp
-  revisions:
-  - 9c52362ae7bb
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pdaug_ml_models
   owner: jay
   revisions:
@@ -5617,6 +5587,12 @@ tools:
   - 8eed818f5d48
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: maxquant
+  owner: galaxyp
+  revisions:
+  - 9c52362ae7bb
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cardinal_quality_report
   owner: galaxyp
   revisions:
@@ -5839,18 +5815,6 @@ tools:
   - 73892ef177e3
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: alphafold2
-  owner: galaxy-australia
-  revisions:
-  - 2891385d6ace
-  tool_panel_section_label: ChemicalToolBox
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: xchem_transfs_scoring
-  owner: bgruening
-  revisions:
-  - f6f9b47d02b6
-  tool_panel_section_label: ChemicalToolBox
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gmx_sim
   owner: chemteam
   revisions:
@@ -5987,6 +5951,18 @@ tools:
   owner: bgruening
   revisions:
   - 2a868592ebcb
+  tool_panel_section_label: ChemicalToolBox
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: alphafold2
+  owner: galaxy-australia
+  revisions:
+  - 2891385d6ace
+  tool_panel_section_label: ChemicalToolBox
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xchem_transfs_scoring
+  owner: bgruening
+  revisions:
+  - f6f9b47d02b6
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plotly_parallel_coordinates_plot
@@ -6394,8 +6370,8 @@ tools:
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
-  - 980917b09eb8
   - e4b5401adcec
+  - 980917b09eb8
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tsne
@@ -6554,18 +6530,6 @@ tools:
   - e005e659ae21
   tool_panel_section_label: Genome Diversity
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: bioimage_inference
-  owner: bgruening
-  revisions:
-  - 9b8fc55cb9eb
-  tool_panel_section_label: Imaging
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: bfconvert
-  owner: imgteam
-  revisions:
-  - 85edbb7a436b
-  tool_panel_section_label: Imaging
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: 2d_filter_segmentation_by_features
   owner: imgteam
   revisions:
@@ -6606,6 +6570,12 @@ tools:
   owner: imgteam
   revisions:
   - 8ad39f493587
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bfconvert
+  owner: imgteam
+  revisions:
+  - 85edbb7a436b
   tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: count_objects
@@ -6758,6 +6728,12 @@ tools:
   - 4626a83601d4
   tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bioimage_inference
+  owner: bgruening
+  revisions:
+  - 9b8fc55cb9eb
+  tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regionalgam_plot_trend
   owner: ecology
   revisions:
@@ -6854,6 +6830,90 @@ tools:
   - 2b95d5c04908
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: basic_illumination
+  owner: perssond
+  revisions:
+  - acc6f509968c
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ashlar
+  owner: perssond
+  revisions:
+  - 33ab2058c6d9
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: coreograph
+  owner: perssond
+  revisions:
+  - ee92746d141a
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mesmer
+  owner: goeckslab
+  revisions:
+  - c60b810d570d
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: quantification
+  owner: perssond
+  revisions:
+  - 3a916c4e9f5f
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rename_tiff_channels
+  owner: goeckslab
+  revisions:
+  - 09e240a12897
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scimap_mcmicro_to_anndata
+  owner: goeckslab
+  revisions:
+  - 8ca435ec19be
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scimap_phenotyping
+  owner: goeckslab
+  revisions:
+  - dcfcad35e847
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vitessce_spatial
+  owner: goeckslab
+  revisions:
+  - 7cc457aa78b1
+  tool_panel_section_label: Spatial Omics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: b2btools_single_sequence
+  owner: iuc
+  revisions:
+  - b694a77ca1e8
+  tool_panel_section_label: Bio2Byte
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: datamash_transpose
+  owner: iuc
+  revisions:
+  - 22c2a1ac7ae3
+  tool_panel_section_label: Join, Subtract and Group
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: datamash_reverse
+  owner: iuc
+  revisions:
+  - 0f1724dd59d2
+  tool_panel_section_label: Join, Subtract and Group
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: datamash_ops
+  owner: iuc
+  revisions:
+  - 562f3c677828
+  tool_panel_section_label: Join, Subtract and Group
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: collection_column_join
+  owner: iuc
+  revisions:
+  - 071084070619
+  tool_panel_section_label: Join, Subtract and Group
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
   revisions:
@@ -6869,66 +6929,12 @@ tools:
 - name: vitessce_spatial
   owner: goeckslab
   revisions:
-  - 7cc457aa78b1
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: scimap_phenotyping
-  owner: goeckslab
-  revisions:
-  - dcfcad35e847
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: scimap_mcmicro_to_anndata
-  owner: goeckslab
-  revisions:
-  - 8ca435ec19be
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: rename_tiff_channels
-  owner: goeckslab
-  revisions:
-  - 09e240a12897
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: quantification
-  owner: perssond
-  revisions:
-  - 3a916c4e9f5f
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: mesmer
-  owner: goeckslab
-  revisions:
-  - c60b810d570d
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: coreograph
-  owner: perssond
-  revisions:
-  - ee92746d141a
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: ashlar
-  owner: perssond
-  revisions:
-  - 33ab2058c6d9
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: basic_illumination
-  owner: perssond
-  revisions:
-  - acc6f509968c
-  tool_panel_section_label: Spatial Omics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vitessce_spatial
-  owner: goeckslab
-  revisions:
   - 4bf852448b5d
   tool_panel_section_label: Run multi-modal single-cell visualization
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: b2btools_single_sequence
+- name: ena_upload
   owner: iuc
   revisions:
-  - b694a77ca1e8
-  tool_panel_section_label: Bio2Byte
+  - '440074098911'
+  tool_panel_section_label: Send Data
   tool_shed_url: toolshed.g2.bx.psu.edu
