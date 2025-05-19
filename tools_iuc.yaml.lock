@@ -521,7 +521,9 @@ tools:
   owner: devteam
   revisions:
   - 02a5f43cd5d1
+  - 191e43b329f6
   - 77b41c89d856
+  - 8979c288aefb
   - e282bc27be9a
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastp
@@ -1013,6 +1015,7 @@ tools:
   owner: devteam
   revisions:
   - 09070cacefd8
+  - 34edfa69c149
   - 529bccd5e4a1
   - d5e9e83cd3d8
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1021,6 +1024,7 @@ tools:
   revisions:
   - 015dc921d814
   - 0b7ec11b3c7c
+  - 229caeddb2df
   - 4bedca26c133
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastx_clipper
@@ -1029,12 +1033,14 @@ tools:
   - 736b8f6ee456
   - 90858c306551
   - b8658f852bc7
+  - c60cf18ec2b0
   - cb1e251cac37
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastx_nucleotides_distribution
   owner: devteam
   revisions:
   - 21796f46e0ba
+  - 751878fa37e5
   - ad116ae3f4d9
   - b6b54ba71bd8
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1054,12 +1060,14 @@ tools:
   revisions:
   - 07497255281e
   - 421f0af4ee95
+  - 72494a86e047
   - 7ce1891db6f5
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fasta_nucleotide_changer
   owner: devteam
   revisions:
   - 091ca73f5804
+  - 90e8c76156a7
   - ec0b5076173a
   - f773e98b26cf
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1068,6 +1076,7 @@ tools:
   revisions:
   - 516b97a23d7e
   - 859422bcb689
+  - e773f1eb16cf
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastqc
   owner: devteam
@@ -1170,6 +1179,7 @@ tools:
 - name: fastx_trimmer
   owner: devteam
   revisions:
+  - 1ea2ae5afb28
   - 377ac2829eac
   - 61b4cedc8934
   - 73194cdd4f57
@@ -1180,17 +1190,20 @@ tools:
   - 0c2907307ba4
   - 177f0621c266
   - 6027ef51ef91
+  - 7566b751e769
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastx_renamer
   owner: devteam
   revisions:
   - 02f8a17a4ebd
+  - 0ffae348abae
   - b29d37ca9e41
   - f984bb114520
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastx_quality_statistics
   owner: devteam
   revisions:
+  - 48c943a0290a
   - 59003d0543cd
   - cc0fd298cc17
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1199,6 +1212,7 @@ tools:
   revisions:
   - 43a7370aa010
   - 64e9a6afdd0c
+  - b1e332a385f1
   - ce9cd02d5b88
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_quality_converter
@@ -1206,11 +1220,13 @@ tools:
   revisions:
   - 045f0e1043f7
   - 54053ea6c77e
+  - 86713dc416ec
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_quality_boxplot
   owner: devteam
   revisions:
   - 3987db70a4b0
+  - 47df89f900a4
   - 7cf5b1d072b5
   - 867ab348287d
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1350,6 +1366,7 @@ tools:
   - 01ac0a5fedc3
   - 2477830927ec
   - 3fe632431b68
+  - 4a196b9c72c2
   - e188dc7a68e6
   tool_panel_section_label: Mapping
 - name: megablast_xml_parser
@@ -1879,6 +1896,7 @@ tools:
   owner: devteam
   revisions:
   - 1b6538ec8b56
+  - 2e0fb4bc860e
   - 63dd26468588
   - 832c20329690
   - dba489bfcd62
@@ -3418,6 +3436,7 @@ tools:
   - 283af2e6130c
   - 2b96ca0b44c0
   - d247213cebfc
+  - ec5e03c0f18e
   tool_panel_section_label: Mothur
 - name: mothur_pcr_seqs
   owner: iuc
@@ -3988,6 +4007,7 @@ tools:
   - 4d8f983cd751
   - 77b91b9bdf52
   - 8983e7a04ba7
+  - a84a73471be7
   - aaa5da8e73a9
   - cb43c5d3acd3
   tool_panel_section_label: Single-cell
@@ -3995,6 +4015,7 @@ tools:
   owner: iuc
   revisions:
   - 0a6de5e65992
+  - 5813f9920877
   - 5b3c1679d29b
   - 64388be6d510
   - a97abb8cd15b
@@ -4017,6 +4038,7 @@ tools:
   revisions:
   - 146ae5d70b47
   - 3bcd5445cd7a
+  - 4766556db52c
   - 4bda4412b8c2
   - ab55fe8030b6
   - d844935c906c
@@ -4026,6 +4048,7 @@ tools:
   revisions:
   - 397d2c97af05
   - 40812a65a78b
+  - 5a5468c0d26f
   - 62acdd96d4a0
   - aa0c474463c2
   - dbbe1ea8ecb1
@@ -4035,6 +4058,7 @@ tools:
   owner: iuc
   revisions:
   - 00305dc2dd6f
+  - 458d4ab0f894
   - bf2017df9837
   - c5541bfb8feb
   - c65fce500915
@@ -4275,6 +4299,7 @@ tools:
   - 59be31ac9dc3
   - 81a28c2705b0
   - a7b951572609
+  - c822c5c1feef
   - db575b4c8b22
   - e98619de2776
   tool_panel_section_label: Single-cell
