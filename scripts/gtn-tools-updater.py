@@ -60,13 +60,34 @@ with open(output_file, "w") as f:
             toolpath = f"{topic_path}/tutorials/{tutorial}/tools.yaml"
             workflowpath = f"{topic_path}/tutorials/{tutorial}/workflows"
 
+            # if os.path.exists(workflowpath) and glob.glob(f"{workflowpath}/*.ga"):
+            #     for nr, workflow in enumerate(glob.glob(f"{workflowpath}/*.ga")):
+            #         os.system(f'workflow-to-tools -w "{workflow}" -o "{workflowpath}/temp_tool_{nr}.yaml"')
+            #         worktools = yaml.safe_load(open(f"{workflowpath}/temp_tool_{nr}.yaml"))
+            #         baseyaml = toolyamltodict(worktools, baseyaml, topic)
+            #         os.remove(f"{workflowpath}/temp_tool_{nr}.yaml")
+
             if os.path.exists(workflowpath) and glob.glob(f"{workflowpath}/*.ga"):
                 for nr, workflow in enumerate(glob.glob(f"{workflowpath}/*.ga")):
-                    os.system(f'workflow-to-tools -w "{workflow}" -o "{workflowpath}/temp_tool_{nr}.yaml"')
-                    worktools = yaml.safe_load(open(f"{workflowpath}/temp_tool_{nr}.yaml"))
-                    baseyaml = toolyamltodict(worktools, baseyaml, topic)
-                    os.remove(f"{workflowpath}/temp_tool_{nr}.yaml")
+                    temp_tool_file = f"{workflowpath}/temp_tool_{nr}.yaml"
 
+                    #using subprocess to call the external command as command failed previously on workflows with unexepcted characters in them
+                    subprocess.run(
+                        ["workflow-to-tools", "-w", workflow, "-o", temp_tool_file],
+                        check=True  # Raises an exception if the command fails
+                    )
+                    #try-excepting to avoid ction failure
+                    try:
+                        with open(temp_tool_file, "r") as file:
+                            worktools = yaml.safe_load(file)
+                        baseyaml = toolyamltodict(worktools, baseyaml, topic)
+                    except FileNotFoundError:
+                        print(f"Warning: Temporary tool file {temp_tool_file} not found.")
+                    except yaml.YAMLError as e:
+                        print(f"Error parsing YAML file {temp_tool_file}: {e}")
+                    finally:
+                        if os.path.exists(temp_tool_file):
+                            os.remove(temp_tool_file)
 
     # Dump newly generated dictionary to yaml 
     yaml.dump(baseyaml, f, default_flow_style=False)
