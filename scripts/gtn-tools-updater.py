@@ -6,6 +6,7 @@ import glob
 import yaml
 import os
 import sys
+import subprocess
 
 # Path to output yaml file
 output_file = sys.argv[2]
