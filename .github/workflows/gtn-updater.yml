@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: master
       - name: Install dependencies
         run: pip install ephemeris
       - name: Clone GTN repository
@@ -22,7 +24,7 @@ jobs:
         with:
           repository: galaxyproject/training-material
           path: training-material
-          ref: master
+          ref: main
       - name: Run updater script
         run: python3 scripts/gtn-tools-updater.py ${GITHUB_WORKSPACE}/training-material/ ${GITHUB_WORKSPACE}/GTN_tutorials_tools.yaml ${GITHUB_WORKSPACE}/tools_iuc.yaml.lock ${GITHUB_WORKSPACE}/section_mapping.yml
       - name: Deleting GTN repository
