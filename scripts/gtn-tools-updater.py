@@ -62,7 +62,7 @@ with open(output_file, "w") as f:
 
             if os.path.exists(workflowpath) and glob.glob(f"{workflowpath}/*.ga"):
                 for nr, workflow in enumerate(glob.glob(f"{workflowpath}/*.ga")):
-                    os.system(f"workflow-to-tools -w {workflow} -o {workflowpath}/temp_tool_{nr}.yaml")
+                    os.system(f'workflow-to-tools -w "{workflow}" -o "{workflowpath}/temp_tool_{nr}.yaml"')
                     worktools = yaml.safe_load(open(f"{workflowpath}/temp_tool_{nr}.yaml"))
                     baseyaml = toolyamltodict(worktools, baseyaml, topic)
                     os.remove(f"{workflowpath}/temp_tool_{nr}.yaml")
