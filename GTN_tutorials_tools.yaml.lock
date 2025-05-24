@@ -1123,11 +1123,13 @@ tools:
   owner: iuc
   revisions:
   - 4850f0d15f01
+  - 6140163233a5
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: proteinortho_grab_proteins
   owner: iuc
   revisions:
+  - 36dffb2bc194
   - d348c3a151d9
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1570,6 +1572,7 @@ tools:
   owner: iuc
   revisions:
   - c24014d80001
+  - faef2b1622a3
   tool_panel_section_label: Convert Formats
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ena_upload
@@ -1599,6 +1602,7 @@ tools:
 - name: pangolin
   owner: iuc
   revisions:
+  - 8ad84c5753ea
   - b6abccb1f25b
   tool_panel_section_label: Phylogenetics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1762,6 +1766,7 @@ tools:
   owner: devteam
   revisions:
   - 33b3f3688db4
+  - 69c10b56f46d
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: split_file_on_column
@@ -2544,6 +2549,7 @@ tools:
   owner: iuc
   revisions:
   - ba4dfbdc1295
+  - c6676a890f50
   - d77397f09da1
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2552,6 +2558,7 @@ tools:
   revisions:
   - 6aad8ca3918b
   - a1747df2bc21
+  - e66ab198ec15
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sortmerna
@@ -2730,6 +2737,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - bc939965ce41
   - e005e659ae21
   tool_panel_section_label: Genome Diversity
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4635,6 +4643,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 4bdc111b2470
   - fa24bf0598f4
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4753,6 +4762,7 @@ tools:
   owner: iuc
   revisions:
   - a57606054bd7
+  - cf8ffc79db67
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gemini_annotate
