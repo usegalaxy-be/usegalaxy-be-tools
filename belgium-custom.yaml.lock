@@ -499,6 +499,7 @@ tools:
   owner: iuc
   revisions:
   - 238981ed43b7
+  - f7ad5e69aa60
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_remove_by_header
@@ -536,12 +537,14 @@ tools:
   owner: devteam
   revisions:
   - 0145969324c4
+  - 0427ca314f3d
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: complement
   owner: devteam
   revisions:
   - 38c8bb402872
+  - 8b6c6ec55c6e
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: get_flanks
@@ -554,11 +557,13 @@ tools:
   owner: devteam
   revisions:
   - 05696474ee89
+  - a126ec6ea0e4
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: join
   owner: devteam
   revisions:
+  - 718d04143c31
   - a10f49d9218a
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -572,6 +577,7 @@ tools:
   owner: devteam
   revisions:
   - 33b3f3688db4
+  - 69c10b56f46d
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: merge
@@ -590,6 +596,7 @@ tools:
   owner: devteam
   revisions:
   - 4ef9819dc7fb
+  - e3363e087468
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: jq
@@ -671,6 +678,7 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 3ddd99c7efee
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphicsmagick_image_montage
@@ -696,6 +704,7 @@ tools:
   owner: iuc
   revisions:
   - 020c78e91cc5
+  - e25ee6bac872
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gfa_to_fa
@@ -709,6 +718,7 @@ tools:
   owner: iuc
   revisions:
   - c24014d80001
+  - faef2b1622a3
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gtftobed12
@@ -1011,6 +1021,7 @@ tools:
   revisions:
   - b8658f852bc7
   - c60cf18ec2b0
+  - cb1e251cac37
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastx_barcode_splitter
@@ -1030,6 +1041,7 @@ tools:
 - name: flash
   owner: iuc
   revisions:
+  - 01a4ebf1f237
   - a27654fc4270
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -1139,6 +1151,7 @@ tools:
   owner: iuc
   revisions:
   - 8d3aff8ba8ad
+  - c1a33f603da2
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: qualimap_bamqc
@@ -1490,6 +1503,7 @@ tools:
   owner: iuc
   revisions:
   - 95e4757d8da7
+  - bb51c75a0157
   tool_panel_section_label: Nanopore
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flair_correct
@@ -1530,6 +1544,7 @@ tools:
   owner: devteam
   revisions:
   - 35a89f8cc96e
+  - 73ca13a7ec5f
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: funannotate_predict
@@ -1743,6 +1758,7 @@ tools:
   owner: iuc
   revisions:
   - 239ce9f24386
+  - b982a9ea939c
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tetyper
@@ -2405,6 +2421,7 @@ tools:
   owner: iuc
   revisions:
   - 95ec8f978762
+  - ee62774bb5bd
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vg_deconstruct
@@ -2555,6 +2572,7 @@ tools:
 - name: strelka_germline
   owner: iuc
   revisions:
+  - 19481653a22f
   - 1fbe84e8a740
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2689,6 +2707,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 4bdc111b2470
   - fa24bf0598f4
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2725,6 +2744,7 @@ tools:
 - name: vcfsort
   owner: devteam
   revisions:
+  - ee60203e68d9
   - f0580efedada
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2796,17 +2816,20 @@ tools:
   owner: iuc
   revisions:
   - 0bc56f894766
+  - 9f8dbbbc0267
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_somatic
   owner: iuc
   revisions:
   - a57606054bd7
+  - cf8ffc79db67
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_mpileup
   owner: iuc
   revisions:
+  - db94eadb92c1
   - e3f170cc4f95
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2863,6 +2886,7 @@ tools:
   owner: iuc
   revisions:
   - 2e497a770bca
+  - 5fab4f81391d
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ococo
@@ -2932,6 +2956,7 @@ tools:
   owner: iuc
   revisions:
   - 7346619ad005
+  - a227c05e0a55
   tool_panel_section_label: Genome editing
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: smap
@@ -3140,6 +3165,7 @@ tools:
   owner: iuc
   revisions:
   - 3ffca09599ca
+  - a3b3ec00bf8f
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaquast
@@ -3343,6 +3369,7 @@ tools:
   owner: iuc
   revisions:
   - d3ebbf39b1c5
+  - de7795890bc5
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_pseudo
@@ -3604,6 +3631,7 @@ tools:
 - name: pangolin
   owner: iuc
   revisions:
+  - 8ad84c5753ea
   - b6abccb1f25b
   tool_panel_section_label: Phylogenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4591,11 +4619,13 @@ tools:
   owner: iuc
   revisions:
   - 6aad8ca3918b
+  - e66ab198ec15
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_renorm_table
   owner: iuc
   revisions:
+  - c6676a890f50
   - d77397f09da1
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4627,23 +4657,27 @@ tools:
   owner: iuc
   revisions:
   - 7f208f1eb64f
+  - cad93abecac9
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_strain_profiler
   owner: iuc
   revisions:
+  - 50f98eb4854d
   - df0f0e817dca
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_split_table
   owner: iuc
   revisions:
+  - 7e3fdbe9b6a2
   - 8b6486103663
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_split_stratified_table
   owner: iuc
   revisions:
+  - 93adca140c9a
   - d4d2e6e286a4
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4651,35 +4685,41 @@ tools:
   owner: iuc
   revisions:
   - ac0528dec32b
+  - de70d23958de
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_rename_table
   owner: iuc
   revisions:
   - 1e64b34515d9
+  - 639640ad2450
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_reduce_table
   owner: iuc
   revisions:
   - 1c802bbbed99
+  - e0b670a43758
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_join_tables
   owner: iuc
   revisions:
   - 12103efd0e34
+  - d05ac93eabf3
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_genefamilies_genus_level
   owner: iuc
   revisions:
+  - 654548ae1357
   - 6d364c65c946
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: humann2_barplot
   owner: iuc
   revisions:
+  - 09c1bbec1032
   - fc30f1dec9b9
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4687,6 +4727,7 @@ tools:
   owner: iuc
   revisions:
   - 845c14a229d9
+  - e0c79dd40625
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: last
@@ -5364,6 +5405,7 @@ tools:
 - name: mothur_deunique_tree
   owner: iuc
   revisions:
+  - 283af2e6130c
   - d247213cebfc
   - ec5e03c0f18e
   tool_panel_section_label: Mothur
@@ -6303,11 +6345,13 @@ tools:
   owner: iuc
   revisions:
   - 2e0e9c418a85
+  - 387d3633cade
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: proteinortho_grab_proteins
   owner: iuc
   revisions:
+  - 36dffb2bc194
   - d348c3a151d9
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6315,6 +6359,7 @@ tools:
   owner: iuc
   revisions:
   - 4850f0d15f01
+  - 6140163233a5
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: msconvert
@@ -7129,6 +7174,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - bc939965ce41
   - e005e659ae21
   tool_panel_section_label: Genome Diversity
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7384,6 +7430,7 @@ tools:
   owner: iuc
   revisions:
   - 1f0a3e4497d4
+  - 2dfb2fba4081
   tool_panel_section_label: Extract Features
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: length_and_gc_content
@@ -7404,12 +7451,14 @@ tools:
   owner: iuc
   revisions:
   - 3d18f8c3c0f6
+  - 9f4805c61d29
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_trim
   owner: iuc
   revisions:
   - 5d6ed46cc101
+  - c9ef01b1cfba
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_getmasked
@@ -7421,12 +7470,14 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
+  - 196d126cd016
   - 78bbd17d0703
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ivar_variants
   owner: iuc
   revisions:
+  - 41c7ba073a9b
   - c5c9f02b6167
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7434,6 +7485,7 @@ tools:
   owner: iuc
   revisions:
   - 2b95d5c04908
+  - d328d99d7396
   tool_panel_section_label: Virology
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vitessce_spatial
