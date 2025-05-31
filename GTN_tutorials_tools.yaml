@@ -576,8 +576,8 @@ tools:
 - name: gfastats
   owner: bgruening
   revisions:
-  - 3ef480892a9f
   - 5799092ffdff
+  - 3ef480892a9f
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: diamond
@@ -1591,8 +1591,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 562f3c677828
   - 746e8e4bf929
+  - 562f3c677828
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -1616,8 +1616,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - f46f0e4f75c4
   - ddf54b12c295
+  - f46f0e4f75c4
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
@@ -1899,8 +1899,8 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
-  - 209b7c5ee9d7
   - ae8c4b2488e7
+  - 209b7c5ee9d7
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: merge_cols
@@ -2476,8 +2476,8 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - fe5b4cb8356c
   - a1a923cd89e8
+  - fe5b4cb8356c
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_compute_matrix
@@ -2831,8 +2831,8 @@ tools:
 - name: snippy
   owner: iuc
   revisions:
-  - c9a8ef2aa380
   - d220115f882b
+  - c9a8ef2aa380
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: tb_variant_filter
@@ -3253,8 +3253,8 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - 02026300aa45
   - 6595517c2dd8
+  - 02026300aa45
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: eggnog_mapper
@@ -3368,8 +3368,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 74a8bef53a00
   - 9ff72e942410
+  - 74a8bef53a00
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
@@ -4335,8 +4335,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 746e8e4bf929
   - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -5099,8 +5099,8 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
-  - b9e31c5c01c7
   - 21e491ad532a
+  - b9e31c5c01c7
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: collection_column_join
@@ -5460,8 +5460,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 3ec27b4cee7c
   - a6ff76e057fd
+  - 3ec27b4cee7c
   tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -7622,8 +7622,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mz_to_sqlite
@@ -7821,8 +7821,8 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
-  - 75b3b3d0adbf
   - 4953dcd7dd39
+  - 75b3b3d0adbf
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flashlfq
@@ -9364,8 +9364,8 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
-  - d86cb2ce311b
   - 3b5ef3b00cdd
+  - d86cb2ce311b
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot
@@ -9959,8 +9959,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 86755160afbf
   - fbf99087e067
+  - 86755160afbf
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_construct_eset
@@ -11080,6 +11080,66 @@ tools:
   owner: rnateam
   revisions:
   - 7c7a2a381dfe
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: deseq2
+  owner: iuc
+  revisions:
+  - 9a882d108833
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: length_and_gc_content
+  owner: iuc
+  revisions:
+  - e3ba567abdf5
+  tool_panel_section_label: Extract Features
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: table_compute
+  owner: iuc
+  revisions:
+  - 56a8da1f2243
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: volcanoplot
+  owner: iuc
+  revisions:
+  - 3af838dc0637
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: column_maker
+  owner: devteam
+  revisions:
+  - aff5135563c6
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: deg_annotate
+  owner: iuc
+  revisions:
+  - e98d4ab5b5bc
+  tool_panel_section_label: RNA Analysis
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: goseq
+  owner: iuc
+  revisions:
+  - 602de62d995b
+  tool_panel_section_label: Annotation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 6073bb457ec0
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - 48b42ee61bc5
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: multivariate
+  owner: ethevenot
+  revisions:
+  - 5526f8258e8a
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: volcanoplot
