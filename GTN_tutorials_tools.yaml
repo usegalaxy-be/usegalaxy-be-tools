@@ -1591,8 +1591,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 746e8e4bf929
   - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -1616,8 +1616,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
@@ -2208,6 +2208,24 @@ tools:
   revisions:
   - 1ac6ee298657
   tool_panel_section_label: Species abundance
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: fastp
+  owner: iuc
+  revisions:
+  - 25c59c0ceb55
+  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: fastq_to_fasta
+  owner: devteam
+  revisions:
+  - 191e43b329f6
+  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - fc35ffc8c548
+  tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: prodigal
   owner: iuc
@@ -3253,8 +3271,8 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - 6595517c2dd8
   - 02026300aa45
+  - 6595517c2dd8
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: eggnog_mapper
@@ -4360,8 +4378,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - f46f0e4f75c4
   - ddf54b12c295
+  - f46f0e4f75c4
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: datamash_ops
@@ -5460,8 +5478,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -7399,8 +7417,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -7821,8 +7839,8 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
-  - 4953dcd7dd39
   - 75b3b3d0adbf
+  - 4953dcd7dd39
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flashlfq
@@ -9364,8 +9382,8 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
-  - 3b5ef3b00cdd
   - d86cb2ce311b
+  - 3b5ef3b00cdd
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot
@@ -9959,8 +9977,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - fbf99087e067
   - 86755160afbf
+  - fbf99087e067
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_construct_eset
@@ -9984,8 +10002,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - 86755160afbf
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: collapse_collections
@@ -10033,8 +10051,8 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - 6595517c2dd8
   - aff5135563c6
+  - 6595517c2dd8
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: raceid_filtnormconf
@@ -11271,8 +11289,8 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
-  - abfd8a6544d7
   - f7e2f1eb3a16
+  - abfd8a6544d7
   tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pygenometracks
