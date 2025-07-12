@@ -3022,6 +3022,7 @@ tools:
 - name: tmhmm_and_signalp
   owner: peterjc
   revisions:
+  - e1996f0f4e85
   - e6cc27d182a8
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
