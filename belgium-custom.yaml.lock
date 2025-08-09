@@ -7574,3 +7574,9 @@ tools:
   - be5a0b2d8bd7
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: instagraal
+  owner: bgruening
+  revisions:
+  - d1be552c6034
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
