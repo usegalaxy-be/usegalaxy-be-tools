@@ -1032,6 +1032,7 @@ tools:
   owner: imgteam
   revisions:
   - 38eec75fbe9b
+  - 57f0914ddb7b
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastq_groomer
