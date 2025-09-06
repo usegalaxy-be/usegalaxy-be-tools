@@ -1325,6 +1325,7 @@ tools:
   - 850f3679b9b4
   - b0f2be869d6d
   - b9e04854e2bb
+  - de21b616f03a
   tool_panel_section_label: Mapping
 - name: rna_starsolo
   owner: iuc
