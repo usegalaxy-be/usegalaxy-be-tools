@@ -2202,6 +2202,7 @@ tools:
   revisions:
   - 53255f6eecfc
   - b0f2be869d6d
+  - de21b616f03a
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bowtie2
