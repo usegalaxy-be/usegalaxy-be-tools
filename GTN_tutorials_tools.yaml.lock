@@ -63,6 +63,7 @@ tools:
   revisions:
   - 276f5d8712d5
   - 3ee0ef312022
+  - 643e0ff70be5
   - 8d4f03b5fe9d
   - cb8dfd28c16f
   tool_panel_section_label: Assembly
@@ -163,6 +164,7 @@ tools:
   - 3f4d6399997b
   - 53c0b7a1a0c3
   - 66367287b4e6
+  - 6945cd53bd2d
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bowtie2
@@ -336,6 +338,7 @@ tools:
 - name: bwa_mem2
   owner: iuc
   revisions:
+  - af91699b8d4c
   - b4a22d90cce9
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -372,6 +375,7 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - 1dfc975b48d5
   - 3fe632431b68
   - 4a196b9c72c2
   - 4f774c1e6049
@@ -1582,6 +1586,7 @@ tools:
   - '440074098911'
   - 5cb6146337d8
   - 6f6537780379
+  - 7ca4ed416391
   - 89329e428dc6
   - 9e2df763086c
   tool_panel_section_label: Send Data
@@ -3076,6 +3081,7 @@ tools:
 - name: proteore_venn_diagram
   owner: proteore
   revisions:
+  - 958eb2ea02aa
   - 98b7912a9ceb
   - d1fd04dcb13a
   tool_panel_section_label: Proteomics
