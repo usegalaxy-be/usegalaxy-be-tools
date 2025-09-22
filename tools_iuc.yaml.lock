@@ -1365,6 +1365,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 1dfc975b48d5
   - 2477830927ec
   - 3fe632431b68
   - 4a196b9c72c2
@@ -1402,6 +1403,7 @@ tools:
   - 53c0b7a1a0c3
   - 5cc34c3f440d
   - 66367287b4e6
+  - 6945cd53bd2d
   tool_panel_section_label: Mapping
 - name: migmap
   owner: iuc
@@ -4094,6 +4096,7 @@ tools:
   - '440074098911'
   - 5cb6146337d8
   - 6f6537780379
+  - 7ca4ed416391
   - 89329e428dc6
   - d147d6455873
   tool_panel_section_label: Send Data
@@ -6576,6 +6579,7 @@ tools:
   owner: iuc
   revisions:
   - 33e8ed5a4601
+  - af91699b8d4c
   - b4a22d90cce9
   - bfaa0d22c2e4
   tool_panel_section_label: Metagenomic Analysis
