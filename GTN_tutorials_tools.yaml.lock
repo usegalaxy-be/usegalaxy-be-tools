@@ -2263,6 +2263,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 28ffaaa5739f
   - 3cf310697624
   - 6153e8ada1ee
   - 9ec469ff191a
