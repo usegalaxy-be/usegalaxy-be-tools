@@ -2041,6 +2041,7 @@ tools:
   owner: bgruening
   revisions:
   - 99ddbf037d98
+  - bfab6f5b449d
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: velvetoptimiser
@@ -6373,6 +6374,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 28ffaaa5739f
   - 3cf310697624
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7617,4 +7619,94 @@ tools:
   revisions:
   - 02b0e0f78d8a
   tool_panel_section_label: Bio2Byte
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_aa_property_based_peptide_generation
+  owner: jay
+  revisions:
+  - fadecf370cd1
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_data_plotting
+  owner: jay
+  revisions:
+  - 901f0650db35
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_cd_spectral_analysis
+  owner: jay
+  revisions:
+  - 3ca5306a9283
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_word_vector_descriptor
+  owner: jay
+  revisions:
+  - a2cc37b33287
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_global_descriptors
+  owner: jay
+  revisions:
+  - e2c03e57da38
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_word_vector_model
+  owner: jay
+  revisions:
+  - bc1744905ef4
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_sequence_based_peptide_generation
+  owner: jay
+  revisions:
+  - d291d794f264
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_aa_property_based_peptide_descriptor
+  owner: jay
+  revisions:
+  - 7a72bbd3d2f2
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_core_descriptors
+  owner: jay
+  revisions:
+  - c8d90efc885d
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_ngrams
+  owner: jay
+  revisions:
+  - 755dd6018caa
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_core_functions
+  owner: jay
+  revisions:
+  - 4add768cb3d2
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_structure_builder
+  owner: jay
+  revisions:
+  - a6e672b35175
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_peptide_length_distribution
+  owner: jay
+  revisions:
+  - dbd0c523c308
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_uversky_plot
+  owner: jay
+  revisions:
+  - 5c08dad483d9
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pdaug_sequence_similarity_network
+  owner: jay
+  revisions:
+  - c4bd95cae91f
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
