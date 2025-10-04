@@ -20,8 +20,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - f5ea3ce9b9b0
   - 8848455c0270
+  - f5ea3ce9b9b0
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -100,8 +100,8 @@ tools:
   owner: bgruening
   revisions:
   - a6f147a050a2
-  - ddf54b12c295
   - 9ff72e942410
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: unique
@@ -935,8 +935,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - e2c1b62e1db1
   - 9676127a1ed2
+  - e2c1b62e1db1
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamtools
@@ -978,16 +978,16 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 64e2edfe7a2c
   - 2892111d91f8
+  - 64e2edfe7a2c
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bedtools
   owner: iuc
   revisions:
-  - 64e2edfe7a2c
-  - b8348686a0b9
   - 87ee588b3d45
+  - b8348686a0b9
+  - 64e2edfe7a2c
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanocompore_sampcomp
@@ -1353,8 +1353,8 @@ tools:
 - name: dgidb_annotator
   owner: devteam
   revisions:
-  - 792f3cb0eff4
   - c5bb987015c5
+  - 792f3cb0eff4
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: exonerate
@@ -1912,8 +1912,8 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 8c191acde702
   - 120b7b35e442
+  - 8c191acde702
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_stats
@@ -2255,8 +2255,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - bdd0cb7fbedf
   - e5e78d1e09a6
+  - bdd0cb7fbedf
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
@@ -2856,8 +2856,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - 1a052c827e88
   - f242ee103277
+  - 1a052c827e88
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcas
@@ -3393,8 +3393,8 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - 3f254c5ced1d
   - ab1f60c26526
+  - 3f254c5ced1d
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_compare
@@ -3623,9 +3623,9 @@ tools:
   owner: devteam
   revisions:
   - dba489bfcd62
+  - 63dd26468588
   - 2e0fb4bc860e
   - 832c20329690
-  - 63dd26468588
   tool_panel_section_label: EMBOSS Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -3649,8 +3649,8 @@ tools:
 - name: kraken_report
   owner: devteam
   revisions:
-  - 1c677354ab18
   - 6c09bed3444f
+  - 1c677354ab18
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken
@@ -4448,8 +4448,8 @@ tools:
 - name: vsearch
   owner: iuc
   revisions:
-  - b3c7199d8786
   - 9495df9dd6ef
+  - b3c7199d8786
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
