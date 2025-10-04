@@ -1620,8 +1620,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 746e8e4bf929
   - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -1785,8 +1785,8 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
-  - ae8c4b2488e7
   - 209b7c5ee9d7
+  - ae8c4b2488e7
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: merge_cols
@@ -2981,8 +2981,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trimmomatic
@@ -2994,8 +2994,8 @@ tools:
 - name: snippy
   owner: iuc
   revisions:
-  - d220115f882b
   - c9a8ef2aa380
+  - d220115f882b
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: tb_variant_filter
@@ -5381,8 +5381,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 86755160afbf
   - 6073bb457ec0
+  - 86755160afbf
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: infernal
@@ -5910,8 +5910,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -7280,8 +7280,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -10103,8 +10103,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - 86755160afbf
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: table_compute
@@ -12263,8 +12263,8 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
-  - 31c42a2c02d3
   - 5e33b465d8d5
+  - 31c42a2c02d3
   tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: filter_by_fasta_ids
