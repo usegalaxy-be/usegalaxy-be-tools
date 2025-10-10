@@ -4523,11 +4523,6 @@ tools:
   - 3556001ff2db
   - 3f1dbd2c59bf
   tool_panel_section_label: Variant Calling
-- name: mixcr_analyze
-  owner: iuc
-  revisions:
-  - d38cfb922f95
-  tool_panel_section_label: Variant Calling
 - name: gatk4_mutect2
   owner: iuc
   revisions:
