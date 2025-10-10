@@ -1935,9 +1935,6 @@ tools:
 - name: variant_analyzer
   owner: iuc
   tool_panel_section_label: Variant Calling
-- name: mixcr_analyze
-  owner: iuc
-  tool_panel_section_label: Variant Calling
 - name: gatk4_mutect2
   owner: iuc
   tool_panel_section_label: Variant Calling
