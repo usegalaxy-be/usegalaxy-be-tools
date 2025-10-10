@@ -2451,12 +2451,6 @@ tools:
   - e6ef29001647
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: mixcr_analyze
-  owner: iuc
-  revisions:
-  - d38cfb922f95
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: variant_analyzer
   owner: iuc
   revisions:
