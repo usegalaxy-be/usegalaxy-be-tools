@@ -3135,11 +3135,13 @@ tools:
   - 190aa29a6fbb
   - 2df11ea23f10
   - 378a786e9236
+  - 7160bfd77aef
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pdaug_merge_dataframes
   owner: jay
   revisions:
+  - 2dbfb42d34bc
   - 5bb52d4bf172
   - 757ed293de85
   - b5a9f541c6f8
@@ -3251,6 +3253,7 @@ tools:
 - name: pdaug_tsvtofasta
   owner: jay
   revisions:
+  - 03f954dd8360
   - e9fa3b6346e3
   - fc5508bfa640
   tool_panel_section_label: Proteomics
@@ -3265,6 +3268,7 @@ tools:
 - name: pdaug_fishers_plot
   owner: jay
   revisions:
+  - 2fe62dfbdc9d
   - 660b58f32b55
   - 7a9f6ac448bc
   tool_panel_section_label: Proteomics

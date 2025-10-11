@@ -6074,6 +6074,7 @@ tools:
 - name: pdaug_merge_dataframes
   owner: jay
   revisions:
+  - 2dbfb42d34bc
   - 757ed293de85
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6081,11 +6082,13 @@ tools:
   owner: jay
   revisions:
   - 190aa29a6fbb
+  - 7160bfd77aef
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pdaug_fishers_plot
   owner: jay
   revisions:
+  - 2fe62dfbdc9d
   - 660b58f32b55
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6104,6 +6107,7 @@ tools:
 - name: pdaug_tsvtofasta
   owner: jay
   revisions:
+  - 03f954dd8360
   - fc5508bfa640
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7587,6 +7591,7 @@ tools:
 - name: ena_webin_cli
   owner: iuc
   revisions:
+  - 93fac0ae859f
   - c9f87770ba8f
   tool_panel_section_label: Send Data
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7703,4 +7708,10 @@ tools:
   revisions:
   - c4bd95cae91f
   tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: constava
+  owner: iuc
+  revisions:
+  - 5975e7bd2cde
+  tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
