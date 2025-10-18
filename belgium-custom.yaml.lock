@@ -2120,6 +2120,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 822954de3f59
   - b8c00ce5dfa0
   - d5887ace0dd4
   tool_panel_section_label: Assembly
