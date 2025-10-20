@@ -453,6 +453,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 822954de3f59
   - b8c00ce5dfa0
   - b8d633fbf5f5
   - d5887ace0dd4
