@@ -37,6 +37,7 @@ tools:
   - b2f1f75d49c4
   - bf675f34b056
   - df99138d2776
+  - e4dd4c0622f6
   - f7985e0479b9
   tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -44,11 +45,13 @@ tools:
   owner: devteam
   revisions:
   - 5da9a0e2fb2d
+  - e0e4fc474b07
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: quast
   owner: iuc
   revisions:
+  - 1b1cf0c96501
   - 3061c8b029e5
   - 59db8ea8c845
   - 675488238c96
@@ -85,12 +88,14 @@ tools:
   - 602fb8e63aa7
   - 94170eee0ad8
   - bb935709506a
+  - c5a90fa4b8dd
   - e5c372c91e46
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_fastx
   owner: iuc
   revisions:
+  - 9038311ed624
   - a8d69aee190e
   - b906586a6596
   tool_panel_section_label: SAM/BAM
@@ -109,6 +114,7 @@ tools:
   - 3da72230c066
   - 4b494533146a
   - 58c8ece95b53
+  - 8511b6d85fc7
   - a019807f4e67
   - a09586d5149a
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -139,6 +145,7 @@ tools:
   - 1d8fe9bc4cb0
   - 65b93b623c77
   - dbf9c561ef29
+  - f875da9d433c
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_filter_by_length
@@ -151,6 +158,7 @@ tools:
 - name: nanoplot
   owner: iuc
   revisions:
+  - 025139097795
   - 2a9afed42353
   - 645159bcee2d
   - edbb6c5028f5
@@ -177,6 +185,7 @@ tools:
   - 8ccbdbe9a695
   - d5ceb9f3c25b
   - f6877ad76b00
+  - f76cbb84d67f
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_view
@@ -184,6 +193,7 @@ tools:
   revisions:
   - 0dbf49c414ae
   - 32dc5f781059
+  - 48bbbcb692ce
   - 5826298f6a73
   - b01db2684fa5
   - b72793637686
@@ -194,6 +204,7 @@ tools:
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 1ed8ed887035
   - 24c5d43cb545
   - 3a0efe14891f
   - 541082d03bef
@@ -229,6 +240,7 @@ tools:
   - 4e5056fefd88
   - 5915ea1ec9b1
   - 660cffd8d92a
+  - 80766b36005d
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: purge_dups
@@ -291,6 +303,7 @@ tools:
   - 74a8bef53a00
   - 9ff72e942410
   - a6f147a050a2
+  - c41d78ae5fee
   - d698c222f354
   - ddf54b12c295
   - f46f0e4f75c4
@@ -354,6 +367,7 @@ tools:
 - name: racon
   owner: bgruening
   revisions:
+  - 78c533842eeb
   - a199cd7ac344
   - aa39b19ca11e
   tool_panel_section_label: Assembly
@@ -408,6 +422,7 @@ tools:
 - name: filtlong
   owner: iuc
   revisions:
+  - 0d9cd7b02f14
   - 1f296803dfa3
   - 8880fb74ef56
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -448,6 +463,7 @@ tools:
   owner: simon-gladman
   revisions:
   - 37d88f41c810
+  - 82398ba86ba7
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: spades
@@ -464,6 +480,7 @@ tools:
   revisions:
   - 2ecf5a570907
   - 99ecfdafc64f
+  - f192c2fbe13f
   - fd128c111ab0
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -499,6 +516,7 @@ tools:
   owner: devteam
   revisions:
   - 4d343c1f606b
+  - 8eb649e67987
   - 970e6333f07e
   - befc9dad4ca8
   tool_panel_section_label: SAM Tools
@@ -653,6 +671,7 @@ tools:
   revisions:
   - 190b3bcc00aa
   - 39881709807e
+  - ab55af10f1ff
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cds_essential_variability
@@ -791,6 +810,7 @@ tools:
   owner: bgruening
   revisions:
   - 0046692724f9
+  - 2dae863c8f42
   - 6cbe2f30c2d7
   - e77b954f0da5
   tool_panel_section_label: Collection Operations
@@ -891,6 +911,7 @@ tools:
   owner: devteam
   revisions:
   - 3c661e57a88f
+  - 69aa7277b44c
   - 88eedb4abea0
   - f57df915aa10
   tool_panel_section_label: SAM Tools
@@ -1018,6 +1039,7 @@ tools:
 - name: spocc_occ
   owner: ecology
   revisions:
+  - f64b3c1a80a6
   - f9d76a46799a
   tool_panel_section_label: Get Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1036,6 +1058,7 @@ tools:
 - name: unzip
   owner: imgteam
   revisions:
+  - 28d6129b2901
   - 38eec75fbe9b
   - 57f0914ddb7b
   tool_panel_section_label: Species abundance
@@ -1115,6 +1138,7 @@ tools:
   owner: iuc
   revisions:
   - 2bba2ff070d9
+  - 3cc3ef448854
   - 4b96ced19f75
   - 51b6ee65ef7f
   tool_panel_section_label: Annotation
@@ -1123,6 +1147,7 @@ tools:
   owner: bgruening
   revisions:
   - 04861c9bbf45
+  - 44dc09edd97b
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: proteinortho
@@ -1348,6 +1373,7 @@ tools:
   owner: devteam
   revisions:
   - 04d5581db1f5
+  - 5c25c98e2a88
   - 7a6034296ae9
   - 7def34e6cf4d
   - 88b8c2916784
@@ -1395,6 +1421,7 @@ tools:
   revisions:
   - 1bf4789584dc
   - 949f01671246
+  - b94789823aad
   - cd7e644cae1d
   - f1e71aeaa923
   tool_panel_section_label: FASTQ Quality Control
@@ -1480,6 +1507,7 @@ tools:
 - name: bamtools_filter
   owner: devteam
   revisions:
+  - 62e4d6cdbaa7
   - 993b19f20c76
   - bd735cae4ce6
   - cb20f99fd45b
@@ -1548,6 +1576,7 @@ tools:
   revisions:
   - 037a11682176
   - 2c68b0c38785
+  - 60a1dad331ec
   - 809dfc93d593
   - 8cb134b8c1a5
   tool_panel_section_label: Annotation
@@ -1623,6 +1652,7 @@ tools:
   owner: iuc
   revisions:
   - 2aea122fbd25
+  - 661c164268cc
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bowtie_wrappers
@@ -1634,6 +1664,7 @@ tools:
 - name: transit_gumbel
   owner: iuc
   revisions:
+  - a6c8b6e47c51
   - f50807720df1
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1710,6 +1741,7 @@ tools:
 - name: funannotate_annotate
   owner: iuc
   revisions:
+  - 0b8d49d3742d
   - 14f588312c56
   - 9feee7fc49a1
   tool_panel_section_label: Annotation
@@ -1718,6 +1750,7 @@ tools:
   owner: iuc
   revisions:
   - 563a19373357
+  - 7f8f38e27dee
   - a7ce2601500c
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1725,6 +1758,7 @@ tools:
   owner: iuc
   revisions:
   - 1b52f0c8ad7f
+  - d6c074a93c51
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: red
@@ -1742,6 +1776,7 @@ tools:
 - name: maker
   owner: iuc
   revisions:
+  - 370c210d9541
   - 3c1a01127868
   - 5201ec38c01f
   - d46d803ca6cc
@@ -1794,6 +1829,7 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
+  - 0a507f4bd19a
   - bcfce5aac49c
   - c5908940967d
   - f1a5908ea2cb
@@ -1808,6 +1844,7 @@ tools:
 - name: augustus_training
   owner: bgruening
   revisions:
+  - 2fdc599f2814
   - 6519ebe25019
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3398,6 +3435,7 @@ tools:
   revisions:
   - 0f710191a66d
   - 3c5e024a18cf
+  - a3e78550e42e
   tool_panel_section_label: Filter and Sort
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gffcompare_to_bed
@@ -3706,6 +3744,7 @@ tools:
   revisions:
   - 13022c3d3076
   - 381a32c51141
+  - a00cceb45700
   - ec9cbd6b9a49
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3750,6 +3789,7 @@ tools:
   - 56a8da1f2243
   - 60ff16842fcd
   - 93a3ce78ce55
+  - cd36d6e45e29
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_regress_variable
@@ -4345,6 +4385,7 @@ tools:
   owner: devteam
   revisions:
   - e613c1ad4c4c
+  - f2f2650aeade
   - f56bdb93ae58
   tool_panel_section_label: SAM Tools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4755,6 +4796,7 @@ tools:
   owner: devteam
   revisions:
   - 06dc50b7b711
+  - 22c2ab33cec9
   - 26b4f9f98aca
   tool_panel_section_label: SAM Tools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
