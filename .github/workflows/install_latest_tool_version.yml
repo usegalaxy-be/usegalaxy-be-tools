@@ -1,0 +1,31 @@
+name: Update Galaxy BE tools with their latest version (Ephemeris)
+
+on:
+  workflow_dispatch:       # keep a manual trigger possibility
+  schedule:
+    - cron: '0 1 * * MON'    # Runs on 01:00 (UTC) every Monday (02:00 CET)
+
+concurrency:   # This part makes the newest run the authoritative one and cancels older runs that would otherwise continue needlessly.
+  group: shed-tools-update
+  cancel-in-progress: true
+
+jobs:
+  update-shedtools:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Upgrade pip and install Ephemeris
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade ephemeris
+          
+
+      - name: Run `shed-tools update` on usegalaxy.be
+        env:
+          GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN }}
+        run: |
+          shed-tools update -g usegalaxy.be -u boris.depoortere@vib.be -a "${{ secrets.SECRET_API_TOKEN }}"
