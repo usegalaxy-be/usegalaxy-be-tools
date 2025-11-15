@@ -197,6 +197,7 @@ tools:
   - 5e08a1e22dbc
   - 73b8cb5bddcd
   - 83c573f2e73c
+  - cfb0595f9842
   tool_panel_section_label: Graph/Display Data
 - name: nanoplot
   owner: iuc
@@ -226,6 +227,7 @@ tools:
   owner: iuc
   revisions:
   - 1b9406a1a769
+  - 1df3b30325dd
   - ae344ccf9d62
   - b1268b7544d3
   - fcb6a19960c6
@@ -236,12 +238,14 @@ tools:
   - 0ea86f6bf2a1
   - 2824d77cd8f8
   - 36b848d5f3ec
+  - 86d0ebe09628
   - a1abfa420d9d
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_heatmap
   owner: iuc
   revisions:
   - 10515715c940
+  - 15cebddc6dba
   - 1a72f938213e
   - 391a4cc45fea
   - a4d83ba2a1bc
@@ -255,6 +259,7 @@ tools:
   - 17b666467c32
   - 3a270cee1239
   - 637cf21db396
+  - 63d211052ffb
   - e44775efb2dc
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_heatmap2
@@ -274,6 +279,7 @@ tools:
   - 3b12bf9b4b87
   - 5298e06f14f9
   - a36551483a8f
+  - f87634b12749
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
   owner: iuc
@@ -281,6 +287,7 @@ tools:
   - 1f0242e49a58
   - 355a82227003
   - 398e5104f8a2
+  - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
   tool_panel_section_label: Graph/Display Data
@@ -727,6 +734,7 @@ tools:
   - 05ee0a74faef
   - 0878b7fd5260
   - 111bd54f6bc4
+  - 18a61a9c1601
   - 6bbd30d58cf4
   - 9b892d7f82cc
   - f87ac61981f0
@@ -744,12 +752,14 @@ tools:
   - 19237efe98d1
   - 3f0dd362b755
   - 7ce0fe11b411
+  - faa378fa0c81
   tool_panel_section_label: Motif Tools
 - name: meme_fimo
   owner: iuc
   revisions:
   - 01f5d04846c4
   - 0c5239d1aa65
+  - 613c75eee7bd
   - c5209f38700d
   tool_panel_section_label: Motif Tools
 - name: meme_psp_gen
@@ -758,6 +768,7 @@ tools:
   - 47e7ae719765
   - 5f95d385a33c
   - 793225b11202
+  - 8436beac5eed
   - ff2f53a32d0e
   tool_panel_section_label: Motif Tools
 - name: meme_chip
@@ -2319,6 +2330,7 @@ tools:
   owner: devteam
   revisions:
   - 04d5581db1f5
+  - 13aad5cb9be4
   - 5c25c98e2a88
   - 7a6034296ae9
   - 7def34e6cf4d
@@ -5839,6 +5851,7 @@ tools:
   owner: iuc
   revisions:
   - 196d126cd016
+  - 1c5448133894
   - 3a72fede57ce
   - 78bbd17d0703
   - 7f781286b55f
@@ -5859,12 +5872,14 @@ tools:
   - 94df24c6bc00
   - 9eaadf03e0df
   - 9f4805c61d29
+  - dec59e6af429
   - ee29337f905c
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
   owner: iuc
   revisions:
   - 0135f1d487a0
+  - 161e04f498db
   - 2b95d5c04908
   - d328d99d7396
   - fcbeda41d0ac
@@ -5874,6 +5889,7 @@ tools:
   revisions:
   - 5671e1d3d5ee
   - 5d6ed46cc101
+  - 6606a8c97889
   - 8858fa037a15
   - a250929be21b
   - c9ef01b1cfba
@@ -5884,6 +5900,7 @@ tools:
   - 12d66d0d05ac
   - 41c7ba073a9b
   - 584beffa972b
+  - 5e5dfc9e71e2
   - abbc8041e8ec
   - c5c9f02b6167
   tool_panel_section_label: Virology
