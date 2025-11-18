@@ -4564,3 +4564,279 @@ tools:
 - name: gem_check_memote
   owner: iuc
   tool_panel_section_label: Metabolomics
+- name: data_manager_fetch_busco_options
+  owner: iuc
+- name: data_manager_bwa_mem2_index_builder
+  owner: iuc
+- name: coreprofiler_allele_calling
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: data_manager_build_coreprofiler
+  owner: iuc
+- name: data_manager_funannotate_options
+  owner: iuc
+- name: icescreen
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: mmseqs2_taxonomy_assignment
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: panaroo
+  owner: galaxy-australia
+  tool_panel_section_label: Annotation
+- name: panta
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: tb_profiler_collate
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: ppanggolin_projection
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: ppanggolin_rarefaction
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: meryl_count_kmers
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_filter_kmers
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_histogram_kmers
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_groups_kmers
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_trio_mode
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_print
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: meryl_arithmetic_kmers
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: syri
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: diffdock
+  owner: iuc
+  tool_panel_section_label: ChemicalToolBox
+- name: geopandas_table2geojson
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+- name: ucsc_chainantirepeat
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+- name: map_damage
+  owner: iuc
+  tool_panel_section_label: Evolution
+- name: cialign
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastplong
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastq_groupmerge
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: rrmscorer
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_split2
+  owner: iuc
+  tool_panel_section_label: FASTA/FASTQ
+- name: openalex_explorer
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: graphlan
+  owner: iuc
+  tool_panel_section_label: Graph/Display Data
+- name: biapy
+  owner: iuc
+  tool_panel_section_label: Imaging
+- name: pdfimages
+  owner: iuc
+  tool_panel_section_label: Imaging
+- name: kaiju_addtaxonnames
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: kaiju_kaiju2table
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: kaiju_kaiju2krona
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: kaiju_mergeoutputs
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: kaiju_kaiju
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: data_manager_kaiju
+  owner: iuc
+- name: ampvis2_export_otu
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: comebin
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: combine_metaphlan2_humann2
+  owner: bebatut
+  tool_panel_section_label: Metagenomic Analysis
+- name: mmuphin
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: mash_paste
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: mash_dist
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: micro_decon
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_tax_glom
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_are_there_primers
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_auto
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_choose_primer_cutoff
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_find_cutoffs
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_gen_bcv
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: pimento_std
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: kmer2stats
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_index
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_profile
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
+- name: meme_streme
+  owner: iuc
+  tool_panel_section_label: Motif Tools
+- name: mmseqs2_easy_linclust_clustering
+  owner: iuc
+  tool_panel_section_label: Multiple Alignments
+- name: tesseract
+  owner: iuc
+  tool_panel_section_label: Imaging
+- name: nanocomp
+  owner: iuc
+  tool_panel_section_label: Nanopore
+- name: chopper
+  owner: iuc
+  tool_panel_section_label: Nanopore
+- name: pcdl_get_anndata
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_cell_attribute
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_cell_attribute_list
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_cell_df
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_celltype_list
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_conc_attribute
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_conc_df
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_substrate_list
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_unit_dict
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_get_version
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_make_cell_vtk
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_make_conc_vtk
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_make_gif
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_make_graph_gml
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_make_movie
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_plot_contour
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_plot_scatter
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: pcdl_plot_timeseries
+  owner: iuc
+  tool_panel_section_label: Other Tools
+- name: gemma
+  owner: iuc
+  tool_panel_section_label: Phenotype Association
+- name: fastreer_dist2tree
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: fastreer_fasta2dist
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: fastreer_vcf2dist
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: fastreer_vcf2tree
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: constava
+  owner: iuc
+  tool_panel_section_label: Proteomics
+- name: sequali
+  owner: iuc
+  tool_panel_section_label: Quality Control
+- name: fileidentification
+  owner: iuc
+  tool_panel_section_label: Quality Control
+- name: ena_webin_cli
+  owner: iuc
+  tool_panel_section_label: Send Data
+- name: drug2cell
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: bellavista_prepare
+  owner: iuc
+  tool_panel_section_label: Single-cell
+- name: fastspar
+  owner: iuc
+  tool_panel_section_label: Statistics
+- name: dos2unix
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: mixcr_analyze
+  owner: iuc
+  tool_panel_section_label: Variant Calling
+- name: data_manager_mmseqs2_database
+  owner: iuc
