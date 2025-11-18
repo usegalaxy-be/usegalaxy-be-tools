@@ -1,3 +1,4 @@
+ [![Update Galaxy BE tools with their latest version (Ephemeris)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml/badge.svg)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml)
 # usegalaxy.be tools
 
 This repository contains the lists of tools installed in usegalaxy.be.
