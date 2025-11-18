@@ -26,6 +26,6 @@ jobs:
 
       - name: Run `shed-tools update` on usegalaxy.be
         env:
-          GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_BORIS }}
+          GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
         run: |
-          shed-tools update -g usegalaxy.be -u boris.depoortere@vib.be -a "${{ secrets.SECRET_API_TOKEN }}"
+          shed-tools update -g usegalaxy.be -u tool_admin@test.be -a $GALAXY_API_TOKEN
