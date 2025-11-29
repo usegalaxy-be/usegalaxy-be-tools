@@ -532,6 +532,7 @@ tools:
   owner: devteam
   revisions:
   - 297962e79f39
+  - 4a3e93647a4e
   - ac3fed111eb6
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_to_fasta
@@ -1009,6 +1010,7 @@ tools:
   owner: devteam
   revisions:
   - 09a2199cd356
+  - 115f6bb3ae79
   - 8d958759cf2a
   - c885369b207b
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1136,6 +1138,7 @@ tools:
   - 2d0d13b0b0f1
   - b63b2bfb3ea3
   - f0b18efb97f1
+  - fe86fb89562d
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_to_tabular
   owner: devteam
@@ -1155,6 +1158,7 @@ tools:
   revisions:
   - 249c8393f2d4
   - 397dc333436b
+  - 7fafac615aa1
   - e39cc71d3ed6
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_paired_end_deinterlacer
@@ -1162,6 +1166,7 @@ tools:
   revisions:
   - 03d57fea6482
   - 523c2aff0376
+  - c48cf4699be7
   - f3936d0632cb
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_masker_by_quality
@@ -1176,11 +1181,13 @@ tools:
   revisions:
   - 4ac14b275aca
   - 5b87038565bb
+  - e06d41f3ed3e
   - e30352e889fe
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_groomer
   owner: devteam
   revisions:
+  - 10d4df6a9d94
   - 47e5dbc3e790
   - e9f8633db0a2
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -1190,6 +1197,7 @@ tools:
   - 06934412f56d
   - '144275714590'
   - 81a9090d6df3
+  - ff7d49ec777f
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fastq_combiner
   owner: devteam
@@ -4860,6 +4868,7 @@ tools:
   - 1911ec100221
   - 6cf84410cb2e
   - 7ed6dda64a81
+  - 8c6526a46319
   - a09849898387
   - e95d3221b7f0
   - fe3c43451319

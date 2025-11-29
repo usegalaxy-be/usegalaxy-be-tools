@@ -389,6 +389,7 @@ tools:
   revisions:
   - 1911ec100221
   - 7ed6dda64a81
+  - 8c6526a46319
   - e95d3221b7f0
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -692,6 +693,7 @@ tools:
   revisions:
   - 562f3c677828
   - 61e2aa6bb55d
+  - d642efa5cbd7
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: collection_column_join
@@ -930,11 +932,13 @@ tools:
   revisions:
   - '144275714590'
   - 81a9090d6df3
+  - ff7d49ec777f
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_groomer
   owner: devteam
   revisions:
+  - 10d4df6a9d94
   - 47e5dbc3e790
   - e9f8633db0a2
   tool_panel_section_label: FASTA/FASTQ
@@ -943,6 +947,7 @@ tools:
   owner: devteam
   revisions:
   - 5b87038565bb
+  - e06d41f3ed3e
   - e30352e889fe
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -957,6 +962,7 @@ tools:
   owner: devteam
   revisions:
   - 523c2aff0376
+  - c48cf4699be7
   - f3936d0632cb
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -965,6 +971,7 @@ tools:
   revisions:
   - 249c8393f2d4
   - 397dc333436b
+  - 7fafac615aa1
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_stats
@@ -986,6 +993,7 @@ tools:
   revisions:
   - b63b2bfb3ea3
   - f0b18efb97f1
+  - fe86fb89562d
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_trimmer_by_quality
@@ -1093,6 +1101,7 @@ tools:
 - name: fastq_paired_end_joiner
   owner: devteam
   revisions:
+  - 115f6bb3ae79
   - 8d958759cf2a
   - c885369b207b
   tool_panel_section_label: FASTA/FASTQ
@@ -1136,6 +1145,7 @@ tools:
   owner: devteam
   revisions:
   - 297962e79f39
+  - 4a3e93647a4e
   - ac3fed111eb6
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8127,5 +8137,11 @@ tools:
   owner: galaxyp
   revisions:
   - 06cca574e337
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xcms_fillpeaks
+  owner: lecorguille
+  revisions:
+  - a8d866a71ba1
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
