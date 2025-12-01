@@ -563,6 +563,7 @@ tools:
   - 562f3c677828
   - 61e2aa6bb55d
   - 746e8e4bf929
+  - d642efa5cbd7
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_compute_length
@@ -1094,6 +1095,7 @@ tools:
 - name: fastq_groomer
   owner: devteam
   revisions:
+  - 10d4df6a9d94
   - 47e5dbc3e790
   - e9f8633db0a2
   tool_panel_section_label: FASTA/FASTQ manipulation
@@ -2441,6 +2443,7 @@ tools:
   revisions:
   - 05d322d6facb
   - 26d77e9ceb49
+  - a8d866a71ba1
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ramclustr
@@ -4604,6 +4607,7 @@ tools:
   revisions:
   - 5b87038565bb
   - bb07615a5b6a
+  - e06d41f3ed3e
   - e30352e889fe
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
