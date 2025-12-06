@@ -32,8 +32,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - 8848455c0270
   - f5ea3ce9b9b0
+  - 8848455c0270
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -333,7 +333,7 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - d642efa5cbd7
+  - 61e2aa6bb55d
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biom_convert
@@ -963,8 +963,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - 9676127a1ed2
   - e2c1b62e1db1
+  - 9676127a1ed2
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tag_pileup_frequency
@@ -1922,8 +1922,8 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 8c191acde702
   - 120b7b35e442
+  - 8c191acde702
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sequence_content_trimmer
@@ -2265,8 +2265,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - bdd0cb7fbedf
   - e5e78d1e09a6
+  - bdd0cb7fbedf
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
@@ -3609,9 +3609,9 @@ tools:
   owner: devteam
   revisions:
   - dba489bfcd62
-  - 832c20329690
-  - 2e0fb4bc860e
   - 63dd26468588
+  - 2e0fb4bc860e
+  - 832c20329690
   tool_panel_section_label: EMBOSS Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -3641,8 +3641,8 @@ tools:
 - name: kraken_report
   owner: devteam
   revisions:
-  - 1c677354ab18
   - 6c09bed3444f
+  - 1c677354ab18
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken
@@ -4080,8 +4080,8 @@ tools:
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
-  - 31394a0c0242
   - 662a334004b4
+  - 31394a0c0242
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: drep_dereplicate
@@ -6050,8 +6050,8 @@ tools:
 - name: md_converter
   owner: chemteam
   revisions:
-  - d7ec25187599
   - 79e8ab8f1e81
+  - d7ec25187599
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rdock_rbdock
@@ -6537,7 +6537,7 @@ tools:
 - name: export2graphlan
   owner: iuc
   revisions:
-  - 635c90a27692
+  - b16989c1e3a7
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plotly_regression_performance_plots
@@ -7012,7 +7012,7 @@ tools:
 - name: mesmer
   owner: goeckslab
   revisions:
-  - 2675ff99a53b
+  - c60b810d570d
   tool_panel_section_label: Spatial Omics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: quantification
