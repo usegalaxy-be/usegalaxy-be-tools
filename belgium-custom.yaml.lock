@@ -707,6 +707,7 @@ tools:
   owner: bgruening
   revisions:
   - 190b3bcc00aa
+  - 77f67ddd89d6
   - ab55af10f1ff
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -715,6 +716,7 @@ tools:
   revisions:
   - 0ecf92b5a7c5
   - 4e9a3745dce4
+  - 54c9a136e24f
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: interval2maf
@@ -2031,6 +2033,7 @@ tools:
 - name: trimal
   owner: iuc
   revisions:
+  - c2008ab22c09
   - e379c0202766
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2573,6 +2576,7 @@ tools:
   owner: iuc
   revisions:
   - 05f317e50e61
+  - c3c930926708
   - fc47ffec447e
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2726,6 +2730,7 @@ tools:
 - name: bcftools_cnv
   owner: iuc
   revisions:
+  - 61dfbc82ffc8
   - b2d1b7dda2b7
   - ccb83bf54de0
   tool_panel_section_label: Variant Calling
@@ -2735,11 +2740,13 @@ tools:
   revisions:
   - 71dfde92fd57
   - 7d9166ecd10f
+  - 845a7025ba81
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_plugin_frameshifts
   owner: iuc
   revisions:
+  - 3c6952a2b0e4
   - 48ac4d611e92
   - b03c0b3e67a6
   tool_panel_section_label: Variant Calling
@@ -2747,6 +2754,7 @@ tools:
 - name: bcftools_csq
   owner: iuc
   revisions:
+  - 9f69e7d58d03
   - d237eaef451f
   - f10f5b4e7854
   tool_panel_section_label: Variant Calling
@@ -2755,6 +2763,7 @@ tools:
   owner: iuc
   revisions:
   - 271965b55437
+  - 5fa262ce95dd
   - a62e934346f5
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2763,12 +2772,14 @@ tools:
   revisions:
   - 07396b423218
   - 5801eff9ac7e
+  - c277260d3fab
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_consensus
   owner: iuc
   revisions:
   - 8aa352093d73
+  - 9a260f6fab93
   - e522022137f6
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2997,6 +3008,7 @@ tools:
   revisions:
   - 5b006286a458
   - 9473302f4588
+  - d3286f971e89
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfdistance
@@ -3044,6 +3056,7 @@ tools:
   revisions:
   - 591cc8518033
   - b17394940c7a
+  - fcf941c241cc
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mageck_count
@@ -3884,12 +3897,14 @@ tools:
   owner: iuc
   revisions:
   - 458d4ab0f894
+  - be0d45c46e97
   - f2f6c703da06
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 16a1c3122996
   - 5a5468c0d26f
   - dbbe1ea8ecb1
   tool_panel_section_label: Single-cell
@@ -3899,11 +3914,13 @@ tools:
   revisions:
   - 3bcd5445cd7a
   - 4766556db52c
+  - e639abb0de92
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_inspect
   owner: iuc
   revisions:
+  - 27c054e8d949
   - 3b5ef3b00cdd
   - 5e9171dc8244
   - d86cb2ce311b
@@ -3913,12 +3930,14 @@ tools:
   owner: iuc
   revisions:
   - 5813f9920877
+  - 92a189c299d4
   - a97abb8cd15b
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
+  - 49ce1315722c
   - 77b91b9bdf52
   - a84a73471be7
   tool_panel_section_label: Single-cell
@@ -8144,4 +8163,10 @@ tools:
   revisions:
   - a8d866a71ba1
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: edta
+  owner: bgruening
+  revisions:
+  - f1a157358d4d
+  tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
