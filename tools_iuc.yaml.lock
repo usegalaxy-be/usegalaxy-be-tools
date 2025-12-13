@@ -2159,6 +2159,7 @@ tools:
   - 147de996e34f
   - 1829900b5dcd
   - 8aa352093d73
+  - 9a260f6fab93
   - d37e313a41be
   - e522022137f6
   tool_panel_section_label: Variant Calling
@@ -2169,6 +2170,7 @@ tools:
   - 07396b423218
   - 1001172b5089
   - 5801eff9ac7e
+  - c277260d3fab
   - c37b684e7f4e
   - f0d44631365f
   tool_panel_section_label: Variant Calling
@@ -2179,6 +2181,7 @@ tools:
   - 19905c025d2a
   - 1ca7418e46ee
   - 271965b55437
+  - 5fa262ce95dd
   - a62e934346f5
   - ebb2e12a6de1
   tool_panel_section_label: Variant Calling
@@ -2187,6 +2190,7 @@ tools:
   revisions:
   - 039ea3f1dea9
   - 64a8f7dae3ad
+  - 9f69e7d58d03
   - d237eaef451f
   - e6f4badbe6f3
   - f01b2c9506b9
@@ -2198,6 +2202,7 @@ tools:
   - 03e6fb76e969
   - 2e303fcd3b0c
   - 399b40b2bcab
+  - 3c6952a2b0e4
   - 48ac4d611e92
   - b03c0b3e67a6
   tool_panel_section_label: Variant Calling
@@ -2209,6 +2214,7 @@ tools:
   - 71dfde92fd57
   - 7d9166ecd10f
   - 7ef488b08a23
+  - 845a7025ba81
   - ee85030e893d
   tool_panel_section_label: Variant Calling
 - name: bcftools_cnv
@@ -2216,6 +2222,7 @@ tools:
   revisions:
   - 13fe14c56f6d
   - 143796b504eb
+  - 61dfbc82ffc8
   - 6d35a3780bfd
   - 8627b2b383b4
   - b2d1b7dda2b7
@@ -4094,6 +4101,7 @@ tools:
   owner: iuc
   revisions:
   - 0e212e42ef88
+  - 49ce1315722c
   - 4d8f983cd751
   - 77b91b9bdf52
   - 8983e7a04ba7
@@ -4108,6 +4116,7 @@ tools:
   - 5813f9920877
   - 5b3c1679d29b
   - 64388be6d510
+  - 92a189c299d4
   - a97abb8cd15b
   - b409c2486353
   - d636ce5cde16
@@ -4117,6 +4126,7 @@ tools:
   owner: iuc
   revisions:
   - 08192eebb47d
+  - 27c054e8d949
   - 3b5ef3b00cdd
   - 4338bf96809e
   - 5e9171dc8244
@@ -4133,10 +4143,12 @@ tools:
   - 4bda4412b8c2
   - ab55fe8030b6
   - d844935c906c
+  - e639abb0de92
   tool_panel_section_label: Single-cell
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 16a1c3122996
   - 397d2c97af05
   - 40812a65a78b
   - 5a5468c0d26f
@@ -4150,6 +4162,7 @@ tools:
   revisions:
   - 00305dc2dd6f
   - 458d4ab0f894
+  - be0d45c46e97
   - bf2017df9837
   - c5541bfb8feb
   - c65fce500915
@@ -4540,6 +4553,7 @@ tools:
   - 6b6c992d3a14
   - 874cc12ae316
   - abd489215f73
+  - c3c930926708
   - fc47ffec447e
   tool_panel_section_label: Variant Calling
 - name: medaka_consensus
@@ -5287,6 +5301,7 @@ tools:
   - 9473302f4588
   - af163c712539
   - b84fda8ebef0
+  - d3286f971e89
   tool_panel_section_label: Variant Calling
 - name: bcftools_stats
   owner: iuc
@@ -5296,6 +5311,7 @@ tools:
   - b17394940c7a
   - bf8325a07ce7
   - e8af591435d1
+  - fcf941c241cc
   tool_panel_section_label: Variant Calling
 - name: samtools_markdup
   owner: iuc
@@ -9079,6 +9095,7 @@ tools:
 - name: trimal
   owner: iuc
   revisions:
+  - c2008ab22c09
   - e379c0202766
   - ebe28cac8d8b
   tool_panel_section_label: Multiple Alignments
