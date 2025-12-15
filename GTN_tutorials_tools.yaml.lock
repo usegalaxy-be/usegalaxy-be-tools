@@ -682,6 +682,7 @@ tools:
   revisions:
   - 190b3bcc00aa
   - 39881709807e
+  - 77f67ddd89d6
   - ab55af10f1ff
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1591,6 +1592,7 @@ tools:
   owner: iuc
   revisions:
   - 8aa352093d73
+  - 9a260f6fab93
   - a87ae767b01d
   - e522022137f6
   - f867422772d6
@@ -2852,6 +2854,7 @@ tools:
   owner: iuc
   revisions:
   - 271965b55437
+  - 5fa262ce95dd
   - a62e934346f5
   - da6fc9f4a367
   - ebb2e12a6de1
@@ -3706,6 +3709,7 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
+  - 27c054e8d949
   - 3081ff5c84a3
   - 3b5ef3b00cdd
   - 5e9171dc8244
@@ -3718,6 +3722,7 @@ tools:
   owner: iuc
   revisions:
   - 5813f9920877
+  - 92a189c299d4
   - a03ff8633507
   - a97abb8cd15b
   - f87ed6503715
@@ -3730,6 +3735,7 @@ tools:
   - 4766556db52c
   - 5342ce58cd1e
   - 94c19fb1281c
+  - e639abb0de92
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_remove_confounders
@@ -3738,6 +3744,7 @@ tools:
   - 458d4ab0f894
   - 458e8f43a775
   - 80d4e2cac903
+  - be0d45c46e97
   - f2f6c703da06
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3745,6 +3752,7 @@ tools:
   owner: iuc
   revisions:
   - 35bc2eb568ed
+  - 49ce1315722c
   - 6acb08931836
   - 77b91b9bdf52
   - a84a73471be7
@@ -3754,6 +3762,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 16a1c3122996
   - 5a5468c0d26f
   - 6adf98e782f3
   - 9b0cdb8cf6be
@@ -4930,6 +4939,7 @@ tools:
   - 5b006286a458
   - 86296490704e
   - 9473302f4588
+  - d3286f971e89
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: snpeff
