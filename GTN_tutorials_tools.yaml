@@ -347,8 +347,8 @@ tools:
 - name: gfastats
   owner: bgruening
   revisions:
-  - 3ef480892a9f
   - 5799092ffdff
+  - 3ef480892a9f
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: diamond
@@ -2253,19 +2253,19 @@ tools:
 - name: kraken2
   owner: iuc
   revisions:
-  - e674066930b2
+  - e150ae930235
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bracken
   owner: iuc
   revisions:
-  - 0357fb68688c419f
+  - 4d350ac5148e
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: recentrifuge
   owner: iuc
   revisions:
-  - b5407cc2bf51
+  - 613ee22af97c
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: stacks_procrad
@@ -2520,29 +2520,29 @@ tools:
   - e4c7985d4585
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: cutadapt
+  owner: lparsons
+  revisions:
+  - 80766b36005d
+  tool_panel_section_label: FASTA/FASTQ
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - a6d65b0c67af
+  tool_panel_section_label: Mapping
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
   owner: devteam
   revisions:
   - e7b2202befea
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: cutadapt
-  owner: lparsons
-  revisions:
-  - 49370cb85f0f
-  tool_panel_section_label: FASTA/FASTQ
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bedtools
   owner: iuc
   revisions:
   - ce3c7f062223
   tool_panel_section_label: Operate on Genomic Intervals
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: bowtie2
-  owner: devteam
-  revisions:
-  - 09b2cdb7ace5
-  tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bamtools_filter
   owner: devteam
@@ -2568,17 +2568,17 @@ tools:
   - 424aefbd7777
   tool_panel_section_label: Peak Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: deeptools_compute_matrix
-  owner: bgruening
-  revisions:
-  - 514fa53b5efb
-  tool_panel_section_label: deepTools
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pygenometracks
   owner: iuc
   revisions:
   - 2824d77cd8f8
   tool_panel_section_label: Graph/Display Data
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: deeptools_compute_matrix
+  owner: bgruening
+  revisions:
+  - 514fa53b5efb
+  tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_heatmap
   owner: bgruening
@@ -2844,12 +2844,6 @@ tools:
   - 5299be80cafb
   tool_panel_section_label: Epigenetics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastqc
-  owner: devteam
-  revisions:
-  - 3d0c7bdf12f5
-  tool_panel_section_label: FASTA/FASTQ manipulation
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trim_galore
   owner: bgruening
   revisions:
@@ -2865,25 +2859,25 @@ tools:
 - name: deeptools_bam_coverage
   owner: bgruening
   revisions:
-  - 4df95152a39e
+  - 12af64f93288
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_fingerprint
   owner: bgruening
   revisions:
-  - ca8a7f0ea872
+  - 793665fff0f8
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_bam_compare
   owner: bgruening
   revisions:
-  - c89b665b45e4
+  - de72ba3ed6f2
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_multi_bam_summary
   owner: bgruening
   revisions:
-  - b4e53394fced
+  - 004aea905d4d
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: macs2
@@ -2895,32 +2889,37 @@ tools:
 - name: bowtie2
   owner: devteam
   revisions:
-  - 03e9b2fbc005
+  - f76cbb84d67f
   tool_panel_section_label: Mapping
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 2c64fded1286
+  tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_correlation
   owner: bgruening
   revisions:
-  - e44978659400
+  - fd408d755394
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bedtools
   owner: iuc
   revisions:
   - a1a923cd89e8
-  - fe5b4cb8356c
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_compute_matrix
   owner: bgruening
   revisions:
-  - 19bb3e6d9e31
+  - 9470f29702f8
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_heatmap
   owner: bgruening
   revisions:
-  - 42cb23d80271
+  - ba6efa77fb79
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
@@ -3022,8 +3021,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trimmomatic
@@ -3312,7 +3311,7 @@ tools:
 - name: bowtie2
   owner: devteam
   revisions:
-  - 03e9b2fbc005
+  - f76cbb84d67f
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: tbl2gff3
@@ -5047,6 +5046,18 @@ tools:
   - 49d6f8ef63b3
   tool_panel_section_label: Convert Formats
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - d5ceb9f3c25b
+  tool_panel_section_label: Mapping
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: multiqc
+  owner: iuc
+  revisions:
+  - 31c42a2c02d3
+  tool_panel_section_label: Quality Control
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
   owner: devteam
   revisions:
@@ -5422,8 +5433,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 6073bb457ec0
   - 86755160afbf
+  - 6073bb457ec0
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: infernal
@@ -6024,7 +6035,7 @@ tools:
 - name: kraken2
   owner: iuc
   revisions:
-  - cdee7158adf3
+  - e150ae930235
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan
@@ -7303,8 +7314,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -8442,65 +8453,35 @@ tools:
   - d6dcd3173bdf
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastqc
-  owner: devteam
-  revisions:
-  - e7b2202befea
-  tool_panel_section_label: FASTA/FASTQ manipulation
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trim_galore
   owner: bgruening
   revisions:
   - 949f01671246
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: multiqc
-  owner: iuc
+- name: fastqc
+  owner: devteam
   revisions:
-  - 75c93c70d094
-  tool_panel_section_label: Quality Control
+  - e7b2202befea
+  tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bowtie2
   owner: devteam
   revisions:
-  - 09b2cdb7ace5
+  - f76cbb84d67f
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: samtools_stats
-  owner: devteam
+- name: multiqc
+  owner: iuc
   revisions:
-  - 145f6d74ff5e
-  tool_panel_section_label: SAM Tools
+  - c1a4b5f3b432
+  tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: jbrowse
   owner: iuc
   revisions:
-  - 1cfc579079a6
+  - a6e57ff585c0
   tool_panel_section_label: Graph/Display Data
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: fastqc
-  owner: devteam
-  revisions:
-  - e7b2202befea
-  tool_panel_section_label: FASTA/FASTQ manipulation
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: trim_galore
-  owner: bgruening
-  revisions:
-  - 949f01671246
-  tool_panel_section_label: FASTQ Quality Control
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: multiqc
-  owner: iuc
-  revisions:
-  - f7985e0479b9
-  tool_panel_section_label: Quality Control
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: bowtie2
-  owner: devteam
-  revisions:
-  - 09b2cdb7ace5
-  tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_stats
   owner: devteam
@@ -8799,25 +8780,25 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
-  - 65b93b623c77
+  - f875da9d433c
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: kraken2
   owner: iuc
   revisions:
-  - 20e2f64aa1fe
+  - e150ae930235
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bracken
   owner: iuc
   revisions:
-  - 978ae4147c29
+  - 4d350ac5148e
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: recentrifuge
   owner: iuc
   revisions:
-  - b5407cc2bf51
+  - 613ee22af97c
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: anndata_inspect
@@ -8865,8 +8846,8 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
-  - 3b5ef3b00cdd
   - d86cb2ce311b
+  - 3b5ef3b00cdd
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot
@@ -9952,8 +9933,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - 86755160afbf
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: table_compute
@@ -12129,8 +12110,8 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
-  - 31c42a2c02d3
   - 5e33b465d8d5
+  - 31c42a2c02d3
   tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: filter_by_fasta_ids
