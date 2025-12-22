@@ -162,6 +162,7 @@ tools:
   - 025139097795
   - 2a9afed42353
   - 645159bcee2d
+  - 9eab750c367d
   - edbb6c5028f5
   tool_panel_section_label: Nanopore
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2018,6 +2019,7 @@ tools:
 - name: 2d_simple_filter
   owner: imgteam
   revisions:
+  - 1b7e67168732
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -2814,6 +2816,7 @@ tools:
   owner: iuc
   revisions:
   - 328c607150ff
+  - cbe396d9773e
   - cdee7158adf3
   - e150ae930235
   - e674066930b2
@@ -3646,6 +3649,7 @@ tools:
   - 48b42ee61bc5
   - 4955e9bb96d1
   - 53460afd5115
+  - 6a097d09fca3
   - ca7cb0eaad62
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3693,6 +3697,7 @@ tools:
   - 923dcc644832
   - 93dd15e13e6a
   - ae1e5d9d8972
+  - d0a337ddf062
   - fb9e030ffae4
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3703,6 +3708,7 @@ tools:
   - 8db95f488f0f
   - be1fdce914c6
   - d1e49c3c0aa2
+  - e6a8d5fdca85
   - ed4996a16f7f
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3789,6 +3795,7 @@ tools:
   revisions:
   - 33c0081e16c6
   - 6f0d0c784f09
+  - 9301df6f892d
   - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_label: Single-cell
