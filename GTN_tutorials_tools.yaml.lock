@@ -314,6 +314,7 @@ tools:
   - ddf54b12c295
   - f46f0e4f75c4
   - fb4ff3c42cd3
+  - fbf99087e067
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bedtools
@@ -439,6 +440,7 @@ tools:
   revisions:
   - 2fd4d4c9c5c2
   - 3548a93b39c1
+  - 3b22de20bd4b
   - da787fc8b740
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -462,6 +464,7 @@ tools:
 - name: shovill
   owner: iuc
   revisions:
+  - 331109486d58
   - 83ead2be47b2
   - d9f6a00b6db7
   - ee17a294d3a3
@@ -599,6 +602,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - e8ac2b53f262
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: hisat2
@@ -724,6 +728,7 @@ tools:
   revisions:
   - 4242b4d68e9c
   - b59c91adeac1
+  - e2c36f62e22f
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ambertools_acpype
@@ -993,6 +998,7 @@ tools:
   revisions:
   - 22c2a1ac7ae3
   - a2667f8d23de
+  - a513e3fbb4c5
   - ac092723240d
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1089,6 +1095,7 @@ tools:
 - name: unzip
   owner: imgteam
   revisions:
+  - 06eac2d1a8a9
   - 28d6129b2901
   - 38eec75fbe9b
   - 57f0914ddb7b
@@ -1365,6 +1372,7 @@ tools:
   owner: bgruening
   revisions:
   - 0ba4f56a3613
+  - 41dbf4d162a2
   - ea50f7bba657
   - f86ca478c6af
   tool_panel_section_label: HiCExplorer
@@ -1459,6 +1467,7 @@ tools:
   - 949f01671246
   - b94789823aad
   - cd7e644cae1d
+  - eefb644655a5
   - f1e71aeaa923
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1809,6 +1818,7 @@ tools:
   owner: iuc
   revisions:
   - 18a46265455b
+  - db57bc3b57af
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_stats
@@ -1874,6 +1884,7 @@ tools:
   owner: rnateam
   revisions:
   - 0a507f4bd19a
+  - 1233363389c1
   - bcfce5aac49c
   - c5908940967d
   - f1a5908ea2cb
@@ -2020,6 +2031,7 @@ tools:
   owner: imgteam
   revisions:
   - 1b7e67168732
+  - 59e9798010ce
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -2073,6 +2085,7 @@ tools:
   revisions:
   - 5791a7f65275
   - 5bc8cdc17fd0
+  - 6a2b26c297a4
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: 2d_filter_segmentation_by_features
@@ -4451,6 +4464,7 @@ tools:
 - name: dnabot
   owner: tduigou
   revisions:
+  - b450154dc448
   - de6812daba39
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4481,6 +4495,7 @@ tools:
 - name: rp2paths
   owner: tduigou
   revisions:
+  - aed346f2e254
   - e3db7fb2c85e
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4551,6 +4566,7 @@ tools:
   owner: iuc
   revisions:
   - 0696db066a5b
+  - 2275d0688bca
   - 6a3a025714d3
   - 6f91b8ce6e07
   - 71bacea10eee
@@ -4870,6 +4886,7 @@ tools:
   owner: galaxyp
   revisions:
   - 3c623e81be77
+  - dff7df6fcab5
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: targetfinder

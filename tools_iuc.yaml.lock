@@ -61,7 +61,9 @@ tools:
   - 4f7a5ccd2ae9
   - 64e2edfe7a2c
   - 87ee588b3d45
+  - a1a923cd89e8
   - b8348686a0b9
+  - ce3c7f062223
   tool_panel_section_label: Operate on Genomic Intervals
 - name: collection_element_identifiers
   owner: iuc
@@ -341,6 +343,7 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
+  - 02026300aa45
   - 13b6f0007d9e
   - 464b9305180e
   - 6595517c2dd8
@@ -1271,6 +1274,7 @@ tools:
   revisions:
   - 196a599ec43d
   - 2a9baa0c4316
+  - 331109486d58
   - d9f6a00b6db7
   - ee17a294d3a3
   tool_panel_section_label: Assembly
@@ -1346,6 +1350,7 @@ tools:
   owner: devteam
   revisions:
   - 017aba02828d
+  - 03e9b2fbc005
   - d5ceb9f3c25b
   - f6877ad76b00
   - f76cbb84d67f
@@ -1355,6 +1360,7 @@ tools:
   revisions:
   - 0a563fd2f22e
   - 318b2a9d54dd
+  - 3ea5a2a63fa2
   - 4014de1b6daf
   - 4074fc1940e2
   - 41929aa1e7f3
@@ -1463,6 +1469,7 @@ tools:
   owner: iuc
   revisions:
   - 0696db066a5b
+  - 2275d0688bca
   - 71bacea10eee
   - 8fe98f7094de
   - 9a882d108833
@@ -2771,6 +2778,7 @@ tools:
   revisions:
   - 161f4383df15
   - 31c42a2c02d3
+  - 75c93c70d094
   - 9a913cdee30e
   - abfd8a6544d7
   - bf675f34b056
@@ -2806,6 +2814,7 @@ tools:
   - 1da5f169b491
   - 3b5b54ed6392
   - 3ed8e85f4f4c
+  - 41dbf4d162a2
   - c3e5e2cf12b7
   - f86ca478c6af
   tool_panel_section_label: HiCExplorer
@@ -4194,6 +4203,7 @@ tools:
   - 2babe6d5c561
   - 41030a6c03b7
   - 602fb8e63aa7
+  - 94170eee0ad8
   - c5a90fa4b8dd
   - e5c372c91e46
   - ea8146ee148f
@@ -4778,6 +4788,7 @@ tools:
   - 00e0347751b1
   - 23fc35093b11
   - a9f4a217dcd6
+  - e8768ddeba32
   - e8fba04706d3
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
@@ -4786,6 +4797,7 @@ tools:
   - 00f5005840fa
   - 1c35dadbe76f
   - 2222f08c8316
+  - 47198090501e
   - b35a5e8ff0fe
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -4793,6 +4805,7 @@ tools:
   revisions:
   - 073608a50ac3
   - 1937c2b4da7a
+  - 4efeb75704c8
   - 5b752525bd6f
   - 7f3b59dee073
   - efe26de231ec
@@ -4805,12 +4818,14 @@ tools:
   - 5fe3edf19b9c
   - a14a18a47c36
   - c48d42d65d2b
+  - dd6572434618
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
   - 6e0946238688
   - 75c8945b0da2
+  - 88677f452aea
   - 99c6929236fa
   - e96bbb9e24ea
   - ebd632e95aae
@@ -4823,11 +4838,13 @@ tools:
   - 63f86089423e
   - 65db807336bc
   - 705d26fbea02
+  - 9f306361a58e
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
   owner: iuc
   revisions:
   - 0a1224c4b781
+  - 213a3fda0b91
   - 390bc2645138
   - 4cc834cce4fb
   - a7817705348e
@@ -4838,6 +4855,7 @@ tools:
   revisions:
   - 0b884b080bb6
   - 1d75bd0595e2
+  - 273b8a00c8a2
   - 35176674168c
   - 646c58820267
   - 69900ffd3b8e
@@ -4846,6 +4864,7 @@ tools:
   owner: iuc
   revisions:
   - 1728e5ee871a
+  - 224abe7c80ed
   - 32c9ea835770
   - 6f06d501b7e6
   - 8daf4564ccda
@@ -4857,6 +4876,7 @@ tools:
   - 4e469b758915
   - cae017b76acb
   - d60df8727f59
+  - e7c2674e01fe
   tool_panel_section_label: Metagenomic Analysis
 - name: nanopolishcomp_eventaligncollapse
   owner: iuc
@@ -5034,6 +5054,7 @@ tools:
   revisions:
   - 0e8330535ea0
   - 2595c27071c2
+  - 8fbd98f37c10
   - 95ab864b281a
   - 98099e4da1fd
   tool_panel_section_label: Mapping
@@ -6413,6 +6434,7 @@ tools:
   - 2bba2ff070d9
   - 3cc3ef448854
   - 4b96ced19f75
+  - 51b6ee65ef7f
   tool_panel_section_label: Annotation
 - name: funannotate_compare
   owner: iuc
@@ -6420,6 +6442,7 @@ tools:
   - 0418d28136de
   - 563a19373357
   - 7f8f38e27dee
+  - a7ce2601500c
   tool_panel_section_label: Annotation
 - name: funannotate_annotate
   owner: iuc
@@ -6427,6 +6450,7 @@ tools:
   - 0b8d49d3742d
   - 14f588312c56
   - 9c15ca7e764e
+  - 9feee7fc49a1
   tool_panel_section_label: Annotation
 - name: repeatmodeler
   owner: csbl
@@ -7571,6 +7595,7 @@ tools:
 - name: bakta
   owner: iuc
   revisions:
+  - 728dacaf08a9
   - ba6990f72184
   - d77802fe76f7
   tool_panel_section_label: Annotation
