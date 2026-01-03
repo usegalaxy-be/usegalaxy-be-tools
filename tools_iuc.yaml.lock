@@ -200,6 +200,7 @@ tools:
   owner: iuc
   revisions:
   - 2f557f6abbfb
+  - 3af838dc0637
   - 59ebf2c42c0e
   - 5e08a1e22dbc
   - 73b8cb5bddcd
@@ -367,6 +368,7 @@ tools:
   - 69ebb7f46e45
   - 83c7d564b128
   - 8848455c0270
+  - e407b9da183a
   - f5ea3ce9b9b0
   tool_panel_section_label: Get Data
 - name: codeml
@@ -558,6 +560,7 @@ tools:
   revisions:
   - 10678d49d39e
   - 1d8fe9bc4cb0
+  - 25c59c0ceb55
   - 65b93b623c77
   - a626e8c0e1ba
   - c59d48774d03
@@ -1506,6 +1509,7 @@ tools:
   - 30f6985f0ac7
   - 38b6d12edc68
   - 5dbff3a5845a
+  - 6f66ae7c5f7a
   - a37612abf7f9
   - f9d49f5cb597
   tool_panel_section_label: RNA Analysis
@@ -1828,6 +1832,7 @@ tools:
   - 43798b4caee0
   - 602de62d995b
   - 8b3e3657034e
+  - ef2ad746b589
   tool_panel_section_label: Annotation
 - name: fgsea
   owner: iuc
@@ -3002,6 +3007,7 @@ tools:
   owner: iuc
   revisions:
   - 067592b6b312
+  - 21e491ad532a
   - b2860df42e16
   - b9e31c5c01c7
   - ddddce450736
@@ -3023,6 +3029,7 @@ tools:
 - name: annotatemyids
   owner: iuc
   revisions:
+  - 133f36c29579
   - 1a125daea0d8
   - 1aae04680c4b
   - 4f2967b27e67
@@ -4588,6 +4595,7 @@ tools:
   owner: iuc
   revisions:
   - 35666d44fe7a
+  - 79e9a869f40e
   - b35de691c42c
   - cb34f00cc10f
   - d9b6a4615626
@@ -6253,6 +6261,7 @@ tools:
   owner: iuc
   revisions:
   - 0b9d4ec77c4f
+  - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
   tool_panel_section_label: Metagenomic Analysis
@@ -6535,6 +6544,7 @@ tools:
   - 18eed8fa7f23
   - 1a7773882d2c
   - 6c829a430475
+  - 94e32337ba54
   - 95be88b49f4e
   - a6a475ed58cb
   - d951c5b0edd1
@@ -6882,6 +6892,7 @@ tools:
   revisions:
   - 1e3323a44643
   - 60f307965815
+  - 9553180705b7
   - e8ac2b53f262
   tool_panel_section_label: NCBI Blast
 - name: vcfdistance
@@ -7036,6 +7047,7 @@ tools:
   - 55e500606bbe
   - 7beb76ffbc0f
   - a9c9d768b751
+  - c4ff13d2aab3
   - d1f62024a08b
   - d58c27d2c5a7
   tool_panel_section_label: FASTA/FASTQ
@@ -7504,6 +7516,7 @@ tools:
   revisions:
   - 0c7b6eb7e752
   - 1d4bd12f01cf
+  - 4d350ac5148e
   - 79450f7fd718
   tool_panel_section_label: Metagenomic Analysis
 - name: data_manager_build_bracken_database
@@ -7555,6 +7568,7 @@ tools:
   revisions:
   - 591175c0f051
   - 76bf12b928f4
+  - b5407cc2bf51
   - fe733f05c2f8
   tool_panel_section_label: Metagenomic Analysis
 - name: b2btools_single_sequence
@@ -7595,6 +7609,7 @@ tools:
 - name: bakta
   owner: iuc
   revisions:
+  - 1942e86e2ee1
   - 728dacaf08a9
   - ba6990f72184
   - d77802fe76f7
@@ -7674,6 +7689,7 @@ tools:
 - name: integron_finder
   owner: iuc
   revisions:
+  - 4768f7f8e93f
   - bfd290fe1588
   tool_panel_section_label: Annotation
 - name: krocus
@@ -7700,6 +7716,7 @@ tools:
   owner: iuc
   revisions:
   - 6f570ba54b41
+  - ceb52582a5b1
   tool_panel_section_label: Annotation
 - name: data_manager_omamer
   owner: iuc
@@ -7928,6 +7945,7 @@ tools:
   revisions:
   - 32d058f3462a
   - 49f8eae39606
+  - 5fe428757fab
   - c228e49365c4
   - ed1ef564da41
   tool_panel_section_label: FASTA/FASTQ
@@ -8148,6 +8166,7 @@ tools:
   owner: iuc
   revisions:
   - 3481feabc54e
+  - 5029fd9d572e
   - 576dd33588bf
   - 738474880da8
   - 7db90993aa92
@@ -8504,6 +8523,7 @@ tools:
   revisions:
   - 1a052c827e88
   - 27e16a30667a
+  - 473382134e56
   - f242ee103277
   tool_panel_section_label: RNA Analysis
 - name: sleuth
@@ -8627,6 +8647,7 @@ tools:
   owner: iuc
   revisions:
   - 34d29339abab
+  - 557ec8d7087d
   - 90f657745fea
   tool_panel_section_label: Text Manipulation
 - name: beacon2_csv2xlsx
@@ -9148,6 +9169,7 @@ tools:
 - name: fastq_dl
   owner: iuc
   revisions:
+  - 3f1ee30e39e9
   - 5e7401777990
   tool_panel_section_label: Get Data
 - name: autobigs
@@ -9229,6 +9251,7 @@ tools:
   owner: iuc
   revisions:
   - 5c2ac7f640ab
+  - ab50e1a75a77
   tool_panel_section_label: Evolution
 - name: seqkit_head
   owner: iuc
