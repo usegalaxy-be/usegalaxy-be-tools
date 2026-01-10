@@ -212,6 +212,7 @@ tools:
   owner: iuc
   revisions:
   - 025139097795
+  - 0f1c34698076
   - 2a9afed42353
   - 4c172a4a4c9e
   - 9eab750c367d
@@ -318,6 +319,7 @@ tools:
   revisions:
   - 014a21767ac4
   - 290a11559985
+  - 31a35811dda6
   - c4bde687c846
   - df7356989ac1
   tool_panel_section_label: Graph/Display Data
@@ -1340,6 +1342,7 @@ tools:
   - 0834c823d4b9
   - 1b1cf0c96501
   - 3061c8b029e5
+  - 675488238c96
   - 72472698a2df
   - a3b35edea53a
   - ebb0dcdb621a
@@ -1454,6 +1457,7 @@ tools:
   - 5cc34c3f440d
   - 66367287b4e6
   - 6945cd53bd2d
+  - be1d967337e4
   tool_panel_section_label: Mapping
 - name: migmap
   owner: iuc
@@ -1757,6 +1761,7 @@ tools:
   revisions:
   - 0d8581534009
   - 156b60c1530f
+  - 1e1291983bc7
   - 3e954e7125bf
   - a5937157062f
   - ef2c525bd8cd
@@ -1809,6 +1814,7 @@ tools:
   revisions:
   - 037a11682176
   - 19793eecc9f0
+  - 4839e590cb26
   - 51dd22484644
   - 60a1dad331ec
   - 8cb134b8c1a5
@@ -4209,6 +4215,7 @@ tools:
   revisions:
   - 2babe6d5c561
   - 41030a6c03b7
+  - 4e70d88adf2f
   - 602fb8e63aa7
   - 94170eee0ad8
   - c5a90fa4b8dd
@@ -5026,6 +5033,7 @@ tools:
   - 575b4d5bd444
   - 58a870ef434c
   - 9a22227bb6d0
+  - f77f7a7f3b83
   tool_panel_section_label: Assembly
 - name: novoplasty
   owner: iuc
@@ -5184,6 +5192,7 @@ tools:
   owner: iuc
   revisions:
   - 02d81b994ef5
+  - 42818629ec4c
   - 4934c0ac6197
   - 9793bc5d741b
   tool_panel_section_label: Annotation
@@ -5374,6 +5383,7 @@ tools:
 - name: samtools_view
   owner: iuc
   revisions:
+  - 0dbf49c414ae
   - 32dc5f781059
   - 48bbbcb692ce
   - 5826298f6a73
@@ -6261,6 +6271,7 @@ tools:
   owner: iuc
   revisions:
   - 0b9d4ec77c4f
+  - 24488fae5b04
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
@@ -6408,6 +6419,7 @@ tools:
   owner: iuc
   revisions:
   - 19f42b3ea391
+  - 81539b9ae80a
   - 9e776e7fab4f
   tool_panel_section_label: Annotation
 - name: te_finder
@@ -6701,6 +6713,7 @@ tools:
   revisions:
   - 015283de3004
   - 24e471d13fe9
+  - 5e0825476fb7
   tool_panel_section_label: Assembly
 - name: jellyfish
   owner: iuc
@@ -6729,6 +6742,7 @@ tools:
 - name: purge_dups
   owner: iuc
   revisions:
+  - a315c25dc813
   - e9bd16ba5ebd
   tool_panel_section_label: Assembly
 - name: merqury
@@ -7044,6 +7058,7 @@ tools:
 - name: samtools_coverage
   owner: iuc
   revisions:
+  - 5160be5d088f
   - 55e500606bbe
   - 7beb76ffbc0f
   - a9c9d768b751
@@ -7567,6 +7582,7 @@ tools:
   owner: iuc
   revisions:
   - 591175c0f051
+  - 613ee22af97c
   - 76bf12b928f4
   - b5407cc2bf51
   - fe733f05c2f8
@@ -7715,6 +7731,7 @@ tools:
 - name: omark
   owner: iuc
   revisions:
+  - 0291e0e81551
   - 6f570ba54b41
   - ceb52582a5b1
   tool_panel_section_label: Annotation
@@ -7973,6 +7990,7 @@ tools:
 - name: trimmomatic
   owner: pjbriggs
   revisions:
+  - 32f1f56bd970
   - 898b67846b47
   - b9aaed85cbd1
   tool_panel_section_label: FASTA/FASTQ
@@ -8007,6 +8025,7 @@ tools:
 - name: geneiobio
   owner: iuc
   revisions:
+  - c0af7b196a89
   - fc53fcdbe548
   tool_panel_section_label: Graph/Display Data
 - name: hicexplorer_chicexportdata
@@ -8081,6 +8100,7 @@ tools:
   owner: iuc
   revisions:
   - 02bbace216f2
+  - 05e78a90e02d
   - 2deaada69b14
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_kreport2mpa
@@ -8093,11 +8113,13 @@ tools:
   owner: iuc
   revisions:
   - 4505d7643673
+  - 5fa703b1f68a
   - c254d75b8b67
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_alpha_diversity
   owner: iuc
   revisions:
+  - 7337f9722ad7
   - 78b69342c280
   - bab112ba9d62
   tool_panel_section_label: Metagenomic Analysis
@@ -8111,6 +8133,7 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 3b1963f729cb
   - 4bf1e2701504
   - f329328da134
   tool_panel_section_label: Metagenomic Analysis
@@ -8170,6 +8193,7 @@ tools:
   - 576dd33588bf
   - 738474880da8
   - 7db90993aa92
+  - 9b3e1acc3ad0
   tool_panel_section_label: Metagenomic Analysis
 - name: ampvis2_merge_ampvis2
   owner: iuc
@@ -9170,6 +9194,7 @@ tools:
   owner: iuc
   revisions:
   - 3f1ee30e39e9
+  - 41635d6d4738
   - 5e7401777990
   tool_panel_section_label: Get Data
 - name: autobigs
