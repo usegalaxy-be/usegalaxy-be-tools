@@ -65,6 +65,7 @@ tools:
   owner: bgruening
   revisions:
   - 276f5d8712d5
+  - 291923e6f276
   - 3ee0ef312022
   - 643e0ff70be5
   - 8d4f03b5fe9d
@@ -85,6 +86,7 @@ tools:
   - 0d243f458b53
   - 41030a6c03b7
   - 46ae58b1d792
+  - 4e70d88adf2f
   - 602fb8e63aa7
   - 94170eee0ad8
   - bb935709506a
@@ -161,6 +163,7 @@ tools:
   owner: iuc
   revisions:
   - 025139097795
+  - 0f1c34698076
   - 2a9afed42353
   - 645159bcee2d
   - 9eab750c367d
@@ -177,6 +180,7 @@ tools:
   - 53c0b7a1a0c3
   - 66367287b4e6
   - 6945cd53bd2d
+  - be1d967337e4
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bowtie2
@@ -364,6 +368,7 @@ tools:
   revisions:
   - af91699b8d4c
   - b4a22d90cce9
+  - bfaa0d22c2e4
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: medaka_consensus_pipeline
@@ -458,6 +463,7 @@ tools:
 - name: trimmomatic
   owner: pjbriggs
   revisions:
+  - 32f1f56bd970
   - 898b67846b47
   - b9aaed85cbd1
   - d94aff5ee623
@@ -593,14 +599,15 @@ tools:
 - name: blobtoolkit
   owner: bgruening
   revisions:
+  - '392811378515'
   - 53dd00a4ab68
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gfastats
   owner: bgruening
   revisions:
-  - 5799092ffdff
   - 3ef480892a9f
+  - 5799092ffdff
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: diamond
@@ -838,6 +845,7 @@ tools:
   owner: bgruening
   revisions:
   - 6e4b7e0c61a6
+  - 7b6fd1c273cd
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: split_file_to_collection
@@ -937,6 +945,7 @@ tools:
 - name: c3s
   owner: climate
   revisions:
+  - 21e8386cf36f
   - 250554670f72
   tool_panel_section_label: Contributing
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1633,6 +1642,7 @@ tools:
   revisions:
   - 037a11682176
   - 2c68b0c38785
+  - 4839e590cb26
   - 60a1dad331ec
   - 809dfc93d593
   - 8cb134b8c1a5
@@ -1642,6 +1652,7 @@ tools:
   owner: mvdbeek
   revisions:
   - 3284b72eef56
+  - 8061668d0868
   tool_panel_section_label: Evolution
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: snippy
@@ -1749,6 +1760,7 @@ tools:
 - name: apollo_create_account
   owner: gga
   revisions:
+  - 1a2404ca43f9
   - e80d29fd2a33
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1756,17 +1768,20 @@ tools:
   owner: gga
   revisions:
   - 2c749ed310da
+  - 8dc690130172
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: apollo_create_or_update
   owner: gga
   revisions:
+  - 3d693b93991f
   - 4abaab60f9e1
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: apollo_iframe
   owner: gga
   revisions:
+  - 300a6bebd790
   - f4e3f9480307
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1990,6 +2005,7 @@ tools:
 - name: cp_tile
   owner: bgruening
   revisions:
+  - 443638c10c61
   - 878bafb411dd
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2056,21 +2072,26 @@ tools:
   owner: imgteam
   revisions:
   - 0c777d708acc
+  - 2ee04d2ebdcf
   - 50fa6150e340
+  - 699a5e9146b3
   - 81f0cbca04a7
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 364e235bf378
   - 6e65fd971e13
   - 7f8102bdbfa1
+  - 984358e43242
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: overlay_images
   owner: imgteam
   revisions:
   - b74693340624
+  - ca362a9bfa20
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: count_objects
@@ -2090,6 +2111,7 @@ tools:
 - name: 2d_feature_extraction
   owner: imgteam
   revisions:
+  - 0b5ddf7b2924
   - 5791a7f65275
   - 5bc8cdc17fd0
   - 6a2b26c297a4
@@ -2098,6 +2120,7 @@ tools:
 - name: 2d_filter_segmentation_by_features
   owner: imgteam
   revisions:
+  - 7876ee93bcaf
   - 9d47aabda459
   - e576b73a2e2f
   tool_panel_section_label: Imaging
@@ -2147,6 +2170,7 @@ tools:
 - name: scimap_mcmicro_to_anndata
   owner: goeckslab
   revisions:
+  - 49c178651194
   - 8ca435ec19be
   - b1ead1b7e0aa
   tool_panel_section_label: Imaging
@@ -2155,12 +2179,14 @@ tools:
   owner: goeckslab
   revisions:
   - 37dc4f51e827
+  - 88fca6e905be
   - dcfcad35e847
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: vitessce_spatial
   owner: goeckslab
   revisions:
+  - 068da7f7cd83
   - 4bf852448b5d
   - 7cc457aa78b1
   - 9f60ef2d586e
@@ -2862,6 +2888,7 @@ tools:
   owner: iuc
   revisions:
   - 02bbace216f2
+  - 05e78a90e02d
   - 88d274322340
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2883,6 +2910,7 @@ tools:
   owner: iuc
   revisions:
   - 63e02ef6e153
+  - c9218b9dc7f0
   tool_panel_section_label: Nanopore
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bcftools_norm
@@ -2955,6 +2983,7 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 3b1963f729cb
   - f329328da134
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3629,6 +3658,7 @@ tools:
   revisions:
   - 0d8581534009
   - 156b60c1530f
+  - 1e1291983bc7
   - 3e954e7125bf
   - a5937157062f
   - ef2c525bd8cd
@@ -5017,6 +5047,8 @@ tools:
   - 36dc3690a82c
   - 3aae4f16ac9e
   - 5b80f544c67f
+  - 5c7b70713fb5
+  - 6322be79bd8e
   - 68693743661e
   - 74aebe30fb52
   - c7275bd8b4d6
@@ -5046,6 +5078,7 @@ tools:
   owner: iuc
   revisions:
   - 02d81b994ef5
+  - 42818629ec4c
   - 4934c0ac6197
   - 9793bc5d741b
   tool_panel_section_label: Annotation
