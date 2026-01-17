@@ -1477,6 +1477,7 @@ tools:
   revisions:
   - 0696db066a5b
   - 2275d0688bca
+  - 6c363db8c702
   - 71bacea10eee
   - 8fe98f7094de
   - 9a882d108833
@@ -6564,6 +6565,7 @@ tools:
 - name: pretext_snapshot
   owner: iuc
   revisions:
+  - 0cc7a80463b9
   - 26f2fe7e53a1
   - 44c66e8d21e6
   - 6c571966cfb9
@@ -6686,12 +6688,14 @@ tools:
   owner: iuc
   revisions:
   - 01210c4e9144
+  - 0bace381c9fd
   - 460fad600dce
   tool_panel_section_label: Assembly
 - name: pretext_map
   owner: iuc
   revisions:
   - 79b48f02db49
+  - 9c942221e135
   - c6cec5ab35c1
   - dfb8a4497339
   tool_panel_section_label: Assembly
@@ -6920,6 +6924,7 @@ tools:
   - 03191140c66a
   - 0a5dcc9a8ec2
   - 31ea13dfe5e6
+  - 43f0efd586c4
   - 56556e1267de
   tool_panel_section_label: Variant Calling
 - name: bcftools_view
@@ -8373,6 +8378,7 @@ tools:
   revisions:
   - 915637bd1d1a
   - f355085dd2aa
+  - fd25e549f512
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin
   owner: iuc
@@ -8563,6 +8569,7 @@ tools:
 - name: mosdepth
   owner: iuc
   revisions:
+  - 2fe966f8532e
   - 5854d0da92b4
   tool_panel_section_label: SAM/BAM
 - name: tasmanian_mismatch

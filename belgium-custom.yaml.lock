@@ -3530,6 +3530,7 @@ tools:
   owner: iuc
   revisions:
   - 2275d0688bca
+  - 6c363db8c702
   - 71bacea10eee
   - 9a882d108833
   tool_panel_section_label: RNA Analysis
@@ -7649,6 +7650,7 @@ tools:
   owner: imgteam
   revisions:
   - 0b5ddf7b2924
+  - 519fad2c552a
   - 5791a7f65275
   - 5bc8cdc17fd0
   - 6a2b26c297a4
@@ -8324,6 +8326,7 @@ tools:
   owner: tduigou
   revisions:
   - 9c8ac9980bd6
+  - ab2a83949a90
   - f0a029748658
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8358,6 +8361,7 @@ tools:
 - name: rpbasicdesign
   owner: tduigou
   revisions:
+  - 29e926b7c958
   - 5ae5521bb367
   - de9f53630349
   tool_panel_section_label: Tools from workflows
@@ -9023,6 +9027,7 @@ tools:
 - name: xarray_metadata_info
   owner: ecology
   revisions:
+  - 00de53d18b99
   - e8650cdf092f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9030,23 +9035,27 @@ tools:
   owner: climate
   revisions:
   - b525b88bc941
+  - efaa93ed5a79
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mdanalysis_dihedral
   owner: chemteam
   revisions:
   - 554f60da9c8f
+  - 976cfd44b921
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mdanalysis_distance
   owner: chemteam
   revisions:
   - 489b25966bb9
+  - fd987ff06ceb
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mdanalysis_ramachandran_plot
   owner: chemteam
   revisions:
+  - be5eaea0b2d1
   - d710c7f00ae6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9090,11 +9099,13 @@ tools:
   owner: iuc
   revisions:
   - c0af7b196a89
+  - fc53fcdbe548
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mosdepth
   owner: iuc
   revisions:
+  - 2fe966f8532e
   - 5854d0da92b4
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9102,6 +9113,7 @@ tools:
   owner: iuc
   revisions:
   - 0a5dcc9a8ec2
+  - 43f0efd586c4
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: colorize_labels
@@ -9125,6 +9137,7 @@ tools:
 - name: yolo_training
   owner: bgruening
   revisions:
+  - ad05e90d024b
   - ffee3c7c90eb
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9132,6 +9145,7 @@ tools:
   owner: bgruening
   revisions:
   - 2e6ca212a1af
+  - ce7a96be8cb6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: segmetrics
@@ -9150,23 +9164,27 @@ tools:
   owner: bgruening
   revisions:
   - 91560258e972
+  - b44b081bcf37
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cp_track_objects
   owner: bgruening
   revisions:
   - 1fd453cd757b
+  - 972d2c365739
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cp_color_to_gray
   owner: bgruening
   revisions:
+  - bad171ed1e96
   - e8f822eeb9fd
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: points2labelimage
   owner: imgteam
   revisions:
+  - 22bb32eae6a1
   - 4a49f74a3c14
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9191,6 +9209,7 @@ tools:
 - name: overlay_images
   owner: imgteam
   revisions:
+  - bc4cf90cfc3b
   - ca362a9bfa20
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9203,6 +9222,7 @@ tools:
 - name: bionano_scaffold
   owner: bgruening
   revisions:
+  - 3371c5bdc17a
   - 5258e18bbe23
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9216,6 +9236,7 @@ tools:
   owner: iuc
   revisions:
   - a315c25dc813
+  - e9bd16ba5ebd
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: compress_file
@@ -9227,6 +9248,7 @@ tools:
 - name: pretext_snapshot
   owner: iuc
   revisions:
+  - 0cc7a80463b9
   - 44c66e8d21e6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9239,6 +9261,7 @@ tools:
 - name: pretext_map
   owner: iuc
   revisions:
+  - 9c942221e135
   - dfb8a4497339
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9246,17 +9269,20 @@ tools:
   owner: iuc
   revisions:
   - 01210c4e9144
+  - 0bace381c9fd
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bellerophon
   owner: iuc
   revisions:
   - 25ca5d73aedf
+  - 321347bd0494
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: merqury
   owner: iuc
   revisions:
+  - eb7b00ec347d
   - f8113c25bc6b
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9270,23 +9296,27 @@ tools:
   owner: bgruening
   revisions:
   - 3ef480892a9f
+  - 59150c883ed5
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: polypolish
   owner: iuc
   revisions:
   - f355085dd2aa
+  - fd25e549f512
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: smudgeplot
   owner: galaxy-australia
   revisions:
+  - 015283de3004
   - 5e0825476fb7
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: split_image
   owner: imgteam
   revisions:
+  - 390943df8a35
   - 73d7a4ffc03d
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9299,6 +9329,67 @@ tools:
 - name: openbabel_svg_depiction
   owner: bgruening
   revisions:
+  - 75ee9c410951
   - 7672039a0bb0
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_mapplot
+  owner: ecology
+  revisions:
+  - d7479b6dfbe8
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_coords_info
+  owner: ecology
+  revisions:
+  - 663e6f115a76
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_netcdf2netcdf
+  owner: ecology
+  revisions:
+  - 1a91e551f3a9
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: divand_full_analysis
+  owner: ecology
+  revisions:
+  - 231179dea9dd
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: timeseries_extraction
+  owner: ecology
+  revisions:
+  - 810820a0d45c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: argo_getdata
+  owner: ecology
+  revisions:
+  - 4b84de936c51
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xarray_select
+  owner: ecology
+  revisions:
+  - 6baac361495b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cds_essential_variability
+  owner: climate
+  revisions:
+  - 9ee8db6ffba3
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: climate_stripes
+  owner: climate
+  revisions:
+  - c6f2435d680b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: psy_maps
+  owner: climate
+  revisions:
+  - 706666d912d5
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
