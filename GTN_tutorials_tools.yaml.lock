@@ -260,6 +260,7 @@ tools:
   owner: iuc
   revisions:
   - a315c25dc813
+  - e9bd16ba5ebd
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: meryl
@@ -274,6 +275,7 @@ tools:
   revisions:
   - 39edec572bae
   - 589078edd230
+  - eb7b00ec347d
   - f8113c25bc6b
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -281,6 +283,7 @@ tools:
   owner: iuc
   revisions:
   - 01210c4e9144
+  - 0bace381c9fd
   - 3169a38c2656
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -297,6 +300,7 @@ tools:
 - name: bionano_scaffold
   owner: bgruening
   revisions:
+  - 3371c5bdc17a
   - 5258e18bbe23
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -304,6 +308,7 @@ tools:
   owner: iuc
   revisions:
   - 25ca5d73aedf
+  - 321347bd0494
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
@@ -346,12 +351,14 @@ tools:
 - name: pretext_map
   owner: iuc
   revisions:
+  - 9c942221e135
   - dfb8a4497339
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pretext_snapshot
   owner: iuc
   revisions:
+  - 0cc7a80463b9
   - 44c66e8d21e6
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -608,6 +615,7 @@ tools:
   revisions:
   - 3ef480892a9f
   - 5799092ffdff
+  - 59150c883ed5
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: diamond
@@ -631,12 +639,14 @@ tools:
 - name: smudgeplot
   owner: galaxy-australia
   revisions:
+  - 015283de3004
   - 5e0825476fb7
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: xarray_metadata_info
   owner: ecology
   revisions:
+  - 00de53d18b99
   - 7edbe5ae8b72
   - e8650cdf092f
   tool_panel_section_label: Climate
@@ -659,6 +669,7 @@ tools:
   revisions:
   - 3e73f657a998
   - 6015f30a7258
+  - 663e6f115a76
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -720,6 +731,7 @@ tools:
   owner: climate
   revisions:
   - b525b88bc941
+  - efaa93ed5a79
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: get_pdb
@@ -927,6 +939,7 @@ tools:
 - name: mdanalysis_ramachandran_plot
   owner: chemteam
   revisions:
+  - be5eaea0b2d1
   - d710c7f00ae6
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -934,12 +947,14 @@ tools:
   owner: chemteam
   revisions:
   - 489b25966bb9
+  - fd987ff06ceb
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mdanalysis_dihedral
   owner: chemteam
   revisions:
   - 554f60da9c8f
+  - 976cfd44b921
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: c3s
@@ -1960,6 +1975,7 @@ tools:
 - name: cp_color_to_gray
   owner: bgruening
   revisions:
+  - bad171ed1e96
   - e8f822eeb9fd
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1994,12 +2010,14 @@ tools:
   owner: bgruening
   revisions:
   - 1fd453cd757b
+  - 972d2c365739
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cp_overlay_outlines
   owner: bgruening
   revisions:
   - 91560258e972
+  - b44b081bcf37
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cp_tile
@@ -2091,6 +2109,7 @@ tools:
   owner: imgteam
   revisions:
   - b74693340624
+  - bc4cf90cfc3b
   - ca362a9bfa20
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2112,6 +2131,7 @@ tools:
   owner: imgteam
   revisions:
   - 0b5ddf7b2924
+  - 519fad2c552a
   - 5791a7f65275
   - 5bc8cdc17fd0
   - 6a2b26c297a4
@@ -4516,6 +4536,7 @@ tools:
 - name: rpbasicdesign
   owner: tduigou
   revisions:
+  - 29e926b7c958
   - 5ae5521bb367
   - de9f53630349
   tool_panel_section_label: Synthetic-Biology
@@ -4553,6 +4574,7 @@ tools:
   owner: tduigou
   revisions:
   - 9c8ac9980bd6
+  - ab2a83949a90
   - f0a029748658
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4639,6 +4661,7 @@ tools:
   - 0696db066a5b
   - 2275d0688bca
   - 6a3a025714d3
+  - 6c363db8c702
   - 6f91b8ce6e07
   - 71bacea10eee
   - 8fe98f7094de
@@ -5059,6 +5082,7 @@ tools:
   owner: iuc
   revisions:
   - c0af7b196a89
+  - fc53fcdbe548
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gemini_load
