@@ -8,6 +8,7 @@ tools:
   - 00712416fdaa
   - 080eab96d846
   - 13cf83ced60c
+  - 55e35e9203cf
   - 6f143dfe902a
   - 923dcc644832
   - 93dd15e13e6a
@@ -33,6 +34,7 @@ tools:
   - 0ef28c0963c8
   - 3d748954434b
   - 7e8c677a7b71
+  - 9bd945a03d7b
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
@@ -96,12 +98,14 @@ tools:
   revisions:
   - 0fa80752a314
   - 37a47c4fd84d
+  - 41f34e925bd5
   - c7ddb719554d
   - f3eb2291da05
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
   owner: iuc
   revisions:
+  - 43c146e25a43
   - 56a093c2a3f9
   - 7608d5faee41
   - 8b917923f7d4
@@ -114,6 +118,7 @@ tools:
   - 49776718ae90
   - 4ea021bd7513
   - 7e014059a88d
+  - a4b734cd253b
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
   owner: iuc
@@ -122,6 +127,7 @@ tools:
   - 2bfd55b87af3
   - 3e5bb16abb55
   - 44b935f2271b
+  - 72979cac22b2
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
   owner: iuc
@@ -130,6 +136,7 @@ tools:
   - 69018f285aa3
   - 6e90c8adf84f
   - a6821f856a1e
+  - c8434a623268
   tool_panel_section_label: Single-cell
 - name: kallisto_quant
   owner: iuc
@@ -1994,6 +2001,7 @@ tools:
   revisions:
   - 0e3cf9594bb7
   - 2889433c7ae1
+  - 5edc472ec434
   - cbf3f518b668
   - fc35ffc8c548
   tool_panel_section_label: NCBI Blast
@@ -2789,6 +2797,7 @@ tools:
   owner: iuc
   revisions:
   - 161f4383df15
+  - 26ee5e11ecbe
   - 31c42a2c02d3
   - 75c93c70d094
   - 9a913cdee30e
@@ -4131,6 +4140,7 @@ tools:
   owner: iuc
   revisions:
   - 0e212e42ef88
+  - 38db3fef7aad
   - 49ce1315722c
   - 4d8f983cd751
   - 77b91b9bdf52
@@ -4146,6 +4156,7 @@ tools:
   - 5813f9920877
   - 5b3c1679d29b
   - 64388be6d510
+  - 8cb783c81905
   - 92a189c299d4
   - a97abb8cd15b
   - b409c2486353
@@ -4171,6 +4182,7 @@ tools:
   - 3bcd5445cd7a
   - 4766556db52c
   - 4bda4412b8c2
+  - 56c0d4acef02
   - ab55fe8030b6
   - d844935c906c
   - e639abb0de92
@@ -4178,6 +4190,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 16a1c3122996
   - 397d2c97af05
   - 40812a65a78b
@@ -4192,6 +4205,7 @@ tools:
   revisions:
   - 00305dc2dd6f
   - 458d4ab0f894
+  - 9fb627495ec2
   - be0d45c46e97
   - bf2017df9837
   - c5541bfb8feb
@@ -4232,6 +4246,7 @@ tools:
   - 6f6537780379
   - 7ca4ed416391
   - 89329e428dc6
+  - 9e2df763086c
   - d147d6455873
   tool_panel_section_label: Send Data
 - name: flair_collapse
@@ -5083,6 +5098,7 @@ tools:
   - '528052085629'
   - b0fe3e482cb7
   - c9944a2600f1
+  - e32b215b7c04
   - e4c01dcece8b
   tool_panel_section_label: RNA Analysis
 - name: salmonquantmerge
@@ -6560,6 +6576,7 @@ tools:
   - 94e32337ba54
   - 95be88b49f4e
   - a6a475ed58cb
+  - bc18e25d4204
   - d951c5b0edd1
   tool_panel_section_label: Get Data
 - name: pretext_snapshot
@@ -8384,6 +8401,7 @@ tools:
   owner: iuc
   revisions:
   - 99ff9221182c
+  - afee33334a63
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin_bin
   owner: iuc
@@ -8532,6 +8550,7 @@ tools:
   owner: iuc
   revisions:
   - 298d81e5e138
+  - d3377a16d881
   tool_panel_section_label: RNA Analysis
 - name: mirnature
   owner: iuc
@@ -9328,6 +9347,7 @@ tools:
 - name: binette
   owner: iuc
   revisions:
+  - 37ab2cfedac4
   - 7834132949bc
   tool_panel_section_label: Metagenomic Analysis
 - name: squirrel_phylo

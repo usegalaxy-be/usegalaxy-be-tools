@@ -337,6 +337,7 @@ tools:
   - 94e32337ba54
   - 95be88b49f4e
   - a6a475ed58cb
+  - bc18e25d4204
   - d951c5b0edd1
   tool_panel_section_label: Get Data
 - name: clipkit
@@ -365,6 +366,7 @@ tools:
   - 6f6537780379
   - 7ca4ed416391
   - 89329e428dc6
+  - 9e2df763086c
   tool_panel_section_label: Send Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -458,6 +460,7 @@ tools:
   - 6073bb457ec0
   - 9ff72e942410
   - a6f147a050a2
+  - ab83aa685821
   - c41d78ae5fee
   - ddf54b12c295
   - fbf99087e067
@@ -719,6 +722,7 @@ tools:
   revisions:
   - 190b3bcc00aa
   - 77f67ddd89d6
+  - a0f01c777820
   - ab55af10f1ff
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -1194,6 +1198,7 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
+  - 26ee5e11ecbe
   - 31c42a2c02d3
   - 75c93c70d094
   - e4dd4c0622f6
@@ -3334,6 +3339,7 @@ tools:
   - 04b494623f8e
   - '528052085629'
   - b0fe3e482cb7
+  - e32b215b7c04
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: migmap
@@ -3912,6 +3918,7 @@ tools:
 - name: anndata_manipulate
   owner: iuc
   revisions:
+  - 9bd945a03d7b
   - be1fdce914c6
   - d1e49c3c0aa2
   - e6a8d5fdca85
@@ -3921,6 +3928,7 @@ tools:
   owner: iuc
   revisions:
   - 13cf83ced60c
+  - 55e35e9203cf
   - 923dcc644832
   - d0a337ddf062
   tool_panel_section_label: Single-cell
@@ -3952,6 +3960,7 @@ tools:
   owner: iuc
   revisions:
   - 458d4ab0f894
+  - 9fb627495ec2
   - be0d45c46e97
   - f2f6c703da06
   tool_panel_section_label: Single-cell
@@ -3959,6 +3968,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 16a1c3122996
   - 5a5468c0d26f
   - dbbe1ea8ecb1
@@ -3969,6 +3979,7 @@ tools:
   revisions:
   - 3bcd5445cd7a
   - 4766556db52c
+  - 56c0d4acef02
   - e639abb0de92
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -3985,6 +3996,7 @@ tools:
   owner: iuc
   revisions:
   - 5813f9920877
+  - 8cb783c81905
   - 92a189c299d4
   - a97abb8cd15b
   tool_panel_section_label: Single-cell
@@ -3992,6 +4004,7 @@ tools:
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
+  - 38db3fef7aad
   - 49ce1315722c
   - 77b91b9bdf52
   - a84a73471be7
@@ -4048,23 +4061,27 @@ tools:
   owner: iuc
   revisions:
   - 69018f285aa3
+  - c8434a623268
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_trajectory
   owner: iuc
   revisions:
   - 44b935f2271b
+  - 72979cac22b2
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_clustering
   owner: iuc
   revisions:
   - 7e014059a88d
+  - a4b734cd253b
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_filtnormconf
   owner: iuc
   revisions:
+  - 43c146e25a43
   - 7608d5faee41
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4072,6 +4089,7 @@ tools:
   owner: iuc
   revisions:
   - 37a47c4fd84d
+  - 41f34e925bd5
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: picard
@@ -4340,6 +4358,7 @@ tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
+  - 5edc472ec434
   - cbf3f518b668
   - fc35ffc8c548
   tool_panel_section_label: NCBI Blast
@@ -6542,6 +6561,7 @@ tools:
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
+  - 468c71dac78a
   - 60f7e2a6b9c7
   - f7ebd1b4783b
   tool_panel_section_label: Proteomics
@@ -7644,6 +7664,7 @@ tools:
   - 7876ee93bcaf
   - 9d47aabda459
   - e576b73a2e2f
+  - ea6dae3f10a2
   tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: 2d_feature_extraction
@@ -8064,6 +8085,7 @@ tools:
 - name: anndata_ops
   owner: ebi-gxa
   revisions:
+  - 7ebc22f77d86
   - 7ef2403a250d
   - a4774b7b2e85
   tool_panel_section_label: Single-cell
@@ -9016,6 +9038,7 @@ tools:
   owner: iuc
   revisions:
   - 298d81e5e138
+  - d3377a16d881
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pm_muairss_read
@@ -9336,6 +9359,7 @@ tools:
 - name: xarray_mapplot
   owner: ecology
   revisions:
+  - 506b6d6880ff
   - d7479b6dfbe8
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9349,6 +9373,7 @@ tools:
   owner: ecology
   revisions:
   - 1a91e551f3a9
+  - c91c27b63fb2
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: divand_full_analysis
@@ -9373,17 +9398,20 @@ tools:
   owner: ecology
   revisions:
   - 6baac361495b
+  - b393815e4cb7
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cds_essential_variability
   owner: climate
   revisions:
   - 9ee8db6ffba3
+  - ee42b7a33dc7
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: climate_stripes
   owner: climate
   revisions:
+  - abdc27e01dca
   - c6f2435d680b
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9391,5 +9419,744 @@ tools:
   owner: climate
   revisions:
   - 706666d912d5
+  - 988212a7466a
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_elink
+  owner: iuc
+  revisions:
+  - 2791c731fc65
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_ecitmatch
+  owner: iuc
+  revisions:
+  - 732a52c18758
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_esearch
+  owner: iuc
+  revisions:
+  - 30150bd36c9a
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_egquery
+  owner: iuc
+  revisions:
+  - 28f69754ddc5
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_eutils_epost
+  owner: iuc
+  revisions:
+  - 196b8dd07896
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concoct_extract_fasta_bins
+  owner: iuc
+  revisions:
+  - 8b1b09fcd8b7
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concoct_merge_cut_up_clustering
+  owner: iuc
+  revisions:
+  - 20ccec4a2c38
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metabat2
+  owner: iuc
+  revisions:
+  - f375b4f6ef57
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concoct
+  owner: iuc
+  revisions:
+  - eae7ee167917
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metabat2_jgi_summarize_bam_contig_depths
+  owner: iuc
+  revisions:
+  - 00e3b4ef7e0c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concoct_cut_up_fasta
+  owner: iuc
+  revisions:
+  - 4d8bc5dd9e95
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: wordcloud
+  owner: bgruening
+  revisions:
+  - 6055ffae8903
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_dpt
+  owner: ebi-gxa
+  revisions:
+  - 2e06dabb3f2f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_plot_trajectory
+  owner: ebi-gxa
+  revisions:
+  - f489ccdd423c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_fdg
+  owner: ebi-gxa
+  revisions:
+  - 7c6581b57ad4
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_diffexp
+  owner: ebi-gxa
+  revisions:
+  - d43a608d14ac
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_ordercells
+  owner: ebi-gxa
+  revisions:
+  - 3e77dc421569
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_create
+  owner: ebi-gxa
+  revisions:
+  - ada68a9d0aec
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sceasy_convert
+  owner: iuc
+  revisions:
+  - 5c9b16bdbd5e
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dropletutils_empty_drops
+  owner: ebi-gxa
+  revisions:
+  - fa662ca7ae7f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dropletutils_read_10x
+  owner: ebi-gxa
+  revisions:
+  - ca62f52e0d7f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: droplet_barcode_plot
+  owner: ebi-gxa
+  revisions:
+  - 8f605643ccfd
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: salmon_kallisto_mtx_to_10x
+  owner: ebi-gxa
+  revisions:
+  - 88f5a0a6a818
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seq_filter_by_id
+  owner: peterjc
+  revisions:
+  - 85ef5f5a0562
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - 73d43034c860
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_run_umap
+  owner: ebi-gxa
+  revisions:
+  - b9424c715a0d
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_find_clusters
+  owner: ebi-gxa
+  revisions:
+  - d541e9e62beb
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - cd9f564bd63f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_plot
+  owner: ebi-gxa
+  revisions:
+  - 95d79f1134f0
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_regress_variable
+  owner: ebi-gxa
+  revisions:
+  - 36daab33aecf
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: music_compare
+  owner: bgruening
+  revisions:
+  - d817b3807562
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+  revisions:
+  - 2ccd9f9e2cd0
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - 181d61d2f3cd
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+  revisions:
+  - 6417cccad133
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - f86b2c3bc459
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - bf1e0bdec1db
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_plot_embed
+  owner: ebi-gxa
+  revisions:
+  - 35f6611fb8c3
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - 2861ca3bfe4d
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 6b97ffba31da
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+  revisions:
+  - 474a69c47184
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: music_deconvolution
+  owner: bgruening
+  revisions:
+  - 8cd2ecfa2e61
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sinto_fragments
+  owner: iuc
+  revisions:
+  - 6f66f523a9b7
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sinto_barcode
+  owner: iuc
+  revisions:
+  - fb61eb03e313
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: episcanpy_preprocess
+  owner: iuc
+  revisions:
+  - 29f5f25b9935
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_plot
+  owner: iuc
+  revisions:
+  - fee4b4eb0ef5
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_clustering
+  owner: iuc
+  revisions:
+  - 51eb02d9b17a
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: snapatac2_preprocessing
+  owner: iuc
+  revisions:
+  - c5c94e01a1b5
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: snapatac2_plotting
+  owner: iuc
+  revisions:
+  - 05bd4db20227
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_read10x
+  owner: ebi-gxa
+  revisions:
+  - f5db0e853f57
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: retrieve_scxa
+  owner: ebi-gxa
+  revisions:
+  - 72b6e1747e37
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: multigsea
+  owner: iuc
+  revisions:
+  - e48b10ce08b8
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concatenate_multiple_datasets
+  owner: artbio
+  revisions:
+  - 5b1b635232ed
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: encyclopedia_quantify
+  owner: galaxyp
+  revisions:
+  - 1c5cbf8f79ce
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obisindicators
+  owner: ecology
+  revisions:
+  - dc187fe78055
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gdal_ogr2ogr
+  owner: ecology
+  revisions:
+  - e12db3b4d3a6
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_tab
+  owner: iuc
+  revisions:
+  - 4cf47c504672
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_clean
+  owner: iuc
+  revisions:
+  - 816cbd8f4e6e
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_uniq
+  owner: iuc
+  revisions:
+  - d4bea99366f9
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_ngsfilter
+  owner: iuc
+  revisions:
+  - 91a1ed0b486f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_illumina_pairend
+  owner: iuc
+  revisions:
+  - 8cb6bd511879
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: srs_global_indices
+  owner: ecology
+  revisions:
+  - 5cae678042ec
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: srs_spectral_indices
+  owner: ecology
+  revisions:
+  - b40aba3d9e5c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_eco_map
+  owner: ecology
+  revisions:
+  - 57c618532ac1
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_clara_cluster
+  owner: ecology
+  revisions:
+  - cc9ea890823c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_cluster_estimate
+  owner: ecology
+  revisions:
+  - 6c5404468d8c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_taxa_seeker
+  owner: ecology
+  revisions:
+  - 68d98dbd8bfc
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_brt_analysis
+  owner: ecology
+  revisions:
+  - aba980404954
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecology_beta_diversity
+  owner: ecology
+  revisions:
+  - fb7b2cbd80bb
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecology_stat_presence_abs
+  owner: ecology
+  revisions:
+  - 9a2e0195bb43
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecology_presence_abs_abund
+  owner: ecology
+  revisions:
+  - 4ed07d2d442b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: srs_preprocess_s2
+  owner: ecology
+  revisions:
+  - 33a1e15f7252
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecology_homogeneity_normality
+  owner: ecology
+  revisions:
+  - 3df8937fd6fd
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_anonymization
+  owner: ecology
+  revisions:
+  - 726a387cfdc2
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cdo_operations
+  owner: climate
+  revisions:
+  - d5355f6fa02b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_glmsp
+  owner: ecology
+  revisions:
+  - 7a69e1c8ba46
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_glmcomm
+  owner: ecology
+  revisions:
+  - b40fecef616b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_communitymetrics
+  owner: ecology
+  revisions:
+  - c67ece97d4b1
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_biogeochemical_calibration
+  owner: ecology
+  revisions:
+  - 7b7555bbde84
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_odv
+  owner: ecology
+  revisions:
+  - bdc969c006fe
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: harmonize_insitu_to_netcdf
+  owner: ecology
+  revisions:
+  - 208f69b31088
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: encyclopedia_searchtolib
+  owner: galaxyp
+  revisions:
+  - 36880dfd9fa7
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_odv_history
+  owner: ecology
+  revisions:
+  - d626252fad72
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_presabs
+  owner: ecology
+  revisions:
+  - 1ebb70b59037
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pampa_plotglm
+  owner: ecology
+  revisions:
+  - c448e026f122
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecology_link_between_var
+  owner: ecology
+  revisions:
+  - 8e8867bf491a
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ecoregion_geonearestneighbor
+  owner: ecology
+  revisions:
+  - 4ed3e4f04b79
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: srs_diversity_maps
+  owner: ecology
+  revisions:
+  - 9adccd3da70c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_annotate
+  owner: iuc
+  revisions:
+  - d50dc96e3ce9
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_stat
+  owner: iuc
+  revisions:
+  - 5f4544915893
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obi_grep
+  owner: iuc
+  revisions:
+  - 02bab5ff7c37
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: prodigal
+  owner: iuc
+  revisions:
+  - 91791b6ecd38
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sanntis_marine
+  owner: ecology
+  revisions:
+  - 9d689f8c9ce4
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: obis_data
+  owner: ecology
+  revisions:
+  - 5bae75c49f2e
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_read_10x
+  owner: ebi-gxa
+  revisions:
+  - 078aa23c9374
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: snapatac2_clustering
+  owner: iuc
+  revisions:
+  - d3ea0ba3d066
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: decoupler_pseudobulk
+  owner: ebi-gxa
+  revisions:
+  - 09c833d9b03b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_create
+  owner: iuc
+  revisions:
+  - af8bdeb89691
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_data
+  owner: iuc
+  revisions:
+  - 4ec52a83ec82
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_preprocessing
+  owner: iuc
+  revisions:
+  - 6bccf5f85f92
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_reduce_dimension
+  owner: iuc
+  revisions:
+  - 46ed93e8da30
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: episcanpy_build_matrix
+  owner: iuc
+  revisions:
+  - 31a21ba2c5ea
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: music_construct_eset
+  owner: bgruening
+  revisions:
+  - 48f0fb3061b1
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_pca
+  owner: ebi-gxa
+  revisions:
+  - 59028945c857
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_umap
+  owner: ebi-gxa
+  revisions:
+  - bd4a244faeb8
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 81c34e67f262
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 3f49bc9c9213
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - 948fc0276b4f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_scale_data
+  owner: ebi-gxa
+  revisions:
+  - 5e9ba303f9e1
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_run_pca
+  owner: ebi-gxa
+  revisions:
+  - 8ded486b0014
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gtf2gene_list
+  owner: ebi-gxa
+  revisions:
+  - 14b3f2a4523b
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_preprocess
+  owner: ebi-gxa
+  revisions:
+  - c150370b514c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_reducedim
+  owner: ebi-gxa
+  revisions:
+  - 8900e2a18603
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_partition
+  owner: ebi-gxa
+  revisions:
+  - d98b4705eb4c
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_topmarkers
+  owner: ebi-gxa
+  revisions:
+  - a4ab4af54b1a
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_learngraph
+  owner: ebi-gxa
+  revisions:
+  - 5f877012f7af
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: monocle3_plotcells
+  owner: ebi-gxa
+  revisions:
+  - 91980addce5e
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: music_manipulate_eset
+  owner: bgruening
+  revisions:
+  - b5185a4f5209
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scanpy_run_diffmap
+  owner: ebi-gxa
+  revisions:
+  - e2ca1846080f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: music_inspect_eset
+  owner: bgruening
+  revisions:
+  - fde4c972e7c5
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concoct_coverage_table
+  owner: iuc
+  revisions:
+  - fd31cd168efc
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: semibin
+  owner: iuc
+  revisions:
+  - afee33334a63
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_to_contig2bin
+  owner: iuc
+  revisions:
+  - fb2bed0eb02f
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: binette
+  owner: iuc
+  revisions:
+  - 37ab2cfedac4
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu

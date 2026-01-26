@@ -28,6 +28,7 @@ tools:
   owner: iuc
   revisions:
   - 1c2db0054039
+  - 26ee5e11ecbe
   - 31c42a2c02d3
   - 3bad335ccea9
   - 5e33b465d8d5
@@ -322,6 +323,7 @@ tools:
   - 74a8bef53a00
   - 9ff72e942410
   - a6f147a050a2
+  - ab83aa685821
   - c41d78ae5fee
   - d698c222f354
   - ddf54b12c295
@@ -655,6 +657,7 @@ tools:
   owner: ecology
   revisions:
   - 1a91e551f3a9
+  - c91c27b63fb2
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: xarray_select
@@ -662,6 +665,7 @@ tools:
   revisions:
   - 225d0d275a24
   - 6baac361495b
+  - b393815e4cb7
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: xarray_coords_info
@@ -696,12 +700,14 @@ tools:
 - name: climate_stripes
   owner: climate
   revisions:
+  - abdc27e01dca
   - c6f2435d680b
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: xarray_mapplot
   owner: ecology
   revisions:
+  - 506b6d6880ff
   - d7479b6dfbe8
   - dc05bf0af58f
   tool_panel_section_label: Climate
@@ -712,6 +718,7 @@ tools:
   - 190b3bcc00aa
   - 39881709807e
   - 77f67ddd89d6
+  - a0f01c777820
   - ab55af10f1ff
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -719,12 +726,14 @@ tools:
   owner: climate
   revisions:
   - 9ee8db6ffba3
+  - ee42b7a33dc7
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: psy_maps
   owner: climate
   revisions:
   - 706666d912d5
+  - 988212a7466a
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ctsm_fates
@@ -992,11 +1001,13 @@ tools:
   owner: ecology
   revisions:
   - 4e7c1fb5e894
+  - dc187fe78055
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_presabs
   owner: ecology
   revisions:
+  - 1ebb70b59037
   - 8d8aec182fb1
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1004,24 +1015,28 @@ tools:
   owner: ecology
   revisions:
   - 5bd7ddd7601f
+  - c67ece97d4b1
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_glmcomm
   owner: ecology
   revisions:
   - 44b9069775ca
+  - b40fecef616b
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_glmsp
   owner: ecology
   revisions:
   - 6c14021f678e
+  - 7a69e1c8ba46
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_plotglm
   owner: ecology
   revisions:
   - 3ab852a7ff53
+  - c448e026f122
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: datamash_transpose
@@ -1121,6 +1136,7 @@ tools:
   owner: iuc
   revisions:
   - 83fbdf93d51e
+  - 8cb6bd511879
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: unzip
@@ -1144,29 +1160,34 @@ tools:
   owner: iuc
   revisions:
   - 3bf57dadf7cd
+  - 91a1ed0b486f
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_uniq
   owner: iuc
   revisions:
+  - d4bea99366f9
   - ec215ed98831
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_annotate
   owner: iuc
   revisions:
+  - d50dc96e3ce9
   - f82cefbbcea5
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_stat
   owner: iuc
   revisions:
+  - 5f4544915893
   - 723a93febe89
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_grep
   owner: iuc
   revisions:
+  - 02bab5ff7c37
   - fe7ec8a3d35e
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1174,6 +1195,7 @@ tools:
   owner: iuc
   revisions:
   - 12baadec7809
+  - 816cbd8f4e6e
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ncbi_blast_plus
@@ -1189,11 +1211,13 @@ tools:
   owner: peterjc
   revisions:
   - 141612f8c3e3
+  - 85ef5f5a0562
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_tab
   owner: iuc
   revisions:
+  - 4cf47c504672
   - 5f7003111e32
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1267,6 +1291,7 @@ tools:
   owner: ecology
   revisions:
   - a8dabbf47e15
+  - b40aba3d9e5c
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: srs_global_indices
@@ -2143,6 +2168,7 @@ tools:
   - 7876ee93bcaf
   - 9d47aabda459
   - e576b73a2e2f
+  - ea6dae3f10a2
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: basic_illumination
@@ -3278,6 +3304,7 @@ tools:
   owner: bgruening
   revisions:
   - 054483e27a35
+  - 468c71dac78a
   - 60f7e2a6b9c7
   - f7ebd1b4783b
   tool_panel_section_label: Proteomics
@@ -3782,6 +3809,7 @@ tools:
   owner: iuc
   revisions:
   - 13cf83ced60c
+  - 55e35e9203cf
   - 923dcc644832
   - 93dd15e13e6a
   - ae1e5d9d8972
@@ -3794,6 +3822,7 @@ tools:
   revisions:
   - 3d748954434b
   - 8db95f488f0f
+  - 9bd945a03d7b
   - be1fdce914c6
   - d1e49c3c0aa2
   - e6a8d5fdca85
@@ -3816,6 +3845,7 @@ tools:
   owner: iuc
   revisions:
   - 5813f9920877
+  - 8cb783c81905
   - 92a189c299d4
   - a03ff8633507
   - a97abb8cd15b
@@ -3828,6 +3858,7 @@ tools:
   - 3bcd5445cd7a
   - 4766556db52c
   - 5342ce58cd1e
+  - 56c0d4acef02
   - 94c19fb1281c
   - e639abb0de92
   tool_panel_section_label: Single-cell
@@ -3838,6 +3869,7 @@ tools:
   - 458d4ab0f894
   - 458e8f43a775
   - 80d4e2cac903
+  - 9fb627495ec2
   - be0d45c46e97
   - f2f6c703da06
   tool_panel_section_label: Single-cell
@@ -3846,6 +3878,7 @@ tools:
   owner: iuc
   revisions:
   - 35bc2eb568ed
+  - 38db3fef7aad
   - 49ce1315722c
   - 6acb08931836
   - 77b91b9bdf52
@@ -3856,6 +3889,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 16a1c3122996
   - 5a5468c0d26f
   - 6adf98e782f3
@@ -3874,6 +3908,7 @@ tools:
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
+  - 078aa23c9374
   - 9afcfcd1d215
   - d253d69ff19f
   tool_panel_section_label: Single-Cell
@@ -3903,18 +3938,21 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_inspect_eset
   owner: bgruening
   revisions:
   - 8c64a2da3869
+  - fde4c972e7c5
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_deconvolution
   owner: bgruening
   revisions:
   - 56371b5a2da9
+  - 8cd2ecfa2e61
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: episcanpy_preprocess
@@ -3927,12 +3965,14 @@ tools:
   owner: iuc
   revisions:
   - d1b34ac42b8f
+  - fb61eb03e313
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sinto_fragments
   owner: iuc
   revisions:
   - 29e6bfb2cf49
+  - 6f66f523a9b7
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: episcanpy_build_matrix
@@ -3945,6 +3985,7 @@ tools:
   owner: bgruening
   revisions:
   - 4447ed460308
+  - d817b3807562
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_fdg
@@ -4038,6 +4079,7 @@ tools:
 - name: scanpy_parameter_iterator
   owner: ebi-gxa
   revisions:
+  - 73d43034c860
   - a8c73996ac50
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4099,12 +4141,14 @@ tools:
   owner: bgruening
   revisions:
   - 22232092be53
+  - b5185a4f5209
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_filter_cells
   owner: ebi-gxa
   revisions:
   - 55ccc0a121bc
+  - bf1e0bdec1db
   - e9283529cba1
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4244,6 +4288,7 @@ tools:
   - 04b494623f8e
   - '528052085629'
   - b0fe3e482cb7
+  - e32b215b7c04
   - e4c01dcece8b
   - f2000bc73102
   tool_panel_section_label: RNA Analysis
@@ -4873,6 +4918,7 @@ tools:
   revisions:
   - 298d81e5e138
   - b3f292d9f35d
+  - d3377a16d881
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trinotate
