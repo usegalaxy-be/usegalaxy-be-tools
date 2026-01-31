@@ -1451,6 +1451,7 @@ tools:
   revisions:
   - 37b497aa133f
   - 3e1ea2facca6
+  - 48d39ee9eb30
   - 60afcc2c1d05
   - e7f19d6a9af8
   tool_panel_section_label: Mapping
@@ -6764,6 +6765,7 @@ tools:
   owner: iuc
   revisions:
   - a315c25dc813
+  - bded6226d503
   - e9bd16ba5ebd
   tool_panel_section_label: Assembly
 - name: merqury
@@ -8664,6 +8666,7 @@ tools:
 - name: snapatac2_preprocessing
   owner: iuc
   revisions:
+  - 20c4011e1458
   - 48d9421bf176
   - 4ecdea4cbea1
   - c5c94e01a1b5
@@ -8675,12 +8678,14 @@ tools:
   - 509baa4a2da0
   - 94ae400dde2f
   - afb90d3485df
+  - d258720d9a42
   - d3ea0ba3d066
   tool_panel_section_label: Single-cell
 - name: snapatac2_plotting
   owner: iuc
   revisions:
   - 05bd4db20227
+  - 1ac4a5f05f33
   - 370d45e0d1a8
   - c01f0a08ab43
   - fbf62973e556
@@ -9349,6 +9354,7 @@ tools:
   revisions:
   - 37ab2cfedac4
   - 7834132949bc
+  - 9053a39d7994
   tool_panel_section_label: Metagenomic Analysis
 - name: squirrel_phylo
   owner: iuc
