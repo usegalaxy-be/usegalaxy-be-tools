@@ -261,6 +261,7 @@ tools:
   owner: iuc
   revisions:
   - a315c25dc813
+  - bded6226d503
   - e9bd16ba5ebd
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -576,6 +577,7 @@ tools:
   owner: devteam
   revisions:
   - 37b497aa133f
+  - 48d39ee9eb30
   - e7f19d6a9af8
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -615,6 +617,7 @@ tools:
 - name: gfastats
   owner: bgruening
   revisions:
+  - 0fe699ced54f
   - 3ef480892a9f
   - 5799092ffdff
   - 59150c883ed5
@@ -1137,6 +1140,7 @@ tools:
   revisions:
   - 83fbdf93d51e
   - 8cb6bd511879
+  - a829941376bd
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: unzip
@@ -1839,6 +1843,7 @@ tools:
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
+  - 02439eb2b37d
   - 5a30ae278db0
   - 63662ae295d6
   - 9d1fbff733cf
@@ -3320,11 +3325,13 @@ tools:
   owner: galaxyp
   revisions:
   - 36880dfd9fa7
+  - fb192dd6658a
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: encyclopedia_quantify
   owner: galaxyp
   revisions:
+  - 0fa397f4f40b
   - 1c5cbf8f79ce
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3992,17 +3999,20 @@ tools:
   owner: ebi-gxa
   revisions:
   - 7c6581b57ad4
+  - be019b069e31
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_diffmap
   owner: ebi-gxa
   revisions:
+  - 79cc06a557b0
   - e2ca1846080f
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
+  - 22bd5861706d
   - 6417cccad133
   - bc9e8de21efb
   tool_panel_section_label: Single-Cell
@@ -4011,17 +4021,20 @@ tools:
   owner: ebi-gxa
   revisions:
   - 4e7d55438238
+  - b2768cae00a1
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot_trajectory
   owner: ebi-gxa
   revisions:
+  - cb1992d1804b
   - f489ccdd423c
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_dpt
   owner: ebi-gxa
   revisions:
+  - 03921aa8b29c
   - 2e06dabb3f2f
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4030,6 +4043,7 @@ tools:
   revisions:
   - 35f6611fb8c3
   - 56d22aa6cb3b
+  - 7d5c97823f8b
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: umi_tools_extract
@@ -4088,12 +4102,14 @@ tools:
   revisions:
   - 181d61d2f3cd
   - 8b0d6f6f44c8
+  - abdb61e4afa3
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_umap
   owner: ebi-gxa
   revisions:
   - bd4a244faeb8
+  - ea91cfd0444e
   - fe562424a0a6
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4101,6 +4117,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 2ccd9f9e2cd0
+  - 36735850e461
   - ad6995afd2e6
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4117,6 +4134,7 @@ tools:
 - name: scanpy_regress_variable
   owner: ebi-gxa
   revisions:
+  - 0bab2ae44e7a
   - 36daab33aecf
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4156,12 +4174,14 @@ tools:
   owner: ebi-gxa
   revisions:
   - 474a69c47184
+  - cc64914b0cf4
   - da611a744112
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_normalise_data
   owner: ebi-gxa
   revisions:
+  - 3027cb62adbd
   - 6b97ffba31da
   - 8d9c22419c56
   tool_panel_section_label: Single-Cell
@@ -4171,11 +4191,13 @@ tools:
   revisions:
   - 2861ca3bfe4d
   - 4667fe07bd68
+  - 64dd8bb151e1
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_scale_data
   owner: ebi-gxa
   revisions:
+  - 4cc9362782b4
   - 5605f8452eb3
   - f86b2c3bc459
   tool_panel_section_label: Single-Cell
@@ -4184,6 +4206,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 3ee74b58c72d
+  - 4428dba93375
   - 59028945c857
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4192,6 +4215,7 @@ tools:
   revisions:
   - 49653e680ea4
   - 81c34e67f262
+  - d8f5224005bb
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scater_create_qcmetric_ready_sce
@@ -4618,6 +4642,7 @@ tools:
 - name: retropath2
   owner: tduigou
   revisions:
+  - 7b6671db6ca2
   - 9c8ac9980bd6
   - ab2a83949a90
   - f0a029748658
