@@ -151,6 +151,7 @@ tools:
   - 65b93b623c77
   - dbf9c561ef29
   - f875da9d433c
+  - ff33957bf802
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_filter_by_length
