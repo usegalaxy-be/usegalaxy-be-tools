@@ -858,6 +858,7 @@ tools:
   - 25c59c0ceb55
   - dbf9c561ef29
   - f875da9d433c
+  - ff33957bf802
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fasta_stats

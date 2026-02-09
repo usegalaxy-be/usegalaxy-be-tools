@@ -576,6 +576,7 @@ tools:
   - d60c3f704da0
   - dbf9c561ef29
   - f875da9d433c
+  - ff33957bf802
   tool_panel_section_label: FASTA/FASTQ manipulation
 - name: fasta_stats
   owner: iuc
