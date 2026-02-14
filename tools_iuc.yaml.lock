@@ -1408,6 +1408,7 @@ tools:
   owner: iuc
   revisions:
   - 0c16cad5e03b
+  - b12d81af0291
   - f4af63aaf57a
   tool_panel_section_label: Mapping
 - name: bowtie_wrappers
@@ -1454,6 +1455,7 @@ tools:
   - 3e1ea2facca6
   - 48d39ee9eb30
   - 60afcc2c1d05
+  - bf107d23242b
   - e7f19d6a9af8
   tool_panel_section_label: Mapping
 - name: minimap2
@@ -4690,6 +4692,7 @@ tools:
   revisions:
   - 1cea23583655
   - 287c4af133e6
+  - 2898012c5265
   - 3be27a9a7313
   - f41a1e03538b
   - fb0bb7174530
@@ -5070,6 +5073,7 @@ tools:
   - 0124fce4654a
   - 2b89471cca20
   - 3ce74eab308b
+  - 7a30b65088d1
   - 8f1b150a2487
   - d6d5ccc2c581
   - db9b10824c61
@@ -7343,6 +7347,7 @@ tools:
   owner: iuc
   revisions:
   - 6b7622dda516
+  - a00df747f03c
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomic Analysis
