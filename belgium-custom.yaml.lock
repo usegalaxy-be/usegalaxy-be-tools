@@ -2351,6 +2351,7 @@ tools:
   owner: iuc
   revisions:
   - 3ce74eab308b
+  - 7a30b65088d1
   - db9b10824c61
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2374,6 +2375,7 @@ tools:
 - name: hisat2
   owner: iuc
   revisions:
+  - b12d81af0291
   - f4af63aaf57a
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2421,6 +2423,7 @@ tools:
   revisions:
   - 37b497aa133f
   - 48d39ee9eb30
+  - bf107d23242b
   - e7f19d6a9af8
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2580,6 +2583,7 @@ tools:
   owner: iuc
   revisions:
   - 287c4af133e6
+  - 2898012c5265
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: odgi_viz
@@ -4878,6 +4882,7 @@ tools:
 - name: humann
   owner: iuc
   revisions:
+  - a00df747f03c
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomic Analysis
@@ -8244,6 +8249,7 @@ tools:
   owner: iuc
   revisions:
   - 5975e7bd2cde
+  - 5c75bd7503fe
   tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_textexporter
@@ -8350,6 +8356,7 @@ tools:
 - name: retropath2
   owner: tduigou
   revisions:
+  - 70680efed3d8
   - 7b6671db6ca2
   - 9c8ac9980bd6
   - ab2a83949a90

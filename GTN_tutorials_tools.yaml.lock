@@ -579,6 +579,7 @@ tools:
   revisions:
   - 37b497aa133f
   - 48d39ee9eb30
+  - bf107d23242b
   - e7f19d6a9af8
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -639,6 +640,7 @@ tools:
   - 1eb21dccc2fa
   - 6daca6da3059
   - a86e80d3c09c
+  - b12d81af0291
   - f4af63aaf57a
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2858,6 +2860,7 @@ tools:
   owner: iuc
   revisions:
   - 95bf7479d53c
+  - a00df747f03c
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomic Analysis
@@ -4643,6 +4646,7 @@ tools:
 - name: retropath2
   owner: tduigou
   revisions:
+  - 70680efed3d8
   - 7b6671db6ca2
   - 9c8ac9980bd6
   - ab2a83949a90
