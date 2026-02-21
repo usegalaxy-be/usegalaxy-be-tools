@@ -548,6 +548,7 @@ tools:
   owner: devteam
   revisions:
   - 4d343c1f606b
+  - 887a9bf73d1a
   - 8eb649e67987
   - 970e6333f07e
   - befc9dad4ca8
@@ -630,6 +631,7 @@ tools:
   revisions:
   - 1e3323a44643
   - 9553180705b7
+  - a02aa0dfb850
   - e8ac2b53f262
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1150,6 +1152,7 @@ tools:
   owner: imgteam
   revisions:
   - 06eac2d1a8a9
+  - 0eec07359840
   - 28d6129b2901
   - 38eec75fbe9b
   - 57f0914ddb7b
@@ -1617,6 +1620,7 @@ tools:
 - name: bamtools_filter
   owner: devteam
   revisions:
+  - 47db0f26ca31
   - 62e4d6cdbaa7
   - 993b19f20c76
   - bd735cae4ce6
@@ -2116,6 +2120,7 @@ tools:
   - 10eed33aa9b2
   - 85edbb7a436b
   - f3360fbeda64
+  - fa8ce46a95bb
   - fcadded98e61
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4646,6 +4651,7 @@ tools:
 - name: retropath2
   owner: tduigou
   revisions:
+  - 53d369fc482d
   - 70680efed3d8
   - 7b6671db6ca2
   - 9c8ac9980bd6
