@@ -770,6 +770,7 @@ tools:
   revisions:
   - 4242b4d68e9c
   - b59c91adeac1
+  - ddbfae6646f9
   - e2c36f62e22f
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -873,6 +874,7 @@ tools:
 - name: openbabel_addh
   owner: bgruening
   revisions:
+  - 6da72bb13a05
   - 6e4b7e0c61a6
   - 7b6fd1c273cd
   tool_panel_section_label: ChemicalToolBox
@@ -1761,6 +1763,7 @@ tools:
   - b6abccb1f25b
   - c092a2f58013
   - c12c7d0e067b
+  - ef10c1e741c3
   tool_panel_section_label: Phylogenetics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: find_subsequences
@@ -2095,6 +2098,7 @@ tools:
   owner: imgteam
   revisions:
   - 70316d792fc9
+  - 99e0ef91ea5e
   - b1c2c210813c
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3320,6 +3324,7 @@ tools:
   - 054483e27a35
   - 468c71dac78a
   - 60f7e2a6b9c7
+  - bf5121c5c2be
   - f7ebd1b4783b
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4709,6 +4714,7 @@ tools:
   - 5e08a1e22dbc
   - 73b8cb5bddcd
   - 83c573f2e73c
+  - c0b740d23adc
   - cfb0595f9842
   - e4790edb4299
   tool_panel_section_label: Graph/Display Data
