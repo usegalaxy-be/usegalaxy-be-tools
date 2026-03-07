@@ -355,6 +355,7 @@ tools:
 - name: pretext_map
   owner: iuc
   revisions:
+  - 056f86469460
   - 9c942221e135
   - dfb8a4497339
   tool_panel_section_label: Assembly
@@ -364,6 +365,7 @@ tools:
   revisions:
   - 0cc7a80463b9
   - 44c66e8d21e6
+  - ff02cf8f66f0
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: salsa
@@ -615,6 +617,7 @@ tools:
   revisions:
   - '392811378515'
   - 53dd00a4ab68
+  - 54a68f38cf3f
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gfastats
