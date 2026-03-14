@@ -1366,6 +1366,7 @@ tools:
   revisions:
   - 017aba02828d
   - 03e9b2fbc005
+  - a470b376503d
   - d5ceb9f3c25b
   - f6877ad76b00
   - f76cbb84d67f
@@ -2467,6 +2468,7 @@ tools:
   - 3a0efe14891f
   - 541082d03bef
   - 57934e90e27c
+  - 8fca6e1eac98
   - fed4aa48ba09
   tool_panel_section_label: SAM Tools
 - name: bam_to_sam
@@ -4053,6 +4055,7 @@ tools:
   - 592fb9353702
   - 5eb9d7217640
   - 7207313de5a8
+  - abe7c7c34142
   - fba248cbd49e
   tool_panel_section_label: Phylogenetics
 - name: hyphy_fade
@@ -6340,6 +6343,7 @@ tools:
   - 24488fae5b04
   - 40ebae5bbe51
   - 46a99bd1f10e
+  - 6a067bbd4e16
   - 87064cb77a52
   tool_panel_section_label: Metagenomic Analysis
 - name: phyloseq_plot_ordination
