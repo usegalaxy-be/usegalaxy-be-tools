@@ -816,6 +816,12 @@ tools:
   - b94789823aad
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_stats
+  owner: devteam
+  revisions:
+  - 8fca6e1eac98
+  tool_panel_section_label: SAM/BAM
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: samtools_fixmate
   owner: iuc
   revisions:
@@ -892,12 +898,6 @@ tools:
   owner: devteam
   revisions:
   - 2899e5b8c52a
-  tool_panel_section_label: SAM/BAM
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: samtools_stats
-  owner: devteam
-  revisions:
-  - 1ed8ed887035
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bam_to_sam
@@ -1024,8 +1024,8 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 2892111d91f8
   - 64e2edfe7a2c
+  - 2892111d91f8
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bedtools
@@ -1859,6 +1859,12 @@ tools:
   - 1542a2fffe0c
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - a470b376503d
+  tool_panel_section_label: Mapping
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hisat2
   owner: iuc
   revisions:
@@ -1881,12 +1887,6 @@ tools:
   owner: iuc
   revisions:
   - 8fbd98f37c10
-  tool_panel_section_label: Mapping
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: bowtie2
-  owner: devteam
-  revisions:
-  - f76cbb84d67f
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: minimap2
@@ -2674,8 +2674,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - 27e16a30667a
   - f242ee103277
+  - 27e16a30667a
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaquast
@@ -3106,6 +3106,12 @@ tools:
   - da1a6f33b504
   tool_panel_section_label: Epigenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hyphy_relax
+  owner: iuc
+  revisions:
+  - abe7c7c34142
+  tool_panel_section_label: Phylogenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hyphy_bgm
   owner: iuc
   revisions:
@@ -3158,12 +3164,6 @@ tools:
   owner: iuc
   revisions:
   - 106a316b5313
-  tool_panel_section_label: Phylogenetics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: hyphy_relax
-  owner: iuc
-  revisions:
-  - 58240e4032d6
   tool_panel_section_label: Phylogenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hyphy_sm19
@@ -3433,8 +3433,8 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - 3f254c5ced1d
   - ab1f60c26526
+  - 3f254c5ced1d
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_compare
@@ -3663,9 +3663,9 @@ tools:
   owner: devteam
   revisions:
   - 63dd26468588
-  - 2e0fb4bc860e
   - dba489bfcd62
   - 832c20329690
+  - 2e0fb4bc860e
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -4519,8 +4519,8 @@ tools:
 - name: vsearch
   owner: iuc
   revisions:
-  - b3c7199d8786
   - 9495df9dd6ef
+  - b3c7199d8786
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
@@ -5642,8 +5642,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: peptideshaker
@@ -7163,8 +7163,8 @@ tools:
 - name: seqtk
   owner: iuc
   revisions:
-  - 4b494533146a
   - a019807f4e67
+  - 4b494533146a
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ucsc_fasplit
@@ -7671,6 +7671,42 @@ tools:
   - 17da9f67ed33
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: phyloseq_from_dada2
+  owner: iuc
+  revisions:
+  - 6a067bbd4e16
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: image_math
+  owner: imgteam
+  revisions:
+  - 8229f7f69d08
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - 73efacdaf71a
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: overlay_images
+  owner: imgteam
+  revisions:
+  - aece93442819
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: curve_fitting
+  owner: imgteam
+  revisions:
+  - c297f2961ee5
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: points_association_nn
+  owner: imgteam
+  revisions:
+  - e7d22ed256f3
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blobtoolkit
   owner: bgruening
   revisions:
@@ -7681,18 +7717,6 @@ tools:
   owner: genouest
   revisions:
   - cef77c1fe708
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: points_association_nn
-  owner: imgteam
-  revisions:
-  - 7b93ce5ec3ee
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: curve_fitting
-  owner: imgteam
-  revisions:
-  - 91dfd38a97ae
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openbabel_svg_depiction
@@ -8169,6 +8193,12 @@ tools:
   - f5db0e853f57
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vitessce_spatial
+  owner: goeckslab
+  revisions:
+  - 068da7f7cd83
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: retrieve_scxa
   owner: ebi-gxa
   revisions:
@@ -8184,20 +8214,14 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
-  - 1f39c833f65f
   - 97a7f34fcb6a
+  - 1f39c833f65f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: concatenate_multiple_datasets
   owner: artbio
   revisions:
   - 5b1b635232ed
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vitessce_spatial
-  owner: goeckslab
-  revisions:
-  - 068da7f7cd83
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: unipept
@@ -8458,12 +8482,6 @@ tools:
   - 3371c5bdc17a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: overlay_images
-  owner: imgteam
-  revisions:
-  - bc4cf90cfc3b
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cp_color_to_gray
   owner: bgruening
   revisions:
@@ -8587,8 +8605,8 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - 5c7b70713fb5
   - 6322be79bd8e
+  - 5c7b70713fb5
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freebayes
@@ -8687,12 +8705,6 @@ tools:
   - 22bb32eae6a1
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: spot_detection_2d
-  owner: imgteam
-  revisions:
-  - e8c9e104e109
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scimap_phenotyping
   owner: goeckslab
   revisions:
@@ -8721,12 +8733,6 @@ tools:
   owner: imgteam
   revisions:
   - 699a5e9146b3
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: image_math
-  owner: imgteam
-  revisions:
-  - 48fa3ac55df2
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flye
@@ -8768,8 +8774,8 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
-  - 3fe632431b68
   - e188dc7a68e6
+  - 3fe632431b68
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: busco
@@ -8950,12 +8956,6 @@ tools:
   owner: iuc
   revisions:
   - 25c59c0ceb55
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: phyloseq_from_dada2
-  owner: iuc
-  revisions:
-  - 24488fae5b04
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bracken
@@ -9387,9 +9387,9 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - ce3c7f062223
-  - a1a923cd89e8
   - 07e8b80f278c
+  - a1a923cd89e8
+  - ce3c7f062223
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ab1_fastq_converter

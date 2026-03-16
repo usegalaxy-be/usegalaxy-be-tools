@@ -193,6 +193,7 @@ tools:
   - 09b2cdb7ace5
   - 749c918495f7
   - 8ccbdbe9a695
+  - a470b376503d
   - d5ceb9f3c25b
   - f6877ad76b00
   - f76cbb84d67f
@@ -220,6 +221,7 @@ tools:
   - 3a0efe14891f
   - 541082d03bef
   - 57934e90e27c
+  - 8fca6e1eac98
   tool_panel_section_label: SAM Tools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sra_tools
@@ -2153,6 +2155,7 @@ tools:
 - name: overlay_images
   owner: imgteam
   revisions:
+  - aece93442819
   - b74693340624
   - bc4cf90cfc3b
   - ca362a9bfa20
