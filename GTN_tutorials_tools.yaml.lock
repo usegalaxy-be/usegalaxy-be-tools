@@ -297,6 +297,7 @@ tools:
   revisions:
   - 02026300aa45
   - 13b6f0007d9e
+  - 61f9ddbc63ca
   - 6595517c2dd8
   - aff5135563c6
   - be25c075ed54
@@ -359,6 +360,7 @@ tools:
   revisions:
   - 056f86469460
   - 9c942221e135
+  - bd07b0d0f568
   - dfb8a4497339
   tool_panel_section_label: Assembly
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -367,6 +369,7 @@ tools:
   revisions:
   - 0cc7a80463b9
   - 44c66e8d21e6
+  - c4fb391275a0
   - ff02cf8f66f0
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1757,6 +1760,7 @@ tools:
 - name: snpsift
   owner: iuc
   revisions:
+  - 0abc5513f795
   - 2b3e65a4252f
   - 2e497a770bca
   - 5fab4f81391d
@@ -3838,6 +3842,7 @@ tools:
   owner: iuc
   revisions:
   - 13cf83ced60c
+  - 3701d29f7105
   - 55e35e9203cf
   - 923dcc644832
   - 93dd15e13e6a
@@ -3854,6 +3859,7 @@ tools:
   - 9bd945a03d7b
   - be1fdce914c6
   - d1e49c3c0aa2
+  - d9948b3dd270
   - e6a8d5fdca85
   - ed4996a16f7f
   tool_panel_section_label: Single-cell
@@ -3948,6 +3954,7 @@ tools:
   - 33c0081e16c6
   - 6f0d0c784f09
   - 9301df6f892d
+  - a54b3bac44aa
   - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_label: Single-cell
@@ -5183,6 +5190,7 @@ tools:
   - 6322be79bd8e
   - 68693743661e
   - 74aebe30fb52
+  - 908f2c5fedec
   - c7275bd8b4d6
   - cfcf33df7fc0
   tool_panel_section_label: Variant Calling
