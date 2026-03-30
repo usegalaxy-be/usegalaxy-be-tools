@@ -8,6 +8,7 @@ tools:
   - 00712416fdaa
   - 080eab96d846
   - 13cf83ced60c
+  - 3701d29f7105
   - 55e35e9203cf
   - 6f143dfe902a
   - 923dcc644832
@@ -21,6 +22,7 @@ tools:
   revisions:
   - 016308443041
   - 0cb889db0910
+  - 4009b2de324d
   - 7a6655aa6eb2
   - 83609ef746e9
   - 8b9bf8b5157a
@@ -38,6 +40,7 @@ tools:
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
+  - d9948b3dd270
   - e6a8d5fdca85
   - ed4996a16f7f
   tool_panel_section_label: Single-cell
@@ -51,6 +54,7 @@ tools:
   - 33c0081e16c6
   - 6f0d0c784f09
   - 9301df6f892d
+  - a54b3bac44aa
   - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_label: Single-cell
@@ -357,6 +361,7 @@ tools:
   - 02026300aa45
   - 13b6f0007d9e
   - 464b9305180e
+  - 61f9ddbc63ca
   - 6595517c2dd8
   - aff5135563c6
   tool_panel_section_label: Text Manipulation
@@ -471,6 +476,7 @@ tools:
   revisions:
   - 38c8bb402872
   - 8b6c6ec55c6e
+  - d958d5a0d1e8
   tool_panel_section_label: Operate on Genomic Intervals
 - name: subtract
   owner: devteam
@@ -1912,6 +1918,7 @@ tools:
 - name: snpsift_genesets
   owner: iuc
   revisions:
+  - 60d04e5f3dcf
   - 9e6fa49c1077
   - d12a810c837e
   tool_panel_section_label: Variant Calling
@@ -1930,11 +1937,13 @@ tools:
   owner: iuc
   revisions:
   - 4e21e4f2bc48
+  - cff5bd9c728d
   tool_panel_section_label: Variant Calling
 - name: snpsift
   owner: iuc
   revisions:
   - 09d6806c609e
+  - 0abc5513f795
   - 2e497a770bca
   - 5fab4f81391d
   tool_panel_section_label: Variant Calling
@@ -1955,6 +1964,7 @@ tools:
   - 6322be79bd8e
   - 68693743661e
   - 74aebe30fb52
+  - 908f2c5fedec
   - 9473cd297a76
   - c7275bd8b4d6
   - ca2b512e8d7c
@@ -4505,6 +4515,7 @@ tools:
   - 4b0adaa31c95
   - 4c9fa3c63d9e
   - 59be31ac9dc3
+  - 70228646a181
   - 81a28c2705b0
   - a7b951572609
   - c822c5c1feef
@@ -4874,6 +4885,7 @@ tools:
   revisions:
   - 00e0347751b1
   - 23fc35093b11
+  - 81fc1ff02788
   - a9f4a217dcd6
   - e8768ddeba32
   - e8fba04706d3
@@ -4885,6 +4897,7 @@ tools:
   - 1c35dadbe76f
   - 2222f08c8316
   - 47198090501e
+  - 89d11e95a9b1
   - b35a5e8ff0fe
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -4894,6 +4907,7 @@ tools:
   - 1937c2b4da7a
   - 4efeb75704c8
   - 5b752525bd6f
+  - 6bd7c48ff6ed
   - 7f3b59dee073
   - efe26de231ec
   tool_panel_section_label: Metagenomic Analysis
@@ -4903,6 +4917,7 @@ tools:
   - 04c15826a0b8
   - 39638e0aff59
   - 5fe3edf19b9c
+  - 68129ce1c59b
   - a14a18a47c36
   - c48d42d65d2b
   - dd6572434618
@@ -4910,6 +4925,7 @@ tools:
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
+  - 0b1ce4edabc7
   - 6e0946238688
   - 75c8945b0da2
   - 88677f452aea
@@ -4926,6 +4942,7 @@ tools:
   - 65db807336bc
   - 705d26fbea02
   - 9f306361a58e
+  - ce4bfce70e64
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
   owner: iuc
@@ -4934,6 +4951,7 @@ tools:
   - 213a3fda0b91
   - 390bc2645138
   - 4cc834cce4fb
+  - 9180d536e20d
   - a7817705348e
   - f74c56549143
   tool_panel_section_label: Metagenomic Analysis
@@ -4946,12 +4964,14 @@ tools:
   - 35176674168c
   - 646c58820267
   - 69900ffd3b8e
+  - c920e1400f98
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
   owner: iuc
   revisions:
   - 1728e5ee871a
   - 224abe7c80ed
+  - 2875d977c533
   - 32c9ea835770
   - 6f06d501b7e6
   - 8daf4564ccda
@@ -4961,6 +4981,7 @@ tools:
   revisions:
   - 2a90d2fd3336
   - 4e469b758915
+  - a204f3983d22
   - cae017b76acb
   - d60df8727f59
   - e7c2674e01fe
@@ -6640,6 +6661,7 @@ tools:
   revisions:
   - 18eed8fa7f23
   - 1a7773882d2c
+  - 6ba50cbabbb7
   - 6c829a430475
   - 94e32337ba54
   - 95be88b49f4e
@@ -6654,6 +6676,7 @@ tools:
   - 26f2fe7e53a1
   - 44c66e8d21e6
   - 6c571966cfb9
+  - c4fb391275a0
   - ff02cf8f66f0
   tool_panel_section_label: Graph/Display Data
 - name: rapidnj
@@ -6783,6 +6806,7 @@ tools:
   - 056f86469460
   - 79b48f02db49
   - 9c942221e135
+  - bd07b0d0f568
   - c6cec5ab35c1
   - dfb8a4497339
   tool_panel_section_label: Assembly
