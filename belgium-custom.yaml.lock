@@ -1213,6 +1213,7 @@ tools:
   revisions:
   - 26ee5e11ecbe
   - 31c42a2c02d3
+  - 3dd49be3f7d3
   - 75c93c70d094
   - e4dd4c0622f6
   - f7985e0479b9
@@ -6276,6 +6277,7 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
+  - 022e886e8f94
   - 1f39c833f65f
   - 97a7f34fcb6a
   - 9c52362ae7bb
@@ -6307,6 +6309,7 @@ tools:
   - 3ec27b4cee7c
   - 864bd76db767
   - a6ff76e057fd
+  - c9b13d4069c8
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_fileconverter
@@ -6842,6 +6845,7 @@ tools:
   - 28ffaaa5739f
   - 3cf310697624
   - 6153e8ada1ee
+  - 8edfcbf32616
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maldi_quant_peak_detection
@@ -9344,6 +9348,7 @@ tools:
   revisions:
   - ad05e90d024b
   - bdff5d51a756
+  - ca14397c975d
   - ffee3c7c90eb
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9351,6 +9356,7 @@ tools:
   owner: bgruening
   revisions:
   - 2e6ca212a1af
+  - 72985f2dd91c
   - b4dafa5a9e51
   - ce7a96be8cb6
   tool_panel_section_label: Tools from workflows
@@ -9398,6 +9404,7 @@ tools:
 - name: spot_detection_2d
   owner: imgteam
   revisions:
+  - 1a03fcd4fa80
   - 73efacdaf71a
   - e8c9e104e109
   tool_panel_section_label: Tools from workflows
@@ -9540,6 +9547,7 @@ tools:
   owner: imgteam
   revisions:
   - 390943df8a35
+  - 7191fd16988f
   - 73d7a4ffc03d
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10258,6 +10266,7 @@ tools:
   owner: iuc
   revisions:
   - 46ed93e8da30
+  - c15978515ff0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: episcanpy_build_matrix

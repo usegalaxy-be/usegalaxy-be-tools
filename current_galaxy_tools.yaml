@@ -68,8 +68,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - f5ea3ce9b9b0
   - 8848455c0270
+  - f5ea3ce9b9b0
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -765,7 +765,7 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
-  - 26ee5e11ecbe
+  - 3dd49be3f7d3
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: falco
@@ -987,8 +987,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - e2c1b62e1db1
   - 9676127a1ed2
+  - e2c1b62e1db1
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tag_pileup_frequency
@@ -1019,9 +1019,9 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
+  - 87ee588b3d45
   - 64e2edfe7a2c
   - b8348686a0b9
-  - 87ee588b3d45
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanoplot
@@ -2957,8 +2957,8 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
-  - 5f589c91566e
   - 2b80a2596064
+  - 5f589c91566e
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cummerbund_to_tabular
@@ -3078,8 +3078,8 @@ tools:
 - name: seacr
   owner: iuc
   revisions:
-  - 66b7657f0bd6
   - c8ff96b9fb97
+  - 66b7657f0bd6
   tool_panel_section_label: Epigenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcf_filter
@@ -3644,10 +3644,10 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - 63dd26468588
   - dba489bfcd62
-  - 2e0fb4bc860e
   - 832c20329690
+  - 63dd26468588
+  - 2e0fb4bc860e
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -4194,8 +4194,8 @@ tools:
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
-  - 662a334004b4
   - 31394a0c0242
+  - 662a334004b4
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: drep_dereplicate
@@ -4501,8 +4501,8 @@ tools:
 - name: vsearch
   owner: iuc
   revisions:
-  - b3c7199d8786
   - 9495df9dd6ef
+  - b3c7199d8786
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
@@ -5297,6 +5297,12 @@ tools:
   - 010296966465
   tool_panel_section_label: Mothur
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: maxquant
+  owner: galaxyp
+  revisions:
+  - 022e886e8f94
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
@@ -5625,7 +5631,7 @@ tools:
   owner: galaxyp
   revisions:
   - 3ec27b4cee7c
-  - a6ff76e057fd
+  - c9b13d4069c8
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: peptideshaker
@@ -5878,12 +5884,6 @@ tools:
   owner: galaxyp
   revisions:
   - 8eed818f5d48
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: maxquant
-  owner: galaxyp
-  revisions:
-  - 9c52362ae7bb
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_plot_chromatogram
@@ -7575,6 +7575,12 @@ tools:
   - 77a1e60fd1de
   tool_panel_section_label: Gemini Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msconvert
+  owner: galaxyp
+  revisions:
+  - 8edfcbf32616
+  tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_dbnsfp
   owner: iuc
   revisions:
@@ -7653,10 +7659,22 @@ tools:
   - 17da9f67ed33
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: seurat_preprocessing
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - 1a03fcd4fa80
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_reduce_dimension
   owner: iuc
   revisions:
-  - 156e5b07369a
+  - c15978515ff0
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seurat_data
+  owner: iuc
+  revisions:
+  - dde965aee073
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seurat_create
@@ -7710,7 +7728,7 @@ tools:
 - name: yolo_training
   owner: bgruening
   revisions:
-  - bdff5d51a756
+  - ca14397c975d
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gfastats
@@ -7729,12 +7747,6 @@ tools:
   owner: imgteam
   revisions:
   - 8229f7f69d08
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: spot_detection_2d
-  owner: imgteam
-  revisions:
-  - 73efacdaf71a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: overlay_images
@@ -8145,6 +8157,12 @@ tools:
   - cd9f564bd63f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vitessce_spatial
+  owner: goeckslab
+  revisions:
+  - 068da7f7cd83
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seurat_plot
   owner: ebi-gxa
   revisions:
@@ -8173,12 +8191,6 @@ tools:
   owner: bgruening
   revisions:
   - 8cd2ecfa2e61
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vitessce_spatial
-  owner: goeckslab
-  revisions:
-  - 068da7f7cd83
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: annotatemyids
@@ -8455,7 +8467,7 @@ tools:
 - name: split_image
   owner: imgteam
   revisions:
-  - 390943df8a35
+  - 7191fd16988f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: smudgeplot
@@ -8648,7 +8660,7 @@ tools:
 - name: json2yolosegment
   owner: bgruening
   revisions:
-  - b4dafa5a9e51
+  - 72985f2dd91c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: segmetrics
@@ -9381,9 +9393,9 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 07e8b80f278c
   - ce3c7f062223
   - a1a923cd89e8
+  - 07e8b80f278c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ab1_fastq_converter
@@ -9623,8 +9635,8 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
-  - 21e491ad532a
   - b9e31c5c01c7
+  - 21e491ad532a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: krakentools_extract_kraken_reads
@@ -9831,16 +9843,10 @@ tools:
   - 9bd945a03d7b
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: seurat_data
+- name: seurat_preprocessing
   owner: iuc
   revisions:
-  - dde965aee073
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: seurat_reduce_dimension
-  owner: iuc
-  revisions:
-  - 46ed93e8da30
+  - 156e5b07369a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: episcanpy_build_matrix
