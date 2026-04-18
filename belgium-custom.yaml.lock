@@ -866,6 +866,7 @@ tools:
   revisions:
   - 10678d49d39e
   - 25c59c0ceb55
+  - 8276962186f2
   - b2e9a56e5259
   - dbf9c561ef29
   - f875da9d433c
@@ -1215,6 +1216,7 @@ tools:
   - 31c42a2c02d3
   - 3dd49be3f7d3
   - 75c93c70d094
+  - 862943c10425
   - e4dd4c0622f6
   - f7985e0479b9
   tool_panel_section_label: FASTQ Quality Control
@@ -7872,6 +7874,7 @@ tools:
   owner: imgteam
   revisions:
   - 7b6d9412c7f8
+  - e28851b24032
   - f8b4eada923c
   tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7914,6 +7917,7 @@ tools:
   - 28d6129b2901
   - 38eec75fbe9b
   - 57f0914ddb7b
+  - 6a7e010c05db
   tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cp_cellprofiler
@@ -8484,6 +8488,7 @@ tools:
   owner: bgruening
   revisions:
   - 9c91d13827ef
+  - d1dc88960179
   - e0a67265f3ed
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8491,12 +8496,14 @@ tools:
   owner: bgruening
   revisions:
   - 07f595f34f29
+  - 5f69690716cb
   - a9d1fe48e1e6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flexynesis_utils
   owner: bgruening
   revisions:
+  - 0e86b191f856
   - c348c91a487d
   - f73ce81f7795
   tool_panel_section_label: Tools from workflows
@@ -8743,6 +8750,7 @@ tools:
   owner: bgruening
   revisions:
   - 461b8e2d79d5
+  - e6c626b3013b
   - e9a7cb5a3c63
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
