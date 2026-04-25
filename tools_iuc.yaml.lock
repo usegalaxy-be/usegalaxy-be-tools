@@ -823,6 +823,7 @@ tools:
   owner: iuc
   revisions:
   - 26f2cc1cc1e9
+  - 355f84a894bf
   - 57f042937ba7
   - b7bc272143fb
   - bcd65de9725b
@@ -832,6 +833,7 @@ tools:
   owner: iuc
   revisions:
   - 4c89814871e8
+  - 59f156f7f3c7
   - 959c1f8dae95
   - b4124df98b26
   - b8e2c2f95d26
@@ -843,12 +845,14 @@ tools:
   - 29662f643859
   - 315c678562d2
   - 5561a1193611
+  - b03f8fcbd240
   - c9685bc0407c
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
   owner: iuc
   revisions:
   - 27fff8d3793e
+  - 2d2fe522553d
   - 5b0b49b5421c
   - 7cd7a55a678d
   - e18267f90096
@@ -858,6 +862,7 @@ tools:
   revisions:
   - 502018997bae
   - 5c7e6ef78006
+  - 814ebb1fb04b
   - abe34706eddf
   - e8fdceffea4c
   - fbca557a4847
@@ -867,6 +872,7 @@ tools:
   revisions:
   - 029a793f39b6
   - 4fc0cb2ac8ae
+  - 75e15ee43896
   - c0cedc12fcc5
   - fb43e8887350
   tool_panel_section_label: Multiple Alignments
@@ -1391,6 +1397,7 @@ tools:
   - 4074fc1940e2
   - 41929aa1e7f3
   - 53255f6eecfc
+  - 55c9ac3aa8f4
   - 5ec75f5dae3c
   - 7ed2edc1337f
   - 850f3679b9b4
@@ -1401,6 +1408,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 002713edc2a1
   - 00fbfac99d39
   - 178bdbdb6d24
   - 381a32c51141
@@ -6221,6 +6229,7 @@ tools:
   owner: iuc
   revisions:
   - 0ec813ad2910
+  - 3f9d938000b8
   - 42126b414951
   - 514a786baaa9
   - 8ad84c5753ea
@@ -6457,6 +6466,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 6b51b29c0147
   - a4441f35f17b
   - ec045ca00b50
   tool_panel_section_label: Metagenomic Analysis
@@ -6464,6 +6474,7 @@ tools:
   owner: iuc
   revisions:
   - 708abf08a626
+  - a040f2dc705c
   - eb50e7eca3dc
   - f375b4f6ef57
   tool_panel_section_label: Metagenomic Analysis
@@ -6677,6 +6688,7 @@ tools:
   revisions:
   - 18eed8fa7f23
   - 1a7773882d2c
+  - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
   - 94e32337ba54
@@ -7036,6 +7048,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 1196fc76fdc2
   - 1e3323a44643
   - 60f307965815
   - 9553180705b7
@@ -9182,6 +9195,7 @@ tools:
   owner: iuc
   revisions:
   - 156e5b07369a
+  - 214546df3ecd
   - 6bccf5f85f92
   - c3170652bd98
   tool_panel_section_label: RNA Analysis
@@ -9195,6 +9209,7 @@ tools:
   owner: iuc
   revisions:
   - 46ed93e8da30
+  - 58fc93d11a9f
   - c15978515ff0
   - e49429e8d6dd
   tool_panel_section_label: RNA Analysis
@@ -9204,17 +9219,20 @@ tools:
   - ac5f8c583cba
   - af8bdeb89691
   - d0c26c9430f2
+  - d24aa399eca0
   tool_panel_section_label: RNA Analysis
 - name: seurat_plot
   owner: iuc
   revisions:
   - 2622dd85416f
+  - 4d0f79f7d90d
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_label: RNA Analysis
 - name: seurat_data
   owner: iuc
   revisions:
+  - 228ac6864e64
   - 4ec52a83ec82
   - 50c5abeb08ba
   - dde965aee073
@@ -9224,6 +9242,7 @@ tools:
   revisions:
   - 0db84eba4b55
   - 51eb02d9b17a
+  - 8156af6b430c
   - 94f1b9c7286f
   tool_panel_section_label: RNA Analysis
 - name: cosg

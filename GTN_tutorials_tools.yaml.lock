@@ -646,6 +646,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 1196fc76fdc2
   - 1e3323a44643
   - 9553180705b7
   - a02aa0dfb850
@@ -1779,6 +1780,7 @@ tools:
 - name: pangolin
   owner: iuc
   revisions:
+  - 3f9d938000b8
   - 8ad84c5753ea
   - b6abccb1f25b
   - c092a2f58013
@@ -1865,6 +1867,7 @@ tools:
   - 2055c2667eb3
   - 3ea5a2a63fa2
   - 53255f6eecfc
+  - 55c9ac3aa8f4
   - 980d2a2e1180
   - b0f2be869d6d
   - de21b616f03a
@@ -1908,6 +1911,7 @@ tools:
   owner: iuc
   revisions:
   - 1b52f0c8ad7f
+  - c8faf125cfa3
   - d6c074a93c51
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4128,6 +4132,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 002713edc2a1
   - 13022c3d3076
   - 381a32c51141
   - a00cceb45700

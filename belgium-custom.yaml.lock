@@ -335,6 +335,7 @@ tools:
   revisions:
   - 18eed8fa7f23
   - 1a7773882d2c
+  - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
   - 94e32337ba54
@@ -2049,6 +2050,7 @@ tools:
   owner: iuc
   revisions:
   - 1b52f0c8ad7f
+  - c8faf125cfa3
   - d6c074a93c51
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2114,6 +2116,7 @@ tools:
   owner: iuc
   revisions:
   - 4c89814871e8
+  - 59f156f7f3c7
   - 959c1f8dae95
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2155,6 +2158,7 @@ tools:
   owner: iuc
   revisions:
   - 029a793f39b6
+  - 75e15ee43896
   - c0cedc12fcc5
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2162,6 +2166,7 @@ tools:
   owner: iuc
   revisions:
   - 5c7e6ef78006
+  - 814ebb1fb04b
   - abe34706eddf
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2169,6 +2174,7 @@ tools:
   owner: iuc
   revisions:
   - 27fff8d3793e
+  - 2d2fe522553d
   - 5b0b49b5421c
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2177,11 +2183,13 @@ tools:
   revisions:
   - 29662f643859
   - 315c678562d2
+  - b03f8fcbd240
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mummer_mummer
   owner: iuc
   revisions:
+  - 355f84a894bf
   - b7bc272143fb
   - fc143c06a842
   tool_panel_section_label: Multiple Alignments
@@ -2202,6 +2210,7 @@ tools:
 - name: mitohifi
   owner: bgruening
   revisions:
+  - 3fc33af5d9e2
   - 99ddbf037d98
   - bfab6f5b449d
   tool_panel_section_label: Assembly
@@ -2380,6 +2389,7 @@ tools:
   revisions:
   - 3ea5a2a63fa2
   - 53255f6eecfc
+  - 55c9ac3aa8f4
   - b0f2be869d6d
   - de21b616f03a
   tool_panel_section_label: Mapping
@@ -2403,6 +2413,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 002713edc2a1
   - 381a32c51141
   - a00cceb45700
   - ec9cbd6b9a49
@@ -3936,6 +3947,7 @@ tools:
 - name: pangolin
   owner: iuc
   revisions:
+  - 3f9d938000b8
   - 8ad84c5753ea
   - b6abccb1f25b
   - c092a2f58013
@@ -8272,6 +8284,7 @@ tools:
 - name: agat
   owner: bgruening
   revisions:
+  - 6d8be3337e2a
   - d6ede73082da
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8662,6 +8675,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 1196fc76fdc2
   - 9553180705b7
   - a02aa0dfb850
   - e8ac2b53f262
@@ -8758,6 +8772,7 @@ tools:
   owner: bgruening
   revisions:
   - 1d77df05cbfc
+  - ec6df5e22055
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pmids_to_pubtator_matrix
@@ -9691,6 +9706,7 @@ tools:
 - name: metabat2
   owner: iuc
   revisions:
+  - a040f2dc705c
   - f375b4f6ef57
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9704,6 +9720,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 6b51b29c0147
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: concoct_cut_up_fasta
@@ -9925,6 +9942,7 @@ tools:
 - name: seurat_plot
   owner: iuc
   revisions:
+  - 4d0f79f7d90d
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_label: Tools from workflows
@@ -9934,6 +9952,7 @@ tools:
   revisions:
   - 0db84eba4b55
   - 51eb02d9b17a
+  - 8156af6b430c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snapatac2_preprocessing
@@ -10254,11 +10273,13 @@ tools:
   revisions:
   - ac5f8c583cba
   - af8bdeb89691
+  - d24aa399eca0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seurat_data
   owner: iuc
   revisions:
+  - 228ac6864e64
   - 4ec52a83ec82
   - dde965aee073
   tool_panel_section_label: Tools from workflows
@@ -10267,6 +10288,7 @@ tools:
   owner: iuc
   revisions:
   - 156e5b07369a
+  - 214546df3ecd
   - 6bccf5f85f92
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10274,6 +10296,7 @@ tools:
   owner: iuc
   revisions:
   - 46ed93e8da30
+  - 58fc93d11a9f
   - c15978515ff0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10463,4 +10486,10 @@ tools:
   revisions:
   - cff5bd9c728d
   tool_panel_section_label: None
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - fc43cdc81408
+  tool_panel_section_label: Imaging
   tool_shed_url: toolshed.g2.bx.psu.edu
