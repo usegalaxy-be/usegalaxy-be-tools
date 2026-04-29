@@ -1889,12 +1889,6 @@ tools:
   - bf107d23242b
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: parabricks_fq2bam
-  owner: bgruening
-  revisions:
-  - cd355aa0bbcf
-  tool_panel_section_label: Mapping
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kma
   owner: iuc
   revisions:
