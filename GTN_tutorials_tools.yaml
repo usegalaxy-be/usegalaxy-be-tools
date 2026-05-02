@@ -1716,8 +1716,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 746e8e4bf929
   - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -1784,7 +1784,7 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 61e2aa6bb55d
+  - aaafc0ac4dd2
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: compose_text_param
@@ -1796,19 +1796,19 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - c41d78ae5fee
+  - ab83aa685821
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: wordcloud
   owner: bgruening
   revisions:
-  - 57e3de4b3b0d
+  - 45c4cc885ddb
   tool_panel_section_label: Digital-Humanities
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
   owner: bgruening
   revisions:
-  - 6073bb457ec0
+  - ab83aa685821
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: diff
@@ -1820,19 +1820,19 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - aff5135563c6
+  - 61f9ddbc63ca
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 4c07ddedc198
+  - aaafc0ac4dd2
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: wordcloud
   owner: bgruening
   revisions:
-  - b98bcfdec481
+  - 45c4cc885ddb
   tool_panel_section_label: Digital-Humanities
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: whisperx
@@ -4825,8 +4825,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 562f3c677828
   - 746e8e4bf929
+  - 562f3c677828
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -4850,8 +4850,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
@@ -6291,8 +6291,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 86755160afbf
   - 6073bb457ec0
+  - 86755160afbf
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastp
@@ -7589,8 +7589,8 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
-  - 4953dcd7dd39
   - 75b3b3d0adbf
+  - 4953dcd7dd39
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flashlfq
@@ -8647,8 +8647,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - a6ff76e057fd
   - 3ec27b4cee7c
+  - a6ff76e057fd
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -10551,8 +10551,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 86755160afbf
   - ddf54b12c295
+  - 86755160afbf
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: table_compute
