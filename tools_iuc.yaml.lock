@@ -15,6 +15,7 @@ tools:
   - 93dd15e13e6a
   - d0a337ddf062
   - d330b3082107
+  - d9ae58b926fc
   - fb9e030ffae4
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -27,6 +28,7 @@ tools:
   - 83609ef746e9
   - 8b9bf8b5157a
   - cfaf5a405371
+  - d99a178d1ab5
   - e1c3c2f2a834
   - f843b9afd94e
   tool_panel_section_label: Single-cell
@@ -37,6 +39,7 @@ tools:
   - 3d748954434b
   - 7e8c677a7b71
   - 9bd945a03d7b
+  - 9ef202055d5c
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
@@ -56,6 +59,7 @@ tools:
   - 9301df6f892d
   - a54b3bac44aa
   - afe044e6bc93
+  - b26b87f5a13c
   - ee98d611afc6
   tool_panel_section_label: Single-cell
 - name: bedtools
@@ -578,6 +582,7 @@ tools:
   revisions:
   - 10678d49d39e
   - 1d8fe9bc4cb0
+  - 241decaaff3e
   - 25c59c0ceb55
   - 65b93b623c77
   - 8276962186f2
@@ -773,6 +778,7 @@ tools:
   - 18a61a9c1601
   - 6bbd30d58cf4
   - 9b892d7f82cc
+  - e727e82945af
   - f87ac61981f0
   - f97743d52b87
   tool_panel_section_label: Evolution
@@ -2432,6 +2438,7 @@ tools:
   - adc4ed59d82b
   - b5c88b7b153e
   - b8beef827165
+  - c4325d32b1a2
   tool_panel_section_label: SAM Tools
 - name: samtools_mpileup
   owner: devteam
@@ -4532,6 +4539,7 @@ tools:
 - name: modify_loom
   owner: iuc
   revisions:
+  - 0ee9395e1eb2
   - 0f1aaff9b22d
   - 4b0adaa31c95
   - 4c9fa3c63d9e
@@ -5185,6 +5193,7 @@ tools:
   revisions:
   - 0e8330535ea0
   - 2595c27071c2
+  - 7da532cd050c
   - 8fbd98f37c10
   - 95ab864b281a
   - 98099e4da1fd
@@ -5485,6 +5494,7 @@ tools:
   - 56fb540810ce
   - 83b8e36e9cbe
   - a389f74c3630
+  - a50321bc1a90
   - b5527cc104ab
   - ef678e1f70a2
   tool_panel_section_label: SAM/BAM
@@ -5492,6 +5502,7 @@ tools:
   owner: iuc
   revisions:
   - 36677f429310
+  - 37c8eb55315d
   - 65a38e8c8e2a
   - 740ce0a18f0d
   - a7617eb92baf
@@ -5514,6 +5525,7 @@ tools:
   owner: iuc
   revisions:
   - 491037bfc0d2
+  - 4bde991b8037
   - 66e23b11feae
   - 9038311ed624
   - a8d69aee190e
@@ -5523,6 +5535,7 @@ tools:
 - name: samtools_fixmate
   owner: iuc
   revisions:
+  - 2f395ebff85f
   - 41e36c99a008
   - 68a116f469db
   - 84819580b8a5
@@ -8339,6 +8352,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 27ac516ba719
   - 3481feabc54e
   - 5029fd9d572e
   - 576dd33588bf
@@ -9196,6 +9210,7 @@ tools:
   revisions:
   - 156e5b07369a
   - 214546df3ecd
+  - 5d5fe5659252
   - 6bccf5f85f92
   - c3170652bd98
   tool_panel_section_label: RNA Analysis
@@ -9209,6 +9224,7 @@ tools:
   owner: iuc
   revisions:
   - 46ed93e8da30
+  - 54ee3884e7ca
   - 58fc93d11a9f
   - c15978515ff0
   - e49429e8d6dd
@@ -9218,6 +9234,7 @@ tools:
   revisions:
   - ac5f8c583cba
   - af8bdeb89691
+  - b9e7b804ec67
   - d0c26c9430f2
   - d24aa399eca0
   tool_panel_section_label: RNA Analysis
@@ -9226,6 +9243,7 @@ tools:
   revisions:
   - 2622dd85416f
   - 4d0f79f7d90d
+  - 6154937135c7
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_label: RNA Analysis
@@ -9236,6 +9254,7 @@ tools:
   - 4ec52a83ec82
   - 50c5abeb08ba
   - dde965aee073
+  - f04c81e68e86
   tool_panel_section_label: RNA Analysis
 - name: seurat_clustering
   owner: iuc
@@ -9244,6 +9263,7 @@ tools:
   - 51eb02d9b17a
   - 8156af6b430c
   - 94f1b9c7286f
+  - b70382a113e1
   tool_panel_section_label: RNA Analysis
 - name: cosg
   owner: iuc
