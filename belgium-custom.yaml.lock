@@ -343,6 +343,7 @@ tools:
   - a6a475ed58cb
   - bc18e25d4204
   - d951c5b0edd1
+  - f0872b88c5fc
   tool_panel_section_label: Get Data
 - name: clipkit
   owner: padge
@@ -868,6 +869,7 @@ tools:
   - 10678d49d39e
   - 241decaaff3e
   - 25c59c0ceb55
+  - 4557b2da9e7f
   - 8276962186f2
   - b2e9a56e5259
   - dbf9c561ef29
@@ -1216,6 +1218,7 @@ tools:
   revisions:
   - 26ee5e11ecbe
   - 31c42a2c02d3
+  - 371299578b8e
   - 3dd49be3f7d3
   - 75c93c70d094
   - 862943c10425
@@ -1385,6 +1388,7 @@ tools:
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 69dca890852c
   - e613c1ad4c4c
   - f2f2650aeade
@@ -1868,6 +1872,7 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
+  - 31f58ec0459a
   - 4efdca267d51
   - c2ef298da409
   tool_panel_section_label: Annotation
@@ -7737,6 +7742,7 @@ tools:
   owner: iuc
   revisions:
   - 3af838dc0637
+  - 3d5b9e4df7ba
   - 5e08a1e22dbc
   - 73b8cb5bddcd
   - c0b740d23adc
@@ -8354,6 +8360,7 @@ tools:
   owner: iuc
   revisions:
   - 959a14c1f2dd
+  - f48b35baf365
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deepsig
@@ -9381,6 +9388,7 @@ tools:
   owner: iuc
   revisions:
   - 2fe966f8532e
+  - 4413217d872c
   - 5854d0da92b4
   - ab04d9a08de8
   tool_panel_section_label: Tools from workflows
@@ -9414,6 +9422,7 @@ tools:
 - name: yolo_training
   owner: bgruening
   revisions:
+  - 25a2de34c05e
   - ad05e90d024b
   - bdff5d51a756
   - ca14397c975d
@@ -9427,6 +9436,7 @@ tools:
   - 72985f2dd91c
   - b4dafa5a9e51
   - ce7a96be8cb6
+  - f1e5a9dd6baa
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: segmetrics

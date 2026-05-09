@@ -30,6 +30,7 @@ tools:
   - 1c2db0054039
   - 26ee5e11ecbe
   - 31c42a2c02d3
+  - 371299578b8e
   - 3bad335ccea9
   - 3dd49be3f7d3
   - 5e33b465d8d5
@@ -152,6 +153,7 @@ tools:
   - 1d8fe9bc4cb0
   - 241decaaff3e
   - 25c59c0ceb55
+  - 4557b2da9e7f
   - 65b93b623c77
   - 8276962186f2
   - b2e9a56e5259
@@ -3028,6 +3030,7 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
+  - 31f58ec0459a
   - 3f3e247c053d
   - 4efdca267d51
   - c2ef298da409
@@ -4798,6 +4801,7 @@ tools:
   owner: iuc
   revisions:
   - 3af838dc0637
+  - 3d5b9e4df7ba
   - 5e08a1e22dbc
   - 73b8cb5bddcd
   - 83c573f2e73c
@@ -4877,6 +4881,7 @@ tools:
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 69dca890852c
   - e613c1ad4c4c
   - f2f2650aeade

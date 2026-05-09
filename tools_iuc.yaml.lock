@@ -217,6 +217,7 @@ tools:
   revisions:
   - 2f557f6abbfb
   - 3af838dc0637
+  - 3d5b9e4df7ba
   - 59ebf2c42c0e
   - 5e08a1e22dbc
   - 73b8cb5bddcd
@@ -584,6 +585,7 @@ tools:
   - 1d8fe9bc4cb0
   - 241decaaff3e
   - 25c59c0ceb55
+  - 4557b2da9e7f
   - 65b93b623c77
   - 8276962186f2
   - a626e8c0e1ba
@@ -2838,6 +2840,7 @@ tools:
   - 161f4383df15
   - 26ee5e11ecbe
   - 31c42a2c02d3
+  - 371299578b8e
   - 3dd49be3f7d3
   - 75c93c70d094
   - 862943c10425
@@ -3997,6 +4000,7 @@ tools:
   owner: iuc
   revisions:
   - 1bb2ba6d3d96
+  - 31f58ec0459a
   - 4efdca267d51
   - c2ef298da409
   tool_panel_section_label: Annotation
@@ -6709,6 +6713,7 @@ tools:
   - a6a475ed58cb
   - bc18e25d4204
   - d951c5b0edd1
+  - f0872b88c5fc
   tool_panel_section_label: Get Data
 - name: pretext_snapshot
   owner: iuc
@@ -7230,6 +7235,7 @@ tools:
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 69dca890852c
   - 6c2c1836728b
   - a430da4f04cd
@@ -8120,6 +8126,7 @@ tools:
   revisions:
   - 959a14c1f2dd
   - eee1a2f6abd8
+  - f48b35baf365
   tool_panel_section_label: FASTA/FASTQ
 - name: ncbi_fcs_gx
   owner: iuc
@@ -8732,6 +8739,7 @@ tools:
   owner: iuc
   revisions:
   - 2fe966f8532e
+  - 4413217d872c
   - 5854d0da92b4
   - ab04d9a08de8
   tool_panel_section_label: SAM/BAM
