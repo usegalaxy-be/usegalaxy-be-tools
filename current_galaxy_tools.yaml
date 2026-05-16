@@ -2,7 +2,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
-  - f0872b88c5fc
+  - 2a2364765752
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ncbi_eutils_einfo
@@ -68,8 +68,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - 8848455c0270
   - f5ea3ce9b9b0
+  - 8848455c0270
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -360,6 +360,12 @@ tools:
   - aaafc0ac4dd2
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: biom_convert
+  owner: iuc
+  revisions:
+  - b3858ab7f598
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphicsmagick_image_convert
   owner: bgruening
   revisions:
@@ -370,12 +376,6 @@ tools:
   owner: bgruening
   revisions:
   - 77f67ddd89d6
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: biom_convert
-  owner: iuc
-  revisions:
-  - d4d4e9febf5c
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: interval2maf
@@ -2320,8 +2320,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - e5e78d1e09a6
   - bdd0cb7fbedf
+  - e5e78d1e09a6
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
@@ -2663,8 +2663,8 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - f242ee103277
   - 27e16a30667a
+  - f242ee103277
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: chira_extract
@@ -2958,8 +2958,8 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
-  - 2b80a2596064
   - 5f589c91566e
+  - 2b80a2596064
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cummerbund_to_tabular
@@ -2995,7 +2995,7 @@ tools:
 - name: idr
   owner: iuc
   revisions:
-  - de7795890bc5
+  - ead35c868b99
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: crosscontamination_barcode_filter
@@ -3416,8 +3416,8 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - 3f254c5ced1d
   - ab1f60c26526
+  - 3f254c5ced1d
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_compare
@@ -3645,10 +3645,10 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - 63dd26468588
   - 832c20329690
-  - dba489bfcd62
   - 2e0fb4bc860e
+  - 63dd26468588
+  - dba489bfcd62
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -3678,8 +3678,8 @@ tools:
 - name: kraken_report
   owner: devteam
   revisions:
-  - 6c09bed3444f
   - 1c677354ab18
+  - 6c09bed3444f
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken
@@ -5298,6 +5298,36 @@ tools:
   - 010296966465
   tool_panel_section_label: Mothur
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaquantome_viz
+  owner: galaxyp
+  revisions:
+  - 2fb1aab3d444
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaquantome_filter
+  owner: galaxyp
+  revisions:
+  - e5ced3896e9c
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaquantome_expand
+  owner: galaxyp
+  revisions:
+  - f06a40fc75a3
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaquantome_sample
+  owner: galaxyp
+  revisions:
+  - d186ebe499f5
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metaquantome_db
+  owner: galaxyp
+  revisions:
+  - 491ee27f3e45
+  tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maxquant
   owner: galaxyp
   revisions:
@@ -5466,34 +5496,10 @@ tools:
   - 92c059f90d0e
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaquantome_db
-  owner: galaxyp
-  revisions:
-  - e63db1aa82ee
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaquantome_sample
-  owner: galaxyp
-  revisions:
-  - 06f6826d380c
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaquantome_expand
-  owner: galaxyp
-  revisions:
-  - 767c1d761aaf
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaquantome_filter
-  owner: galaxyp
-  revisions:
-  - 35cc7ca0bdc7
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metaquantome_stat
   owner: galaxyp
   revisions:
-  - b9d453dca8d3
+  - ad0fb0956559
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pdaug_aa_property_based_peptide_generation
@@ -5631,8 +5637,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - c9b13d4069c8
   - 3ec27b4cee7c
+  - c9b13d4069c8
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: peptideshaker
@@ -5657,12 +5663,6 @@ tools:
   owner: galaxyp
   revisions:
   - 401f500aae50
-  tool_panel_section_label: Proteomics
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metaquantome_viz
-  owner: galaxyp
-  revisions:
-  - 8bd7734309f6
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_fileinfo
@@ -6106,8 +6106,8 @@ tools:
 - name: md_converter
   owner: chemteam
   revisions:
-  - d7ec25187599
   - 79e8ab8f1e81
+  - d7ec25187599
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rdock_rbdock
@@ -6557,7 +6557,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
-  - df7356989ac1
+  - c4bde687c846
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: intervene
@@ -6623,8 +6623,8 @@ tools:
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
-  - e4b5401adcec
   - 980917b09eb8
+  - e4b5401adcec
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tsne
@@ -7100,6 +7100,12 @@ tools:
   revisions:
   - 31c42a2c02d3
   tool_panel_section_label: Quality Control
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scop3p
+  owner: iuc
+  revisions:
+  - e4cfb5adc31c
+  tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: constava
   owner: iuc
@@ -7666,6 +7672,18 @@ tools:
   - 17da9f67ed33
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: add_input_name_as_column
+  owner: mvdbeek
+  revisions:
+  - 8a19efbd2178
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metabat2
+  owner: iuc
+  revisions:
+  - c63e45a190b5
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mosdepth
   owner: iuc
   revisions:
@@ -7735,7 +7753,7 @@ tools:
 - name: metabat2_jgi_summarize_bam_contig_depths
   owner: iuc
   revisions:
-  - 6b51b29c0147
+  - 45f6d77d37b7
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: diamond
@@ -7909,7 +7927,7 @@ tools:
 - name: decoupler_pseudobulk
   owner: ebi-gxa
   revisions:
-  - 09c833d9b03b
+  - 2557d7869e78
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snapatac2_clustering
@@ -8074,12 +8092,6 @@ tools:
   - 20ccec4a2c38
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: metabat2
-  owner: iuc
-  revisions:
-  - a040f2dc705c
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: concoct
   owner: iuc
   revisions:
@@ -8140,16 +8152,16 @@ tools:
   - 399da6b5ec21
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: alevin
-  owner: bgruening
-  revisions:
-  - e32b215b7c04
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vitessce_spatial
   owner: goeckslab
   revisions:
   - 068da7f7cd83
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: alevin
+  owner: bgruening
+  revisions:
+  - e32b215b7c04
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sceasy_convert
@@ -8305,8 +8317,8 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
-  - 97a7f34fcb6a
   - 1f39c833f65f
+  - 97a7f34fcb6a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: concatenate_multiple_datasets
@@ -8645,12 +8657,6 @@ tools:
   - 1233363389c1
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: add_input_name_as_column
-  owner: mvdbeek
-  revisions:
-  - 8061668d0868
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: circos
   owner: iuc
   revisions:
@@ -8672,8 +8678,8 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - 5c7b70713fb5
   - 6322be79bd8e
+  - 5c7b70713fb5
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freebayes
@@ -9137,12 +9143,6 @@ tools:
   owner: iuc
   revisions:
   - 81539b9ae80a
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: apollo_create_or_update
-  owner: gga
-  revisions:
-  - 3d693b93991f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: apollo_list_organism
@@ -9648,8 +9648,8 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
-  - 21e491ad532a
   - b9e31c5c01c7
+  - 21e491ad532a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: krakentools_extract_kraken_reads
@@ -9668,6 +9668,12 @@ tools:
   owner: iuc
   revisions:
   - f1d33e4c7bd8
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: apollo_create_or_update
+  owner: gga
+  revisions:
+  - 3d693b93991f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: parse_mito_blast

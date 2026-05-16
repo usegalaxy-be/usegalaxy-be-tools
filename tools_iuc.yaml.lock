@@ -331,6 +331,7 @@ tools:
   revisions:
   - d3ebbf39b1c5
   - de7795890bc5
+  - ead35c868b99
   tool_panel_section_label: RNA Analysis
 - name: circos
   owner: iuc
@@ -5929,6 +5930,7 @@ tools:
   revisions:
   - 1b5fc03380d4
   - 584008e574b2
+  - b3858ab7f598
   - d4d4e9febf5c
   tool_panel_section_label: Convert Formats
 - name: sarscov2summary
@@ -6483,6 +6485,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 45f6d77d37b7
   - 6b51b29c0147
   - a4441f35f17b
   - ec045ca00b50
@@ -6492,6 +6495,7 @@ tools:
   revisions:
   - 708abf08a626
   - a040f2dc705c
+  - c63e45a190b5
   - eb50e7eca3dc
   - f375b4f6ef57
   tool_panel_section_label: Metagenomic Analysis
@@ -6705,6 +6709,7 @@ tools:
   revisions:
   - 18eed8fa7f23
   - 1a7773882d2c
+  - 2a2364765752
   - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475

@@ -1730,6 +1730,7 @@ tools:
   revisions:
   - 3284b72eef56
   - 8061668d0868
+  - 8a19efbd2178
   tool_panel_section_label: Evolution
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: snippy
@@ -3659,11 +3660,13 @@ tools:
   - 06f6826d380c
   - 40ca115438d2
   - 49a957fb353a
+  - d186ebe499f5
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaquantome_db
   owner: galaxyp
   revisions:
+  - 491ee27f3e45
   - 7c45aa1c9464
   - '860429737408'
   - e63db1aa82ee
@@ -3675,6 +3678,7 @@ tools:
   - 4187b6df1a40
   - 767c1d761aaf
   - eb65ab160a10
+  - f06a40fc75a3
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaquantome_filter
@@ -3683,12 +3687,14 @@ tools:
   - 35cc7ca0bdc7
   - 7d1c20b315ff
   - a1daafbf5233
+  - e5ced3896e9c
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaquantome_stat
   owner: galaxyp
   revisions:
   - 982a442a98dd
+  - ad0fb0956559
   - b648e45fd3cf
   - b9d453dca8d3
   tool_panel_section_label: Proteomics
@@ -3697,6 +3703,7 @@ tools:
   owner: galaxyp
   revisions:
   - 02da24eac445
+  - 2fb1aab3d444
   - 8bd7734309f6
   - eb811f3018ea
   tool_panel_section_label: Proteomics
