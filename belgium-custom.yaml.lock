@@ -335,6 +335,7 @@ tools:
   revisions:
   - 18eed8fa7f23
   - 1a7773882d2c
+  - 2a2364765752
   - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
@@ -786,6 +787,7 @@ tools:
   owner: iuc
   revisions:
   - 584008e574b2
+  - b3858ab7f598
   - d4d4e9febf5c
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -3634,6 +3636,7 @@ tools:
   revisions:
   - d3ebbf39b1c5
   - de7795890bc5
+  - ead35c868b99
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_pseudo
@@ -6361,6 +6364,7 @@ tools:
   owner: galaxyp
   revisions:
   - 02da24eac445
+  - 2fb1aab3d444
   - 8bd7734309f6
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6368,6 +6372,7 @@ tools:
   owner: galaxyp
   revisions:
   - 982a442a98dd
+  - ad0fb0956559
   - b9d453dca8d3
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6376,6 +6381,7 @@ tools:
   revisions:
   - 35cc7ca0bdc7
   - 7d1c20b315ff
+  - e5ced3896e9c
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metaquantome_expand
@@ -6383,6 +6389,7 @@ tools:
   revisions:
   - 767c1d761aaf
   - eb65ab160a10
+  - f06a40fc75a3
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metaquantome_sample
@@ -6390,11 +6397,13 @@ tools:
   revisions:
   - 06f6826d380c
   - 49a957fb353a
+  - d186ebe499f5
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metaquantome_db
   owner: galaxyp
   revisions:
+  - 491ee27f3e45
   - 7c45aa1c9464
   - e63db1aa82ee
   tool_panel_section_label: Proteomics
@@ -7584,6 +7593,7 @@ tools:
   owner: iuc
   revisions:
   - 31a35811dda6
+  - c4bde687c846
   - df7356989ac1
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9369,6 +9379,7 @@ tools:
   owner: mvdbeek
   revisions:
   - 8061668d0868
+  - 8a19efbd2178
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: chembl
@@ -9762,6 +9773,7 @@ tools:
   owner: iuc
   revisions:
   - a040f2dc705c
+  - c63e45a190b5
   - f375b4f6ef57
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9775,6 +9787,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 45f6d77d37b7
   - 6b51b29c0147
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10324,6 +10337,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 09c833d9b03b
+  - 2557d7869e78
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seurat_create
@@ -10548,4 +10562,10 @@ tools:
   revisions:
   - fc43cdc81408
   tool_panel_section_label: Imaging
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scop3p
+  owner: iuc
+  revisions:
+  - e4cfb5adc31c
+  tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
