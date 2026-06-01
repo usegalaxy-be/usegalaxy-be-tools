@@ -336,6 +336,7 @@ tools:
   - 18eed8fa7f23
   - 1a7773882d2c
   - 2a2364765752
+  - 3884a407d8f0
   - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
@@ -1224,6 +1225,7 @@ tools:
   - 3dd49be3f7d3
   - 75c93c70d094
   - 862943c10425
+  - bb89ae58738c
   - e4dd4c0622f6
   - f7985e0479b9
   tool_panel_section_label: FASTQ Quality Control
@@ -2782,6 +2784,7 @@ tools:
   owner: iuc
   revisions:
   - 4f3c5e634679
+  - 7b2ee758de86
   - ecc7758d828f
   - fb20fa735dfe
   tool_panel_section_label: Variant Calling
@@ -3367,6 +3370,7 @@ tools:
   owner: iuc
   revisions:
   - 2dfbcb88d16a
+  - 8535eca7b8ae
   - 8e96d712a2bd
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -6884,6 +6888,7 @@ tools:
   revisions:
   - 28ffaaa5739f
   - 3cf310697624
+  - 4493fdb346f0
   - 6153e8ada1ee
   - 8edfcbf32616
   tool_panel_section_label: Metabolomics
@@ -8735,6 +8740,7 @@ tools:
   owner: bgruening
   revisions:
   - 1196fc76fdc2
+  - 15c0c0d90c3f
   - 9553180705b7
   - a02aa0dfb850
   - e8ac2b53f262
@@ -9002,6 +9008,7 @@ tools:
 - name: fastq_dl
   owner: iuc
   revisions:
+  - 123a40edeed1
   - 3f1ee30e39e9
   - 41635d6d4738
   tool_panel_section_label: Tools from workflows
@@ -9577,6 +9584,7 @@ tools:
   owner: iuc
   revisions:
   - 056f86469460
+  - 7087d9a23185
   - 9c942221e135
   - bd07b0d0f568
   - dfb8a4497339
@@ -9725,6 +9733,7 @@ tools:
 - name: ncbi_eutils_elink
   owner: iuc
   revisions:
+  - 18e7b30a39aa
   - 2791c731fc65
   - bb5af69cf3f7
   tool_panel_section_label: Get Data
@@ -9734,12 +9743,14 @@ tools:
   revisions:
   - 62614b5a7834
   - 732a52c18758
+  - d9dc3534b9db
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ncbi_eutils_esearch
   owner: iuc
   revisions:
   - 30150bd36c9a
+  - 4f0a4010bf1d
   - f3a84eecaf8b
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9753,6 +9764,7 @@ tools:
 - name: ncbi_eutils_epost
   owner: iuc
   revisions:
+  - 11aa5f503261
   - 196b8dd07896
   - a64d1a16f04b
   tool_panel_section_label: Get Data
@@ -9767,6 +9779,7 @@ tools:
   owner: iuc
   revisions:
   - 20ccec4a2c38
+  - 28b4b21d6aae
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metabat2
@@ -9795,6 +9808,7 @@ tools:
   owner: iuc
   revisions:
   - 4d8bc5dd9e95
+  - 7a5598f973c9
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: wordcloud
@@ -10497,6 +10511,7 @@ tools:
 - name: concoct_coverage_table
   owner: iuc
   revisions:
+  - 6a9c82cc3448
   - fd31cd168efc
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10523,6 +10538,7 @@ tools:
   owner: iuc
   revisions:
   - 6a0463d18db2
+  - cbddabc5c71a
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_run_paga
