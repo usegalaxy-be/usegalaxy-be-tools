@@ -44,6 +44,7 @@ tools:
   - df99138d2776
   - e4dd4c0622f6
   - f7985e0479b9
+  - fac2260bc88a
   tool_panel_section_label: Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: velvet
@@ -193,6 +194,7 @@ tools:
   - 66367287b4e6
   - 6945cd53bd2d
   - be1d967337e4
+  - f5b1e7d2594f
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bowtie2
@@ -452,6 +454,7 @@ tools:
   - 111884f0d912
   - 8a22554cdde2
   - bf68eb663bc3
+  - c105b66eaab1
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: jbrowse
@@ -4134,6 +4137,7 @@ tools:
   revisions:
   - 1759d845181e
   - 30f6985f0ac7
+  - 37d067694d40
   - 5dbff3a5845a
   - 6f66ae7c5f7a
   - a37612abf7f9

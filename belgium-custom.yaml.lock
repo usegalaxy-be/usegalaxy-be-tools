@@ -249,6 +249,7 @@ tools:
   owner: crs4
   revisions:
   - 8a22554cdde2
+  - c105b66eaab1
   tool_panel_section_label: Annotation
 - name: data_manager_eggnog_mapper_abspath
   owner: galaxyp
@@ -1228,6 +1229,7 @@ tools:
   - bb89ae58738c
   - e4dd4c0622f6
   - f7985e0479b9
+  - fac2260bc88a
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trim_galore
@@ -2450,6 +2452,7 @@ tools:
   - 66367287b4e6
   - 6945cd53bd2d
   - be1d967337e4
+  - f5b1e7d2594f
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphmap_align
@@ -2532,6 +2535,7 @@ tools:
   revisions:
   - 0e8330535ea0
   - 2595c27071c2
+  - 6fe0fdd63a67
   - 7da532cd050c
   - 8fbd98f37c10
   - 98099e4da1fd
@@ -2677,6 +2681,7 @@ tools:
   - 376a706dda11
   - 7021ed347f7e
   - 93cfe7df7f8a
+  - c218cc6bf765
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_concat
@@ -3242,6 +3247,7 @@ tools:
   owner: iuc
   revisions:
   - 30f6985f0ac7
+  - 37d067694d40
   - 5dbff3a5845a
   - 6f66ae7c5f7a
   - a37612abf7f9
@@ -4719,6 +4725,7 @@ tools:
   revisions:
   - 1602cc5b673c
   - 1923cc7e6bc2
+  - ff9f5d335041
   tool_panel_section_label: HiCExplorer
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicexplorer_hicplotmatrix
@@ -4738,6 +4745,7 @@ tools:
 - name: hicexplorer_hicplotaverageregions
   owner: bgruening
   revisions:
+  - 16a8d1688c65
   - 2371fad10021
   - 3f1b286a5c34
   tool_panel_section_label: HiCExplorer
@@ -4746,6 +4754,7 @@ tools:
   owner: bgruening
   revisions:
   - 362942f48dd2
+  - 4060d361cf3c
   - d890828ab02a
   tool_panel_section_label: HiCExplorer
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4754,11 +4763,13 @@ tools:
   revisions:
   - 1d9799f4b854
   - 25332cfeac05
+  - 7f88b2b4662d
   tool_panel_section_label: HiCExplorer
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hicexplorer_hicdetectloops
   owner: bgruening
   revisions:
+  - 18bf75bf5d67
   - 4375e25de06a
   - f16ab52334dd
   tool_panel_section_label: HiCExplorer
