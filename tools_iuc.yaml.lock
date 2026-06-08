@@ -1499,6 +1499,7 @@ tools:
   - 66367287b4e6
   - 6945cd53bd2d
   - be1d967337e4
+  - f5b1e7d2594f
   tool_panel_section_label: Mapping
 - name: migmap
   owner: iuc
@@ -1553,6 +1554,7 @@ tools:
   - 1759d845181e
   - 1b851f87fbe0
   - 30f6985f0ac7
+  - 37d067694d40
   - 38b6d12edc68
   - 5dbff3a5845a
   - 6f66ae7c5f7a
@@ -1905,6 +1907,7 @@ tools:
   - 111884f0d912
   - 3a0bd09a41dd
   - 8a22554cdde2
+  - c105b66eaab1
   tool_panel_section_label: Annotation
 - name: mlst
   owner: iuc
@@ -2853,6 +2856,7 @@ tools:
   - e4dd4c0622f6
   - f7985e0479b9
   - f7e2f1eb3a16
+  - fac2260bc88a
   tool_panel_section_label: Quality Control
 - name: hicexplorer_hiccorrectmatrix
   owner: bgruening
@@ -4749,6 +4753,7 @@ tools:
   - 6f52ebc01098
   - 7021ed347f7e
   - 93cfe7df7f8a
+  - c218cc6bf765
   tool_panel_section_label: Variant Calling
 - name: vg_convert
   owner: iuc
@@ -5200,6 +5205,7 @@ tools:
   revisions:
   - 0e8330535ea0
   - 2595c27071c2
+  - 6fe0fdd63a67
   - 7da532cd050c
   - 8fbd98f37c10
   - 95ab864b281a
@@ -5744,6 +5750,7 @@ tools:
   owner: bgruening
   revisions:
   - 1119cdd14ddb
+  - 18bf75bf5d67
   - 4375e25de06a
   - bf9379529c3e
   - c3f9037423bd
@@ -5756,6 +5763,7 @@ tools:
   - 1d9799f4b854
   - 25332cfeac05
   - 49b82255b72f
+  - 7f88b2b4662d
   - 910c6a1c3a27
   - 94b552c6830a
   - ed900cd4a0a9
@@ -5765,6 +5773,7 @@ tools:
   revisions:
   - 11a3385e03b5
   - 362942f48dd2
+  - 4060d361cf3c
   - 61754e6c156d
   - 662109a754b5
   - cef9fb4ece1c
@@ -5774,6 +5783,7 @@ tools:
   owner: bgruening
   revisions:
   - 0dff8b5011c0
+  - 16a8d1688c65
   - 2371fad10021
   - 3f1b286a5c34
   - 5fb461d15c31
@@ -5789,6 +5799,7 @@ tools:
   - 3a7752b8d2cb
   - b75f87deaa15
   - beb5b5917d2f
+  - ff9f5d335041
   tool_panel_section_label: HiCExplorer
 - name: schicexplorer_schicqualitycontrol
   owner: iuc
