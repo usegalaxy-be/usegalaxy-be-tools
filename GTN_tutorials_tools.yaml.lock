@@ -177,6 +177,7 @@ tools:
   - 025139097795
   - 0f1c34698076
   - 2a9afed42353
+  - 640e4eeab4e2
   - 645159bcee2d
   - 9eab750c367d
   - edbb6c5028f5
@@ -1429,6 +1430,7 @@ tools:
 - name: hicexplorer_hicbuildmatrix
   owner: bgruening
   revisions:
+  - 453619f40b89
   - 707f691c974c
   - c657edbea349
   - d9967770de96
@@ -1471,6 +1473,7 @@ tools:
   revisions:
   - 0ba4f56a3613
   - 41dbf4d162a2
+  - b03f8b95b08c
   - ea50f7bba657
   - f86ca478c6af
   tool_panel_section_label: HiCExplorer
@@ -1753,6 +1756,7 @@ tools:
   revisions:
   - 73a469f7dc96
   - b1e68bbe4cef
+  - dc97e1b45938
   tool_panel_section_label: Phylogenetics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: intermine_galaxy_exchange
@@ -2025,6 +2029,7 @@ tools:
   owner: iuc
   revisions:
   - 1ebd14235b92
+  - 43d16bd5dc47
   - ae618321f34a
   - cbf488da3b2c
   - eba36e001f45
@@ -3248,6 +3253,7 @@ tools:
   - e42225f8a659
   - ea0a1d50c83f
   - f522c08e900c
+  - fce1301d386c
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: histogram
@@ -4756,6 +4762,7 @@ tools:
   revisions:
   - 191665a689de
   - 47bb93e7832b
+  - a070d4329d91
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: retropath2
@@ -4781,6 +4788,7 @@ tools:
   owner: tduigou
   revisions:
   - 37bed74bbd44
+  - 6e66d970a5a0
   - d5c53a916005
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4796,6 +4804,7 @@ tools:
   revisions:
   - 21a900eee812
   - 4525f388f3ac
+  - b2eb5f498ed9
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rpscore
