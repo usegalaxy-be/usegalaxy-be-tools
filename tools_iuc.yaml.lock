@@ -233,6 +233,7 @@ tools:
   - 0f1c34698076
   - 2a9afed42353
   - 4c172a4a4c9e
+  - 640e4eeab4e2
   - 9eab750c367d
   - a02b8b3f5a0c
   - a38bdcec9e4c
@@ -1638,6 +1639,7 @@ tools:
   owner: iuc
   revisions:
   - 1ebd14235b92
+  - 43d16bd5dc47
   - cbf488da3b2c
   - cef79931dda5
   tool_panel_section_label: RNA Analysis
@@ -2886,6 +2888,7 @@ tools:
   - 3b5b54ed6392
   - 3ed8e85f4f4c
   - 41dbf4d162a2
+  - b03f8b95b08c
   - c3e5e2cf12b7
   - f86ca478c6af
   tool_panel_section_label: HiCExplorer
@@ -2907,6 +2910,7 @@ tools:
   - 4ba4b59dcff1
   - 63c8377c58b3
   - 8286e361f89c
+  - 9c004f11ebe4
   - b05f662f9f35
   - ee370ade24cd
   tool_panel_section_label: HiCExplorer
@@ -2917,6 +2921,7 @@ tools:
   - 41aab2463ca4
   - 4f9305d3bb34
   - 5dd1aae12f03
+  - 6f078762ff7f
   - 80abd5e2922a
   - e03780179ee5
   tool_panel_section_label: HiCExplorer
@@ -2956,6 +2961,7 @@ tools:
   revisions:
   - 0f611e7d7858
   - 231687cac31b
+  - 453619f40b89
   - 9edf8894a22d
   - a4c13ddcc8ee
   - c657edbea349
@@ -5658,6 +5664,7 @@ tools:
 - name: hicexplorer_chicplotviewpoint
   owner: bgruening
   revisions:
+  - 009ea872cdf5
   - 031872f8e2e0
   - 136ebddd6ec3
   - '920526260066'
@@ -5668,6 +5675,7 @@ tools:
 - name: hicexplorer_hicquickqc
   owner: bgruening
   revisions:
+  - 0a134c0bdb39
   - 269c4246279d
   - 5cbd7a902a8d
   - 653fa9fa585e
@@ -5965,6 +5973,7 @@ tools:
   - 29ff6a849eac
   - 73a469f7dc96
   - b1e68bbe4cef
+  - dc97e1b45938
   tool_panel_section_label: Phylogenetics
 - name: hyphy_prime
   owner: iuc
@@ -6479,6 +6488,7 @@ tools:
   revisions:
   - 505111e8aca5
   - 8b1b09fcd8b7
+  - d87b60b2ed78
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct_merge_cut_up_clustering
   owner: iuc
@@ -6724,6 +6734,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
+  - 07f675a7ac2e
   - 18eed8fa7f23
   - 1a7773882d2c
   - 2a2364765752
