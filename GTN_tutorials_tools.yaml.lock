@@ -142,6 +142,7 @@ tools:
   revisions:
   - 067592b6b312
   - 21e491ad532a
+  - 86ec2f06de3c
   - 94fe43e75ddc
   - b2860df42e16
   - b9e31c5c01c7
@@ -445,6 +446,7 @@ tools:
   - 4f774c1e6049
   - 64f11cf59c6e
   - 8d2a528a9513
+  - c598cbb8b019
   - dfd8b7f78c37
   - e188dc7a68e6
   tool_panel_section_label: Mapping
@@ -481,6 +483,7 @@ tools:
 - name: staramr
   owner: nml
   revisions:
+  - 15a4fff208e4
   - 2fd4d4c9c5c2
   - 3548a93b39c1
   - 3b22de20bd4b
@@ -1211,11 +1214,13 @@ tools:
   revisions:
   - d4bea99366f9
   - ec215ed98831
+  - f2a8b93f731c
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_annotate
   owner: iuc
   revisions:
+  - 3ac96c352a3d
   - d50dc96e3ce9
   - f82cefbbcea5
   tool_panel_section_label: Species abundance
@@ -1231,6 +1236,7 @@ tools:
   owner: iuc
   revisions:
   - 02bab5ff7c37
+  - e5cf6d670369
   - fe7ec8a3d35e
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1239,6 +1245,7 @@ tools:
   revisions:
   - 12baadec7809
   - 816cbd8f4e6e
+  - 9c6619b29650
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ncbi_blast_plus
@@ -1439,6 +1446,7 @@ tools:
 - name: hicexplorer_hicmergematrixbins
   owner: bgruening
   revisions:
+  - 7011782fdbaf
   - 8926550196ce
   - 9b7840d527be
   - 9d93c8fbe0a6
@@ -1448,6 +1456,7 @@ tools:
   owner: bgruening
   revisions:
   - 937b7b9832d0
+  - c5ce0cbf73dc
   - dcc9500b13aa
   - f7d344dacfeb
   tool_panel_section_label: HiCExplorer
@@ -1458,6 +1467,7 @@ tools:
   - 025a128652dc
   - 79acdf9d5e1d
   - d398f5373c70
+  - eb3a1b9a1c3c
   tool_panel_section_label: HiCExplorer
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: hicexplorer_hicfindtads
@@ -1466,6 +1476,7 @@ tools:
   - 116ddd1627cd
   - 43332e51a712
   - 478aacfbaa37
+  - 7b9fa42ca59c
   tool_panel_section_label: HiCExplorer
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: hicexplorer_hicpca
@@ -1754,6 +1765,7 @@ tools:
 - name: raxml
   owner: iuc
   revisions:
+  - 0811b19b117a
   - 73a469f7dc96
   - b1e68bbe4cef
   - dc97e1b45938
@@ -2030,6 +2042,7 @@ tools:
   revisions:
   - 1ebd14235b92
   - 43d16bd5dc47
+  - 92198ab2345f
   - ae618321f34a
   - cbf488da3b2c
   - eba36e001f45
@@ -3027,6 +3040,7 @@ tools:
   owner: iuc
   revisions:
   - 271965b55437
+  - 5226c31ac6d3
   - 5fa262ce95dd
   - a62e934346f5
   - da6fc9f4a367
