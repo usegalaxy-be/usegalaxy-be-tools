@@ -1741,8 +1741,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - f46f0e4f75c4
   - ddf54b12c295
+  - f46f0e4f75c4
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: text_processing
@@ -3136,8 +3136,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: openbabel_compound_convert
@@ -3485,8 +3485,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 9ff72e942410
   - 74a8bef53a00
+  - 9ff72e942410
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastqc
@@ -4041,6 +4041,72 @@ tools:
   revisions:
   - fb20acd19613
   tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: 2d_histogram_equalization
+  owner: imgteam
+  revisions:
+  - 99e0ef91ea5e
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: image_info
+  owner: imgteam
+  revisions:
+  - e28851b24032
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: color_deconvolution
+  owner: imgteam
+  revisions:
+  - 0cbdf78fee14
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: split_image
+  owner: imgteam
+  revisions:
+  - 7191fd16988f
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: 2d_auto_threshold
+  owner: imgteam
+  revisions:
+  - 2ee04d2ebdcf
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 61f9ddbc63ca
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: imagej2_analyze_particles_binary
+  owner: imgteam
+  revisions:
+  - 0601a9056642
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: 2d_feature_extraction
+  owner: imgteam
+  revisions:
+  - 519fad2c552a
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collection_element_identifiers
+  owner: iuc
+  revisions:
+  - 3e27acfa4830
+  tool_panel_section_label: Collection Operations
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 90981f86000f
+  tool_panel_section_label: Collection Operations
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - ab83aa685821
+  tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bfconvert
   owner: imgteam
@@ -4837,8 +4903,8 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 746e8e4bf929
   - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -4862,8 +4928,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - ddf54b12c295
   - f46f0e4f75c4
+  - ddf54b12c295
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: get_flanks
@@ -5961,8 +6027,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - 86755160afbf
   - 6073bb457ec0
+  - 86755160afbf
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: infernal
@@ -7811,8 +7877,8 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
-  - 75b3b3d0adbf
   - 4953dcd7dd39
+  - 75b3b3d0adbf
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flashlfq
@@ -8226,8 +8292,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 3ec27b4cee7c
   - a6ff76e057fd
+  - 3ec27b4cee7c
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dbbuilder
@@ -8461,8 +8527,8 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - c9b13d4069c8
   - 3ec27b4cee7c
+  - c9b13d4069c8
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mz_to_sqlite
@@ -9536,8 +9602,8 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
-  - 3b5ef3b00cdd
   - d86cb2ce311b
+  - 3b5ef3b00cdd
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot
@@ -9748,8 +9814,8 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - fbf99087e067
   - 86755160afbf
+  - fbf99087e067
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: table_compute
@@ -9773,8 +9839,8 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - aff5135563c6
   - 6595517c2dd8
+  - aff5135563c6
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: anndata_import
