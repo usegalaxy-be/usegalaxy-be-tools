@@ -195,6 +195,7 @@ tools:
   - 53c0b7a1a0c3
   - 66367287b4e6
   - 6945cd53bd2d
+  - 7a6382582d76
   - be1d967337e4
   - f5b1e7d2594f
   tool_panel_section_label: Mapping
@@ -527,6 +528,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 1f04936b96f3
   - 822954de3f59
   - b8c00ce5dfa0
   - b8d633fbf5f5
@@ -536,6 +538,7 @@ tools:
 - name: metaspades
   owner: nml
   revisions:
+  - 04d81e5f25e9
   - 2ecf5a570907
   - 99ecfdafc64f
   - f192c2fbe13f
@@ -4179,6 +4182,7 @@ tools:
   - 13022c3d3076
   - 381a32c51141
   - a00cceb45700
+  - a2f232ff85ed
   - ec9cbd6b9a49
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
