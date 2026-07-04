@@ -2,7 +2,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
-  - c28c9cdf3660
+  - a7c1dc5207da
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ncbi_eutils_elink
@@ -68,8 +68,8 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - f5ea3ce9b9b0
   - 8848455c0270
+  - f5ea3ce9b9b0
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: load_ref_data
@@ -159,7 +159,7 @@ tools:
 - name: jq
   owner: iuc
   revisions:
-  - 8c505f8f2977
+  - 4e62e523c2b6
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: replace_column_by_key_value_file
@@ -417,7 +417,7 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
-  - 4557b2da9e7f
+  - 8b1ff0343492
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastqtofasta
@@ -959,15 +959,15 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - b8348686a0b9
   - 64e2edfe7a2c
   - 87ee588b3d45
+  - b8348686a0b9
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanoplot
   owner: iuc
   revisions:
-  - 640e4eeab4e2
+  - 3d8c0b287c51
   tool_panel_section_label: Nanopore
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: medaka_consensus
@@ -1333,8 +1333,8 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
-  - 31f58ec0459a
   - c2ef298da409
+  - 31f58ec0459a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: abricate
@@ -1869,7 +1869,7 @@ tools:
 - name: vcfanno
   owner: iuc
   revisions:
-  - 7b2ee758de86
+  - 2c526639f63c
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift
@@ -3130,16 +3130,16 @@ tools:
   - 5fca46616675
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: raceid_inspectclusters
-  owner: iuc
-  revisions:
-  - 37a47c4fd84d
-  tool_panel_section_label: Single-cell
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_clustering
   owner: iuc
   revisions:
   - 7e014059a88d
+  tool_panel_section_label: Single-cell
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: raceid_inspectclusters
+  owner: iuc
+  revisions:
+  - 37a47c4fd84d
   tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_filtnormconf
@@ -3512,10 +3512,10 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - 832c20329690
   - 63dd26468588
   - 2e0fb4bc860e
   - dba489bfcd62
+  - 832c20329690
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -4369,8 +4369,8 @@ tools:
 - name: vsearch
   owner: iuc
   revisions:
-  - b3c7199d8786
   - 9495df9dd6ef
+  - b3c7199d8786
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
@@ -5973,8 +5973,8 @@ tools:
 - name: md_converter
   owner: chemteam
   revisions:
-  - 79e8ab8f1e81
   - d7ec25187599
+  - 79e8ab8f1e81
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rdock_rbdock
@@ -7019,8 +7019,8 @@ tools:
 - name: seqtk
   owner: iuc
   revisions:
-  - 4b494533146a
   - a019807f4e67
+  - 4b494533146a
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ucsc_fasplit
@@ -8738,8 +8738,8 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
-  - e188dc7a68e6
   - 3fe632431b68
+  - e188dc7a68e6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: busco
@@ -9231,7 +9231,7 @@ tools:
 - name: matchms_formatter
   owner: recetox
   revisions:
-  - 5fa29e292e12
+  - 5ab06f9104ec
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_fillpeaks
@@ -9316,8 +9316,8 @@ tools:
   owner: iuc
   revisions:
   - 07e8b80f278c
-  - a1a923cd89e8
   - ce3c7f062223
+  - a1a923cd89e8
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ab1_fastq_converter

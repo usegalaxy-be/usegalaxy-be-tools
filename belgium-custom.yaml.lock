@@ -346,6 +346,7 @@ tools:
   - 94e32337ba54
   - 95be88b49f4e
   - a6a475ed58cb
+  - a7c1dc5207da
   - bc18e25d4204
   - c28c9cdf3660
   - d951c5b0edd1
@@ -645,6 +646,7 @@ tools:
 - name: jq
   owner: iuc
   revisions:
+  - 4e62e523c2b6
   - 5ff75eb1a893
   - 8c505f8f2977
   tool_panel_section_label: Text Manipulation
@@ -878,6 +880,7 @@ tools:
   - 25c59c0ceb55
   - 4557b2da9e7f
   - 8276962186f2
+  - 8b1ff0343492
   - b2e9a56e5259
   - dbf9c561ef29
   - f875da9d433c
@@ -1690,6 +1693,7 @@ tools:
   - 025139097795
   - 0f1c34698076
   - 2a9afed42353
+  - 3d8c0b287c51
   - 640e4eeab4e2
   - 9eab750c367d
   - edbb6c5028f5
@@ -2799,6 +2803,7 @@ tools:
 - name: vcfanno
   owner: iuc
   revisions:
+  - 2c526639f63c
   - 4f3c5e634679
   - 7b2ee758de86
   - ecc7758d828f
@@ -8730,6 +8735,7 @@ tools:
   owner: recetox
   revisions:
   - 1b09315a3f87
+  - 5ab06f9104ec
   - 5fa29e292e12
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
