@@ -159,6 +159,7 @@ tools:
   - 4557b2da9e7f
   - 65b93b623c77
   - 8276962186f2
+  - 8b1ff0343492
   - b2e9a56e5259
   - dbf9c561ef29
   - f875da9d433c
@@ -178,6 +179,7 @@ tools:
   - 025139097795
   - 0f1c34698076
   - 2a9afed42353
+  - 3d8c0b287c51
   - 640e4eeab4e2
   - 645159bcee2d
   - 9eab750c367d
@@ -2645,6 +2647,7 @@ tools:
   owner: recetox
   revisions:
   - 1b09315a3f87
+  - 5ab06f9104ec
   - 5fa29e292e12
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
