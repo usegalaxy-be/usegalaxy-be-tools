@@ -664,6 +664,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 10fc1d5850a8
   - 1196fc76fdc2
   - 15c0c0d90c3f
   - 1e3323a44643
@@ -2562,6 +2563,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 252d185267fc
   - 28ffaaa5739f
   - 3cf310697624
   - 4493fdb346f0
@@ -4890,6 +4892,7 @@ tools:
   - 8fe98f7094de
   - 9a616afdbda5
   - 9a882d108833
+  - b060944b3989
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deg_annotate

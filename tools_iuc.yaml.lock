@@ -1531,6 +1531,7 @@ tools:
   - 71bacea10eee
   - 8fe98f7094de
   - 9a882d108833
+  - b060944b3989
   tool_panel_section_label: RNA Analysis
 - name: edger
   owner: iuc
@@ -7150,6 +7151,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 10fc1d5850a8
   - 1196fc76fdc2
   - 15c0c0d90c3f
   - 1e3323a44643

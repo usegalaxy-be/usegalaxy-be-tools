@@ -3627,6 +3627,7 @@ tools:
   - 6c363db8c702
   - 71bacea10eee
   - 9a882d108833
+  - b060944b3989
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sailfish
@@ -6958,6 +6959,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 252d185267fc
   - 28ffaaa5739f
   - 3cf310697624
   - 4493fdb346f0
@@ -8433,6 +8435,7 @@ tools:
 - name: instagraal
   owner: bgruening
   revisions:
+  - 5c11b91a76dc
   - d1be552c6034
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8806,6 +8809,7 @@ tools:
 - name: xtb_molecular_optimization
   owner: recetox
   revisions:
+  - 14a4d81e921e
   - 6e1ef071fffc
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8819,6 +8823,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 10fc1d5850a8
   - 1196fc76fdc2
   - 15c0c0d90c3f
   - 9553180705b7
@@ -10677,4 +10682,10 @@ tools:
   revisions:
   - e4cfb5adc31c
   tool_panel_section_label: Bio2Byte
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: colabfold_msa
+  owner: iuc
+  revisions:
+  - 6fbd935575ce
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
