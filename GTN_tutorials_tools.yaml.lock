@@ -158,6 +158,7 @@ tools:
   - 25c59c0ceb55
   - 4557b2da9e7f
   - 65b93b623c77
+  - 68386e630362
   - 8276962186f2
   - 8b1ff0343492
   - b2e9a56e5259
@@ -1218,6 +1219,7 @@ tools:
 - name: obi_uniq
   owner: iuc
   revisions:
+  - 53b5bd9a08a1
   - d4bea99366f9
   - ec215ed98831
   - f2a8b93f731c
@@ -1227,6 +1229,7 @@ tools:
   owner: iuc
   revisions:
   - 3ac96c352a3d
+  - aff454cfd79e
   - d50dc96e3ce9
   - f82cefbbcea5
   tool_panel_section_label: Species abundance
@@ -1242,6 +1245,7 @@ tools:
   owner: iuc
   revisions:
   - 02bab5ff7c37
+  - 879f44536e12
   - e5cf6d670369
   - fe7ec8a3d35e
   tool_panel_section_label: Species abundance
@@ -1251,6 +1255,7 @@ tools:
   revisions:
   - 12baadec7809
   - 816cbd8f4e6e
+  - 8fe2ec05a876
   - 9c6619b29650
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/

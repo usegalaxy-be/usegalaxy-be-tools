@@ -591,6 +591,7 @@ tools:
   - 25c59c0ceb55
   - 4557b2da9e7f
   - 65b93b623c77
+  - 68386e630362
   - 8276962186f2
   - 8b1ff0343492
   - a626e8c0e1ba
@@ -4842,6 +4843,7 @@ tools:
   revisions:
   - 368cb4bef9d8
   - 76b57044069d
+  - 8165eab19456
   - 8dfcdbeaeed8
   - cafcc13990ee
   - f54e7b3da33c
@@ -4852,6 +4854,7 @@ tools:
   - 2c6f204ae1b9
   - 54aa421c2911
   - 9902c85117a4
+  - e5dc009367ef
   - ef1c257adcbd
   - f0334664a47b
   tool_panel_section_label: Metagenomic Analysis
@@ -4960,6 +4963,7 @@ tools:
   - a9f4a217dcd6
   - e8768ddeba32
   - e8fba04706d3
+  - f8b8c95bff89
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
   owner: iuc
@@ -4969,6 +4973,7 @@ tools:
   - 2222f08c8316
   - 47198090501e
   - 89d11e95a9b1
+  - 9010b9e13dec
   - b35a5e8ff0fe
   - b762f4d54f78
   tool_panel_section_label: Metagenomic Analysis
@@ -4982,12 +4987,14 @@ tools:
   - 5b752525bd6f
   - 6bd7c48ff6ed
   - 7f3b59dee073
+  - a6ceb91124fa
   - efe26de231ec
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_learnerrors
   owner: iuc
   revisions:
   - 04c15826a0b8
+  - 1fb4fc5e64d6
   - 39638e0aff59
   - 4bba91a89457
   - 5fe3edf19b9c
@@ -5005,6 +5012,7 @@ tools:
   - 88677f452aea
   - 99c6929236fa
   - aab8af79110e
+  - d49e0de76bf5
   - e96bbb9e24ea
   - ebd632e95aae
   tool_panel_section_label: Metagenomic Analysis
@@ -5019,6 +5027,7 @@ tools:
   - 705d26fbea02
   - 9f306361a58e
   - ce4bfce70e64
+  - e0aea8e800d7
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
   owner: iuc
@@ -5028,6 +5037,7 @@ tools:
   - 256e7a119a95
   - 390bc2645138
   - 4cc834cce4fb
+  - 86d6d6cda803
   - 9180d536e20d
   - a7817705348e
   - f74c56549143
@@ -5037,6 +5047,7 @@ tools:
   revisions:
   - 0b884b080bb6
   - 1d75bd0595e2
+  - 2495262244bd
   - 273b8a00c8a2
   - 35176674168c
   - 646c58820267
@@ -5054,6 +5065,7 @@ tools:
   - 5cba3a0dc3b6
   - 6f06d501b7e6
   - 8daf4564ccda
+  - aae21f831e95
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotqualityprofile
   owner: iuc
@@ -5063,6 +5075,7 @@ tools:
   - 51971db051ba
   - a204f3983d22
   - cae017b76acb
+  - d000854331fe
   - d60df8727f59
   - e7c2674e01fe
   tool_panel_section_label: Metagenomic Analysis
@@ -5244,6 +5257,7 @@ tools:
   revisions:
   - 0e8330535ea0
   - 2595c27071c2
+  - 69b5fa6480ff
   - 6fe0fdd63a67
   - 7da532cd050c
   - 8fbd98f37c10
@@ -6798,6 +6812,7 @@ tools:
   - c28c9cdf3660
   - d951c5b0edd1
   - f0872b88c5fc
+  - fd848bb708de
   tool_panel_section_label: Get Data
 - name: pretext_snapshot
   owner: iuc
