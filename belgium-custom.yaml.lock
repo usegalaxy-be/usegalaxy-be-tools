@@ -1228,6 +1228,7 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
+  - 0559e0711094
   - 26ee5e11ecbe
   - 31c42a2c02d3
   - 371299578b8e
@@ -2677,6 +2678,7 @@ tools:
   owner: iuc
   revisions:
   - 95ec8f978762
+  - 974fc57878c7
   - ee62774bb5bd
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2685,11 +2687,13 @@ tools:
   revisions:
   - 76d18b1e970b
   - a347dad1f305
+  - af3b56605b60
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vg_convert
   owner: iuc
   revisions:
+  - 0b527546d581
   - 7366704232b6
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -3978,6 +3982,7 @@ tools:
   owner: iuc
   revisions:
   - 1959cc43b414
+  - 1be3e9c59601
   - f78492521996
   tool_panel_section_label: Phylogenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8940,6 +8945,7 @@ tools:
   owner: bgruening
   revisions:
   - 1d77df05cbfc
+  - 522baf0458d8
   - ec6df5e22055
   - f0c7f0bad621
   tool_panel_section_label: Tools from workflows
@@ -9392,6 +9398,7 @@ tools:
   owner: iuc
   revisions:
   - 28d740f2c0b0
+  - d9b724b4a136
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: megahit_contig2fastg

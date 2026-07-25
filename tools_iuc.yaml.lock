@@ -2854,6 +2854,7 @@ tools:
 - name: multiqc
   owner: iuc
   revisions:
+  - 0559e0711094
   - 161f4383df15
   - 26ee5e11ecbe
   - 31c42a2c02d3
@@ -4788,6 +4789,7 @@ tools:
 - name: vg_convert
   owner: iuc
   revisions:
+  - 0b527546d581
   - 7366704232b6
   tool_panel_section_label: Variant Calling
 - name: vg_deconstruct
@@ -4795,11 +4797,13 @@ tools:
   revisions:
   - 76d18b1e970b
   - a347dad1f305
+  - af3b56605b60
   tool_panel_section_label: Variant Calling
 - name: vg_view
   owner: iuc
   revisions:
   - 95ec8f978762
+  - 974fc57878c7
   - ee62774bb5bd
   tool_panel_section_label: Variant Calling
 - name: odgi_build
@@ -6087,6 +6091,7 @@ tools:
   owner: iuc
   revisions:
   - 1959cc43b414
+  - 1be3e9c59601
   - f78492521996
   tool_panel_section_label: Phylogenetics
 - name: chira_collapse
@@ -7082,6 +7087,7 @@ tools:
   revisions:
   - 28d740f2c0b0
   - 6941d0d453ba
+  - d9b724b4a136
   tool_panel_section_label: Metagenomic Analysis
 - name: coverm_genome
   owner: iuc
