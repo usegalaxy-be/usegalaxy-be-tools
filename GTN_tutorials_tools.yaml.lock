@@ -672,6 +672,7 @@ tools:
   - 1e3323a44643
   - 9553180705b7
   - a02aa0dfb850
+  - d663d090c710
   - e8ac2b53f262
   tool_panel_section_label: NCBI Blast
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1729,6 +1730,7 @@ tools:
   - 8aa352093d73
   - 9a260f6fab93
   - a87ae767b01d
+  - b75e49f360de
   - e522022137f6
   - f867422772d6
   tool_panel_section_label: Variant Calling
@@ -2584,6 +2586,7 @@ tools:
   revisions:
   - 11ab2081bd4a
   - 35b6fe4d481c
+  - 788a4bac4a11
   - 86a20118e743
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2593,6 +2596,7 @@ tools:
   - 378ddb410225
   - 3990a65b45a4
   - 3bd53dcfa438
+  - 734dfb2af03a
   - b02d1992a43a
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2601,6 +2605,7 @@ tools:
   revisions:
   - 5bd125a3f3b0
   - 772290533d6e
+  - 8372531e6c92
   - a301f001835c
   - ae28a753a6f8
   tool_panel_section_label: Metabolomics
@@ -2610,6 +2615,7 @@ tools:
   revisions:
   - 3820e3f3b1cb
   - 6842c495da6d
+  - a151d2cf27fb
   - d45a786cbc40
   - fe4002ac5193
   tool_panel_section_label: Metabolomics
@@ -2620,6 +2626,7 @@ tools:
   - 33c0ca93f3ee
   - 7faadba7c625
   - aa252eec9229
+  - ba20f926a460
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: xcms_fillpeaks
@@ -2627,6 +2634,7 @@ tools:
   revisions:
   - 05d322d6facb
   - 26d77e9ceb49
+  - 564d6ab0cf18
   - a8d866a71ba1
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2665,6 +2673,7 @@ tools:
   revisions:
   - 73d82de36369
   - 75a1b3f7bacc
+  - abc7c44ae8f7
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: batchcorrection
@@ -2709,6 +2718,7 @@ tools:
   - 271c9d5f0d10
   - 7c4e3703b45a
   - 9291271ec4d9
+  - d26d886f48a3
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: miniasm
@@ -3054,6 +3064,7 @@ tools:
 - name: bcftools_norm
   owner: iuc
   revisions:
+  - 262d695b5456
   - 271965b55437
   - 5226c31ac6d3
   - 5fa262ce95dd
@@ -4890,6 +4901,7 @@ tools:
 - name: deseq2
   owner: iuc
   revisions:
+  - 05f9e54d7e81
   - 0696db066a5b
   - 2275d0688bca
   - 6a3a025714d3
@@ -5294,6 +5306,7 @@ tools:
 - name: bcftools_merge
   owner: iuc
   revisions:
+  - 52f6b7ac3739
   - 5b006286a458
   - 86296490704e
   - 9473302f4588

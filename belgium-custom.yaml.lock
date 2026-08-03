@@ -208,6 +208,7 @@ tools:
   - 469095a58c15
   - 7f33525b85d0
   - 869256447e86
+  - e620f6e2b6a8
   - eb7baf1f72ca
   tool_panel_section_label: Metagenomic Analysis
 - name: mrbayes
@@ -1343,6 +1344,7 @@ tools:
   owner: devteam
   revisions:
   - 2899e5b8c52a
+  - 2b901d1b7aef
   - 85e38b31e8b3
   - db000c6007a0
   - df41198e970c
@@ -2710,6 +2712,7 @@ tools:
   owner: iuc
   revisions:
   - 05f317e50e61
+  - 2844fbbcaa92
   - c3c930926708
   - fc47ffec447e
   tool_panel_section_label: Variant Calling
@@ -2866,6 +2869,7 @@ tools:
 - name: bcftools_cnv
   owner: iuc
   revisions:
+  - 2b7e7aa56527
   - 61dfbc82ffc8
   - b2d1b7dda2b7
   - ccb83bf54de0
@@ -2874,6 +2878,7 @@ tools:
 - name: bcftools_plugin_color_chrs
   owner: iuc
   revisions:
+  - 54def72f84b2
   - 71dfde92fd57
   - 7d9166ecd10f
   - 845a7025ba81
@@ -2883,6 +2888,7 @@ tools:
   owner: iuc
   revisions:
   - 3c6952a2b0e4
+  - 4517996e7c99
   - 48ac4d611e92
   - b03c0b3e67a6
   tool_panel_section_label: Variant Calling
@@ -2890,6 +2896,7 @@ tools:
 - name: bcftools_csq
   owner: iuc
   revisions:
+  - 633588f5cf1b
   - 9f69e7d58d03
   - d237eaef451f
   - f10f5b4e7854
@@ -2898,6 +2905,7 @@ tools:
 - name: bcftools_norm
   owner: iuc
   revisions:
+  - 262d695b5456
   - 271965b55437
   - 5226c31ac6d3
   - 5fa262ce95dd
@@ -2909,6 +2917,7 @@ tools:
   revisions:
   - 07396b423218
   - 5801eff9ac7e
+  - 89be90465e11
   - c277260d3fab
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2917,6 +2926,7 @@ tools:
   revisions:
   - 8aa352093d73
   - 9a260f6fab93
+  - b75e49f360de
   - e522022137f6
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -3145,6 +3155,7 @@ tools:
 - name: bcftools_merge
   owner: iuc
   revisions:
+  - 52f6b7ac3739
   - 5b006286a458
   - 9473302f4588
   - d3286f971e89
@@ -3195,6 +3206,7 @@ tools:
   owner: iuc
   revisions:
   - 591cc8518033
+  - 7aea930ab6cc
   - b17394940c7a
   - fcf941c241cc
   tool_panel_section_label: Variant Calling
@@ -3630,6 +3642,7 @@ tools:
 - name: deseq2
   owner: iuc
   revisions:
+  - 05f9e54d7e81
   - 2275d0688bca
   - 6c363db8c702
   - 71bacea10eee
@@ -7013,12 +7026,14 @@ tools:
   - 33c0ca93f3ee
   - 7faadba7c625
   - aa252eec9229
+  - ba20f926a460
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_group
   owner: lecorguille
   revisions:
   - 3820e3f3b1cb
+  - a151d2cf27fb
   - d45a786cbc40
   - fe4002ac5193
   tool_panel_section_label: Metabolomics
@@ -7027,6 +7042,7 @@ tools:
   owner: lecorguille
   revisions:
   - 5bd125a3f3b0
+  - 8372531e6c92
   - a301f001835c
   - ae28a753a6f8
   tool_panel_section_label: Metabolomics
@@ -7036,6 +7052,7 @@ tools:
   revisions:
   - 378ddb410225
   - 3990a65b45a4
+  - 734dfb2af03a
   - b02d1992a43a
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7044,6 +7061,7 @@ tools:
   revisions:
   - 271c9d5f0d10
   - 9291271ec4d9
+  - d26d886f48a3
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: msnbase_readmsdata
@@ -7051,6 +7069,7 @@ tools:
   revisions:
   - 11ab2081bd4a
   - 35b6fe4d481c
+  - 788a4bac4a11
   - 86a20118e743
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7086,6 +7105,7 @@ tools:
   revisions:
   - 73d82de36369
   - 75a1b3f7bacc
+  - abc7c44ae8f7
   tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: batchcorrection
@@ -8650,6 +8670,7 @@ tools:
   owner: lecorguille
   revisions:
   - 26d77e9ceb49
+  - 564d6ab0cf18
   - a8d866a71ba1
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8848,6 +8869,7 @@ tools:
   - 15c0c0d90c3f
   - 9553180705b7
   - a02aa0dfb850
+  - d663d090c710
   - e8ac2b53f262
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9528,6 +9550,7 @@ tools:
   revisions:
   - 0a5dcc9a8ec2
   - 43f0efd586c4
+  - cd06642e9c20
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: colorize_labels
