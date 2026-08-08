@@ -319,6 +319,7 @@ tools:
   - 13b6f0007d9e
   - 61f9ddbc63ca
   - 6595517c2dd8
+  - 9bc5cdefb090
   - aff5135563c6
   - be25c075ed54
   tool_panel_section_label: Text Manipulation
@@ -670,6 +671,7 @@ tools:
   - 1196fc76fdc2
   - 15c0c0d90c3f
   - 1e3323a44643
+  - 7483f7d26984
   - 9553180705b7
   - a02aa0dfb850
   - d663d090c710
@@ -1796,6 +1798,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
+  - 16364014b8a9
   - '440074098911'
   - 5cb6146337d8
   - 6f6537780379

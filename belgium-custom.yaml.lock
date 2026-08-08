@@ -341,6 +341,7 @@ tools:
   - 1a7773882d2c
   - 2a2364765752
   - 3884a407d8f0
+  - 4c833b14869a
   - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
@@ -375,6 +376,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
+  - 16364014b8a9
   - '440074098911'
   - 5cb6146337d8
   - 6f6537780379
@@ -493,6 +495,7 @@ tools:
   - 02026300aa45
   - 13b6f0007d9e
   - 61f9ddbc63ca
+  - 9bc5cdefb090
   - aff5135563c6
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2308,6 +2311,7 @@ tools:
   revisions:
   - 15200570e926
   - 7c2f5268d01c
+  - b1593fdac806
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salsa
@@ -5522,6 +5526,7 @@ tools:
   owner: iuc
   revisions:
   - 21bf2f07f3f3
+  - 775131a4d84b
   - 8dfc90f35aba
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -7897,6 +7902,7 @@ tools:
   owner: iuc
   revisions:
   - 18a61a9c1601
+  - 241108ef3506
   - 6bbd30d58cf4
   - e727e82945af
   - f97743d52b87
@@ -8867,6 +8873,7 @@ tools:
   - 10fc1d5850a8
   - 1196fc76fdc2
   - 15c0c0d90c3f
+  - 7483f7d26984
   - 9553180705b7
   - a02aa0dfb850
   - d663d090c710
