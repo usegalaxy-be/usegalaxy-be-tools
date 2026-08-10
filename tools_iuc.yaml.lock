@@ -372,6 +372,7 @@ tools:
   - 464b9305180e
   - 61f9ddbc63ca
   - 6595517c2dd8
+  - 9bc5cdefb090
   - aff5135563c6
   tool_panel_section_label: Text Manipulation
 - name: reshape2_melt
@@ -784,6 +785,7 @@ tools:
   - 0878b7fd5260
   - 111bd54f6bc4
   - 18a61a9c1601
+  - 241108ef3506
   - 6bbd30d58cf4
   - 9b892d7f82cc
   - e727e82945af
@@ -4381,6 +4383,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
+  - 16364014b8a9
   - 382518f24d6d
   - '440074098911'
   - 5cb6146337d8
@@ -4918,6 +4921,7 @@ tools:
   revisions:
   - 13192095fd5a
   - 21bf2f07f3f3
+  - 775131a4d84b
   - 8dfc90f35aba
   tool_panel_section_label: Metagenomic Analysis
 - name: graphembed
@@ -5240,6 +5244,7 @@ tools:
   revisions:
   - 15200570e926
   - 7c2f5268d01c
+  - b1593fdac806
   tool_panel_section_label: Assembly
 - name: shasta
   owner: iuc
@@ -6818,6 +6823,7 @@ tools:
   - 1a7773882d2c
   - 2a2364765752
   - 3884a407d8f0
+  - 4c833b14869a
   - 5c7051132156
   - 6ba50cbabbb7
   - 6c829a430475
@@ -7189,6 +7195,7 @@ tools:
   - 15c0c0d90c3f
   - 1e3323a44643
   - 60f307965815
+  - 7483f7d26984
   - 9553180705b7
   - a02aa0dfb850
   - d663d090c710
