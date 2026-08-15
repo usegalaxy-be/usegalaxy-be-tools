@@ -469,6 +469,7 @@ tools:
 - name: jbrowse
   owner: iuc
   revisions:
+  - 1483285bdb7a
   - 17359b808b01
   - 1cfc579079a6
   - 6cd09d7b5f37
@@ -507,6 +508,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 32f1f56bd970
+  - 75a3b8da8e76
   - 898b67846b47
   - b9aaed85cbd1
   - d94aff5ee623
@@ -591,6 +593,7 @@ tools:
 - name: filter_tabular
   owner: iuc
   revisions:
+  - 26fc6cf774d4
   - 34d29339abab
   - 557ec8d7087d
   - 90f657745fea
@@ -686,6 +689,7 @@ tools:
   - 6daca6da3059
   - a86e80d3c09c
   - b12d81af0291
+  - eaa10652acc2
   - f4af63aaf57a
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1692,6 +1696,7 @@ tools:
   owner: devteam
   revisions:
   - 1cd1cf786389
+  - 2739d29a2af1
   - 2a17c789e0a5
   - 3f254c5ced1d
   - 585027e65f3b
@@ -1741,6 +1746,7 @@ tools:
   owner: iuc
   revisions:
   - 5804f786060d
+  - 67ef1dddcad9
   tool_panel_section_label: Phylogenetics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: snp_dists
@@ -1915,6 +1921,7 @@ tools:
   - 55c9ac3aa8f4
   - 980d2a2e1180
   - b0f2be869d6d
+  - d8d32326fbfb
   - de21b616f03a
   tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2891,6 +2898,7 @@ tools:
   revisions:
   - 020b3087d0b7
   - 1334cb4c6b68
+  - 7d01da0b9e18
   - c9f8fef1df74
   - e9005d1f3cfd
   tool_panel_section_label: NCBI Blast
@@ -2956,6 +2964,7 @@ tools:
   revisions:
   - 95bf7479d53c
   - a00df747f03c
+  - a6fd47ecbff8
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomic Analysis
@@ -3090,6 +3099,7 @@ tools:
   - 3f3e247c053d
   - 4efdca267d51
   - c2ef298da409
+  - d8b0de0554a9
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_to_tabular
@@ -3104,6 +3114,7 @@ tools:
   revisions:
   - 1f5641a52664
   - 31812e7a1315
+  - ef1966bcece3
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: add_line_to_file
@@ -3829,6 +3840,7 @@ tools:
   - 1e1291983bc7
   - 3e954e7125bf
   - a5937157062f
+  - c752293b798c
   - ef2c525bd8cd
   tool_panel_section_label: Variant Calling
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4092,6 +4104,7 @@ tools:
   owner: iuc
   revisions:
   - 29f5f25b9935
+  - 4f1baeda3aca
   tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sinto_barcode
@@ -4207,6 +4220,7 @@ tools:
   - 002713edc2a1
   - 13022c3d3076
   - 381a32c51141
+  - 7f694df20f73
   - a00cceb45700
   - a2f232ff85ed
   - ec9cbd6b9a49
@@ -4215,6 +4229,7 @@ tools:
 - name: dropletutils
   owner: iuc
   revisions:
+  - 10d928447114
   - 2c1200fba922
   - a9caad671439
   tool_panel_section_label: Single-cell
@@ -4257,6 +4272,7 @@ tools:
   - 56a8da1f2243
   - 60ff16842fcd
   - 93a3ce78ce55
+  - c656214aa052
   - cd36d6e45e29
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4272,6 +4288,7 @@ tools:
   revisions:
   - 2040e4c2750a
   - 372967836e98
+  - 6428adb323eb
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: annotatemyids
@@ -4938,6 +4955,7 @@ tools:
   - 03c13085aecc
   - dbac244d2214
   - f1691de443a7
+  - fb6d30ca4ea6
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: heinz
@@ -5378,6 +5396,7 @@ tools:
 - name: gemini_query
   owner: iuc
   revisions:
+  - 11fdbee540e5
   - 5596c2dc4218
   - 77a1e60fd1de
   - da74170c55c7
@@ -5446,6 +5465,7 @@ tools:
   - 2e0fb4bc860e
   - 63dd26468588
   - 832c20329690
+  - b60d6f1d72a9
   - ce385837c160
   - dba489bfcd62
   tool_panel_section_label: EMBOSS Tools
