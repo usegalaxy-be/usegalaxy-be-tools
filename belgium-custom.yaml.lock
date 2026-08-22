@@ -1894,6 +1894,7 @@ tools:
   - 602fb8e63aa7
   - 94170eee0ad8
   - c5a90fa4b8dd
+  - cc217867028e
   - e5c372c91e46
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8910,6 +8911,7 @@ tools:
   - 1196fc76fdc2
   - 15c0c0d90c3f
   - 7483f7d26984
+  - 8a203e727140
   - 9553180705b7
   - a02aa0dfb850
   - d663d090c710
@@ -9751,6 +9753,7 @@ tools:
   - 0cc7a80463b9
   - 44c66e8d21e6
   - c4fb391275a0
+  - cfc412b91a57
   - ff02cf8f66f0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9760,6 +9763,7 @@ tools:
   - 1eb9b32f7096
   - '392811378515'
   - 54a68f38cf3f
+  - 81bc4c8bcf10
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pretext_map
@@ -10787,4 +10791,10 @@ tools:
   revisions:
   - 6fbd935575ce
   tool_panel_section_label: Proteomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: oatk
+  owner: iuc
+  revisions:
+  - d9076b232ce4
+  tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
