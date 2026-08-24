@@ -4397,6 +4397,7 @@ tools:
   - 602fb8e63aa7
   - 94170eee0ad8
   - c5a90fa4b8dd
+  - cc217867028e
   - e5c372c91e46
   - ea8146ee148f
   tool_panel_section_label: Annotation
@@ -6878,6 +6879,7 @@ tools:
   - 44c66e8d21e6
   - 6c571966cfb9
   - c4fb391275a0
+  - cfc412b91a57
   - ff02cf8f66f0
   tool_panel_section_label: Graph/Display Data
 - name: rapidnj
@@ -7230,6 +7232,7 @@ tools:
   - 1e3323a44643
   - 60f307965815
   - 7483f7d26984
+  - 8a203e727140
   - 9553180705b7
   - a02aa0dfb850
   - d663d090c710

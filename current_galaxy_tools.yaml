@@ -927,8 +927,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - e2c1b62e1db1
   - 9676127a1ed2
+  - e2c1b62e1db1
   tool_panel_section_label: SAM/BAM
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tag_pileup_frequency
@@ -952,16 +952,16 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 64e2edfe7a2c
   - 2892111d91f8
+  - 64e2edfe7a2c
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bedtools
   owner: iuc
   revisions:
+  - b8348686a0b9
   - 64e2edfe7a2c
   - 87ee588b3d45
-  - b8348686a0b9
   tool_panel_section_label: BED
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanoplot
@@ -1096,6 +1096,12 @@ tools:
   - 73ca13a7ec5f
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: oatk
+  owner: iuc
+  revisions:
+  - d9076b232ce4
+  tool_panel_section_label: Annotation
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: aegean_parseval
   owner: iuc
   revisions:
@@ -1219,7 +1225,7 @@ tools:
 - name: busco
   owner: iuc
   revisions:
-  - c5a90fa4b8dd
+  - cc217867028e
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deepsig
@@ -1333,8 +1339,8 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
-  - c2ef298da409
   - d8b0de0554a9
+  - c2ef298da409
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: abricate
@@ -1856,8 +1862,8 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 8c191acde702
   - 120b7b35e442
+  - 8c191acde702
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cutesv
@@ -2211,8 +2217,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - bdd0cb7fbedf
   - e5e78d1e09a6
+  - bdd0cb7fbedf
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
@@ -2940,8 +2946,8 @@ tools:
 - name: seacr
   owner: iuc
   revisions:
-  - 66b7657f0bd6
   - c8ff96b9fb97
+  - 66b7657f0bd6
   tool_panel_section_label: Epigenetics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcf_filter
@@ -3506,10 +3512,10 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - b60d6f1d72a9
-  - 2e0fb4bc860e
   - 832c20329690
+  - 2e0fb4bc860e
   - dba489bfcd62
+  - b60d6f1d72a9
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: emboss_5
@@ -4074,8 +4080,8 @@ tools:
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
-  - 662a334004b4
   - 31394a0c0242
+  - 662a334004b4
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: last
@@ -7533,6 +7539,18 @@ tools:
   - 17da9f67ed33
   tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pretext_snapshot
+  owner: iuc
+  revisions:
+  - cfc412b91a57
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blobtoolkit
+  owner: bgruening
+  revisions:
+  - 81bc4c8bcf10
+  tool_panel_section_label: Tools from workflows
+  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: coverm_contig
   owner: iuc
   revisions:
@@ -7548,7 +7566,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
-  - 7483f7d26984
+  - 8a203e727140
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_mpileup
@@ -7743,22 +7761,10 @@ tools:
   - 1a03fcd4fa80
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: blobtoolkit
-  owner: bgruening
-  revisions:
-  - 1eb9b32f7096
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: colorize_labels
   owner: imgteam
   revisions:
   - 465a08183136
-  tool_panel_section_label: Tools from workflows
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: pretext_snapshot
-  owner: iuc
-  revisions:
-  - c4fb391275a0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: riassigner
@@ -8750,8 +8756,8 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
-  - e188dc7a68e6
   - 3fe632431b68
+  - e188dc7a68e6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: busco
@@ -9321,9 +9327,9 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - 07e8b80f278c
-  - a1a923cd89e8
   - ce3c7f062223
+  - a1a923cd89e8
+  - 07e8b80f278c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ab1_fastq_converter
@@ -9521,8 +9527,8 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
-  - 21e491ad532a
   - b9e31c5c01c7
+  - 21e491ad532a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: krakentools_extract_kraken_reads
