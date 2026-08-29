@@ -476,6 +476,7 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
+  - 30b60202d990
   - 6073bb457ec0
   - 9ff72e942410
   - a6f147a050a2
@@ -2741,6 +2742,7 @@ tools:
   owner: iuc
   revisions:
   - 2975b29bcaa1
+  - 940aff37ee4e
   - e0734e88a104
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -5113,6 +5115,7 @@ tools:
 - name: metaphlan
   owner: iuc
   revisions:
+  - 1f688befbcdf
   - 56ff60ec416d
   - 740fd2d16a28
   - eca2e2e20436
@@ -7941,6 +7944,7 @@ tools:
   - 18a61a9c1601
   - 241108ef3506
   - 6bbd30d58cf4
+  - '856173762903'
   - e727e82945af
   - f97743d52b87
   tool_panel_section_label: Evolution
