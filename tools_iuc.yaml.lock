@@ -792,6 +792,7 @@ tools:
   - 18a61a9c1601
   - 241108ef3506
   - 6bbd30d58cf4
+  - '856173762903'
   - 9b892d7f82cc
   - e727e82945af
   - f87ac61981f0
@@ -4763,6 +4764,7 @@ tools:
   owner: iuc
   revisions:
   - 2975b29bcaa1
+  - 940aff37ee4e
   - e0734e88a104
   tool_panel_section_label: Variant Calling
 - name: bcftools_concat
@@ -7777,6 +7779,7 @@ tools:
 - name: metaphlan
   owner: iuc
   revisions:
+  - 1f688befbcdf
   - 289b3807e80c
   - 56ff60ec416d
   - 740fd2d16a28
