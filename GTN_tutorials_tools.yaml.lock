@@ -42,6 +42,7 @@ tools:
   - b2f1f75d49c4
   - bb89ae58738c
   - bf675f34b056
+  - dc0f5512911c
   - df99138d2776
   - e4dd4c0622f6
   - f7985e0479b9
@@ -185,6 +186,7 @@ tools:
   - 3d8c0b287c51
   - 640e4eeab4e2
   - 645159bcee2d
+  - 90818f7835f3
   - 9eab750c367d
   - edbb6c5028f5
   tool_panel_section_label: Nanopore
@@ -382,6 +384,7 @@ tools:
   owner: iuc
   revisions:
   - 056f86469460
+  - 0d0e8d0691c8
   - 7087d9a23185
   - 9c942221e135
   - bd07b0d0f568
@@ -1233,6 +1236,7 @@ tools:
   owner: iuc
   revisions:
   - 53b5bd9a08a1
+  - a2ee84fcf0f7
   - d4bea99366f9
   - ec215ed98831
   - f2a8b93f731c
@@ -1242,6 +1246,7 @@ tools:
   owner: iuc
   revisions:
   - 3ac96c352a3d
+  - 7db941c925ce
   - aff454cfd79e
   - d50dc96e3ce9
   - f82cefbbcea5
@@ -1258,6 +1263,7 @@ tools:
   owner: iuc
   revisions:
   - 02bab5ff7c37
+  - 607b3ea00bbe
   - 879f44536e12
   - e5cf6d670369
   - fe7ec8a3d35e
@@ -1270,6 +1276,7 @@ tools:
   - 816cbd8f4e6e
   - 8fe2ec05a876
   - 9c6619b29650
+  - e3097930aa34
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ncbi_blast_plus
@@ -1709,6 +1716,7 @@ tools:
   - 9ffcddf6f9c0
   - a1f0b3f4b781
   - ab1f60c26526
+  - bdd173c2d3e3
   - f9242e01365a
   tool_panel_section_label: Picard
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4463,6 +4471,7 @@ tools:
   revisions:
   - 04b494623f8e
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   - e32b215b7c04
   - e4c01dcece8b
@@ -5014,6 +5023,7 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 29e12b90949d
   - 30d90b851d3c
   - 53e9709776a0
   - e3d32471da11

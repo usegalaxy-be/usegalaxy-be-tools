@@ -238,6 +238,7 @@ tools:
   - 3d8c0b287c51
   - 4c172a4a4c9e
   - 640e4eeab4e2
+  - 90818f7835f3
   - 9eab750c367d
   - a02b8b3f5a0c
   - a38bdcec9e4c
@@ -1567,6 +1568,7 @@ tools:
   owner: bgruening
   revisions:
   - 1b22d8a18acc
+  - 29e12b90949d
   - 30d90b851d3c
   - 49121db48873
   - f4d5237a84f6
@@ -2039,6 +2041,7 @@ tools:
   - a1f0b3f4b781
   - ab1f60c26526
   - b502c227b5e6
+  - bdd173c2d3e3
   tool_panel_section_label: Picard
 - name: emboss_5
   owner: devteam
@@ -2898,6 +2901,7 @@ tools:
   - bb89ae58738c
   - bf675f34b056
   - c19b16e5729c
+  - dc0f5512911c
   - e4dd4c0622f6
   - f7985e0479b9
   - f7e2f1eb3a16
@@ -4907,6 +4911,7 @@ tools:
   - 22384d3d25f4
   - 7f7d8b0c8517
   - 86dec4abcea8
+  - f4409b2e1501
   - f8e51626fc56
   tool_panel_section_label: Metagenomic Analysis
 - name: mash_sketch
@@ -4914,6 +4919,7 @@ tools:
   revisions:
   - 43f9ca23c132
   - 68084b06ae83
+  - 9c102da4ca13
   - 9de5319ad2db
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_prepare
@@ -5274,6 +5280,7 @@ tools:
   revisions:
   - 15200570e926
   - 7c2f5268d01c
+  - 99f87a735e36
   - b1593fdac806
   tool_panel_section_label: Assembly
 - name: shasta
@@ -5320,6 +5327,7 @@ tools:
   - 04b494623f8e
   - 0a5258e41227
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   - c9944a2600f1
   - e32b215b7c04
@@ -5332,6 +5340,7 @@ tools:
   - 71ce24befa24
   - 88c07fc4024c
   - a896b8b7d264
+  - d421497303c0
   tool_panel_section_label: RNA Analysis
 - name: tetoolkit_tetranscripts
   owner: iuc
@@ -5545,6 +5554,7 @@ tools:
   - 0c415ba215e7
   - 189ae8d7e08e
   - 45171c84aee1
+  - 686e06141050
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
   owner: iuc
@@ -7009,6 +7019,7 @@ tools:
   owner: iuc
   revisions:
   - 056f86469460
+  - 0d0e8d0691c8
   - 7087d9a23185
   - 79b48f02db49
   - 9c942221e135
@@ -7965,6 +7976,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 292eea8defa7
   - 728dacaf08a9
   - ba6990f72184
   - d77802fe76f7
@@ -8540,6 +8552,7 @@ tools:
   - 576dd33588bf
   - 738474880da8
   - 7db90993aa92
+  - 841c5e03eb05
   - 9b3e1acc3ad0
   tool_panel_section_label: Metagenomic Analysis
 - name: ampvis2_merge_ampvis2
