@@ -170,6 +170,7 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 29e12b90949d
   - 30d90b851d3c
   - 49121db48873
   - 6b0ba6de1424
@@ -1244,6 +1245,7 @@ tools:
   - 75c93c70d094
   - 862943c10425
   - bb89ae58738c
+  - dc0f5512911c
   - e4dd4c0622f6
   - f7985e0479b9
   - fac2260bc88a
@@ -1707,6 +1709,7 @@ tools:
   - 2a9afed42353
   - 3d8c0b287c51
   - 640e4eeab4e2
+  - 90818f7835f3
   - 9eab750c367d
   - edbb6c5028f5
   tool_panel_section_label: Nanopore
@@ -2324,6 +2327,7 @@ tools:
   revisions:
   - 15200570e926
   - 7c2f5268d01c
+  - 99f87a735e36
   - b1593fdac806
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2673,6 +2677,7 @@ tools:
   - 0c415ba215e7
   - 189ae8d7e08e
   - 45171c84aee1
+  - 686e06141050
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gatk4_mutect2
@@ -3467,6 +3472,7 @@ tools:
   revisions:
   - 04b494623f8e
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   - e32b215b7c04
   tool_panel_section_label: RNA Analysis
@@ -3647,6 +3653,7 @@ tools:
   - 71ce24befa24
   - 88c07fc4024c
   - a896b8b7d264
+  - d421497303c0
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
@@ -4311,6 +4318,7 @@ tools:
   - 9ffcddf6f9c0
   - a1f0b3f4b781
   - ab1f60c26526
+  - bdd173c2d3e3
   tool_panel_section_label: Picard
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_bam_coverage
@@ -5599,6 +5607,7 @@ tools:
   owner: iuc
   revisions:
   - 43f9ca23c132
+  - 9c102da4ca13
   - 9de5319ad2db
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -5607,6 +5616,7 @@ tools:
   revisions:
   - 22384d3d25f4
   - 86dec4abcea8
+  - f4409b2e1501
   - f8e51626fc56
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8905,6 +8915,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 292eea8defa7
   - 728dacaf08a9
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9170,6 +9181,7 @@ tools:
   revisions:
   - 27ac516ba719
   - 5029fd9d572e
+  - 841c5e03eb05
   - 9b3e1acc3ad0
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9774,6 +9786,7 @@ tools:
   owner: iuc
   revisions:
   - 056f86469460
+  - 0d0e8d0691c8
   - 7087d9a23185
   - 9c942221e135
   - bd07b0d0f568
@@ -10306,12 +10319,14 @@ tools:
   - 816cbd8f4e6e
   - 8fe2ec05a876
   - 9c6619b29650
+  - e3097930aa34
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: obi_uniq
   owner: iuc
   revisions:
   - 53b5bd9a08a1
+  - a2ee84fcf0f7
   - d4bea99366f9
   - f2a8b93f731c
   tool_panel_section_label: Tools from workflows
@@ -10502,6 +10517,7 @@ tools:
   owner: iuc
   revisions:
   - 3ac96c352a3d
+  - 7db941c925ce
   - aff454cfd79e
   - d50dc96e3ce9
   tool_panel_section_label: Tools from workflows
@@ -10516,6 +10532,7 @@ tools:
   owner: iuc
   revisions:
   - 02bab5ff7c37
+  - 607b3ea00bbe
   - 879f44536e12
   - e5cf6d670369
   tool_panel_section_label: Tools from workflows
