@@ -1,8 +1,7 @@
 name: Backfill missing tool revisions
 
-# Runs weekly, before update-trusted.yml/gtn-updater.yml/sync_tools.yml (02:00-03:00
-# UTC) so this week's newly-synced tools get picked up next week. No `automerge`
-# label on the PR this opens -- reviewed manually for now, not auto-merged.
+# Runs weekly before the other Saturday jobs (01:00 UTC). No `automerge`
+# label, reviewed manually for now.
 on:
   workflow_dispatch:
   schedule:

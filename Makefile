@@ -5,9 +5,8 @@ UPDATED_YAMLS := $(YAML_FILES:=.update)
 CORRECT_YAMLS := $(YAML_FILES:=.fix)
 INSTALL_YAMLS := $(LOCK_FILES:=.install)
 UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
-# GTN_tutorials_tools.yaml.lock isn't in LOCK_FILES (not IUC-owned, not part of
-# update_trusted's fix/install flow), but it's one of the three files the prod
-# install cron uses and can accumulate not-installable revisions the same way.
+# GTN_tutorials_tools.yaml.lock isn't in LOCK_FILES (not part of update_trusted),
+# but the prod install cron uses it too and it needs deprecation as well.
 DEPRECATE_LOCKS := tools_iuc.yaml.lock belgium-custom.yaml.lock GTN_tutorials_tools.yaml.lock
 DEPRECATED_YAMLS := $(DEPRECATE_LOCKS:=.deprecate)
 

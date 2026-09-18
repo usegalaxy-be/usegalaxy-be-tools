@@ -39,11 +39,8 @@ def update_file(fn, owner=None, name=None, without=False):
 
         logging.debug('TS revisions: %s' % ','.join(revs))
 
-        # Add every installable revision we don't have yet, not just the latest.
-        # Only looking at revs[-1] here meant any revision that was superseded
-        # between two runs (e.g. two new revisions landing in the same week)
-        # was silently never captured. TS doesn't support utf8 and we don't
-        # want to either, hence str().
+        # Add every missing installable revision, not just the latest (revs[-1] missed any
+        # superseded between runs). str() since TS doesn't support utf8, and neither do we.
         missing = [str(r) for r in revs if str(r) not in tool.get('revisions', [])]
         if not missing:
             # Nothing new, don't rewrite the entry.
