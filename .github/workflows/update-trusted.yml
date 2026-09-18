@@ -55,8 +55,14 @@ jobs:
         run: rm -r usegalaxy-eu-tools
       - name: Perform linting
         run: |
-            # Update the trusted tools.
-            make fix -j $(nproc)
+            # Only fix tools_iuc.yaml here, not the whole `make fix` target.
+            # fix-lockfile.py rebuilds a file's .lock from scratch using its
+            # base .yaml as the sole source of truth. belgium-custom.yaml has
+            # ~190 lines but belgium-custom.yaml.lock has ~10,800 (grown over
+            # time by sync_tools.yml writing straight into the lock file), so
+            # running fix-lockfile.py on belgium-custom.yaml wipes out nearly
+            # all of belgium-custom.yaml.lock. See usegalaxy-be-tools#201.
+            make tools_iuc.yaml.fix -j $(nproc)
             # make lint -j $(nproc)
             make update_trusted -j $(nproc)
       - name: Show differences
