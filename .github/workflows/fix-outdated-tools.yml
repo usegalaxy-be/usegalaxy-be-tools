@@ -1,10 +1,12 @@
 name: Clean (uninstallable) tools revisions
 
-# Manual only for now: this is new, unreviewed against our real lock files at
-# full scale (only smoke-tested against a 5-tool sample). Not scheduled until
-# a run has been reviewed end to end.
+# Runs weekly, after update-trusted.yml/gtn-updater.yml/sync_tools.yml (02:00-03:00
+# UTC) and backfill-revisions.yml (01:00 UTC). No `automerge` label on the PR this
+# opens -- reviewed manually for now, not auto-merged.
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * SAT"
 
 jobs:
   get-lockfiles:

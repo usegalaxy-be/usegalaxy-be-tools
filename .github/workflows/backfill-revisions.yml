@@ -1,10 +1,12 @@
 name: Backfill missing tool revisions
 
-# Manual only for now: this is new, unreviewed against our real lock files at
-# full scale (only smoke-tested against small samples). Not scheduled until
-# a run has been reviewed end to end.
+# Runs weekly, before update-trusted.yml/gtn-updater.yml/sync_tools.yml (02:00-03:00
+# UTC) so this week's newly-synced tools get picked up next week. No `automerge`
+# label on the PR this opens -- reviewed manually for now, not auto-merged.
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * SAT"
 
 jobs:
   get-lockfiles:
