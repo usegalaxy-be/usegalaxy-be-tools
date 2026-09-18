@@ -38,20 +38,22 @@ def update_file(fn, owner=None, name=None, without=False):
             continue
 
         logging.debug('TS revisions: %s' % ','.join(revs))
-        latest_rev = revs[-1]
-        if latest_rev in tool.get('revisions', []):
-            # The rev is already known, don't add again.
+
+        # Add every installable revision we don't have yet, not just the latest.
+        # Only looking at revs[-1] here meant any revision that was superseded
+        # between two runs (e.g. two new revisions landing in the same week)
+        # was silently never captured. TS doesn't support utf8 and we don't
+        # want to either, hence str().
+        missing = [str(r) for r in revs if str(r) not in tool.get('revisions', [])]
+        if not missing:
+            # Nothing new, don't rewrite the entry.
             continue
 
-        logging.info("Found newer revision of {owner}/{name} ({rev})".format(rev=latest_rev, **tool))
+        logging.info("Found new revision(s) of {owner}/{name} ({revs})".format(revs=missing, **tool))
 
-        # Get latest rev, if not already added, add it.
         if 'revisions' not in tool:
             tool['revisions'] = []
-
-        if latest_rev not in tool['revisions']:
-            # TS doesn't support utf8 and we don't want to either.
-            tool['revisions'].append(str(latest_rev))
+        tool['revisions'].extend(missing)
 
         tool['revisions'] = sorted(list(set( tool['revisions'] )))
 
