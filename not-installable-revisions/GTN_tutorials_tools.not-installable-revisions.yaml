@@ -1,0 +1,1256 @@
+tools:
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 9337dd1fbc66
+  - c15237684a01
+- name: multiqc
+  owner: iuc
+  revisions:
+  - 3bad335ccea9
+  - f7985e0479b9
+- name: seqtk
+  owner: iuc
+  revisions:
+  - 58c8ece95b53
+- name: unicycler
+  owner: iuc
+  revisions:
+  - 88c240872a65
+- name: bandage
+  owner: iuc
+  revisions:
+  - ddddce450736
+- name: fasta_filter_by_length
+  owner: devteam
+  revisions:
+  - 2fd6033d0e9c
+- name: minimap2
+  owner: iuc
+  revisions:
+  - 6945cd53bd2d
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - 09b2cdb7ace5
+  - 8ccbdbe9a695
+- name: merqury
+  owner: iuc
+  revisions:
+  - 589078edd230
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 61f9ddbc63ca
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 4c752559b236
+  - fb4ff3c42cd3
+- name: bedtools
+  owner: iuc
+  revisions:
+  - 7ab85ac5f64b
+  - fe5b4cb8356c
+- name: pretext_map
+  owner: iuc
+  revisions:
+  - 7087d9a23185
+- name: pretext_snapshot
+  owner: iuc
+  revisions:
+  - 0cc7a80463b9
+- name: medaka_consensus_pipeline
+  owner: iuc
+  revisions:
+  - b35de691c42c
+- name: chromeister
+  owner: iuc
+  revisions:
+  - a6d1f83c46b4
+- name: bwa
+  owner: devteam
+  revisions:
+  - 4f774c1e6049
+  - 8d2a528a9513
+- name: jbrowse
+  owner: iuc
+  revisions:
+  - 8774b28235bb
+  - a6e57ff585c0
+- name: trimmomatic
+  owner: pjbriggs
+  revisions:
+  - b9aaed85cbd1
+- name: spades
+  owner: nml
+  revisions:
+  - b8c00ce5dfa0
+  - b8d633fbf5f5
+- name: collection_column_join
+  owner: iuc
+  revisions:
+  - 071084070619
+  - 58228a4d58fe
+- name: filter_tabular
+  owner: iuc
+  revisions:
+  - 90f657745fea
+- name: lastz
+  owner: devteam
+  revisions:
+  - 37b497aa133f
+- name: datamash_ops
+  owner: iuc
+  revisions:
+  - 61e2aa6bb55d
+  - d642efa5cbd7
+- name: diamond
+  owner: bgruening
+  revisions:
+  - 1e3323a44643
+- name: hisat2
+  owner: iuc
+  revisions:
+  - 0c16cad5e03b
+  - 6daca6da3059
+- name: xarray_metadata_info
+  owner: ecology
+  revisions:
+  - 7edbe5ae8b72
+- name: xarray_select
+  owner: ecology
+  revisions:
+  - 225d0d275a24
+- name: ggplot2_point
+  owner: iuc
+  revisions:
+  - 87908c76ca8d
+  - a36551483a8f
+- name: graphicsmagick_image_montage
+  owner: bgruening
+  revisions:
+  - 39881709807e
+- name: gmx_merge_topology_files
+  owner: chemteam
+  revisions:
+  - 06ea4e040d45
+- name: gmx_sim
+  owner: chemteam
+  revisions:
+  - a97dcfc23b4b
+- name: bio3d_rmsd
+  owner: chemteam
+  revisions:
+  - 75fd897bd85d
+- name: bio3d_rmsf
+  owner: chemteam
+  revisions:
+  - e838317708a6
+- name: bio3d_pca
+  owner: chemteam
+  revisions:
+  - f56fb2762abb
+- name: mdanalysis_cosine_analysis
+  owner: chemteam
+  revisions:
+  - e39bc1f90d8f
+- name: openbabel_addh
+  owner: bgruening
+  revisions:
+  - 6e4b7e0c61a6
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - e77b954f0da5
+- name: fastq_to_tabular
+  owner: devteam
+  revisions:
+  - ccf4e1d1fcbe
+- name: bam_to_sam
+  owner: devteam
+  revisions:
+  - f57df915aa10
+- name: obisindicators
+  owner: ecology
+  revisions:
+  - 4e7c1fb5e894
+- name: pampa_presabs
+  owner: ecology
+  revisions:
+  - 8d8aec182fb1
+- name: pampa_communitymetrics
+  owner: ecology
+  revisions:
+  - 5bd7ddd7601f
+- name: pampa_glmcomm
+  owner: ecology
+  revisions:
+  - 44b9069775ca
+- name: pampa_glmsp
+  owner: ecology
+  revisions:
+  - 6c14021f678e
+- name: pampa_plotglm
+  owner: ecology
+  revisions:
+  - 3ab852a7ff53
+- name: stacks_denovomap
+  owner: iuc
+  revisions:
+  - 2b1dd7ab69f7
+  - eb1e95f88e96
+- name: stacks_genotypes
+  owner: iuc
+  revisions:
+  - 00f4a4e553ae
+  - 5af94af9ec8f
+- name: tabular_to_csv
+  owner: mnhn65mo
+  revisions:
+  - 659820e2aa61
+- name: obi_illumina_pairend
+  owner: iuc
+  revisions:
+  - 83fbdf93d51e
+- name: unzip
+  owner: imgteam
+  revisions:
+  - 28d6129b2901
+- name: obi_ngsfilter
+  owner: iuc
+  revisions:
+  - 3bf57dadf7cd
+- name: obi_uniq
+  owner: iuc
+  revisions:
+  - ec215ed98831
+- name: obi_annotate
+  owner: iuc
+  revisions:
+  - f82cefbbcea5
+- name: obi_stat
+  owner: iuc
+  revisions:
+  - 723a93febe89
+- name: obi_grep
+  owner: iuc
+  revisions:
+  - fe7ec8a3d35e
+- name: obi_clean
+  owner: iuc
+  revisions:
+  - 12baadec7809
+- name: obi_tab
+  owner: iuc
+  revisions:
+  - 5f7003111e32
+- name: proteinortho_grab_proteins
+  owner: iuc
+  revisions:
+  - d348c3a151d9
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 4daabc25df00
+- name: srs_spectral_indices
+  owner: ecology
+  revisions:
+  - a8dabbf47e15
+- name: stacks_refmap
+  owner: iuc
+  revisions:
+  - 4ee074ca88fb
+  - 7c42e6768c41
+- name: stacks_procrad
+  owner: iuc
+  revisions:
+  - 57910d476be9
+  - 8fe258d72ff3
+- name: hicexplorer_hicbuildmatrix
+  owner: bgruening
+  revisions:
+  - c657edbea349
+- name: hicexplorer_hicmergematrixbins
+  owner: bgruening
+  revisions:
+  - 9b7840d527be
+  - 9d93c8fbe0a6
+- name: hicexplorer_hiccorrectmatrix
+  owner: bgruening
+  revisions:
+  - 937b7b9832d0
+  - dcc9500b13aa
+- name: hicexplorer_hicplotmatrix
+  owner: bgruening
+  revisions:
+  - 025a128652dc
+  - 79acdf9d5e1d
+- name: hicexplorer_hicfindtads
+  owner: bgruening
+  revisions:
+  - 116ddd1627cd
+  - 478aacfbaa37
+- name: hicexplorer_hicpca
+  owner: bgruening
+  revisions:
+  - f86ca478c6af
+- name: deeptools_bam_compare
+  owner: bgruening
+  revisions:
+  - c89b665b45e4
+- name: deeptools_plot_fingerprint
+  owner: bgruening
+  revisions:
+  - ca8a7f0ea872
+- name: samtools_idxstats
+  owner: devteam
+  revisions:
+  - 04d5581db1f5
+- name: deeptools_multi_bam_summary
+  owner: bgruening
+  revisions:
+  - b4e53394fced
+- name: deeptools_compute_matrix
+  owner: bgruening
+  revisions:
+  - 19bb3e6d9e31
+- name: deeptools_plot_correlation
+  owner: bgruening
+  revisions:
+  - e44978659400
+- name: deeptools_plot_heatmap
+  owner: bgruening
+  revisions:
+  - 42cb23d80271
+- name: trim_galore
+  owner: bgruening
+  revisions:
+  - f1e71aeaa923
+- name: deeptools_bam_coverage
+  owner: bgruening
+  revisions:
+  - 4df95152a39e
+- name: metilene
+  owner: rnateam
+  revisions:
+  - cd253831a014
+- name: bamtools_filter
+  owner: devteam
+  revisions:
+  - bd735cae4ce6
+- name: picard
+  owner: devteam
+  revisions:
+  - 2a17c789e0a5
+  - 3f254c5ced1d
+  - 585027e65f3b
+- name: snp_sites
+  owner: iuc
+  revisions:
+  - 5804f786060d
+- name: tbprofiler
+  owner: iuc
+  revisions:
+  - 2c68b0c38785
+- name: add_input_name_as_column
+  owner: mvdbeek
+  revisions:
+  - 3284b72eef56
+- name: snippy
+  owner: iuc
+  revisions:
+  - d220115f882b
+- name: intermine_galaxy_exchange
+  owner: iuc
+  revisions:
+  - c24014d80001
+- name: snpsift
+  owner: iuc
+  revisions:
+  - 2e497a770bca
+- name: rgrnastar
+  owner: iuc
+  revisions:
+  - 55c9ac3aa8f4
+- name: red
+  owner: iuc
+  revisions:
+  - 18a46265455b
+- name: maker
+  owner: iuc
+  revisions:
+  - 5201ec38c01f
+- name: maker_map_ids
+  owner: iuc
+  revisions:
+  - 2e3535db1bfa
+  - e408aa831db3
+  - f1912d5575df
+- name: intersect
+  owner: devteam
+  revisions:
+  - 33b3f3688db4
+- name: feelnc
+  owner: iuc
+  revisions:
+  - 095162ba8e90
+- name: cp_common
+  owner: bgruening
+  revisions:
+  - 27396311a314
+- name: cp_identify_primary_objects
+  owner: bgruening
+  revisions:
+  - 52c01fb29b2a
+- name: cp_measure_object_size_shape
+  owner: bgruening
+  revisions:
+  - 5c9549983af8
+- name: cp_measure_object_intensity
+  owner: bgruening
+  revisions:
+  - b867e9317a06
+- name: cp_tile
+  owner: bgruening
+  revisions:
+  - 878bafb411dd
+- name: cp_save_images
+  owner: bgruening
+  revisions:
+  - a45d360ae9d9
+- name: cp_export_to_spreadsheet
+  owner: bgruening
+  revisions:
+  - 72a7f23f3a79
+- name: cp_cellprofiler
+  owner: bgruening
+  revisions:
+  - fca368c99299
+- name: 2d_simple_filter
+  owner: imgteam
+  revisions:
+  - 1b7e67168732
+- name: 2d_feature_extraction
+  owner: imgteam
+  revisions:
+  - 0b5ddf7b2924
+  - 5bc8cdc17fd0
+- name: mesmer
+  owner: goeckslab
+  revisions:
+  - c60b810d570d
+- name: idr_download_by_ids
+  owner: iuc
+  revisions:
+  - 97f70f7ed077
+- name: cp_convert_objects_to_image
+  owner: bgruening
+  revisions:
+  - 2690da374874
+- name: cp_display_data_on_image
+  owner: bgruening
+  revisions:
+  - 4e12ef887a2a
+- name: cp_enhance_or_suppress_features
+  owner: bgruening
+  revisions:
+  - 3f9747bda8c4
+- name: cp_mask_image
+  owner: bgruening
+  revisions:
+  - ca1421f7e3ed
+- name: cp_gray_to_color
+  owner: bgruening
+  revisions:
+  - bbf1ef17c01b
+- name: cp_image_math
+  owner: bgruening
+  revisions:
+  - 6d3851ac885f
+- name: cp_measure_granularity
+  owner: bgruening
+  revisions:
+  - 382413f8ec1d
+- name: cp_measure_texture
+  owner: bgruening
+  revisions:
+  - 658a2a451aec
+- name: cp_relate_objects
+  owner: bgruening
+  revisions:
+  - f3f45c42bc36
+- name: cp_measure_image_quality
+  owner: bgruening
+  revisions:
+  - 08a2cf887a44
+- name: cp_measure_image_area_occupied
+  owner: bgruening
+  revisions:
+  - 7a08edbc790e
+- name: cp_measure_image_intensity
+  owner: bgruening
+  revisions:
+  - 2681008d726f
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - af7e416d8176
+- name: lofreq_indelqual
+  owner: iuc
+  revisions:
+  - 354b534eeab7
+- name: cardinal_quality_report
+  owner: galaxyp
+  revisions:
+  - d4803c1e5e19
+  - ecaebe7c7b54
+- name: cardinal_filtering
+  owner: galaxyp
+  revisions:
+  - 2aefa66e48e5
+- name: cardinal_data_exporter
+  owner: galaxyp
+  revisions:
+  - 137bfc63e758
+  - e30d8b72415f
+- name: cardinal_mz_images
+  owner: galaxyp
+  revisions:
+  - 56b3b7d5f2b5
+- name: cardinal_classification
+  owner: galaxyp
+  revisions:
+  - 2308bd817e3e
+  - 47fc5b518ffc
+- name: cardinal_segmentations
+  owner: galaxyp
+  revisions:
+  - 0159b15b1281
+  - 9f7d1ec01767
+- name: cardinal_combine
+  owner: galaxyp
+  revisions:
+  - 7cd9208028bf
+- name: cardinal_preprocessing
+  owner: galaxyp
+  revisions:
+  - 141a9288be9c
+- name: xcms_xcmsset
+  owner: lecorguille
+  revisions:
+  - 3bd53dcfa438
+- name: xcms_merge
+  owner: lecorguille
+  revisions:
+  - 772290533d6e
+- name: xcms_group
+  owner: lecorguille
+  revisions:
+  - 6842c495da6d
+- name: xcms_fillpeaks
+  owner: lecorguille
+  revisions:
+  - 05d322d6facb
+- name: qualitymetrics
+  owner: ethevenot
+  revisions:
+  - 596320b84315
+- name: univariate
+  owner: ethevenot
+  revisions:
+  - 3017385625f6
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+  revisions:
+  - 7c4e3703b45a
+- name: mothur_merge_files
+  owner: iuc
+  revisions:
+  - 7bd37d6decd9
+- name: mothur_make_group
+  owner: iuc
+  revisions:
+  - 182b471ed56b
+- name: mothur_unique_seqs
+  owner: iuc
+  revisions:
+  - 8fce7ef726c8
+  - d466580cd706
+- name: mothur_count_seqs
+  owner: iuc
+  revisions:
+  - 7a6f9c899221
+  - 9cfefba79f40
+- name: mothur_summary_seqs
+  owner: iuc
+  revisions:
+  - 609770e516fa
+  - d7ea2d0b4917
+- name: mothur_screen_seqs
+  owner: iuc
+  revisions:
+  - 595419d427b6
+- name: mothur_align_seqs
+  owner: iuc
+  revisions:
+  - a9e49986bea7
+- name: mothur_filter_seqs
+  owner: iuc
+  revisions:
+  - e71c69acde3f
+- name: mothur_pre_cluster
+  owner: iuc
+  revisions:
+  - 05183ee20cf8
+  - baba9fff9dba
+- name: mothur_classify_seqs
+  owner: iuc
+  revisions:
+  - 5da484e2c7a4
+- name: mothur_cluster_split
+  owner: iuc
+  revisions:
+  - 1b7fd1678230
+  - c697df7d7a48
+- name: mothur_make_shared
+  owner: iuc
+  revisions:
+  - 0851ae17c58e
+  - f7a10f16aa99
+- name: mothur_classify_otu
+  owner: iuc
+  revisions:
+  - 02446d12c359
+  - c384c39c9c27
+- name: mothur_make_biom
+  owner: iuc
+  revisions:
+  - 55e975c9a012
+  - cfdfa41e01a4
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - 020b3087d0b7
+  - e9005d1f3cfd
+- name: export2graphlan
+  owner: iuc
+  revisions:
+  - b16989c1e3a7
+- name: graphlan_annotate
+  owner: iuc
+  revisions:
+  - cf1df6b2220a
+- name: graphlan
+  owner: iuc
+  revisions:
+  - a490b70e46fc
+- name: humann
+  owner: iuc
+  revisions:
+  - a00df747f03c
+- name: kraken2
+  owner: iuc
+  revisions:
+  - cdee7158adf3
+  - e674066930b2
+- name: datamash_reverse
+  owner: iuc
+  revisions:
+  - 9c42f7dabad8
+- name: kraken_biom
+  owner: iuc
+  revisions:
+  - 65eb9962d272
+- name: bcftools_norm
+  owner: iuc
+  revisions:
+  - 5fa262ce95dd
+  - a62e934346f5
+  - ebb2e12a6de1
+- name: mlst
+  owner: iuc
+  revisions:
+  - 31812e7a1315
+- name: fasttree
+  owner: iuc
+  revisions:
+  - e005e659ae21
+- name: mothur_chimera_vsearch
+  owner: iuc
+  revisions:
+  - 1f9f30aed284
+- name: mothur_remove_seqs
+  owner: iuc
+  revisions:
+  - 5097ac2cbfc3
+  - eec15ff2d3c9
+- name: mothur_remove_lineage
+  owner: iuc
+  revisions:
+  - 380e75c0ae8e
+- name: mothur_get_groups
+  owner: iuc
+  revisions:
+  - cfeef38a433e
+- name: mothur_remove_groups
+  owner: iuc
+  revisions:
+  - 2d5258c52be0
+- name: mothur_seq_error
+  owner: iuc
+  revisions:
+  - bb53c2c29c23
+- name: mothur_dist_seqs
+  owner: iuc
+  revisions:
+  - 0554c9338ca0
+  - dcbf475d7d60
+- name: mothur_cluster
+  owner: iuc
+  revisions:
+  - 528f950d1044
+  - c31bcc652db3
+- name: mothur_summary_single
+  owner: iuc
+  revisions:
+  - de4801f05e5e
+- name: mothur_count_groups
+  owner: iuc
+  revisions:
+  - 03c86648a52e
+  - 7b7f375b9b8d
+- name: mothur_dist_shared
+  owner: iuc
+  revisions:
+  - 3e2ca0c67e9d
+  - f25598da7174
+- name: mothur_rarefaction_single
+  owner: iuc
+  revisions:
+  - 5c2157147393
+  - af521db77c56
+- name: mothur_sub_sample
+  owner: iuc
+  revisions:
+  - 2986f7b01e74
+- name: mothur_taxonomy_to_krona
+  owner: iuc
+  revisions:
+  - a97107cc4c93
+  - af3efbe580c0
+- name: mothur_tree_shared
+  owner: iuc
+  revisions:
+  - 43e2715e98c9
+  - 73dd30cbca20
+- name: mothur_heatmap_sim
+  owner: iuc
+  revisions:
+  - 2f93c7bba6f8
+- name: mothur_venn
+  owner: iuc
+  revisions:
+  - 8df8d8b67b13
+- name: mothur_make_contigs
+  owner: iuc
+  revisions:
+  - 4e9136c2c4c3
+  - c3203178c41f
+- name: maxquant
+  owner: galaxyp
+  revisions:
+  - ea0a1d50c83f
+- name: openms_xtandemadapter
+  owner: galaxyp
+  revisions:
+  - 1add9bacdccd
+- name: openms_fileinfo
+  owner: galaxyp
+  revisions:
+  - e8dce5e07fa5
+- name: openms_peptideindexer
+  owner: galaxyp
+  revisions:
+  - d8ee5700c66b
+- name: openms_idposteriorerrorprobability
+  owner: galaxyp
+  revisions:
+  - 711a081d80ba
+- name: openms_falsediscoveryrate
+  owner: galaxyp
+  revisions:
+  - '469690558892'
+- name: openms_idscoreswitcher
+  owner: galaxyp
+  revisions:
+  - ec0d05b20eed
+- name: openms_fidoadapter
+  owner: galaxyp
+  revisions:
+  - c3a5cd016963
+- name: openms_textexporter
+  owner: galaxyp
+  revisions:
+  - 1c596fdaf34a
+- name: pdaug_sequence_property_based_descriptors
+  owner: jay
+  revisions:
+  - 0a31e26e68d7
+  - 6b6aec52638d
+- name: pdaug_addclasslabel
+  owner: jay
+  revisions:
+  - 190aa29a6fbb
+  - 2df11ea23f10
+  - 378a786e9236
+- name: pdaug_merge_dataframes
+  owner: jay
+  revisions:
+  - 5bb52d4bf172
+  - 757ed293de85
+  - b5a9f541c6f8
+- name: pdaug_ml_models
+  owner: jay
+  revisions:
+  - 0973f093d98f
+  - 8697dc4a7f45
+- name: pdaug_basic_plots
+  owner: jay
+  revisions:
+  - 080b372fe513
+  - 738ee8fc0ede
+  - 7d247e27ff11
+- name: openms_featurefindermultiplex
+  owner: galaxyp
+  revisions:
+  - 5e5771b511a3
+- name: openms_idmapper
+  owner: galaxyp
+  revisions:
+  - 2517c03f5cd3
+- name: openms_idconflictresolver
+  owner: galaxyp
+  revisions:
+  - fb0e6f70a1df
+- name: pdaug_peptide_data_access
+  owner: jay
+  revisions:
+  - 3eb014f169cf
+- name: pdaug_tsvtofasta
+  owner: jay
+  revisions:
+  - e9fa3b6346e3
+  - fc5508bfa640
+- name: pdaug_peptide_sequence_analysis
+  owner: jay
+  revisions:
+  - 5eb62fb8a2d0
+  - b73ba641e514
+- name: pdaug_fishers_plot
+  owner: jay
+  revisions:
+  - 660b58f32b55
+  - 7a9f6ac448bc
+- name: openms_proteinquantifier
+  owner: galaxyp
+  revisions:
+  - bb1e75938909
+- name: metaquantome_sample
+  owner: galaxyp
+  revisions:
+  - 40ca115438d2
+- name: metaquantome_db
+  owner: galaxyp
+  revisions:
+  - '860429737408'
+- name: metaquantome_expand
+  owner: galaxyp
+  revisions:
+  - 4187b6df1a40
+- name: metaquantome_filter
+  owner: galaxyp
+  revisions:
+  - a1daafbf5233
+- name: metaquantome_stat
+  owner: galaxyp
+  revisions:
+  - b648e45fd3cf
+- name: metaquantome_viz
+  owner: galaxyp
+  revisions:
+  - eb811f3018ea
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - 650d553c1fda
+- name: openms_decoydatabase
+  owner: galaxyp
+  revisions:
+  - 71a6c870aa48
+- name: freebayes
+  owner: devteam
+  revisions:
+  - 0d8581534009
+- name: msstatstmt
+  owner: galaxyp
+  revisions:
+  - 8375a0035d79
+- name: anndata_import
+  owner: iuc
+  revisions:
+  - 923dcc644832
+  - ae1e5d9d8972
+- name: anndata_manipulate
+  owner: iuc
+  revisions:
+  - 8db95f488f0f
+  - d1e49c3c0aa2
+- name: scanpy_inspect
+  owner: iuc
+  revisions:
+  - 9d33775ec67d
+- name: scanpy_filter
+  owner: iuc
+  revisions:
+  - 5813f9920877
+  - f87ed6503715
+- name: scanpy_normalize
+  owner: iuc
+  revisions:
+  - 5342ce58cd1e
+- name: scanpy_remove_confounders
+  owner: iuc
+  revisions:
+  - 80d4e2cac903
+- name: scanpy_cluster_reduce_dimension
+  owner: iuc
+  revisions:
+  - 35bc2eb568ed
+- name: anndata_inspect
+  owner: iuc
+  revisions:
+  - 33c0081e16c6
+- name: music_construct_eset
+  owner: bgruening
+  revisions:
+  - 282819d09a4f
+- name: episcanpy_preprocess
+  owner: iuc
+  revisions:
+  - 29f5f25b9935
+- name: music_compare
+  owner: bgruening
+  revisions:
+  - 4447ed460308
+- name: umi_tools_extract
+  owner: iuc
+  revisions:
+  - 99aea37a7ff7
+- name: umi_tools_count
+  owner: iuc
+  revisions:
+  - 276b4111b253
+- name: rna_starsolo
+  owner: iuc
+  revisions:
+  - a2f232ff85ed
+- name: dropletutils
+  owner: iuc
+  revisions:
+  - a9caad671439
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - a8c73996ac50
+- name: table_compute
+  owner: iuc
+  revisions:
+  - 93a3ce78ce55
+  - cd36d6e45e29
+- name: column_remove_by_header
+  owner: iuc
+  revisions:
+  - 2040e4c2750a
+- name: annotatemyids
+  owner: iuc
+  revisions:
+  - 9ab35a2245ce
+- name: music_manipulate_eset
+  owner: bgruening
+  revisions:
+  - 22232092be53
+- name: alevin
+  owner: bgruening
+  revisions:
+  - 04b494623f8e
+- name: sklearn_svm_classifier
+  owner: bgruening
+  revisions:
+  - 2df8f5c30edc
+  - 80852884053f
+  - d2afc87db26b
+- name: sklearn_generalized_linear
+  owner: bgruening
+  revisions:
+  - 3e4a7684d402
+  - a8c7b9fa426c
+  - d4808d5b83da
+- name: sklearn_nn_classifier
+  owner: bgruening
+  revisions:
+  - 39ae3c043096
+  - 8b1b2b91f8d0
+- name: sklearn_ensemble
+  owner: bgruening
+  revisions:
+  - 060ca94ac049
+  - 3ab7af14f1b5
+  - af0523c606a7
+- name: sklearn_searchcv
+  owner: bgruening
+  revisions:
+  - 1ae5dfd5ac17
+  - 7626ea9c2e1b
+  - c1ca24a1509d
+- name: sklearn_build_pipeline
+  owner: bgruening
+  revisions:
+  - 3f3c6dc38f3e
+  - 4c4ec859c31a
+  - 97dce66fe158
+- name: sklearn_estimator_attributes
+  owner: bgruening
+  revisions:
+  - bd27a211182a
+- name: pancancer_classifier
+  owner: vijay
+  revisions:
+  - d2cbfc7a6047
+- name: pancancer_within_disease_analysis
+  owner: vijay
+  revisions:
+  - 774f3f1e37af
+- name: pancancer_apply_weights
+  owner: vijay
+  revisions:
+  - 7b4a9e7aacfe
+- name: pancancer_external_sample_status_prediction
+  owner: vijay
+  revisions:
+  - 907cf7a0a920
+- name: pancancer_compare_within_models
+  owner: vijay
+  revisions:
+  - b815aa44ee6f
+- name: pancancer_visualize_decisions
+  owner: vijay
+  revisions:
+  - cbeaeaff4696
+- name: pancancer_alternative_genes_pathwaymapper
+  owner: vijay
+  revisions:
+  - a0857b6b7fed
+- name: pancancer_map_mutation_class
+  owner: vijay
+  revisions:
+  - febed8efcde1
+- name: pancancer_pathway_count_heatmaps
+  owner: vijay
+  revisions:
+  - 49871b497416
+- name: pancancer_targene_summary_figures
+  owner: vijay
+  revisions:
+  - 9b1bf4e2f611
+- name: pancancer_targene_cell_line_predictions
+  owner: vijay
+  revisions:
+  - ecb03f0f1d74
+- name: pancancer_targene_pharmacology
+  owner: vijay
+  revisions:
+  - cb71a2bb75bd
+- name: sklearn_numeric_clustering
+  owner: bgruening
+  revisions:
+  - e10e776f2109
+- name: keras_model_config
+  owner: bgruening
+  revisions:
+  - 2a853a2d2e72
+  - 2b8d85927742
+  - 4d81e3e2fb63
+- name: keras_model_builder
+  owner: bgruening
+  revisions:
+  - 053570bac5ea
+  - 522137aaa9c4
+  - 5b35833076f0
+- name: sklearn_to_categorical
+  owner: bgruening
+  revisions:
+  - 612ca26c197d
+  - caeb57858702
+- name: keras_train_and_eval
+  owner: bgruening
+  revisions:
+  - 2af1346e68c9
+  - 470aed90aa41
+- name: model_prediction
+  owner: bgruening
+  revisions:
+  - 1e088aa741eb
+  - 25b46af53232
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 8334dc98c48e
+  - e88c782a127d
+- name: iwtomics_loadandplot
+  owner: iuc
+  revisions:
+  - ee7dd07a530e
+- name: iwtomics_testandplot
+  owner: iuc
+  revisions:
+  - 800c7e974e3b
+- name: iwtomics_plotwithscale
+  owner: iuc
+  revisions:
+  - 25030f0d1154
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening
+  revisions:
+  - 7b2455348edf
+- name: rpbasicdesign
+  owner: tduigou
+  revisions:
+  - 5ae5521bb367
+- name: dnabot
+  owner: tduigou
+  revisions:
+  - de6812daba39
+- name: retropath2
+  owner: tduigou
+  revisions:
+  - f0a029748658
+- name: rp2paths
+  owner: tduigou
+  revisions:
+  - e3db7fb2c85e
+- name: rseqc
+  owner: nilesh
+  revisions:
+  - f437057e46f1
+- name: deseq2
+  owner: iuc
+  revisions:
+  - 6f91b8ce6e07
+  - 71bacea10eee
+  - 9a616afdbda5
+- name: pathview
+  owner: iuc
+  revisions:
+  - dbac244d2214
+- name: heinz
+  owner: iuc
+  revisions:
+  - e41ec5af7472
+- name: samtools_sort
+  owner: devteam
+  revisions:
+  - 69dca890852c
+- name: samtool_filter2
+  owner: devteam
+  revisions:
+  - d3292b4a0c78
+- name: bctools_extract_alignment_ends
+  owner: iuc
+  revisions:
+  - 8076141a76a7
+- name: meme_chip
+  owner: iuc
+  revisions:
+  - 091a9d638d78
+- name: goslimmer
+  owner: iuc
+  revisions:
+  - 294de027cb5d
+- name: goenrichment
+  owner: iuc
+  revisions:
+  - 5ace5c7d1a86
+- name: chira_map
+  owner: iuc
+  revisions:
+  - 92dbdc4d2722
+- name: chira_merge
+  owner: iuc
+  revisions:
+  - bd57d16524fe
+- name: chira_quantify
+  owner: iuc
+  revisions:
+  - 7fb3fc24be0e
+- name: chira_extract
+  owner: iuc
+  revisions:
+  - 6977e9b7143d
+- name: rnaquast
+  owner: iuc
+  revisions:
+  - f89e3c318453
+- name: isoformswitchanalyzer
+  owner: iuc
+  revisions:
+  - b3f292d9f35d
+- name: trinity_run_de_analysis
+  owner: iuc
+  revisions:
+  - 04936df18de3
+- name: trinity_abundance_estimates_to_matrix
+  owner: iuc
+  revisions:
+  - 59fff1388bc2
+- name: trinity_filter_low_expr_transcripts
+  owner: iuc
+  revisions:
+  - 42c5172815f7
+- name: trinity_contig_exn50_statistic
+  owner: iuc
+  revisions:
+  - 62b05e565a45
+- name: naive_variant_caller
+  owner: blankenberg
+  revisions:
+  - 07e71cf6c8ef
+- name: vcffilter
+  owner: devteam
+  revisions:
+  - fa24bf0598f4
+- name: ega_download_client
+  owner: iuc
+  revisions:
+  - f9db47f68e5e
+- name: bcftools_merge
+  owner: iuc
+  revisions:
+  - 9473302f4588
+- name: snpeff
+  owner: iuc
+  revisions:
+  - 36dc3690a82c
+  - 74aebe30fb52
+- name: gemini_query
+  owner: iuc
+  revisions:
+  - 77a1e60fd1de
+- name: varscan_somatic
+  owner: iuc
+  revisions:
+  - a57606054bd7
+- name: emboss_5
+  owner: devteam
+  revisions:
+  - 63dd26468588

@@ -1,9 +1,8 @@
 name: Sync Galaxy Tools
 
 on:
-  # Check only: validates the compare script still runs cleanly on changes
-  # that touch it. Never opens a PR itself -- see the Create Pull Request
-  # step's if: condition below.
+  # Check only, scoped to files that touch the compare script.
+  # Never opens a PR (see the Create Pull Request step's if: below).
   pull_request:
     branches:
       - master

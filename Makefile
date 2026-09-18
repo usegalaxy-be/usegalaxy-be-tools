@@ -5,6 +5,10 @@ UPDATED_YAMLS := $(YAML_FILES:=.update)
 CORRECT_YAMLS := $(YAML_FILES:=.fix)
 INSTALL_YAMLS := $(LOCK_FILES:=.install)
 UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
+# GTN_tutorials_tools.yaml.lock isn't in LOCK_FILES (not part of update_trusted),
+# but the prod install cron uses it too and it needs deprecation as well.
+DEPRECATE_LOCKS := tools_iuc.yaml.lock belgium-custom.yaml.lock GTN_tutorials_tools.yaml.lock
+DEPRECATED_YAMLS := $(DEPRECATE_LOCKS:=.deprecate)
 
 GALAXY_SERVER := https://usegalaxy.be
 
@@ -49,5 +53,10 @@ update_all: $(UPDATED_YAMLS)
 	@# Update any tools owned by IUC in any other yaml file
 	python scripts/update-tool.py --owner iuc $<
 
+deprecate: $(DEPRECATED_YAMLS) ## Remove not-installable revisions from the lock files
 
-.PHONY: pr_check lint update_trusted help
+%.deprecate: %
+	python scripts/fix_outdated.py $<
+
+
+.PHONY: pr_check lint update_trusted deprecate help
