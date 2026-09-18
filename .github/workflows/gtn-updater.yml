@@ -2,8 +2,9 @@ name: Updating GTN tools
 
 on:
   schedule:
-    # Runs weekly, every Saturday at 02:00 UTC (alligned with off-peak hours)
-    - cron: "0 2 * * SAT"
+    # Runs weekly, every Saturday at 02:30 UTC (staggered from update-trusted.yml
+    # and sync_tools.yml, which also run Saturday, to avoid concurrent PR runs)
+    - cron: "30 2 * * SAT"
   workflow_dispatch:
 
 jobs:

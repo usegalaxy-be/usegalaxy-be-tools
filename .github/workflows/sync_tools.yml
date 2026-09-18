@@ -1,9 +1,19 @@
 name: Sync Galaxy Tools
 
 on:
+  # Check only: validates the compare script still runs cleanly on changes
+  # that touch it. Never opens a PR itself -- see the Create Pull Request
+  # step's if: condition below.
   pull_request:
     branches:
       - master
+    paths:
+      - scripts/compare_tools.py
+      - belgium-custom.yaml.lock
+      - GTN_tutorials_tools.yaml.lock
+      - tools_iuc.yaml.lock
+      - requirements.txt
+      - .github/workflows/sync_tools.yml
   workflow_dispatch:
   schedule:
     # Runs weekly, every Saturday at 03:00 UTC
@@ -42,6 +52,7 @@ jobs:
           python scripts/compare_tools.py --current current_galaxy_tools.yaml --inputs belgium-custom.yaml.lock GTN_tutorials_tools.yaml.lock tools_iuc.yaml.lock
 
       - name: Create Pull Request
+        if: github.event_name != 'pull_request'
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:

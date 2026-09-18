@@ -1,9 +1,22 @@
 name: Update Trusted Tools
 
 on:
+  # Check only: validates the merge script/Makefile still run cleanly on
+  # changes that touch them. Never opens a PR itself -- see the Create
+  # Pull Request step's if: condition below.
   pull_request:
     branches:
       - master
+    paths:
+      - scripts/process_yaml.py
+      - scripts/fix-lockfile.py
+      - scripts/update-tool.py
+      - Makefile
+      - .schema.yaml
+      - tools_iuc.yaml
+      - belgium-custom.yaml
+      - requirements.txt
+      - .github/workflows/update-trusted.yml
   workflow_dispatch:
   schedule:
   # Runs weekly, every Saturday at 02:00 UTC (alligned with off-peak hours)
@@ -25,15 +38,6 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Check if PR is from a fork
-        id: fork-check
-        run: |
-          if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
-            echo "is_fork=true" >> $GITHUB_ENV
-          else
-            echo "is_fork=false" >> $GITHUB_ENV
-          fi
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -51,14 +55,20 @@ jobs:
         run: rm -r usegalaxy-eu-tools
       - name: Perform linting
         run: |
-            # Update the trusted tools.
-            make fix -j $(nproc)
+            # Only fix tools_iuc.yaml here, not the whole `make fix` target.
+            # fix-lockfile.py rebuilds a file's .lock from scratch using its
+            # base .yaml as the sole source of truth. belgium-custom.yaml has
+            # ~190 lines but belgium-custom.yaml.lock has ~10,800 (grown over
+            # time by sync_tools.yml writing straight into the lock file), so
+            # running fix-lockfile.py on belgium-custom.yaml wipes out nearly
+            # all of belgium-custom.yaml.lock. See usegalaxy-be-tools#201.
+            make tools_iuc.yaml.fix -j $(nproc)
             # make lint -j $(nproc)
             make update_trusted -j $(nproc)
       - name: Show differences
         run: "git diff --stat"
       - name: Create Pull Request
-        if: env.is_fork == 'false'
+        if: github.event_name != 'pull_request'
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
