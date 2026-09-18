@@ -1,9 +1,22 @@
 name: Update Trusted Tools
 
 on:
+  # Check only: validates the merge script/Makefile still run cleanly on
+  # changes that touch them. Never opens a PR itself -- see the Create
+  # Pull Request step's if: condition below.
   pull_request:
     branches:
       - master
+    paths:
+      - scripts/process_yaml.py
+      - scripts/fix-lockfile.py
+      - scripts/update-tool.py
+      - Makefile
+      - .schema.yaml
+      - tools_iuc.yaml
+      - belgium-custom.yaml
+      - requirements.txt
+      - .github/workflows/update-trusted.yml
   workflow_dispatch:
   schedule:
   # Runs weekly, every Saturday at 02:00 UTC (alligned with off-peak hours)
@@ -24,15 +37,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: Check if PR is from a fork
-        id: fork-check
-        run: |
-          if [ "${{ github.event_name }}" == "pull_request" ] && [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
-            echo "is_fork=true" >> $GITHUB_ENV
-          else
-            echo "is_fork=false" >> $GITHUB_ENV
-          fi
 
       - name: Install dependencies
         run: |
@@ -58,7 +62,7 @@ jobs:
       - name: Show differences
         run: "git diff --stat"
       - name: Create Pull Request
-        if: env.is_fork == 'false'
+        if: github.event_name != 'pull_request'
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
