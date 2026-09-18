@@ -274,6 +274,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - 39b40a9a6296
   - 3f987772e283
   - 438f65cb1d14
@@ -406,6 +407,7 @@ tools:
 - name: spocc_occ
   owner: ecology
   revisions:
+  - 4546864dbc34
   - f64b3c1a80a6
   - f9d76a46799a
   tool_panel_section_label: Get Data
@@ -1711,6 +1713,7 @@ tools:
   - 2a9afed42353
   - 3d8c0b287c51
   - 640e4eeab4e2
+  - 8de9d54f7a96
   - 90818f7835f3
   - 9eab750c367d
   - edbb6c5028f5
@@ -2586,6 +2589,7 @@ tools:
   - 7da532cd050c
   - 8fbd98f37c10
   - 98099e4da1fd
+  - c888cae9725e
   tool_panel_section_label: Mapping
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plink
@@ -2789,6 +2793,7 @@ tools:
   owner: iuc
   revisions:
   - 7ca2fba4be83
+  - ab62d6d0d7b8
   - fb00426402b0
   - fe8bc8d1e7f5
   tool_panel_section_label: Variant Calling
@@ -7291,6 +7296,7 @@ tools:
 - name: get_pdb
   owner: bgruening
   revisions:
+  - 0a0ef624cb05
   - 538790c6c21b
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8080,6 +8086,7 @@ tools:
   owner: imgteam
   revisions:
   - 85edbb7a436b
+  - f0242f99a175
   - f3360fbeda64
   - fa8ce46a95bb
   - fcadded98e61
@@ -8336,11 +8343,13 @@ tools:
   owner: ecology
   revisions:
   - 58ecd15e6836
+  - 81a94130ee76
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regionalgam_autocor_acf
   owner: ecology
   revisions:
+  - 9969ded9090b
   - b416a363a2d5
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8348,23 +8357,27 @@ tools:
   owner: ecology
   revisions:
   - a79f5f0f17ad
+  - e3e656f24d47
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regionalgam_glmmpql
   owner: ecology
   revisions:
+  - ca708716504c
   - f3e1b6d244a6
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regionalgam_ab_index
   owner: ecology
   revisions:
+  - 11babbc06da0
   - d0ee713d4758
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regionalgam_flight_curve
   owner: ecology
   revisions:
+  - 565f4aac2049
   - fff507f00b2b
   tool_panel_section_label: Species abundance
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8979,6 +8992,7 @@ tools:
   owner: ecology
   revisions:
   - 307518fb51af
+  - c835cdc2072a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rpthermo
@@ -9411,6 +9425,7 @@ tools:
 - name: helixer
   owner: genouest
   revisions:
+  - a3586bccb95f
   - c2fc4ac35199
   - cef77c1fe708
   tool_panel_section_label: Tools from workflows
@@ -9460,6 +9475,7 @@ tools:
   owner: ecology
   revisions:
   - 0ccbe1c20fc3
+  - 3d7fff9f7376
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pm_uep_opt
@@ -9535,6 +9551,7 @@ tools:
   owner: ecology
   revisions:
   - 00de53d18b99
+  - 56f57ddccbd3
   - e8650cdf092f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9881,6 +9898,7 @@ tools:
 - name: xarray_mapplot
   owner: ecology
   revisions:
+  - 0a7399e79df6
   - 506b6d6880ff
   - d7479b6dfbe8
   tool_panel_section_label: Tools from workflows
@@ -9889,12 +9907,14 @@ tools:
   owner: ecology
   revisions:
   - 663e6f115a76
+  - 762f32ce768d
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_netcdf2netcdf
   owner: ecology
   revisions:
   - 1a91e551f3a9
+  - 38f1d26ad8e5
   - c91c27b63fb2
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9902,6 +9922,7 @@ tools:
   owner: ecology
   revisions:
   - 231179dea9dd
+  - 2acdea88780c
   - 462a44dfd3c4
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -9909,6 +9930,7 @@ tools:
   owner: ecology
   revisions:
   - 810820a0d45c
+  - bb4a73ff1462
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: argo_getdata
@@ -9916,11 +9938,13 @@ tools:
   revisions:
   - 4b84de936c51
   - 6ed1b9c9d4cb
+  - a5841952c28a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_select
   owner: ecology
   revisions:
+  - 3f70e5512e1d
   - 6baac361495b
   - b393815e4cb7
   tool_panel_section_label: Tools from workflows
@@ -10310,12 +10334,14 @@ tools:
 - name: obisindicators
   owner: ecology
   revisions:
+  - 7907660cb79b
   - dc187fe78055
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gdal_ogr2ogr
   owner: ecology
   revisions:
+  - dc4f997604b8
   - e12db3b4d3a6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10360,11 +10386,13 @@ tools:
   owner: ecology
   revisions:
   - 5cae678042ec
+  - 6f812a4cf421
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: srs_spectral_indices
   owner: ecology
   revisions:
+  - 76ff9a73cb01
   - b40aba3d9e5c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10373,11 +10401,13 @@ tools:
   revisions:
   - 57c618532ac1
   - 876a70f08281
+  - ac2e1f0d5eac
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ecoregion_clara_cluster
   owner: ecology
   revisions:
+  - 76106f275866
   - 893b2b010d4a
   - cc9ea890823c
   tool_panel_section_label: Tools from workflows
@@ -10387,12 +10417,14 @@ tools:
   revisions:
   - 6c5404468d8c
   - 8307fa98be22
+  - d1873a180fc3
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ecoregion_taxa_seeker
   owner: ecology
   revisions:
   - 68d98dbd8bfc
+  - 9675dd48321a
   - cec1f7495897
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10400,18 +10432,21 @@ tools:
   owner: ecology
   revisions:
   - aba980404954
+  - c369c8ca4de6
   - dcc059f387b6
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ecology_beta_diversity
   owner: ecology
   revisions:
+  - 55fb9b8f7a5f
   - fb7b2cbd80bb
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ecology_stat_presence_abs
   owner: ecology
   revisions:
+  - 10e44c159413
   - 9a2e0195bb43
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10419,11 +10454,13 @@ tools:
   owner: ecology
   revisions:
   - 4ed07d2d442b
+  - d466edccbc60
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: srs_preprocess_s2
   owner: ecology
   revisions:
+  - 1357537d4b7f
   - 33a1e15f7252
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10431,12 +10468,14 @@ tools:
   owner: ecology
   revisions:
   - 3df8937fd6fd
+  - c7e28d7d6607
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tool_anonymization
   owner: ecology
   revisions:
   - 726a387cfdc2
+  - b5c1864c2989
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cdo_operations
@@ -10448,6 +10487,7 @@ tools:
 - name: pampa_glmsp
   owner: ecology
   revisions:
+  - 532e9dad073f
   - 7a69e1c8ba46
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10455,11 +10495,13 @@ tools:
   owner: ecology
   revisions:
   - b40fecef616b
+  - fe1677da339e
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pampa_communitymetrics
   owner: ecology
   revisions:
+  - 97767ca44eb0
   - c67ece97d4b1
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10467,18 +10509,21 @@ tools:
   owner: ecology
   revisions:
   - 7b7555bbde84
+  - fcdb69e7217f
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tool_odv
   owner: ecology
   revisions:
   - bdc969c006fe
+  - e985693b98d8
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: harmonize_insitu_to_netcdf
   owner: ecology
   revisions:
   - 208f69b31088
+  - 506abb9f6602
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: encyclopedia_searchtolib
@@ -10491,6 +10536,7 @@ tools:
 - name: tool_odv_history
   owner: ecology
   revisions:
+  - a08274370f9a
   - d626252fad72
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10498,17 +10544,20 @@ tools:
   owner: ecology
   revisions:
   - 1ebb70b59037
+  - ce7dfdbe3301
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pampa_plotglm
   owner: ecology
   revisions:
+  - bd78c446fb96
   - c448e026f122
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ecology_link_between_var
   owner: ecology
   revisions:
+  - 0eb0be089223
   - 8e8867bf491a
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10516,12 +10565,14 @@ tools:
   owner: ecology
   revisions:
   - 4ed3e4f04b79
+  - ae06ddcaa000
   - e5fc90e44599
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: srs_diversity_maps
   owner: ecology
   revisions:
+  - 0c700b1d93a7
   - 9adccd3da70c
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10558,6 +10609,7 @@ tools:
 - name: sanntis_marine
   owner: ecology
   revisions:
+  - 5908bf55fb33
   - 9d689f8c9ce4
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10565,6 +10617,7 @@ tools:
   owner: ecology
   revisions:
   - 5bae75c49f2e
+  - d061564c1e11
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_read_10x

@@ -242,6 +242,7 @@ tools:
   - 3d8c0b287c51
   - 4c172a4a4c9e
   - 640e4eeab4e2
+  - 8de9d54f7a96
   - 90818f7835f3
   - 9eab750c367d
   - a02b8b3f5a0c
@@ -4748,6 +4749,7 @@ tools:
   - 30079fa4e2fd
   - 584c09b1967a
   - 7ca2fba4be83
+  - ab62d6d0d7b8
   - fb00426402b0
   - fe8bc8d1e7f5
   tool_panel_section_label: Variant Calling
@@ -5330,6 +5332,7 @@ tools:
   - 8fbd98f37c10
   - 95ab864b281a
   - 98099e4da1fd
+  - c888cae9725e
   tool_panel_section_label: Mapping
 - name: alevin
   owner: bgruening
@@ -5405,6 +5408,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - 3f987772e283
   - 438f65cb1d14
   - ade773848c3d

@@ -187,6 +187,7 @@ tools:
   - 3d8c0b287c51
   - 640e4eeab4e2
   - 645159bcee2d
+  - 8de9d54f7a96
   - 90818f7835f3
   - 9eab750c367d
   - edbb6c5028f5
@@ -713,6 +714,7 @@ tools:
   owner: ecology
   revisions:
   - 00de53d18b99
+  - 56f57ddccbd3
   - 7edbe5ae8b72
   - e8650cdf092f
   tool_panel_section_label: Climate
@@ -721,6 +723,7 @@ tools:
   owner: ecology
   revisions:
   - 1a91e551f3a9
+  - 38f1d26ad8e5
   - c91c27b63fb2
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -728,6 +731,7 @@ tools:
   owner: ecology
   revisions:
   - 225d0d275a24
+  - 3f70e5512e1d
   - 6baac361495b
   - b393815e4cb7
   tool_panel_section_label: Climate
@@ -738,6 +742,7 @@ tools:
   - 3e73f657a998
   - 6015f30a7258
   - 663e6f115a76
+  - 762f32ce768d
   tool_panel_section_label: Climate
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regex_find_replace
@@ -771,6 +776,7 @@ tools:
 - name: xarray_mapplot
   owner: ecology
   revisions:
+  - 0a7399e79df6
   - 506b6d6880ff
   - d7479b6dfbe8
   - dc05bf0af58f
@@ -810,6 +816,7 @@ tools:
 - name: get_pdb
   owner: bgruening
   revisions:
+  - 0a0ef624cb05
   - 538790c6c21b
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1067,6 +1074,7 @@ tools:
   owner: ecology
   revisions:
   - 4e7c1fb5e894
+  - 7907660cb79b
   - dc187fe78055
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1075,12 +1083,14 @@ tools:
   revisions:
   - 1ebb70b59037
   - 8d8aec182fb1
+  - ce7dfdbe3301
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_communitymetrics
   owner: ecology
   revisions:
   - 5bd7ddd7601f
+  - 97767ca44eb0
   - c67ece97d4b1
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1089,11 +1099,13 @@ tools:
   revisions:
   - 44b9069775ca
   - b40fecef616b
+  - fe1677da339e
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pampa_glmsp
   owner: ecology
   revisions:
+  - 532e9dad073f
   - 6c14021f678e
   - 7a69e1c8ba46
   tool_panel_section_label: Species abundance
@@ -1102,6 +1114,7 @@ tools:
   owner: ecology
   revisions:
   - 3ab852a7ff53
+  - bd78c446fb96
   - c448e026f122
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1134,18 +1147,21 @@ tools:
 - name: regionalgam_flight_curve
   owner: ecology
   revisions:
+  - 565f4aac2049
   - fff507f00b2b
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regionalgam_ab_index
   owner: ecology
   revisions:
+  - 11babbc06da0
   - d0ee713d4758
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regionalgam_glmmpql
   owner: ecology
   revisions:
+  - ca708716504c
   - f3e1b6d244a6
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1153,11 +1169,13 @@ tools:
   owner: ecology
   revisions:
   - a79f5f0f17ad
+  - e3e656f24d47
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: regionalgam_autocor_acf
   owner: ecology
   revisions:
+  - 9969ded9090b
   - b416a363a2d5
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1165,6 +1183,7 @@ tools:
   owner: ecology
   revisions:
   - 58ecd15e6836
+  - 81a94130ee76
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: csv_to_tabular
@@ -1189,6 +1208,7 @@ tools:
 - name: spocc_occ
   owner: ecology
   revisions:
+  - 4546864dbc34
   - f64b3c1a80a6
   - f9d76a46799a
   tool_panel_section_label: Get Data
@@ -1196,6 +1216,7 @@ tools:
 - name: gdal_ogr2ogr
   owner: ecology
   revisions:
+  - dc4f997604b8
   - e12db3b4d3a6
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1306,6 +1327,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - 39b40a9a6296
   - 438f65cb1d14
   - ba6d2c32f797
@@ -1366,12 +1388,14 @@ tools:
 - name: srs_preprocess_s2
   owner: ecology
   revisions:
+  - 1357537d4b7f
   - 33a1e15f7252
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: srs_spectral_indices
   owner: ecology
   revisions:
+  - 76ff9a73cb01
   - a8dabbf47e15
   - b40aba3d9e5c
   tool_panel_section_label: Species abundance
@@ -1380,11 +1404,13 @@ tools:
   owner: ecology
   revisions:
   - 5cae678042ec
+  - 6f812a4cf421
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: srs_diversity_maps
   owner: ecology
   revisions:
+  - 0c700b1d93a7
   - 9adccd3da70c
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1428,17 +1454,20 @@ tools:
   owner: ecology
   revisions:
   - 726a387cfdc2
+  - b5c1864c2989
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ecology_homogeneity_normality
   owner: ecology
   revisions:
   - 3df8937fd6fd
+  - c7e28d7d6607
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ecology_link_between_var
   owner: ecology
   revisions:
+  - 0eb0be089223
   - 8e8867bf491a
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1446,17 +1475,20 @@ tools:
   owner: ecology
   revisions:
   - 4ed07d2d442b
+  - d466edccbc60
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ecology_stat_presence_abs
   owner: ecology
   revisions:
+  - 10e44c159413
   - 9a2e0195bb43
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ecology_beta_diversity
   owner: ecology
   revisions:
+  - 55fb9b8f7a5f
   - fb7b2cbd80bb
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -2216,6 +2248,7 @@ tools:
   revisions:
   - 10eed33aa9b2
   - 85edbb7a436b
+  - f0242f99a175
   - f3360fbeda64
   - fa8ce46a95bb
   - fcadded98e61
