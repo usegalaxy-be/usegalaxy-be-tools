@@ -6,9 +6,9 @@ def load_yaml(file_path):
     with open(file_path, 'r') as file:
         return yaml.safe_load(file)
 
-def write_yaml(content, file_path):
+def write_yaml(content, file_path, explicit_start=False):
     with open(file_path, 'w') as file:
-        return yaml.dump(content, file, default_flow_style=False)
+        return yaml.dump(content, file, default_flow_style=False, explicit_start=explicit_start)
 
 def merge_all_tools(*yaml_files):
     merged_tools = {}
@@ -83,6 +83,26 @@ def find_extra_tools(data2, all_found_tools):
     deduplicated_data2 = deduplicate_tools(data2['tools'])
     return [tool for tool in deduplicated_data2 if (tool['name'], tool['owner']) not in all_found_tools]
 
+def declare_new_tools_in_base_yaml(extra_tools, base_yaml_path):
+    """Add newly-discovered tools to the hand-maintained base yaml too, not just its lock."""
+    base = load_yaml(base_yaml_path)
+    known = {(tool['name'], tool['owner']) for tool in base['tools']}
+    added = False
+    for tool in extra_tools:
+        key = (tool['name'], tool['owner'])
+        if key in known:
+            continue
+        entry = {'name': tool['name'], 'owner': tool['owner']}
+        if tool.get('tool_panel_section_label'):
+            entry['tool_panel_section_label'] = tool['tool_panel_section_label']
+        if tool.get('tool_shed_url'):
+            entry['tool_shed_url'] = tool['tool_shed_url']
+        base['tools'].append(entry)
+        known.add(key)
+        added = True
+    if added:
+        write_yaml(base, base_yaml_path, explicit_start=True)
+
 
 
 def main():
@@ -107,7 +127,9 @@ def main():
         merged_yaml_lock = base_yaml.copy()
         if input == "belgium-custom.yaml.lock":
             # Add all extra tools to custom tools
-            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools) + find_extra_tools(current_tools, all_found_tools)
+            extra_tools = find_extra_tools(current_tools, all_found_tools)
+            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools) + extra_tools
+            declare_new_tools_in_base_yaml(extra_tools, "belgium-custom.yaml")
         else:
             merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools)
 
