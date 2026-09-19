@@ -43,6 +43,41 @@ def toolyamltodict (yamlfile, baseyaml, topic):
         baseyaml['tools'].append(tool)
     return baseyaml
 
+def deduplicate_tools(tools):
+    """Merge entries with the same name/owner, unioning the revisions each tutorial pinned."""
+    merged = {}
+    for tool in tools:
+        key = (tool['name'], tool['owner'])
+        if key in merged:
+            merged[key]['revisions'] = sorted(set(merged[key]['revisions'] + tool.get('revisions', [])))
+        else:
+            merged[key] = tool.copy()
+    return list(merged.values())
+
+def sync_into_lock(tools, lock_path):
+    """Add tutorial-pinned tools/revisions to the install lock, keeping whatever is already there."""
+    with open(lock_path) as f:
+        locked = yaml.safe_load(f)
+    locked_by_key = {(t['name'], t['owner']): t for t in locked['tools']}
+
+    for tool in tools:
+        key = (tool['name'], tool['owner'])
+        pinned = tool.get('revisions', [])
+        if key not in locked_by_key:
+            new_tool = {'name': tool['name'], 'owner': tool['owner'], 'revisions': sorted(set(pinned))}
+            if tool.get('tool_panel_section_label'):
+                new_tool['tool_panel_section_label'] = tool['tool_panel_section_label']
+            if tool.get('tool_shed_url'):
+                new_tool['tool_shed_url'] = tool['tool_shed_url']
+            locked['tools'].append(new_tool)
+            locked_by_key[key] = new_tool
+        else:
+            existing = locked_by_key[key].setdefault('revisions', [])
+            locked_by_key[key]['revisions'] = sorted(set(existing) | set(pinned))
+
+    with open(lock_path, 'w') as f:
+        yaml.dump(locked, f, default_flow_style=False)
+
 
 with open(output_file, "w") as f:
 
@@ -90,5 +125,11 @@ with open(output_file, "w") as f:
                         if os.path.exists(temp_tool_file):
                             os.remove(temp_tool_file)
 
-    # Dump newly generated dictionary to yaml 
+    # Consolidate duplicate tool entries from different tutorials before writing.
+    baseyaml['tools'] = deduplicate_tools(baseyaml['tools'])
+
+    # Dump newly generated dictionary to yaml
     yaml.dump(baseyaml, f, default_flow_style=False)
+
+# Carry newly-found tools/revisions into the install lock too.
+sync_into_lock(baseyaml['tools'], output_file + '.lock')
