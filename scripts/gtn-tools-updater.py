@@ -46,7 +46,7 @@ def toolyamltodict (yamlfile, baseyaml, topic):
 
 with open(output_file, "w") as f:
 
-    baseyaml = { 'install_tool_dependencies': False, 'install_repository_dependencies': True, 'install_resolver_dependencies': True , 'tools':[]}
+    baseyaml = { 'install_tool_dependencies': False, 'install_repository_dependencies': True, 'install_resolver_dependencies': False , 'tools':[]}
 
     # Determine topics
     topicslist = [f.name for f in os.scandir(f"{sys.argv[1]}/topics/") if f.is_dir()]
