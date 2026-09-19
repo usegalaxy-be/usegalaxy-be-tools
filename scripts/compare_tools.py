@@ -70,18 +70,17 @@ def merge_tools_left(data1, data2):
 
     return list(tool_map.values())
 
-def find_extra_tools(data2, all_data1_versions):
+def collect_known_tools(yaml_docs):
+    """Set of (name, owner) pairs declared across the given yaml.lock docs."""
+    known = set()
+    for doc in yaml_docs:
+        for tool in deduplicate_tools(doc['tools']):
+            known.add((tool['name'], tool['owner']))
+    return known
+
+def find_extra_tools(data2, all_found_tools):
     """Find tools in the currently installed tools that are not in any of the yaml.locks."""
     deduplicated_data2 = deduplicate_tools(data2['tools'])
-    all_found_tools = set()
-
-    # Collect all unique tool (name, owner) pairs from all data1 versions
-    for data1 in all_data1_versions:
-        deduplicated_data1 = deduplicate_tools(data1['tools'])
-        for tool in deduplicated_data1:
-            all_found_tools.add((tool['name'], tool['owner']))
-
-    # Identify tools in data2 that are missing from all versions of data1
     return [tool for tool in deduplicated_data2 if (tool['name'], tool['owner']) not in all_found_tools]
 
 
@@ -93,21 +92,25 @@ def main():
     args = parser.parse_args()
 
     current_tools = load_yaml(args.current)
-    
+
     base_yaml = {'install_repository_dependencies': 'true',
         'install_resolver_dependencies': 'false',
         'install_tool_dependencies': 'false'}
-    input_yamls = []    
+
+    # Load every input up front so belgium-custom's extra-tool detection sees
+    # tools_iuc/GTN's full tool sets, not just whatever loaded before it.
+    input_yamls = {input: load_yaml(input) for input in args.inputs}
+    all_found_tools = collect_known_tools(input_yamls.values())
+
     for input in args.inputs:
-        yaml_lock = load_yaml(input)
-        input_yamls.append(yaml_lock)
+        yaml_lock = input_yamls[input]
         merged_yaml_lock = base_yaml.copy()
         if input == "belgium-custom.yaml.lock":
             # Add all extra tools to custom tools
-            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools) + find_extra_tools(current_tools, input_yamls)
+            merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools) + find_extra_tools(current_tools, all_found_tools)
         else:
             merged_yaml_lock["tools"] = merge_tools_left(yaml_lock, current_tools)
-            
+
         write_yaml(merged_yaml_lock, input)
 
     # extra_tools = base_yaml.copy()
