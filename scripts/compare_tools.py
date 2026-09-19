@@ -95,7 +95,7 @@ def main():
     current_tools = load_yaml(args.current)
     
     base_yaml = {'install_repository_dependencies': 'true',
-        'install_resolver_dependencies': 'true',
+        'install_resolver_dependencies': 'false',
         'install_tool_dependencies': 'false'}
     input_yamls = []    
     for input in args.inputs:

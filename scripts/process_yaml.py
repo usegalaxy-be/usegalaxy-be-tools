@@ -70,7 +70,7 @@ def get_latest_only(tools_yaml):
         tools_list.append(new_entry)
 
     ret_dict = {'install_repository_dependencies': True,
-                'install_resolver_dependencies': True,
+                'install_resolver_dependencies': False,
                 'install_tool_dependencies': True,
                 'tools': tools_list
                 }
@@ -180,7 +180,7 @@ def update_from_base(base_dict, updated_dict):
 
     ret_dict = {
         'install_repository_dependencies': True,
-        'install_resolver_dependencies': True,
+        'install_resolver_dependencies': False,
         'install_tool_dependencies': False,
         'tools': tools_list
     }
@@ -293,7 +293,7 @@ if __name__ == '__main__':
         prefix_list = ['merged_','new_','updated_']
         ret_dict = {
             'install_repository_dependencies': True,
-            'install_resolver_dependencies': True,
+            'install_resolver_dependencies': False,
             'install_tool_dependencies': False,
             'tools': None
         }
