@@ -1314,6 +1314,7 @@ tools:
   owner: iuc
   revisions:
   - 24013bf85a6f
+  - 276b4111b253
   - 2cf36d9ea571
   - 43bcc103b1e9
   - 70cb5527defb
@@ -2489,6 +2490,7 @@ tools:
   revisions:
   - 1b3626164087
   - 326f9c294b09
+  - e408aa831db3
   - e906fa778440
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -4909,6 +4911,7 @@ tools:
 - name: mcdoe
   owner: padge
   revisions:
+  - cc0957c46408
   - d5832ac370e3
   tool_panel_section_label: Genome editing
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10000,6 +10003,7 @@ tools:
   revisions:
   - 03dd3c928d65
   - 1979ff89fbde
+  - c3f0b847dc40
   tool_panel_section_label: Mothur
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_seqs
@@ -10287,6 +10291,7 @@ tools:
 - name: pdaug_ml_models
   owner: jay
   revisions:
+  - 8697dc4a7f45
   - aa0b1cb1260c
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10709,6 +10714,7 @@ tools:
   owner: jay
   revisions:
   - 15b6eec94c40
+  - 738ee8fc0ede
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pdaug_merge_dataframes
@@ -10738,6 +10744,7 @@ tools:
 - name: pdaug_peptide_sequence_analysis
   owner: jay
   revisions:
+  - 5eb62fb8a2d0
   - 90e3b1968ae6
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu

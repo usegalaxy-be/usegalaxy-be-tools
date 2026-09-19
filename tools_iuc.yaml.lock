@@ -3909,6 +3909,7 @@ tools:
   owner: iuc
   revisions:
   - 24013bf85a6f
+  - 276b4111b253
   - 2cf36d9ea571
   - 43bcc103b1e9
   - 70cb5527defb
@@ -4624,6 +4625,7 @@ tools:
   revisions:
   - 03dd3c928d65
   - 1979ff89fbde
+  - c3f0b847dc40
   tool_panel_section_label: Mothur
 - name: mothur_merge_files
   owner: iuc
