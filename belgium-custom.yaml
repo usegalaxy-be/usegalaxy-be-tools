@@ -5,31 +5,24 @@ install_tool_dependencies: false
 tools:
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_bowtie2_index_builder
   owner: devteam
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_hisat2_index_builder
   owner: iuc
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_fetch_gff
   owner: ieguinoa
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_fetch_tx2gene
   owner: ieguinoa
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_salmon_index_builder
   owner: ieguinoa
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_star_index_builder
   owner: iuc
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ribo_tools
   owner: rlegendre
@@ -103,11 +96,9 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
-  tool_panel_section_label: None
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: data_manager_metaphlan2_database_downloader
   owner: iuc
-  tool_panel_section_label: None
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: crispresso2
   owner: ieguinoa
@@ -115,7 +106,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: data_manager_humann2_database_downloader
   owner: iuc
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mimodd_snpeff
   owner: wolma
@@ -3867,7 +3857,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_decoydatabase
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_falsediscoveryrate
   owner: galaxyp
@@ -3931,23 +3920,18 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_multiplexresolver
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_mztabexporter
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathassaygenerator
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathdecoygenerator
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathworkflow
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_peakpickerhires
   owner: galaxyp
@@ -3959,15 +3943,12 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_proteinquantifier
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_targetedfileconverter
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_textexporter
   owner: galaxyp
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_xtandemadapter
   owner: galaxyp
@@ -4215,7 +4196,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pm_muairss_read
   owner: muon-spectroscopy-computational-project
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pm_uep_opt
   owner: muon-spectroscopy-computational-project
@@ -4807,7 +4787,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_run_paga
   owner: ebi-gxa
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scanpy_run_pca
   owner: ebi-gxa
@@ -5251,7 +5230,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_dbnsfp
   owner: iuc
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_dbnsfp_generic
   owner: iuc
@@ -5891,7 +5869,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_fillpeaks
   owner: lecorguille
-  tool_panel_section_label: None
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_group
   owner: lecorguille

@@ -1,4 +1,6 @@
 ---
+# Single source of truth for allowed tool panel section labels.
+# scripts/process_yaml.py reads the enum below, do not keep a second copy.
 type: map
 mapping:
     "install_repository_dependencies":
@@ -21,21 +23,34 @@ mapping:
                 "owner":
                     type: str
                     required: true
+                "tool_shed_url":
+                    type: str
+                "tool_panel_section_id":
+                    type: str
+                "revisions":
+                    type: seq
+                    sequence:
+                        - type: str
                 "tool_panel_section_label":
                     type: str
                     enum: [
-                        'Annotation', 'Assembly', 'Test Tools', 'CellOrganizer', 'ChemicalToolBox',
-                        'Collection Operations', 'Convert Formats', 'deepTools', 'HiCExplorer', 'Graph/Display Data',
-                        'DNA methylation', 'EMBOSS Tools', 'Epigenetics', 'Evolution', 'Extract Features',
-                        'FASTA/FASTQ manipulation', 'Fetch Alignments', 'Filter and Sort',
-                        'GATK Tools', 'Gemini Tools', 'Get Data', 'GraphClust',
-                        'Join, Subtract and Group', 'Mapping', 'Metabolomics', 'Metagenomic analyses',
-                        'mothur', 'Motif Tools', 'Multiple Alignments', 'NCBI Blast', 'Other Tools',
-                        'OBO Ontology manipulation', 'Operate on Genomic Intervals', 'Peak Calling',
-                        'Phenotype Association', 'Picard', 'Proteomics', 'Qiime', 'Quality Control',
-                        'RAD-seq', 'Regional Variation', 'RNA Analysis', 'SAM Tools', 'Send Data',
-                        'Statistics', 'Text Manipulation', 'Unix Tools', 'Phylogenetics',
-                        'Variant Calling', 'Mothur', 'Genome Diversity', 'Data Managers', 'Genome editing',
-                        'Apollo', 'MiModD', 'Single-cell', 'Expression Tools', 'Nanopore', 'Metagenomic Analysis',
-                        'SAM/BAM', 'Imaging', 'Virology', 'FASTQ Quality Control'
+                        'Annotation', 'Apollo', 'Assembly', 'Astronomy', 'BED', 'Bio2Byte',
+                        'CellOrganizer', 'ChemicalToolBox', 'Collection Operations',
+                        'Convert Formats', 'Data Managers', 'deepTools', 'DNA Metabarcoding',
+                        'DNA methylation', 'EMBOSS', 'EMBOSS Tools', 'Epigenetics', 'Evolution',
+                        'Expression Tools', 'Extract Features', 'FASTA/FASTQ',
+                        'FASTA/FASTQ manipulation', 'FASTQ Quality Control', 'Fetch Alignments',
+                        'Filter and Sort', 'GATK Tools', 'Gemini', 'Gemini Tools',
+                        'Genome Diversity', 'Genome editing', 'Get Data', 'Graph/Display Data',
+                        'GraphClust', 'HiCExplorer', 'Imaging', 'Join, Subtract and Group',
+                        'Machine Learning', 'Mapping', 'Metabolomics', 'Metagenomic analyses',
+                        'Metagenomic Analysis', 'Metagenomics', 'MiModD', 'Mothur', 'mothur',
+                        'Motif Tools', 'Multiple Alignments', 'Nanopore', 'NCBI Blast',
+                        'OBO Ontology manipulation', 'Operate on Genomic Intervals', 'Other Tools',
+                        'Peak Calling', 'Phenotype Association', 'Phylogenetics', 'Picard',
+                        'Proteomics', 'Qiime', 'Quality Control', 'RAD-seq', 'Regional Variation',
+                        'RNA Analysis', 'SAM Tools', 'SAM/BAM', 'Sanger Sequencing', 'Send Data',
+                        'Single-cell', 'Spatial Omics', 'Species abundance', 'Statistics',
+                        'Test Tools', 'Text Manipulation', 'Tools from workflows', 'Unix Tools',
+                        'Variant Calling', 'Virology'
                     ]

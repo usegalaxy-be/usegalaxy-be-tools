@@ -57,8 +57,16 @@ jobs:
             # Only tools_iuc.yaml: fix-lockfile.py on belgium-custom.yaml wipes
             # its .lock (see usegalaxy-be-tools#201).
             make tools_iuc.yaml.fix -j $(nproc)
-            # make lint -j $(nproc)
             make update_trusted -j $(nproc)
+      # Schema validation runs separately from `make lint`, which also calls
+      # fix-lockfile.py and would hit the #201 lock-wiping bug.
+      - name: Validate tool lists against .schema.yaml
+        # Blocking on pull requests, reporting only on scheduled runs so a new
+        # upstream section label can never block the weekly tool update PR.
+        continue-on-error: ${{ github.event_name != 'pull_request' }}
+        run: |
+            pykwalify -d tools_iuc.yaml -s .schema.yaml
+            pykwalify -d belgium-custom.yaml -s .schema.yaml
       - name: Show differences
         run: "git diff --stat"
       - name: Create Pull Request
