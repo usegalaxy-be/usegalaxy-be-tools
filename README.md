@@ -7,9 +7,9 @@ This repository contains the lists of tools installed on usegalaxy.be. The tools
 - `belgium-custom.yaml(.lock)`: tools installed only on usegalaxy.be.
 - `GTN_tutorials_tools.yaml(.lock)`: tools used by [Galaxy Training Network](https://github.com/galaxyproject/training-material) tutorials, synced weekly from the `training-material` repo.
 
-Tools are first added to `belgium-custom.yaml` and, if they meet the requirements, later requested upstream into `tools_iuc.yaml`.
+Manually requested tools are always added to `belgium-custom.yaml` unless they're iuc tools, in which case they can be added to `tools_iuc.yaml`.
 
-These 3 `.lock` files are the only ones actually deployed: `infrastructure-playbook`'s `pdg.galaxy-tools` role installs from them (`galaxy_tools_tool_list_files`), on a weekly schedule, one file per day (`galaxy_tools_install_schedule`). No manual step is needed to get a merged PR live: the next scheduled install picks it up.
+These 3 `.lock` files are the only ones actually deployed: `infrastructure-playbook`'s `pdg.galaxy-tools` role installs from them (`galaxy_tools_tool_list_files`), on a weekly cron job schedule, one .lock file per day (`galaxy_tools_install_schedule`). No manual step is needed to get a merged PR live: the next scheduled install picks it up. See: https://github.com/usegalaxy-be/infrastructure-playbook/blob/main/playbooks/daily/daily-galaxy-tools.yml This is also used to run tool tests. 
 
 Other files in this repo are not deployed, they support the tooling above:
 
@@ -63,5 +63,5 @@ Always stick to the section names in `tool_conf.xml`.
 
 On usegalaxy.be, tools are installed by `infrastructure-playbook`'s `pdg.galaxy-tools` role, not by hand from this repo. If you're running your own instance from these lists instead, set the environment variables `GALAXY_SERVER_URL` and `GALAXY_API_KEY` and run `make install`. This installs all tools from the `.lock` files. Make sure the tool panel sections are pre-defined in your `tool_conf.xml`, or this can create a mess in your tool panel. Run `grep -o -h 'tool_panel_section_label:.*' *.yaml.lock | sort -u` for a list of categories.
 
-`install_resolver_dependencies` is set per tool in the yaml files. On usegalaxy.be it's `false` everywhere, since jobs run in containers and the conda envs built at install time are never used. Leave it `true` if you install tools without container resolution and want their conda dependencies available right away, rather than resolved later at runtime.
+`install_resolver_dependencies` is set per tool in the yaml files. On usegalaxy.be it's `false` everywhere, since jobs run in containers and the conda envs built at install time are never used. Set it `true` if you install tools without container resolution and want their conda dependencies available right away, rather than resolved later at runtime.
 
