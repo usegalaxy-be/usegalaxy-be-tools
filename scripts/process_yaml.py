@@ -1,24 +1,20 @@
+import os
 import yaml
 import sys
 import argparse
 import copy
 
-section_labels_list = [
-   'Get Data', 'Send Data', 'Collection Operations', 'Expression Tools',
-   'Text Manipulation', 'Filter and Sort', 'Join, Subtract and Group',
-   'Convert Formats', 'FASTA/FASTQ', 'FASTQ Quality Control', 'SAM/BAM', 'BED',
-   'VCF/BCF', 'Nanopore', 'Operate on Genomic Intervals', 'Fetch Sequences / Alignments',
-   'Annotation', 'Ontology', 'Assembly', 'Mapping', 'Variant Calling', 'Genome editing',
-   'RNA-Seq', 'Peak Calling', 'Epigenetics', 'Phylogenetics', 'Phenotype Association',
-   'Single-cell', 'Get scRNAseq data', 'Seurat', 'SC3', 'Scanpy', 'Monocl3', 'SCMap',
-   'SCCAF', 'Single Cell Utils and Viz', 'Picard', 'deepTools', 'Gemini', 'EMBOSS',
-   'GATK Tools', 'NCBI Blast', 'HiCExplorer', 'RAD-seq', 'GraphClust' , 'MiModD',
-   'Metagenomic Analysis', 'Qiime' , 'Mothur' , 'DNA Metabarcoding' , 'Proteomics', 'Metabolomics',
-   'ChemicalToolBox', 'Statistics', 'Graph/Display Data' , 'Evolution', 'Motif Tools', "Machine Learning",
-   'Test Tools', 'GIS Data Handling', 'Animal Detection on Acoustic Recordings', 'Imaging', 'Virology',
-   'Regional Variation' , 'Genome Diversity' , 'Deprecated', 'Interactive tools', 'Apollo', 'Quality Control',
-   'Multiple Alignments', 'Climate Analysis', 'RNA Analysis', 'Data Managers', 'Extract Features', 'Other Tools',
-   'Species abundance' ]
+SCHEMA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.schema.yaml')
+
+
+def load_section_labels(schema_path=SCHEMA_PATH):
+    """Read the allowed section labels from .schema.yaml, the single source of truth."""
+    with open(schema_path) as handle:
+        schema = yaml.safe_load(handle)
+    return schema['mapping']['tools']['sequence'][0]['mapping']['tool_panel_section_label']['enum']
+
+
+section_labels_list = load_section_labels()
 
 section_ids_list =  [ "get_data", "send_data", "collection_operations", "expression_tools", "text_manipulation",
                     "filter_and_sort", "join__subtract_and_group", "convert_formats", "fasta_fastq", "fastq_quality_control",
@@ -43,7 +39,7 @@ def lint_file(tools_yaml):
         if 'tool_panel_section_label' in tool.keys():
             if tool['tool_panel_section_label'] not in section_labels_list:
                 print(f"This label is not in the list: {tool['tool_panel_section_label']}")
-        else:
+        elif 'tool_panel_section_id' in tool.keys():
             if tool['tool_panel_section_id'] not in section_ids_list:
                 print(f"This id is not in the list {tool['tool_panel_section_id']}")
 

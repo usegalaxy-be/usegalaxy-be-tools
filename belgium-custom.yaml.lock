@@ -10,7 +10,6 @@ tools:
   - 4d3eff1bc421
   - 776bb1b478a0
   - b1bc53e9bbc5
-  tool_panel_section_label: None
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
@@ -24,7 +23,6 @@ tools:
   - 9dd107db92c2
   - d1d5feb31804
   - e87aeff2cf88
-  tool_panel_section_label: None
 - name: data_manager_hisat2_index_builder
   owner: iuc
   revisions:
@@ -33,24 +31,20 @@ tools:
   - d210e1f185bd
   - d74c740bdb25
   - e4f36467bb51
-  tool_panel_section_label: None
 - name: data_manager_fetch_gff
   owner: ieguinoa
   revisions:
   - 0bdfe2e85fb0
-  tool_panel_section_label: None
 - name: data_manager_fetch_tx2gene
   owner: ieguinoa
   revisions:
   - b193b5b8633e
   - c380b7da5b65
-  tool_panel_section_label: None
 - name: data_manager_salmon_index_builder
   owner: ieguinoa
   revisions:
   - 6cd60ba8a842
   - 9004217cddf4
-  tool_panel_section_label: None
 - name: data_manager_star_index_builder
   owner: iuc
   revisions:
@@ -62,7 +56,6 @@ tools:
   - d63c1442407f
   - e4b87a00b1df
   - f5eb9afa8f8a
-  tool_panel_section_label: None
 - name: ribo_tools
   owner: rlegendre
   revisions:
@@ -276,12 +269,10 @@ tools:
   revisions:
   - 765f4ec851f0
   - 7d2252852f96
-  tool_panel_section_label: None
 - name: data_manager_metaphlan2_database_downloader
   owner: iuc
   revisions:
   - 83f07f40b200
-  tool_panel_section_label: None
 - name: crispresso2
   owner: ieguinoa
   revisions:
@@ -294,7 +285,6 @@ tools:
   - 1316375a8cbb
   - 6112a571f012
   - ff9cf22838d4
-  tool_panel_section_label: None
 - name: mimodd_snpeff
   owner: wolma
   revisions:
@@ -13665,7 +13655,7 @@ tools:
   - be5c2f82c8ef
   - d063e2fe4ba4
   - d06df685f78c
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_targetedfileconverter
   owner: galaxyp
@@ -13677,7 +13667,7 @@ tools:
   - aa62f8f48dd4
   - dd71e020e2aa
   - eb22f145fae1
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_proteinquantifier
   owner: galaxyp
@@ -13689,7 +13679,7 @@ tools:
   - 8a45fd5a608a
   - 908ae1e4eb28
   - d426affe977c
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathworkflow
   owner: galaxyp
@@ -13702,7 +13692,7 @@ tools:
   - 887be35bc42e
   - bc63b4d12779
   - ec4490c65f95
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathdecoygenerator
   owner: galaxyp
@@ -13715,7 +13705,7 @@ tools:
   - d38ef9cbc114
   - e833a89f25c8
   - f861ec9fbe59
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_openswathassaygenerator
   owner: galaxyp
@@ -13728,7 +13718,7 @@ tools:
   - c5136f02a0fa
   - de7a553552a6
   - df72ca515420
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_mztabexporter
   owner: galaxyp
@@ -13741,7 +13731,7 @@ tools:
   - bf32e0bcf554
   - c679f920716e
   - ee860980edc6
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_multiplexresolver
   owner: galaxyp
@@ -13754,7 +13744,7 @@ tools:
   - a42034047640
   - d0304fb829c0
   - fb647b7cf2c1
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: openms_decoydatabase
   owner: galaxyp
@@ -13767,7 +13757,7 @@ tools:
   - 370141bc0da3
   - 8ced1ef014ae
   - fefd4af6d4a9
-  tool_panel_section_label: None
+  tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xcms_fillpeaks
   owner: lecorguille
@@ -13792,7 +13782,7 @@ tools:
   - dcb9041cb9ea
   - de0d85537ee3
   - ec9aebabc1d2
-  tool_panel_section_label: None
+  tool_panel_section_label: Metabolomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: edta
   owner: bgruening
@@ -14997,7 +14987,7 @@ tools:
   - 276a25ab05f2
   - 40071ff77285
   - eb6382889b92
-  tool_panel_section_label: None
+  tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xarray_metadata_info
   owner: ecology
@@ -17015,7 +17005,7 @@ tools:
   - ed2231b3edff
   - f49758aa29e5
   - fa114efdb1e7
-  tool_panel_section_label: None
+  tool_panel_section_label: Single-cell
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: das_tool
   owner: iuc
@@ -17053,7 +17043,7 @@ tools:
   - 563d1bdb7b80
   - cff5bd9c728d
   - dc480609d9c1
-  tool_panel_section_label: None
+  tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: imagemagick_image_montage
   owner: bgruening
