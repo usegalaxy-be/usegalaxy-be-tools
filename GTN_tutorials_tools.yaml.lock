@@ -23,7 +23,7 @@ tools:
   - e7b2202befea
   - f2e8552cf1d0
   - ff9530579d1f
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastq_paired_end_interlacer
   owner: devteam
@@ -35,7 +35,7 @@ tools:
   - b89bdf6acb6c
   - ec6ddf449651
   - effda79f510c
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: multiqc
   owner: iuc
@@ -129,7 +129,7 @@ tools:
   - 56022eb50bbd
   - 9c620a950d3a
   - cd0874854f51
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: busco
   owner: iuc
@@ -198,7 +198,7 @@ tools:
   - bc7d99f46a5d
   - ecf1c30da3a2
   - f73729b62b51
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: unicycler
   owner: iuc
@@ -267,7 +267,7 @@ tools:
   - f44e93b4529c
   - f875da9d433c
   - ff33957bf802
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_filter_by_length
   owner: devteam
@@ -275,7 +275,7 @@ tools:
   - 2fd6033d0e9c
   - 8cacfcf96a52
   - e626b3ff9922
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: nanoplot
   owner: iuc
@@ -830,7 +830,7 @@ tools:
   - 1f296803dfa3
   - 8880fb74ef56
   - a72af9de6bf5
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: staramr
   owner: nml
@@ -1068,7 +1068,7 @@ tools:
   - d8cc2c8eef14
   - de2db1bdfbf8
   - e12f68d2cc4e
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: merge_cols
   owner: devteam
@@ -1648,7 +1648,7 @@ tools:
   - 614a63f14adf
   - 7da7ddea4425
   - ccf4e1d1fcbe
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bam_to_sam
   owner: devteam
@@ -1866,7 +1866,7 @@ tools:
   - 8611b80a14d6
   - e4d28c94242d
   - e9f8633db0a2
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: obi_ngsfilter
   owner: iuc
@@ -2174,7 +2174,7 @@ tools:
   owner: devteam
   revisions:
   - b4427dbb6ced
-  tool_panel_section_label: mapping
+  tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: tool_anonymization
   owner: ecology
@@ -2223,7 +2223,7 @@ tools:
   revisions:
   - 6820983ba5d5
   - ebb02ba5987c
-  tool_panel_section_label: mapping
+  tool_panel_section_label: Mapping
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: hicexplorer_hicbuildmatrix
   owner: bgruening
@@ -3318,7 +3318,7 @@ tools:
   owner: simon-gladman
   revisions:
   - 20ca2574216a
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: maker
   owner: iuc
@@ -3386,7 +3386,7 @@ tools:
   revisions:
   - 0a7799698fe5
   - 0b4e36026794
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mafft
   owner: rnateam
@@ -3967,7 +3967,7 @@ tools:
   - b1e332a385f1
   - ce9cd02d5b88
   - e41385662e5e
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cardinal_quality_report
   owner: galaxyp
@@ -4470,7 +4470,7 @@ tools:
   revisions:
   - 1d2a91ab28b7
   - bda6012394f7
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mothur_merge_files
   owner: iuc
@@ -4921,7 +4921,7 @@ tools:
   revisions:
   - 7e801ab2b70e
   - e7ed3c310b74
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mlst
   owner: iuc
@@ -5994,7 +5994,7 @@ tools:
   - 650d553c1fda
   - 9ad0d336e5ed
   - f546e7278f04
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: openms_decoydatabase
   owner: galaxyp
@@ -6359,7 +6359,7 @@ tools:
   revisions:
   - 72b6e1747e37
   - cd6b80f62fcc
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_read_10x
   owner: ebi-gxa
@@ -6380,7 +6380,7 @@ tools:
   - c8391a25dee3
   - d253d69ff19f
   - d92e6f12b790
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: anndata_inspect
   owner: iuc
@@ -6429,7 +6429,7 @@ tools:
   - d868221262d5
   - ec4604919de3
   - fe75d2414dc0
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_construct_eset
   owner: bgruening
@@ -6440,7 +6440,7 @@ tools:
   - 7902cd31b9b5
   - 7ffaa0968da3
   - be91cb6f48e7
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_inspect_eset
   owner: bgruening
@@ -6450,7 +6450,7 @@ tools:
   - 817eb707bbf4
   - 8c64a2da3869
   - fde4c972e7c5
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_deconvolution
   owner: bgruening
@@ -6459,7 +6459,7 @@ tools:
   - 56371b5a2da9
   - 8cd2ecfa2e61
   - fd7a16d073c5
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: episcanpy_preprocess
   owner: iuc
@@ -6467,7 +6467,7 @@ tools:
   - 29f5f25b9935
   - 4f1baeda3aca
   - 8ba672d0d8aa
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sinto_barcode
   owner: iuc
@@ -6475,7 +6475,7 @@ tools:
   - 3780db0073f0
   - d1b34ac42b8f
   - fb61eb03e313
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sinto_fragments
   owner: iuc
@@ -6483,14 +6483,14 @@ tools:
   - 02f96be6c3c9
   - 29e6bfb2cf49
   - 6f66f523a9b7
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: episcanpy_build_matrix
   owner: iuc
   revisions:
   - 1bf008d6d54e
   - 31a21ba2c5ea
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: music_compare
   owner: bgruening
@@ -6498,7 +6498,7 @@ tools:
   - 10bf0f89035f
   - 4447ed460308
   - d817b3807562
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_fdg
   owner: ebi-gxa
@@ -6519,7 +6519,7 @@ tools:
   - cef0ddd01875
   - d929261bc28c
   - f5bc7d1b32fd
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_diffmap
   owner: ebi-gxa
@@ -6540,7 +6540,7 @@ tools:
   - e3123e51e781
   - f10df597ed6d
   - f5ebfe244c14
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_compute_graph
   owner: ebi-gxa
@@ -6567,7 +6567,7 @@ tools:
   - e7fd6981c0f0
   - f776e3ed3c03
   - fe740b19e3b9
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_paga
   owner: ebi-gxa
@@ -6587,7 +6587,7 @@ tools:
   - ed2231b3edff
   - f49758aa29e5
   - fa114efdb1e7
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot_trajectory
   owner: ebi-gxa
@@ -6608,7 +6608,7 @@ tools:
   - d8423c3f869d
   - f489ccdd423c
   - f76e8237073a
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_dpt
   owner: ebi-gxa
@@ -6629,7 +6629,7 @@ tools:
   - d49523477607
   - e274c2d06e53
   - f57f57c459d8
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_plot_embed
   owner: ebi-gxa
@@ -6650,7 +6650,7 @@ tools:
   - c591b2ffc2d7
   - c63bc0b71865
   - dba78f1681b1
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: umi_tools_extract
   owner: iuc
@@ -6723,7 +6723,7 @@ tools:
   - a535cf1e5da4
   - b557acca0b56
   - e654095ab143
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rna_starsolo
   owner: iuc
@@ -6772,7 +6772,7 @@ tools:
   - a8c73996ac50
   - b9dd12ab0550
   - fb354a78d4ae
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_tsne
   owner: ebi-gxa
@@ -6796,7 +6796,7 @@ tools:
   - d85277b71596
   - f6f189ce4ebc
   - fe727a9496ea
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_umap
   owner: ebi-gxa
@@ -6818,7 +6818,7 @@ tools:
   - e31937baa330
   - ea91cfd0444e
   - fe562424a0a6
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_find_cluster
   owner: ebi-gxa
@@ -6844,7 +6844,7 @@ tools:
   - ed07813a7266
   - ee181563bae7
   - fc4b3b46dc9d
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: table_compute
   owner: iuc
@@ -6877,7 +6877,7 @@ tools:
   - d18ed15697bb
   - e51380afa61c
   - eed0986f53c7
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: column_remove_by_header
   owner: iuc
@@ -6913,7 +6913,7 @@ tools:
   revisions:
   - 22232092be53
   - b5185a4f5209
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_filter_cells
   owner: ebi-gxa
@@ -6939,7 +6939,7 @@ tools:
   - da8c130348b6
   - dcfb23758646
   - e9283529cba1
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_filter_genes
   owner: ebi-gxa
@@ -6966,7 +6966,7 @@ tools:
   - da611a744112
   - f1e4de78d768
   - fa6c08064fc1
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_normalise_data
   owner: ebi-gxa
@@ -6989,7 +6989,7 @@ tools:
   - 9681ec095ed5
   - e541f264fad2
   - f6a781314ca8
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_find_variable_genes
   owner: ebi-gxa
@@ -7012,7 +7012,7 @@ tools:
   - ae467daae2f7
   - b089f4a55e6b
   - de331b5828dc
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_scale_data
   owner: ebi-gxa
@@ -7033,7 +7033,7 @@ tools:
   - ea8fd43b7e1e
   - eabf8e76e007
   - f86b2c3bc459
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_pca
   owner: ebi-gxa
@@ -7055,7 +7055,7 @@ tools:
   - c9fb2c0598cd
   - ce93e630b55a
   - f0eecf608220
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_find_markers
   owner: ebi-gxa
@@ -7082,7 +7082,7 @@ tools:
   - f04dd4e5b6a7
   - f0f78d29130f
   - fb9bd74c32b0
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scater_create_qcmetric_ready_sce
   owner: iuc
@@ -7127,7 +7127,7 @@ tools:
   - 75340a5e5fb0
   - a34f243f55a4
   - ada68a9d0aec
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_preprocess
   owner: ebi-gxa
@@ -7135,7 +7135,7 @@ tools:
   - 0869b0264af1
   - 384b9bcf2807
   - c150370b514c
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_reducedim
   owner: ebi-gxa
@@ -7143,7 +7143,7 @@ tools:
   - 004a86dffd79
   - 8900e2a18603
   - 9e59e242ed63
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_partition
   owner: ebi-gxa
@@ -7151,13 +7151,13 @@ tools:
   - 426e1a869cb3
   - be84f9c3a2dd
   - d98b4705eb4c
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_topmarkers
   owner: ebi-gxa
   revisions:
   - a4ab4af54b1a
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_learngraph
   owner: ebi-gxa
@@ -7165,7 +7165,7 @@ tools:
   - 5f877012f7af
   - 710d112ee525
   - 98e99ab36505
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_plotcells
   owner: ebi-gxa
@@ -7175,7 +7175,7 @@ tools:
   - 896359db6339
   - 91980addce5e
   - ef2dc754709c
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_ordercells
   owner: ebi-gxa
@@ -7183,7 +7183,7 @@ tools:
   - 3e77dc421569
   - 5520da33a868
   - e17c3123cdb5
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: monocle3_diffexp
   owner: ebi-gxa
@@ -7192,7 +7192,7 @@ tools:
   - c5665e286bcf
   - d43a608d14ac
   - f91ddb6bc4ff
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gtf2gene_list
   owner: ebi-gxa
@@ -7205,7 +7205,7 @@ tools:
   - b6354c917ef9
   - b95e6a9bb15c
   - e255c0e5dfca
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: alevin
   owner: bgruening
@@ -7231,7 +7231,7 @@ tools:
   - 04f32429dcf2
   - 0e985680e67d
   - 8f605643ccfd
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: salmon_kallisto_mtx_to_10x
   owner: ebi-gxa
@@ -7243,7 +7243,7 @@ tools:
   - cd6007b47199
   - e42c217a450f
   - fe0fd27aba50
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dropletutils_read_10x
   owner: ebi-gxa
@@ -7252,7 +7252,7 @@ tools:
   - 48c1e7b39675
   - ca62f52e0d7f
   - d552332dff6d
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dropletutils_empty_drops
   owner: ebi-gxa
@@ -7260,14 +7260,14 @@ tools:
   - 8dd732e13393
   - b4332c428c63
   - fa662ca7ae7f
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sceasy_convert
   owner: ebi-gxa
   revisions:
   - ef1449a3f358
   - f62bc418173f
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: sklearn_svm_classifier
   owner: bgruening
@@ -8004,7 +8004,7 @@ tools:
   - bb07615a5b6a
   - e06d41f3ed3e
   - e30352e889fe
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: salmon
   owner: bgruening
@@ -8650,14 +8650,14 @@ tools:
   - b5b53c27baca
   - cca3391dc8b4
   - cf61daf064fe
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gemini_inheritance
   owner: iuc
   revisions:
   - 18d13111692b
   - 8f410ca7eb89
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: tbvcfreport
   owner: iuc
@@ -8686,7 +8686,7 @@ tools:
   - b1e50c7b840e
   - b597e1cd14b1
   - f3cc64057b4e
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gemini_query
   owner: iuc
@@ -8698,7 +8698,7 @@ tools:
   - 7ca6716748c2
   - 840fb4850be3
   - da74170c55c7
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: samtools_rmdup
   owner: devteam
@@ -8772,7 +8772,7 @@ tools:
   - 5bcaca8085bd
   - 8f53b238a360
   - f2f3bc622a16
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: column_arrange_by_header
   owner: bgruening
@@ -8800,7 +8800,7 @@ tools:
   - ce385837c160
   - d49956b87f7e
   - dba489bfcd62
-  tool_panel_section_label: EMBOSS Tools
+  tool_panel_section_label: EMBOSS
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: mitohifi
   owner: bgruening
@@ -8974,7 +8974,7 @@ tools:
   owner: devteam
   revisions:
   - 191e43b329f6
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: prodigal
   owner: iuc
@@ -9580,7 +9580,7 @@ tools:
   owner: devteam
   revisions:
   - '144275714590'
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: prinseq
   owner: iuc
@@ -9592,13 +9592,13 @@ tools:
   owner: devteam
   revisions:
   - ac3fed111eb6
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fasta_formatter
   owner: devteam
   revisions:
   - e773f1eb16cf
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ampvis2_load
   owner: iuc
@@ -9706,7 +9706,7 @@ tools:
   owner: devteam
   revisions:
   - 6027ef51ef91
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ab1_fastq_converter
   owner: ecology
@@ -9737,7 +9737,7 @@ tools:
   revisions:
   - 301cf1b4b43d
   - f5db0e853f57
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: gprofiler_gost
   owner: iuc
@@ -9770,37 +9770,37 @@ tools:
   owner: iuc
   revisions:
   - ad593d73a014
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: spatialdata_plot
   owner: iuc
   revisions:
   - cec3ffd4752f
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: squidpy_plot
   owner: iuc
   revisions:
   - 0a089e4b62d7
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: squidpy_graph
   owner: iuc
   revisions:
   - 662e929f44fa
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: celltypist
   owner: iuc
   revisions:
   - 1fc548259280
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: liana_methods
   owner: iuc
   revisions:
   - 89635206a199
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_plot
   owner: ebi-gxa
@@ -9812,49 +9812,49 @@ tools:
   owner: ebi-gxa
   revisions:
   - cd9f564bd63f
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_normalise_data
   owner: ebi-gxa
   revisions:
   - 3f49bc9c9213
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_find_variable_genes
   owner: ebi-gxa
   revisions:
   - 948fc0276b4f
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_scale_data
   owner: ebi-gxa
   revisions:
   - 5e9ba303f9e1
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_run_pca
   owner: ebi-gxa
   revisions:
   - 8ded486b0014
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_find_neighbours
   owner: ebi-gxa
   revisions:
   - ba897c57bdd9
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_find_clusters
   owner: ebi-gxa
   revisions:
   - d541e9e62beb
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_run_umap
   owner: ebi-gxa
   revisions:
   - b9424c715a0d
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: seurat_data
   owner: iuc
@@ -9896,7 +9896,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 09c833d9b03b
-  tool_panel_section_label: Single-Cell
+  tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: edger
   owner: iuc

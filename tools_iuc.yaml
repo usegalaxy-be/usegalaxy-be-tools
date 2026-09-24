@@ -53,7 +53,7 @@ tools:
   tool_panel_section_label: RNA Analysis
 - name: plasflow
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: pipelign
   owner: iuc
   tool_panel_section_label: Multiple Alignments
@@ -209,25 +209,25 @@ tools:
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: filtlong
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_to_tabular
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastqtofasta
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_to_fasta
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastp
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_stats
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: length_and_gc_content
   owner: iuc
   tool_panel_section_label: Extract Features
@@ -368,178 +368,178 @@ tools:
   tool_panel_section_label: Multiple Alignments
 - name: bio_hansel
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: crispr_studio
   owner: iuc
   tool_panel_section_label: Genome editing
 - name: vegan_diversity
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: vegan_fisher_alpha
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: vegan_rarefaction
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: vsearch
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_abundance
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_below_abundance_cutoff
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_extract_partitions
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_count_median
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_partition
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_normalize_by_median
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution_single
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: t2t_report
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: t2ps
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: poisson2test
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: lca_wrapper
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: gi2taxonomy
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: find_diag_hits
   owner: devteam
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: sickle
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_interlacer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_joiner
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_compute_length
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: pear
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: flash
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_artifacts_filter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_barcode_splitter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_clipper
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_nucleotides_distribution
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_filter_by_length
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_concatenate_by_species
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_collapser
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_nucleotide_changer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fasta_formatter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastqc
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: short_reads_trim_seq
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: short_reads_figure_score
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: tabular_to_fastq
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer_by_quality
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_to_tabular
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_stats
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_splitter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_deinterlacer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_masker_by_quality
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_manipulation
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_groomer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_combiner
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_reverse_complement
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_renamer
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastx_quality_statistics
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_filter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_converter
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_boxplot
   owner: devteam
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: shovill
   owner: iuc
   tool_panel_section_label: Assembly
@@ -830,7 +830,7 @@ tools:
   tool_panel_section_label: Picard
 - name: emboss_5
   owner: devteam
-  tool_panel_section_label: EMBOSS Tools
+  tool_panel_section_label: EMBOSS
 - name: kraken2
   owner: iuc
   tool_panel_section_label: NCBI Blast
@@ -1058,58 +1058,58 @@ tools:
   tool_panel_section_label: SAM Tools
 - name: gemini_db_info
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_inheritance
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_windower
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_burden
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_gene_wise
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_stats
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_amend
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_pathways
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_actionable_mutations
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_lof_sieve
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_query
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_fusions
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_load
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_annotate
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_roh
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_set_somatic
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_qc
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: gemini_interactions
   owner: iuc
-  tool_panel_section_label: Gemini Tools
+  tool_panel_section_label: Gemini
 - name: stacks_sstacks
   owner: iuc
   tool_panel_section_label: RAD-seq
@@ -1175,7 +1175,7 @@ tools:
   tool_panel_section_label: Statistics
 - name: umi_tools_count
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: multiqc
   owner: iuc
   tool_panel_section_label: Quality Control
@@ -1229,16 +1229,16 @@ tools:
   tool_panel_section_label: Assembly
 - name: nonpareil
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: gdcwebapp
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: spades
   owner: nml
   tool_panel_section_label: Assembly
 - name: valet
   owner: iuc
-  tool_panel_section_label: Metagenomic analyses
+  tool_panel_section_label: Metagenomic Analysis
 - name: fraggenescan
   owner: iuc
   tool_panel_section_label: Extract Features
@@ -1691,10 +1691,10 @@ tools:
   tool_panel_section_label: Phylogenetics
 - name: ucsc_fasplit
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: seqtk
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: heinz
   owner: iuc
   tool_panel_section_label: RNA Analysis
@@ -2705,9 +2705,6 @@ tools:
 - name: beagle
   owner: iuc
   tool_panel_section_label: Variant Calling
-- name: plasflow
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: vapor
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
@@ -2756,37 +2753,10 @@ tools:
 - name: seqcomplexity
   owner: iuc
   tool_panel_section_label: FASTA/FASTQ
-- name: seqkit_stats
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: seqkit_fx2tab
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
 - name: cutadapt
   owner: lparsons
   tool_panel_section_label: FASTA/FASTQ
 - name: trimns
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: tabular_to_fasta
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: filtlong
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_to_tabular
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastqtofasta
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_to_fasta
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastp
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_stats
   owner: iuc
   tool_panel_section_label: FASTA/FASTQ
 - name: orfipy
@@ -2795,24 +2765,9 @@ tools:
 - name: extract_genomic_dna
   owner: iuc
   tool_panel_section_id: fetch_sequences___alignments
-- name: bio_hansel
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: amplican
   owner: iuc
   tool_panel_section_label: Genome editing
-- name: vegan_diversity
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: vegan_fisher_alpha
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: vegan_rarefaction
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: vsearch
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: links
   owner: iuc
   tool_panel_section_label: Assembly
@@ -2843,170 +2798,8 @@ tools:
 - name: jellyfish
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
-- name: khmer_filter_abundance
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_filter_below_abundance_cutoff
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_extract_partitions
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_abundance_distribution
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_count_median
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_partition
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_normalize_by_median
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: khmer_abundance_distribution_single
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: t2t_report
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: t2ps
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: poisson2test
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: lca_wrapper
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: gi2taxonomy
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: find_diag_hits
-  owner: devteam
-  tool_panel_section_label: Metagenomic Analysis
-- name: fasta_merge_files_and_filter_unique_sequences
-  owner: galaxyp
-  tool_panel_section_label: FASTA/FASTQ
-- name: sickle
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_interlacer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_joiner
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_compute_length
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: pear
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: flash
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_artifacts_filter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_barcode_splitter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_clipper
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_nucleotides_distribution
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_filter_by_length
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_concatenate_by_species
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_collapser
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_nucleotide_changer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fasta_formatter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastqc
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_joiner
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: short_reads_trim_seq
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: short_reads_figure_score
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: tabular_to_fastq
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
 - name: rcorrector
   owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_trimmer_by_quality
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_trimmer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_to_tabular
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_stats
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_splitter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_interlacer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_paired_end_deinterlacer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_masker_by_quality
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_manipulation
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_groomer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_filter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_combiner
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_trimmer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_reverse_complement
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_renamer
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastx_quality_statistics
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_quality_filter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_quality_converter
-  owner: devteam
-  tool_panel_section_label: FASTA/FASTQ
-- name: fastq_quality_boxplot
-  owner: devteam
   tool_panel_section_label: FASTA/FASTQ
 - name: mitobim
   owner: iuc
@@ -3079,9 +2872,6 @@ tools:
 - name: optitype
   owner: iuc
   tool_panel_section_label: Annotation
-- name: emboss_5
-  owner: devteam
-  tool_panel_section_label: EMBOSS
 - name: kraken2
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
@@ -3252,64 +3042,7 @@ tools:
 - name: pileup_parser
   owner: devteam
   tool_panel_section_label: SAM/BAM
-- name: gemini_db_info
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_inheritance
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_windower
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_burden
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_gene_wise
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_stats
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_amend
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_pathways
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_actionable_mutations
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_lof_sieve
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_query
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_fusions
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_load
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_annotate
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_roh
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_set_somatic
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_qc
-  owner: iuc
-  tool_panel_section_label: Gemini
-- name: gemini_interactions
-  owner: iuc
-  tool_panel_section_label: Gemini
 - name: bbtools_bbduk
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: umi_tools_count
   owner: iuc
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_dedup
@@ -3351,15 +3084,9 @@ tools:
 - name: spades_biosyntheticspades
   owner: iuc
   tool_panel_section_label: Assembly
-- name: nonpareil
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: gdcwebapp
   owner: iuc
   tool_panel_section_label: Get Data
-- name: valet
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: sonneityping
   owner: iuc
   tool_panel_section_label: Genome editing
@@ -3402,12 +3129,6 @@ tools:
 - name: usher_matutils
   owner: iuc
   tool_panel_section_label: Phylogenetics
-- name: ucsc_fasplit
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
-- name: seqtk
-  owner: iuc
-  tool_panel_section_label: FASTA/FASTQ
 - name: calculate_numeric_param
   owner: iuc
   tool_panel_section_label: Expression Tools
@@ -3471,9 +3192,6 @@ tools:
 - name: humann_unpack_pathways
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
-- name: humann_unpack_pathways
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: data_manager_genomic_super_signature_ravmodels
   owner: iuc
 - name: data_manager_interproscan
@@ -3503,9 +3221,6 @@ tools:
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
 - name: extract_metaphlan_database
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
-- name: customize_metaphlan_database
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
 - name: customize_metaphlan_database
@@ -4051,14 +3766,8 @@ tools:
 - name: ribowaltz_process
   owner: iuc
   tool_panel_section_label: RNA Analysis
-- name: rnaquast
-  owner: iuc
-  tool_panel_section_label: Assembly
 - name: rseqc
   owner: nilesh
-  tool_panel_section_label: RNA Analysis
-- name: sleuth
-  owner: iuc
   tool_panel_section_label: RNA Analysis
 - name: sleuth
   owner: iuc
@@ -4129,9 +3838,6 @@ tools:
 - name: prinseq
   owner: iuc
   tool_panel_section_label: FASTA/FASTQ
-- name: subtract
-  owner: devteam
-  tool_panel_section_label: Operate on Genomic Intervals
 - name: beacon2_csv2xlsx
   owner: iuc
   tool_panel_section_label: Variant Calling
@@ -4437,9 +4143,6 @@ tools:
   tool_panel_section_label: Annotation
 - name: data_manager_build_staramr
   owner: iuc
-- name: staramr
-  owner: iuc
-  tool_panel_section_label: Annotation
 - name: ppanggolin_all
   owner: iuc
   tool_panel_section_label: Annotation
@@ -4549,8 +4252,6 @@ tools:
   owner: iuc
   tool_panel_section_label: Variant Calling
 - name: data_manager_clair3_models
-  owner: iuc
-- name: data_manager_build_staramr
   owner: iuc
 - name: gem_extract_exchange
   owner: iuc
@@ -5414,9 +5115,6 @@ tools:
 - name: comebin_bam
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
-- name: dada2_mergesequencetables
-  owner: iuc
-  tool_panel_section_label: Metagenomic Analysis
 - name: fur
   owner: iuc
   tool_panel_section_label: Metagenomic Analysis
@@ -5624,90 +5322,6 @@ tools:
 - name: mmseqs2_easy_linclust_clustering
   owner: iuc
   tool_panel_section_label: Multiple Alignments
-- name: hal_hal2fasta
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_hal2maf
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_hal2paf
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_hal2vg
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_haladdtobranch
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halalignedextract
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halalignmentdepth
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halbranchmutations
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halcoverage
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halextract
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halindels
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halliftover
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_hallodextract
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halmaskextract
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halpctid
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halremovegenome
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halremovesubtree
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halrenamegenomes
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halrenamesequences
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halreplacegenome
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halsnps
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halstats
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halsummarizemutations
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halsynteny
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halupdatebranchlengths
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halvalidate
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_halwiggleliftover
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
-- name: hal_maf2hal
-  owner: iuc
-  tool_panel_section_label: Multiple Alignments
 - name: paffy_add_mismatches
   owner: iuc
   tool_panel_section_label: Multiple Alignments
@@ -5838,9 +5452,6 @@ tools:
   owner: iuc
   tool_panel_section_label: OBO Ontology manipulation
 - name: onto_tk_obo2rdf
-  owner: iuc
-  tool_panel_section_label: OBO Ontology manipulation
-- name: onto_tk_term_id_vs_term_def
   owner: iuc
   tool_panel_section_label: OBO Ontology manipulation
 - name: onto_tk_term_id_vs_term_def

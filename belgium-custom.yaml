@@ -38,13 +38,13 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: rseqc
   owner: nilesh
   tool_panel_section_label: RNA Analysis
 - name: sortmerna
   owner: rnateam
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan2
   owner: iuc
