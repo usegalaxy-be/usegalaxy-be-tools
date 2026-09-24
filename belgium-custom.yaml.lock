@@ -104,7 +104,7 @@ tools:
   - dfa082f84068
   - f80107cdc406
   - f8a9a5eaca8a
-  tool_panel_section_label: FASTA/FASTQ manipulation
+  tool_panel_section_label: FASTA/FASTQ
 - name: rseqc
   owner: nilesh
   revisions:
@@ -143,7 +143,7 @@ tools:
   - b482293b2987
   - cd8c76234b0c
   - eb35257d2e29
-  tool_panel_section_label: Metagenomics
+  tool_panel_section_label: Metagenomic Analysis
 - name: metaphlan2
   owner: iuc
   revisions:
