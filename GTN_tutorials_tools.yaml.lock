@@ -10022,3 +10022,27 @@ tools:
   - 2fe966f8532e
   tool_panel_section_label: SAM/BAM
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pdbfixer
+  owner: chemteam
+  revisions:
+  - 24bf162ef74b
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: colabfold_msa
+  owner: iuc
+  revisions:
+  - 6fbd935575ce
+  tool_panel_section_label: Proteomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: colabfold_alphafold
+  owner: iuc
+  revisions:
+  - 9d65257c56de
+  tool_panel_section_label: Proteomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: simorgh
+  owner: bgruening
+  revisions:
+  - 7cbaa6fd99e8
+  tool_panel_section_label: Machine Learning
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
