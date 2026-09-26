@@ -3412,6 +3412,7 @@ tools:
   revisions:
   - 1f04936b96f3
   - 24fffa4fee40
+  - 263af8401aed
   - 33368fec3b70
   - 35cb17bd8bf9
   - 65c2d63fcbe6
@@ -3438,6 +3439,7 @@ tools:
   - 04d81e5f25e9
   - 2ecf5a570907
   - 3ca2d2a9068c
+  - 434f2a6c3ade
   - 606b09cc9860
   - 697c9156dafe
   - 9638ba70882c
@@ -3519,6 +3521,7 @@ tools:
   - 5fc94b3a4704
   - aa1ac2f7a688
   - b66de1e9abfb
+  - c6ba8470ed01
   - e122f9101584
   - ef69617ecb42
   tool_panel_section_label: Assembly
