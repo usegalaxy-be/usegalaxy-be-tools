@@ -71,6 +71,7 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - 2477830927ec
   - 4f774c1e6049
   - 8d2a528a9513
 - name: jbrowse
@@ -174,6 +175,7 @@ tools:
 - name: obisindicators
   owner: ecology
   revisions:
+  - 393957ecc97d
   - 4e7c1fb5e894
 - name: pampa_presabs
   owner: ecology
@@ -372,6 +374,7 @@ tools:
 - name: rgrnastar
   owner: iuc
   revisions:
+  - 4014de1b6daf
   - 55c9ac3aa8f4
 - name: red
   owner: iuc
@@ -901,15 +904,18 @@ tools:
   revisions:
   - 923dcc644832
   - ae1e5d9d8972
+  - d330b3082107
 - name: anndata_manipulate
   owner: iuc
   revisions:
+  - 7e8c677a7b71
   - 8db95f488f0f
   - d1e49c3c0aa2
 - name: scanpy_inspect
   owner: iuc
   revisions:
   - 9d33775ec67d
+  - d1cd8c147809
 - name: scanpy_filter
   owner: iuc
   revisions:
@@ -930,6 +936,7 @@ tools:
 - name: anndata_inspect
   owner: iuc
   revisions:
+  - 0bf7fddf90c7
   - 33c0081e16c6
 - name: music_construct_eset
   owner: bgruening
@@ -946,6 +953,7 @@ tools:
 - name: umi_tools_extract
   owner: iuc
   revisions:
+  - 14ba4366aca4
   - 99aea37a7ff7
 - name: umi_tools_count
   owner: iuc
@@ -988,6 +996,7 @@ tools:
   owner: bgruening
   revisions:
   - 2df8f5c30edc
+  - 70f61a4de941
   - 80852884053f
   - d2afc87db26b
 - name: sklearn_generalized_linear
@@ -996,21 +1005,25 @@ tools:
   - 3e4a7684d402
   - a8c7b9fa426c
   - d4808d5b83da
+  - ddd7fc59ba59
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
   - 39ae3c043096
+  - 7f21c9e5656d
   - 8b1b2b91f8d0
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
   - 060ca94ac049
+  - 2268fa04320d
   - 3ab7af14f1b5
   - af0523c606a7
 - name: sklearn_searchcv
   owner: bgruening
   revisions:
   - 1ae5dfd5ac17
+  - 40ff7c1f393a
   - 7626ea9c2e1b
   - c1ca24a1509d
 - name: sklearn_build_pipeline
@@ -1019,9 +1032,11 @@ tools:
   - 3f3c6dc38f3e
   - 4c4ec859c31a
   - 97dce66fe158
+  - dc66f89ba2a2
 - name: sklearn_estimator_attributes
   owner: bgruening
   revisions:
+  - 3489e5c15882
   - bd27a211182a
 - name: pancancer_classifier
   owner: vijay
@@ -1074,6 +1089,7 @@ tools:
 - name: sklearn_numeric_clustering
   owner: bgruening
   revisions:
+  - dcbfe6ed593b
   - e10e776f2109
 - name: keras_model_config
   owner: bgruening
@@ -1081,31 +1097,37 @@ tools:
   - 2a853a2d2e72
   - 2b8d85927742
   - 4d81e3e2fb63
+  - 7f26886839f1
 - name: keras_model_builder
   owner: bgruening
   revisions:
   - 053570bac5ea
   - 522137aaa9c4
   - 5b35833076f0
+  - 84697f4f6353
 - name: sklearn_to_categorical
   owner: bgruening
   revisions:
   - 612ca26c197d
   - caeb57858702
+  - de48a91cec04
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
   - 2af1346e68c9
   - 470aed90aa41
+  - c5f23a5770e1
 - name: model_prediction
   owner: bgruening
   revisions:
   - 1e088aa741eb
   - 25b46af53232
+  - a2d7bdd4e705
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
   - 8334dc98c48e
+  - b93fb28c785b
   - e88c782a127d
 - name: iwtomics_loadandplot
   owner: iuc
@@ -1254,3 +1276,151 @@ tools:
   owner: devteam
   revisions:
   - 63dd26468588
+- name: blobtoolkit
+  owner: bgruening
+  revisions:
+  - 8c2167481e72
+- name: gffcompare
+  owner: iuc
+  revisions:
+  - f99dd58de04f
+- name: divand_full_analysis
+  owner: ecology
+  revisions:
+  - 484930fdc002
+- name: argo_getdata
+  owner: ecology
+  revisions:
+  - 055a934a380f
+- name: ecoregion_geonearestneighbor
+  owner: ecology
+  revisions:
+  - 5cde56683579
+- name: ecoregion_brt_analysis
+  owner: ecology
+  revisions:
+  - f8962f1c832a
+- name: ecoregion_taxa_seeker
+  owner: ecology
+  revisions:
+  - 788b118910a7
+- name: ecoregion_cluster_estimate
+  owner: ecology
+  revisions:
+  - 1b9522671e90
+- name: ecoregion_clara_cluster
+  owner: ecology
+  revisions:
+  - 24a81631a8b5
+- name: ecoregion_eco_map
+  owner: ecology
+  revisions:
+  - 374555fc30bd
+- name: recentrifuge
+  owner: iuc
+  revisions:
+  - 613ee22af97c
+- name: yolo_predict
+  owner: bgruening
+  revisions:
+  - 24dfd7800749
+- name: obis_data
+  owner: ecology
+  revisions:
+  - 1fcd81d65467
+- name: hicexplorer_hicfindrestrictionsites
+  owner: bgruening
+  revisions:
+  - f0b1bd38745a
+- name: hicexplorer_hicinfo
+  owner: bgruening
+  revisions:
+  - 7fbd6feba1ca
+- name: hicexplorer_hicdetectloops
+  owner: bgruening
+  revisions:
+  - 4375e25de06a
+- name: openbabel_remduplicates
+  owner: bgruening
+  revisions:
+  - b2569e22b40c
+- name: natural_product_likeness
+  owner: bgruening
+  revisions:
+  - 41e31a198b34
+- name: qcxms_production_run
+  owner: recetox
+  revisions:
+  - e97bfe7ac906
+- name: qcxms_getres
+  owner: recetox
+  revisions:
+  - 53dce0e49af7
+- name: mfassignr_kmdnoise
+  owner: recetox
+  revisions:
+  - a9fba8378048
+- name: mfassignr_histnoise
+  owner: recetox
+  revisions:
+  - e93401e2ad89
+- name: mfassignr_mfassigncho
+  owner: recetox
+  revisions:
+  - b92c9388240a
+- name: mfassignr_recallist
+  owner: recetox
+  revisions:
+  - 1104682fb7cc
+- name: mfassignr_recal
+  owner: recetox
+  revisions:
+  - 3ea8ed561c5a
+- name: mfassignr_mfassign
+  owner: recetox
+  revisions:
+  - d2bad53dd220
+- name: samestr
+  owner: iuc
+  revisions:
+  - 303e095c89c6
+- name: dada2_removebimeradenovo
+  owner: iuc
+  revisions:
+  - 073608a50ac3
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+  revisions:
+  - 65db807336bc
+- name: phyloseq_from_dada2
+  owner: iuc
+  revisions:
+  - 87064cb77a52
+- name: quicktree
+  owner: iuc
+  revisions:
+  - 5c2ac7f640ab
+- name: ncbi_fcs_gx
+  owner: iuc
+  revisions:
+  - 3cdb96f2855d
+- name: snapatac2_plotting
+  owner: iuc
+  revisions:
+  - 370d45e0d1a8
+- name: snapatac2_preprocessing
+  owner: iuc
+  revisions:
+  - fef8f61cb34c
+- name: snapatac2_clustering
+  owner: iuc
+  revisions:
+  - afb90d3485df
+- name: sceasy_convert
+  owner: iuc
+  revisions:
+  - 2062be7efc84
+- name: image_learner
+  owner: goeckslab
+  revisions:
+  - d5c582cf74bc

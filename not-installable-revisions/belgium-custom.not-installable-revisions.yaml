@@ -1250,116 +1250,144 @@ tools:
 - name: scipy_sparse
   owner: bgruening
   revisions:
+  - 923fba89da05
   - b7e93c1deb3f
 - name: sklearn_searchcv
   owner: bgruening
   revisions:
+  - 40ff7c1f393a
   - 7626ea9c2e1b
 - name: sklearn_generalized_linear
   owner: bgruening
   revisions:
   - d4808d5b83da
+  - ddd7fc59ba59
 - name: sklearn_build_pipeline
   owner: bgruening
   revisions:
   - 4c4ec859c31a
+  - dc66f89ba2a2
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
   - 2af1346e68c9
+  - c5f23a5770e1
 - name: keras_model_config
   owner: bgruening
   revisions:
   - 2a853a2d2e72
   - 4d81e3e2fb63
+  - 7f26886839f1
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
   - 060ca94ac049
+  - 2268fa04320d
 - name: sklearn_svm_classifier
   owner: bgruening
   revisions:
+  - 70f61a4de941
   - 80852884053f
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
   - 8334dc98c48e
+  - b93fb28c785b
 - name: sklearn_pca
   owner: bgruening
   revisions:
+  - 4a1addf7cc1e
   - c17f3eacdb14
 - name: sklearn_lightgbm
   owner: bgruening
   revisions:
+  - 029d8b61da32
   - b7d104ede67e
 - name: sklearn_train_test_split
   owner: bgruening
   revisions:
+  - 7e0efd4eb72f
   - a2e3cf2f9f40
 - name: sklearn_model_fit
   owner: bgruening
   revisions:
+  - 79bfceddc2c4
   - f0ede473a7e8
 - name: sklearn_fitted_model_eval
   owner: bgruening
   revisions:
   - 22e73afd5206
+  - 69f627250dea
 - name: sklearn_model_validation
   owner: bgruening
   revisions:
+  - b3cafb8519f8
   - e06ab1e112cc
 - name: sklearn_discriminant_classifier
   owner: bgruening
   revisions:
+  - 385a9ac83d56
   - 6adef419e041
 - name: sklearn_regression_metrics
   owner: bgruening
   revisions:
   - 627be0156505
+  - 9c8344681465
 - name: sklearn_clf_metrics
   owner: bgruening
   revisions:
+  - 4cae0397fcdb
   - 6ffedbe712c0
 - name: sklearn_data_preprocess
   owner: bgruening
   revisions:
   - 761269451e98
+  - a432f7a41307
 - name: sklearn_feature_selection
   owner: bgruening
   revisions:
+  - 83b406104228
   - 96bb4c49e30e
 - name: sklearn_numeric_clustering
   owner: bgruening
   revisions:
+  - dcbfe6ed593b
   - e10e776f2109
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
+  - 7f21c9e5656d
   - 8b1b2b91f8d0
 - name: sklearn_pairwise_metrics
   owner: bgruening
   revisions:
+  - 0a6b69524de2
   - 7614281473da
 - name: sklearn_sample_generator
   owner: bgruening
   revisions:
+  - 625a129225f7
   - e99cccc3ca13
 - name: keras_model_builder
   owner: bgruening
   revisions:
   - 053570bac5ea
   - 522137aaa9c4
+  - 84697f4f6353
 - name: keras_batch_models
   owner: bgruening
   revisions:
+  - 0b2a2554f946
   - 61b2d8f8811e
 - name: model_prediction
   owner: bgruening
   revisions:
   - 25b46af53232
+  - a2d7bdd4e705
 - name: sklearn_train_test_eval
   owner: bgruening
   revisions:
+  - dd121e960a16
   - f6ea9fc38223
 - name: jbrowse
   owner: iuc
@@ -1442,6 +1470,7 @@ tools:
   owner: bgruening
   revisions:
   - caeb57858702
+  - de48a91cec04
 - name: tabpfn
   owner: bgruening
   revisions:
@@ -1499,3 +1528,7 @@ tools:
   owner: iuc
   revisions:
   - 54ee3884e7ca
+- name: sklearn_estimator_attributes
+  owner: bgruening
+  revisions:
+  - 3489e5c15882
