@@ -3412,6 +3412,7 @@ tools:
   revisions:
   - 1f04936b96f3
   - 24fffa4fee40
+  - 263af8401aed
   - 33368fec3b70
   - 35cb17bd8bf9
   - 65c2d63fcbe6
@@ -3438,6 +3439,7 @@ tools:
   - 04d81e5f25e9
   - 2ecf5a570907
   - 3ca2d2a9068c
+  - 434f2a6c3ade
   - 606b09cc9860
   - 697c9156dafe
   - 9638ba70882c
@@ -3519,6 +3521,7 @@ tools:
   - 5fc94b3a4704
   - aa1ac2f7a688
   - b66de1e9abfb
+  - c6ba8470ed01
   - e122f9101584
   - ef69617ecb42
   tool_panel_section_label: Assembly
@@ -6929,6 +6932,7 @@ tools:
   - 6a676cb3fa8e
   - 77e1664d66cd
   - 7a7fd0f5f15d
+  - 7dcc58a57476
   - 8145727ba0f0
   - 827fe3df85c3
   - aa33302db115
@@ -6962,6 +6966,7 @@ tools:
   - bad3ca889618
   - bd7db9e2f2cb
   - bfa132aacee6
+  - c3dfef526d03
   - cdc31a261f47
   - cdde99ce71c8
   - d40bd147adf3
@@ -6996,6 +7001,7 @@ tools:
   - b9660f621e82
   - ba5ce5ec93aa
   - bed4b253dc69
+  - c0893efd5a8f
   - c1b46e0cb7ca
   - c224e8aa3f36
   - d0c03d57e471
@@ -7019,6 +7025,7 @@ tools:
   - 2d466b530754
   - 31425b170273
   - 3a8cfc0d5706
+  - 3d5024351691
   - 69a8621ca2f0
   - 6dfe9740ffc5
   - 6f67a9da7fce
@@ -7050,6 +7057,7 @@ tools:
   - 18ab9a21ed30
   - 1d290f98916a
   - '336225303945'
+  - 43b85f471fe2
   - 4f53adc96238
   - 6178c2e448eb
   - 63d9e85493b8
@@ -7077,6 +7085,7 @@ tools:
   owner: bgruening
   revisions:
   - 075ac65129b5
+  - 09d1214b45d1
   - 105b9da2445c
   - 10ebedbfee31
   - 226c221a13d6
@@ -7124,6 +7133,7 @@ tools:
   - 6e4c17379a40
   - 7b38fcd4ff9e
   - 7b83499e90ae
+  - 7fdfac4711b2
   - 89ee34ce72c9
   - a4dfb122e52b
   - a7849312d328
@@ -7143,6 +7153,7 @@ tools:
 - name: deeptools_compute_matrix
   owner: bgruening
   revisions:
+  - 1030f37ff2f0
   - 14cb57237e46
   - 167788df3b46
   - 17d456f4051b
@@ -7220,6 +7231,7 @@ tools:
   - 2c04ee4b0174
   - 4885b33dba09
   - 4efe24a9739e
+  - 5d44209e86ad
   - 62eb6d63f582
   - 68932756bf49
   - 6da6f2908463
@@ -7267,6 +7279,7 @@ tools:
   - bd0fa7f8824d
   - bfff7454b59a
   - c4d74248ce60
+  - dc53544cb243
   - efc677b291c5
   - f23eb13850e2
   - f90c8a697ee9
@@ -7327,6 +7340,7 @@ tools:
   - aca788d8e71d
   - b15aaad44ab8
   - be924b6a79ea
+  - c59e0acb4e0b
   - c899e0ccff8c
   - d9376d223fad
   - dfe535b75616
@@ -7370,6 +7384,7 @@ tools:
   - d9ce4897dbb2
   - db940c262830
   - e58ad44b9249
+  - ec28c2928823
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deeptools_plot_coverage
@@ -7380,6 +7395,7 @@ tools:
   - 231994413f89
   - 268ab1ca4091
   - 2d9b459f3be2
+  - 3208df1c919e
   - 3317eb43a3c1
   - 3b9d990a0a0e
   - 3c5e48857c38
@@ -7413,6 +7429,7 @@ tools:
   - 031a98a187c4
   - 1638c02b28b5
   - 3909b643c81c
+  - 3decd0bfc388
   - 46c32858c6d8
   - 6c22a633f95a
   - 72bfafe3330b
@@ -7437,6 +7454,7 @@ tools:
   - 11f1d6fcf2c2
   - 23037a2faf32
   - 2b1413e30889
+  - 3d254090aba8
   - 48d08791d4f2
   - 6531acf8209f
   - 6b3c9fa6bc2c
@@ -7459,6 +7477,7 @@ tools:
   - 4b88c90b6f6e
   - 5e6283701290
   - 7515364dd2df
+  - 88b89b29d871
   - 8980933fd546
   - 8a6d7e6cbb9f
   - 8e2beaa17999
@@ -7479,6 +7498,7 @@ tools:
   owner: bgruening
   revisions:
   - 080733c7865a
+  - 3fac11f2adb3
   - 4da54a84303b
   - 71082dac170c
   - 8e0b53353cd7
@@ -11795,6 +11815,7 @@ tools:
   revisions:
   - 201b4f13b374
   - 233aab4c1be8
+  - 25254e963e6e
   - 27c0b1a050df
   - 29200ecec39d
   - 42b513bed40b
@@ -11936,6 +11957,7 @@ tools:
   - 69c44aab684e
   - 7509d7059040
   - 82b6104d4682
+  - 9a01835cdead
   - c6ae57f774c6
   - e5a5ad882f1f
   - f484f41ea0dd
@@ -11948,6 +11970,7 @@ tools:
   - 40f4447733b2
   - 57938c2f6ef5
   - 67881a837f46
+  - 84dad16ed802
   - 91c4e3331208
   - 927586a18553
   - 9d3a024cf2da
@@ -11969,6 +11992,7 @@ tools:
   - 52c4e0ef580a
   - 7442b94d6a1e
   - 775b004b7920
+  - 78eb20e5bdd3
   - 840f29aad145
   - 99038af8deda
   - 9c3e1d3235c8
@@ -11982,6 +12006,7 @@ tools:
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
+  - 19407b7f815c
   - 31f6bf2382dc
   - 6ecb3d77d46e
   - 818f9b69d8a0
@@ -11999,6 +12024,7 @@ tools:
   - 00b2ee48b412
   - 00d1889e9ecc
   - 01131463df86
+  - 08b52ffcd2b4
   - 1046cf73236b
   - 1f1fc37cfb42
   - 7f26886839f1
@@ -12011,6 +12037,7 @@ tools:
   revisions:
   - 00f01f713c3c
   - 0b98933cf0f7
+  - 0dd932943362
   - 1a53edc4b438
   - 2268fa04320d
   - 2e69c6ca6e91
@@ -12040,6 +12067,7 @@ tools:
   - b7c3e9a3b954
   - da0a22cdcce7
   - de94341feadb
+  - df690bb42687
   - e1b37bdc5fbd
   - f9639b488779
   tool_panel_section_label: Machine Learning
@@ -12053,6 +12081,7 @@ tools:
   - 21730620a849
   - 5f9c0e99016f
   - 72c0d2747dc9
+  - 9276346ed061
   - 947c2eacccb8
   - b93fb28c785b
   - c7655b5a94af
@@ -12066,6 +12095,7 @@ tools:
   - 3af626081467
   - 435592ba3087
   - 4a1addf7cc1e
+  - 8a82f0a52e73
   - c716b8c86c5d
   - f06ad033c114
   - fbf485fc2d30
@@ -12080,6 +12110,7 @@ tools:
   - 1b7ab45c7858
   - 27f8bd20a936
   - a459c68692ca
+  - a46f6d5ea764
   - c12485d058aa
   - d562708bb095
   - f04f39a6825d
@@ -12090,6 +12121,7 @@ tools:
   revisions:
   - 376dd641af44
   - 6e25381dad5c
+  - 6f7e3901728d
   - 7e0efd4eb72f
   - 910ebff96ddc
   - adc5e53d4297
@@ -12111,6 +12143,7 @@ tools:
   - 8e447b95e6a8
   - 9084156b2bb5
   - a293d7937700
+  - cde5fc214cc8
   - fc70bf5c3b58
   - fe4e36598917
   tool_panel_section_label: Machine Learning
@@ -12122,6 +12155,7 @@ tools:
   - 4a1cd790e323
   - 69f627250dea
   - 9a3cb21a3661
+  - a9d72bfe33c9
   - bfc44324a773
   - c2e2aa55dd5c
   - c374098d4f5c
@@ -12142,6 +12176,7 @@ tools:
   - 805194c3cdfb
   - 845dfafac355
   - 86e1e2874460
+  - afa146d816e9
   - b3cafb8519f8
   - bacc38e0a29e
   - be4f389a95d9
@@ -12166,6 +12201,7 @@ tools:
   - 9bb505eafac9
   - d3e99d3df1ca
   - dea38330b78a
+  - e81b336415c8
   tool_panel_section_label: Machine Learning
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sklearn_regression_metrics
@@ -12173,6 +12209,7 @@ tools:
   revisions:
   - 268ecaf96b68
   - 28d51b976c29
+  - 31fca3ff2a46
   - 3badea963c3b
   - 4e6ada84d334
   - 5c9fb40ae174
@@ -12198,6 +12235,7 @@ tools:
   - 5f9ef68756bc
   - 68afcd163b3d
   - 80ca74b1cb36
+  - 85f43dfa9ad3
   - 9728636c1e41
   - a0061a087409
   - a7067bbf1e58
@@ -12210,6 +12248,7 @@ tools:
   owner: bgruening
   revisions:
   - 0ff864fabfe9
+  - 191eac3065de
   - 1b5cd2d16fb1
   - 484a98c44f00
   - 685046e0381a
@@ -12241,6 +12280,7 @@ tools:
   - 74adae8d7b0f
   - 83b406104228
   - 9e0e31bd8392
+  - dd786bc16fdb
   - e918f33f7d4f
   - fcadeadd51ae
   tool_panel_section_label: Machine Learning
@@ -12250,6 +12290,7 @@ tools:
   revisions:
   - 1bdac8249aa1
   - 1dd433d2c92c
+  - 2468c4e3baed
   - 27903ce9b4be
   - 37e193b3fdd7
   - 4bbaf77573ef
@@ -12267,6 +12308,7 @@ tools:
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
+  - 0c612f257a48
   - 187226dceb22
   - 2c58b83c9bad
   - 4cc980df6265
@@ -12288,6 +12330,7 @@ tools:
   revisions:
   - 0a6b69524de2
   - 226524df8c6c
+  - 23a37a52a899
   - 3ff43fbb7ccf
   - 5bd0866dbc7a
   - 8338f71ed0c4
@@ -12308,6 +12351,7 @@ tools:
   - 253b3aaf0d91
   - 59f53bbe6ba9
   - 6717e5cc4d05
+  - 9ec25da5ece0
   - ae4b593c99f8
   - b78007bf1cb8
   - b94babda32e4
@@ -12329,6 +12373,7 @@ tools:
   - c411ff569a26
   - d0352e8b4c10
   - e19359b23e54
+  - fb9782000c55
   tool_panel_section_label: Machine Learning
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sklearn_sample_generator
@@ -12344,6 +12389,7 @@ tools:
   - 86c5b627ddb6
   - 871db13f0b04
   - ab2c393080f9
+  - e6af850a1675
   - e6f4d3d9058c
   - eb41d87cb1de
   - ebf295f2faf6
@@ -12358,6 +12404,7 @@ tools:
   - 772e0e89fc68
   - 818896cd2213
   - 84697f4f6353
+  - 98aeca624881
   - beeeda757eba
   - e4af79bffd57
   - fe0e82a7d0ee
@@ -12374,6 +12421,7 @@ tools:
   - 3b8fa4ea9727
   - 679e4ede1191
   - 9afec58b2bf9
+  - ab2372b0d73d
   tool_panel_section_label: Machine Learning
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: model_prediction
@@ -12381,6 +12429,7 @@ tools:
   revisions:
   - 1552b8cb4a94
   - 29e4122c90de
+  - 3dd539570a60
   - 475b5171945f
   - 83228baae3c5
   - 919198d656dd
@@ -12400,6 +12449,7 @@ tools:
   - 4d1637cac794
   - 68aaa903052a
   - 77125cbb54ac
+  - a0b0f3158c8c
   - b3a4682eabb6
   - bde62c243b7e
   - bf2bcf7bd617
@@ -13438,6 +13488,7 @@ tools:
 - name: b2btools_single_sequence
   owner: iuc
   revisions:
+  - b4c7df5324fb
   - b694a77ca1e8
   tool_panel_section_label: Bio2Byte
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -14054,6 +14105,7 @@ tools:
   owner: recetox
   revisions:
   - 14a4d81e921e
+  - 474f19dc3380
   - 6e1ef071fffc
   - cba7123c2741
   - d5633eaf3552
@@ -14094,6 +14146,7 @@ tools:
   - 9553180705b7
   - 98037ef3d2a9
   - a02aa0dfb850
+  - ad7226fac56d
   - b250b3058cbb
   - d663d090c710
   - e8ac2b53f262
@@ -14200,6 +14253,7 @@ tools:
   - 14180f9c831e
   - 61634a87efc7
   - 6b59e9b96071
+  - 791fa244e44d
   - 89f11e2b0673
   - de48a91cec04
   - ec69cbe34b73
@@ -14466,6 +14520,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 05d7672c6bed
   - 27ac516ba719
   - 3481feabc54e
   - 474bbc45ddd9
