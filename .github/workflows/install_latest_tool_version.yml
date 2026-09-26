@@ -28,4 +28,4 @@ jobs:
         env:
           GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
         run: |
-          shed-tools update -g usegalaxy.be -u tool_admin@test.be -a $GALAXY_API_TOKEN
+          shed-tools update -g usegalaxy.be -u tool_admin@test.be -a $GALAXY_API_TOKEN --skip-install-resolver-dependencies
