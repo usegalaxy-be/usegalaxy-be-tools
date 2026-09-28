@@ -14,9 +14,11 @@ on:
       - requirements.txt
       - .github/workflows/sync_tools.yml
   workflow_dispatch:
-  schedule:
-    # Runs weekly, every Saturday at 03:00 UTC
-    - cron: "0 3 * * SAT"
+    inputs:
+      chain:
+        description: Start the next step when this one finishes
+        type: boolean
+        default: true
 
 jobs:
   build:
@@ -50,6 +52,8 @@ jobs:
         run: |
           python scripts/compare_tools.py --current current_galaxy_tools.yaml --inputs belgium-custom.yaml.lock GTN_tutorials_tools.yaml.lock tools_iuc.yaml.lock
 
+      - name: Check lock files
+        run: python3 scripts/check_locks.py
       - name: Create Pull Request
         if: github.event_name != 'pull_request'
         id: cpr
@@ -60,13 +64,27 @@ jobs:
           title: "Automatic update of current_galaxy_tools.yaml"
           body: |
             This pull request updates `current_galaxy_tools.yaml` with the latest tools from useGalaxy.be.
-            Please review the changes before merging.
+            Merged automatically once the lock-file checks pass.
           labels: |
             auto-update
             automerge
           branch: tools_sync_workflow
           base: master
 
-      - name: Check output
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+      - name: Merge the pull request
+        if: steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --delete-branch --repo ${{ github.repository }}
+
+  # Runs even if this step failed: a failed step merges nothing, so the next one
+  # still starts from a consistent master. workflow_run only chains three levels deep.
+  next:
+    needs: build
+    if: always() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || inputs.chain)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start backfill-revisions.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run backfill-revisions.yml --repo ${{ github.repository }} --ref master -f chain=true

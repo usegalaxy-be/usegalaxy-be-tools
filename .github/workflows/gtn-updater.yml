@@ -1,11 +1,12 @@
 name: Updating GTN tools
 
 on:
-  schedule:
-    # Runs weekly, every Saturday at 02:30 UTC (staggered from update-trusted.yml
-    # and sync_tools.yml, which also run Saturday, to avoid concurrent PR runs)
-    - cron: "30 2 * * SAT"
   workflow_dispatch:
+    inputs:
+      chain:
+        description: Start the next step when this one finishes
+        type: boolean
+        default: true
 
 jobs:
   build:
@@ -32,9 +33,11 @@ jobs:
         run: rm -r training-material
       - name: Show differences
         run: "git diff --stat"
+      - name: Check lock files
+        run: python3 scripts/check_locks.py
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update GTN workflows
@@ -42,13 +45,26 @@ jobs:
           body: |
             This PR is automatically generated based on changes in the [Galaxy Training Network](https://github.com/galaxyproject/training-material) workflows.
 
-            Please verify if these changes are valid.
+            Merged automatically once the lock-file checks pass.
           labels: |
             auto-update
             automerge
           branch: gtn-update
           base: master
+      - name: Merge the pull request
+        if: steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --delete-branch --repo ${{ github.repository }}
 
-      - name: Check output
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+  # Runs even if this step failed: a failed step merges nothing, so the next one
+  # still starts from a consistent master. workflow_run only chains three levels deep.
+  next:
+    needs: build
+    if: always() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || inputs.chain)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start sync_tools.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run sync_tools.yml --repo ${{ github.repository }} --ref master -f chain=true
