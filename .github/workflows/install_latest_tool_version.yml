@@ -1,31 +1,58 @@
-name: Update Galaxy BE tools with their latest version (Ephemeris)
+name: Install tools from the lock files (Ephemeris)
 
 on:
-  workflow_dispatch:       # keep a manual trigger possibility
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['*.yaml.lock']
   schedule:
-    - cron: '0 1 * * MON'    # Runs on 01:00 (UTC) every Monday (02:00 CET)
+    - cron: '0 1 * * MON'    # weekly catch-up, 01:00 UTC
 
-concurrency:   # This part makes the newest run the authoritative one and cancels older runs that would otherwise continue needlessly.
-  group: shed-tools-update
-  cancel-in-progress: true
+# Queue instead of cancelling: an install stopped halfway can leave repositories stuck in "installing".
+concurrency:
+  group: shed-tools-install
+  cancel-in-progress: false
 
 jobs:
-  update-shedtools:
+  check-flags:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
+      - name: Refuse lock files that would install resolver dependencies
+        run: |
+          python3 - <<'PY'
+          import glob, sys, yaml
+          bad = []
+          for path in sorted(glob.glob('*.yaml.lock')):
+              value = yaml.safe_load(open(path)).get('install_resolver_dependencies')
+              # A quoted 'false' is a truthy string to ephemeris, so require the real boolean.
+              if value is not False:
+                  bad.append(f"{path}: install_resolver_dependencies={value!r}")
+          if bad:
+              sys.exit("\n".join(bad))
+          PY
+
+  install:
+    needs: check-flags
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        lock: [tools_iuc.yaml.lock, belgium-custom.yaml.lock, GTN_tutorials_tools.yaml.lock]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - name: Upgrade pip and install Ephemeris
-        run: |
-          python -m pip install --upgrade pip
-          pip install --upgrade ephemeris
-          
+      - name: Install Ephemeris
+        run: pip install --upgrade ephemeris
 
-      - name: Run `shed-tools update` on usegalaxy.be
+      - name: Install ${{ matrix.lock }} on usegalaxy.be
         env:
           GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
         run: |
-          shed-tools update -g usegalaxy.be -u tool_admin@test.be -a $GALAXY_API_TOKEN --skip-install-resolver-dependencies
+          shed-tools install -t "${{ matrix.lock }}" -g https://usegalaxy.be -a "$GALAXY_API_TOKEN" --skip-install-resolver-dependencies
