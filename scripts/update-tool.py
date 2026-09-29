@@ -6,8 +6,12 @@ import argparse
 import logging
 
 from bioblend import toolshed
+from bioblend.galaxy.client import Client
 
 ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
+# The Tool Shed answers bursts with 429; retry instead of skipping the tool.
+Client.set_max_get_retries(5)
+Client.set_get_retry_delay(15)
 
 
 def update_file(fn, owner=None, name=None, without=False):
