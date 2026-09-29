@@ -1,4 +1,4 @@
- [![Update Galaxy BE tools with their latest version (Ephemeris)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml/badge.svg)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml)
+ [![Install tools from the lock files (Ephemeris)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml/badge.svg)](https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/workflows/install_latest_tool_version.yml)
 # usegalaxy.be tools
 
 This repository contains the lists of tools installed on usegalaxy.be. The tools are split into 3 lists, each with a `.yaml` (requested tools) and a matching `.lock` file (pinned revisions, what actually gets installed):
@@ -30,7 +30,7 @@ Other files in this repo are not deployed, they support the tooling above:
 | [`sync_tools.yml`](.github/workflows/sync_tools.yml) | Sat 03:00 | Refreshes `current_galaxy_tools.yaml` and diffs it against the 3 lock files, opens a PR to flag drift. |
 | [`backfill-revisions.yml`](.github/workflows/backfill-revisions.yml) | Sat 01:00 | Adds any installable tool revisions missing from the lock files. Manual review, no `automerge` label. |
 | [`fix-outdated-tools.yml`](.github/workflows/fix-outdated-tools.yml) | Sat 04:00 | Removes revisions from the lock files that are no longer installable. Manual review, no `automerge` label. |
-| [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml) | Mon 01:00 | Runs `shed-tools update` directly against usegalaxy.be to update tools already installed to their latest revision. |
+| [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml) | After `automerge`, and on any other merge of a `.lock` file | Installs the revisions in the three lock files on usegalaxy.be, one list at a time, without resolver (conda) dependencies. Fails if a lock file sets `install_resolver_dependencies` to anything but `false`. |
 | [`automerge.yml`](.github/workflows/automerge.yml) | Mon 06:00 | Merges any open PR labelled `automerge`. |
 
 The Saturday jobs are staggered so they don't open colliding PRs against the same files.
