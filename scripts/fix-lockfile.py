@@ -17,6 +17,14 @@ def update_file(fn, dry):
 
     # We will place entries in a cleaned lockfile, removing defunct entries, etc.
     clean_lockfile = copy.deepcopy(locked)
+    # Top-level install flags come from the human-edited source, not from the
+    # previous lockfile. Copying them from the lockfile makes any bad value
+    # sticky: quoted booleans ('false') survived here for years, and ephemeris
+    # reads them as truthy strings, so resolver dependencies were installed on
+    # every run regardless of --skip-install-resolver-dependencies.
+    for key, value in unlocked.items():
+        if key != 'tools':
+            clean_lockfile[key] = value
     clean_lockfile['tools'] = []
 
     # As here we add any new tools in.

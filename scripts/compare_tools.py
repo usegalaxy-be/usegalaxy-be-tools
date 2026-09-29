@@ -1,6 +1,7 @@
 import yaml
 import argparse
 import copy
+import os
 
 def load_yaml(file_path):
     with open(file_path, 'r') as file:
@@ -105,6 +106,19 @@ def declare_new_tools_in_base_yaml(extra_tools, base_yaml_path):
 
 
 
+def header_from_source(lock_path):
+    """Install flags from the source YAML (tools_iuc.yaml for tools_iuc.yaml.lock).
+
+    These used to be string literals ('false'), which ephemeris reads as truthy,
+    so resolver dependencies were installed on every run.
+    """
+    source = lock_path[:-len(".lock")]
+    data = load_yaml(source) if os.path.exists(source) else {}
+    header = {k: v for k, v in data.items() if k != "tools"}
+    return header or {"install_repository_dependencies": True,
+                      "install_resolver_dependencies": False,
+                      "install_tool_dependencies": False}
+
 def main():
     parser = argparse.ArgumentParser(description='Merge and compare Galaxy tool YAML files.')
     parser.add_argument('--current', required=True, help='Path to current_galaxy_tools.yaml')
@@ -113,9 +127,6 @@ def main():
 
     current_tools = load_yaml(args.current)
 
-    base_yaml = {'install_repository_dependencies': 'true',
-        'install_resolver_dependencies': 'false',
-        'install_tool_dependencies': 'false'}
 
     # Load every input up front so belgium-custom's extra-tool detection sees
     # tools_iuc/GTN's full tool sets, not just whatever loaded before it.
@@ -124,7 +135,7 @@ def main():
 
     for input in args.inputs:
         yaml_lock = input_yamls[input]
-        merged_yaml_lock = base_yaml.copy()
+        merged_yaml_lock = header_from_source(input)
         if input == "belgium-custom.yaml.lock":
             # Add all extra tools to custom tools
             extra_tools = find_extra_tools(current_tools, all_found_tools)
