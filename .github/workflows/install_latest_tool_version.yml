@@ -58,5 +58,17 @@ jobs:
       - name: Install ${{ matrix.lock }} on usegalaxy.be
         env:
           GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          shed-tools install -t "${{ matrix.lock }}" -g https://usegalaxy.be -a "$GALAXY_API_TOKEN" --skip-install-resolver-dependencies
+          # Stop before the job limit so the other lock files still get their turn.
+          set -o pipefail
+          rc=0
+          timeout 330m shed-tools install -t "${{ matrix.lock }}" -g https://usegalaxy.be -a "$GALAXY_API_TOKEN" --skip-install-resolver-dependencies 2>&1 | tee install.log || rc=$?
+          if [ "$rc" -eq 124 ]; then
+            echo "::warning::${{ matrix.lock }} not finished after 330 minutes"
+            # Start another run to continue, but fail if this one made no progress.
+            grep -q 'installed successfully' install.log || exit 1
+            gh workflow run install_latest_tool_version.yml --repo ${{ github.repository }} --ref ${{ github.ref_name }}
+            exit 0
+          fi
+          exit "$rc"
