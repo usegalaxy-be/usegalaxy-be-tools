@@ -17,9 +17,15 @@ on:
       - requirements.txt
       - .github/workflows/update-trusted.yml
   workflow_dispatch:
+    inputs:
+      chain:
+        description: Start the next step when this one finishes
+        type: boolean
+        default: true
   schedule:
-  # Runs weekly, every Saturday at 02:00 UTC (alligned with off-peak hours)
-    - cron: "0 2 * * SAT"
+    # First step of the weekly chain: update-trusted, gtn-updater, sync_tools,
+    # backfill-revisions, fix-outdated-tools, then the install.
+    - cron: "0 1 * * SAT"
 
 jobs:
   build:
@@ -69,6 +75,8 @@ jobs:
             pykwalify -d belgium-custom.yaml -s .schema.yaml
       - name: Show differences
         run: "git diff --stat"
+      - name: Check lock files
+        run: python3 scripts/check_locks.py
       - name: Create Pull Request
         if: github.event_name != 'pull_request'
         id: cpr
@@ -80,12 +88,26 @@ jobs:
           body: |
             This PR is automatically generated based on changes in the [usegalaxy.* tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools) tools
             and updates to our own tools and new tools added.
-            Please verify if these changes are valid.
+            Merged automatically once the lock-file checks pass.
           labels: |
             auto-update
             automerge
           branch: tools-update
           base: master
-      - name: Check output
-        run: |
-          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+      - name: Merge the pull request
+        if: steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --merge --delete-branch --repo ${{ github.repository }}
+
+  # Runs even if this step failed: a failed step merges nothing, so the next one
+  # still starts from a consistent master. workflow_run only chains three levels deep.
+  next:
+    needs: build
+    if: always() && github.event_name != 'pull_request' && (github.event_name != 'workflow_dispatch' || inputs.chain)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start gtn-updater.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run gtn-updater.yml --repo ${{ github.repository }} --ref master -f chain=true

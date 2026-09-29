@@ -23,17 +23,17 @@ Other files in this repo are not deployed, they support the tooling above:
 
 ## Automated workflows
 
-| Workflow | Schedule (UTC) | What it does |
+| Workflow | Runs | What it does |
 |---|---|---|
-| [`update-trusted.yml`](.github/workflows/update-trusted.yml) | Sat 02:00 | Merges `tools_iuc.yaml` from usegalaxy-eu-tools, updates both lock files, opens a PR. |
-| [`gtn-updater.yml`](.github/workflows/gtn-updater.yml) | Sat 02:30 | Re-syncs `GTN_tutorials_tools.yaml(.lock)` against the current `training-material` repo, opens a PR. |
-| [`sync_tools.yml`](.github/workflows/sync_tools.yml) | Sat 03:00 | Refreshes `current_galaxy_tools.yaml` and diffs it against the 3 lock files, opens a PR to flag drift. |
-| [`backfill-revisions.yml`](.github/workflows/backfill-revisions.yml) | Sat 01:00 | Adds any installable tool revisions missing from the lock files. Manual review, no `automerge` label. |
-| [`fix-outdated-tools.yml`](.github/workflows/fix-outdated-tools.yml) | Sat 04:00 | Removes revisions from the lock files that are no longer installable. Manual review, no `automerge` label. |
-| [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml) | After `automerge`, and on any other merge of a `.lock` file | Installs the revisions in the three lock files on usegalaxy.be, one list at a time, without resolver (conda) dependencies. Fails if a lock file sets `install_resolver_dependencies` to anything but `false`. |
-| [`automerge.yml`](.github/workflows/automerge.yml) | Mon 06:00 | Merges any open PR labelled `automerge`. |
+| [`update-trusted.yml`](.github/workflows/update-trusted.yml) | Sat 01:00 UTC, starts the chain | Merges `tools_iuc.yaml` from usegalaxy-eu-tools and adds new revisions for IUC tools. |
+| [`gtn-updater.yml`](.github/workflows/gtn-updater.yml) | after `update-trusted` | Adds tools used in current GTN tutorials to `GTN_tutorials_tools.yaml(.lock)`. |
+| [`sync_tools.yml`](.github/workflows/sync_tools.yml) | after `gtn-updater` | Adds tools and revisions installed on usegalaxy.be outside the lock files, for example through the admin UI. |
+| [`backfill-revisions.yml`](.github/workflows/backfill-revisions.yml) | after `sync_tools` | Adds every missing installable revision to the three lock files. |
+| [`fix-outdated-tools.yml`](.github/workflows/fix-outdated-tools.yml) | after `backfill-revisions` | Replaces revisions that are no longer installable. |
+| [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml) | after `fix-outdated-tools`, and on any other merge of a `.lock` file | Installs the revisions in the three lock files on usegalaxy.be, one list at a time, without resolver (conda) dependencies. |
+| [`automerge.yml`](.github/workflows/automerge.yml) | Mon 06:00 UTC | Fallback: merges any PR labelled `automerge` whose own merge failed, then triggers the install. |
 
-The Saturday jobs are staggered so they don't open colliding PRs against the same files.
+Each step opens a PR, merges it itself once `scripts/check_locks.py` passes, then starts the next step, so every step works on the previous step's merged result. The check fails on install flags that are not real booleans, and on any tool that disappears from a lock file. To run one step without the rest, start it by hand with `chain` unticked.
 
 ## Requesting Tools in usegalaxy.be
 
