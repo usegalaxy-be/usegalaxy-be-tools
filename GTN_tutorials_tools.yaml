@@ -54,6 +54,7 @@ tools:
   - 4f774c1e6049
   - 64f11cf59c6e
   - 8d2a528a9513
+  - c598cbb8b019
   - dfd8b7f78c37
   - e188dc7a68e6
   tool_panel_section_label: Mapping
@@ -72,6 +73,7 @@ tools:
   - 3bad335ccea9
   - 5e33b465d8d5
   - 75c93c70d094
+  - 97255f6fdf7e
   - abfd8a6544d7
   - b2f1f75d49c4
   - bf675f34b056
@@ -95,6 +97,7 @@ tools:
 - name: falco
   owner: iuc
   revisions:
+  - 219ffa24f789
   - 959a14c1f2dd
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -366,9 +369,7 @@ tools:
   - 2892111d91f8
   - 7ab85ac5f64b
   - a1a923cd89e8
-  - b28e0cfa7ba1
   - b8348686a0b9
-  - ce3c7f062223
   - d25966c8ddeb
   - e19bebe96cd2
   tool_panel_section_label: Operate on Genomic Intervals
@@ -431,7 +432,6 @@ tools:
   - 749c918495f7
   - 8ccbdbe9a695
   - a470b376503d
-  - a6d65b0c67af
   - d5ceb9f3c25b
   - f6877ad76b00
   - f76cbb84d67f
@@ -490,10 +490,10 @@ tools:
   - 4e5056fefd88
   - 5915ea1ec9b1
   - 660cffd8d92a
-  - 80766b36005d
   - 8c0175e03cee
   - 8e264b67a8c0
   - c0b2c2e39c9c
+  - f6168dd17f82
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: purge_dups
@@ -1140,6 +1140,7 @@ tools:
   - 22c2a1ac7ae3
   - a2667f8d23de
   - a513e3fbb4c5
+  - a884245d3b3a
   - ac092723240d
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1391,6 +1392,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 32f1f56bd970
+  - 75a3b8da8e76
   - 898b67846b47
   - b9aaed85cbd1
   - d94aff5ee623
@@ -1401,17 +1403,16 @@ tools:
 - name: deeptools_bam_compare
   owner: bgruening
   revisions:
+  - 09d1214b45d1
+  - 10ebedbfee31
   - a1ca9bccc7f2
-  - de72ba3ed6f2
-  - e821645ef8fc
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_fingerprint
   owner: bgruening
   revisions:
-  - 2da482e408b8
-  - 4ed32329e0ed
-  - 793665fff0f8
+  - bed4b253dc69
+  - c0893efd5a8f
   - ca8a7f0ea872
   - f8fc4e5aff9d
   tool_panel_section_label: deepTools
@@ -1419,8 +1420,6 @@ tools:
 - name: macs2
   owner: iuc
   revisions:
-  - 424aefbd7777
-  - 640d3af5d833
   - 86e2413cf3f8
   - f5d67c722d67
   tool_panel_section_label: Peak Calling
@@ -1429,46 +1428,51 @@ tools:
   owner: devteam
   revisions:
   - 04d5581db1f5
+  - 13aad5cb9be4
   - 5c25c98e2a88
   - 7a6034296ae9
-  - 7def34e6cf4d
   - 88b8c2916784
   tool_panel_section_label: SAM Tools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_multi_bam_summary
   owner: bgruening
   revisions:
-  - 004aea905d4d
   - 2d466b530754
-  - 78f405266706
+  - 3d5024351691
   - b4e53394fced
-  tool_panel_section_label: deepTools
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: deeptools_compute_matrix
-  owner: bgruening
-  revisions:
-  - 514fa53b5efb
-  - 9470f29702f8
-  - a60c359ec43c
-  - fd1275e01605
+  - db9bba3f6180
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_correlation
   owner: bgruening
   revisions:
-  - 32e451def88c
+  - 45a7f5f0fed0
+  - c3dfef526d03
   - e44978659400
   - f264afa9fa6f
-  - fd408d755394
+  tool_panel_section_label: deepTools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pygenometracks
+  owner: iuc
+  revisions:
+  - 36b848d5f3ec
+  - 86d0ebe09628
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: deeptools_compute_matrix
+  owner: bgruening
+  revisions:
+  - 1030f37ff2f0
+  - d9ccce056684
+  - fd1275e01605
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: deeptools_plot_heatmap
   owner: bgruening
   revisions:
+  - 037a701703b2
   - 512155688d98
-  - a4dfb122e52b
-  - ba6efa77fb79
-  - e4c7985d4585
+  - 7fdfac4711b2
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trim_galore
@@ -1477,7 +1481,6 @@ tools:
   - 1bf4789584dc
   - b94789823aad
   - cd7e644cae1d
-  - eefb644655a5
   - f1e71aeaa923
   tool_panel_section_label: FASTQ Quality Control
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -1490,15 +1493,16 @@ tools:
 - name: deeptools_bam_coverage
   owner: bgruening
   revisions:
-  - 12af64f93288
   - 5d11599b8a7d
   - 7a7fd0f5f15d
   - bb1e4f63e0e6
+  - d13c066a4751
   tool_panel_section_label: deepTools
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bamtools_filter
   owner: devteam
   revisions:
+  - 47db0f26ca31
   - 993b19f20c76
   - bd735cae4ce6
   - cb20f99fd45b
@@ -1510,21 +1514,13 @@ tools:
   - 2a17c789e0a5
   - 3f254c5ced1d
   - a1f0b3f4b781
+  - bdd173c2d3e3
   tool_panel_section_label: Picard
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pe_histogram
   owner: iuc
   revisions:
   - 594b85e4237a
-  - bd1416eea1f0
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
-- name: pygenometracks
-  owner: iuc
-  revisions:
-  - 2824d77cd8f8
-  - 36b848d5f3ec
-  - 86d0ebe09628
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: hicexplorer_hicfindrestrictionsites
@@ -4435,6 +4431,7 @@ tools:
   owner: iuc
   revisions:
   - 3d748954434b
+  - 637e50759b72
   - 7e8c677a7b71
   - 8db95f488f0f
   - 9bd945a03d7b
