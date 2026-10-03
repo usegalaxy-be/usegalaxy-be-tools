@@ -6153,3 +6153,12 @@ tools:
 - name: b2btools_multiple_sequence_alignment
   owner: iuc
   tool_panel_section_label: ChemicalToolBox
+- name: orthologer
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: odb_mapper
+  owner: iuc
+  tool_panel_section_label: Annotation
+- name: metacoag
+  owner: iuc
+  tool_panel_section_label: Metagenomic Analysis
