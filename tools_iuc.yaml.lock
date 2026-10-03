@@ -3910,7 +3910,6 @@ tools:
   owner: iuc
   revisions:
   - 24013bf85a6f
-  - 276b4111b253
   - 2cf36d9ea571
   - 43bcc103b1e9
   - 70cb5527defb
@@ -4628,7 +4627,6 @@ tools:
   revisions:
   - 03dd3c928d65
   - 1979ff89fbde
-  - c3f0b847dc40
   tool_panel_section_label: Mothur
 - name: mothur_merge_files
   owner: iuc
@@ -14716,7 +14714,6 @@ tools:
   revisions:
   - e94194f13332
   - f332d5f39a4f
-  - fb6c3ba3a084
   tool_panel_section_label: Annotation
 - name: vg_paths
   owner: iuc
@@ -16536,31 +16533,26 @@ tools:
 - name: ucsc_mafcoverage
   owner: iuc
   revisions:
-  - 7ca2e72f9194
   - c7ec258add42
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffetch
   owner: iuc
   revisions:
-  - 8060cd2f5983
   - ad8caa824996
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffrag
   owner: iuc
   revisions:
   - ba8c5bb09053
-  - ec790193c2f2
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffrags
   owner: iuc
   revisions:
-  - 5481c3cfacc3
   - 89dd2ead9c9d
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_mafgene
   owner: iuc
   revisions:
-  - 0d9782fed2ac
   - 363259689eba
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_netchainsubset

@@ -2748,3 +2748,27 @@ tools:
   owner: iuc
   revisions:
   - 5c2ac7f640ab
+- name: ucsc_maffilter
+  owner: iuc
+  revisions:
+  - fb6c3ba3a084
+- name: ucsc_mafcoverage
+  owner: iuc
+  revisions:
+  - 7ca2e72f9194
+- name: ucsc_maffetch
+  owner: iuc
+  revisions:
+  - 8060cd2f5983
+- name: ucsc_maffrag
+  owner: iuc
+  revisions:
+  - ec790193c2f2
+- name: ucsc_maffrags
+  owner: iuc
+  revisions:
+  - 5481c3cfacc3
+- name: ucsc_mafgene
+  owner: iuc
+  revisions:
+  - 0d9782fed2ac
