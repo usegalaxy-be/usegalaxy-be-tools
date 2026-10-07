@@ -3730,13 +3730,15 @@
     "baseline_at": "2026-10-07T13:50:25+00:00"
    },
    "64e2edfe7a2c": {
-    "baseline_at": "2026-10-07T13:50:25+00:00"
+    "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+    "tested_at": "2026-10-07T14:45:03+00:00"
    },
    "87ee588b3d45": {
     "baseline_at": "2026-10-07T13:50:25+00:00"
    },
    "a1a923cd89e8": {
-    "baseline_at": "2026-10-07T13:50:25+00:00"
+    "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+    "tested_at": "2026-10-07T14:45:03+00:00"
    },
    "b8348686a0b9": {
     "baseline_at": "2026-10-07T13:50:25+00:00"
@@ -8083,6 +8085,599 @@
    }
   }
  },
- "tools": {},
- "updated_at": "2026-10-07T14:03:10+00:00"
+ "tools": {
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bamtobed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bed12tobed6": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedpetobam": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtobam": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_bedtoigv": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_closestbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": true,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "failed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 1,
+    "skip": 0,
+    "success": 6
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_clusterbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_complementbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_coveragebed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 16
+   },
+   "version": "2.30.0+galaxy1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_expandbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 2
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_fisher": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_flankbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 2
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_genomecoveragebed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_getfastabed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": true,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "failed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 1,
+    "failure": 0,
+    "skip": 0,
+    "success": 4
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_groupbybed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_intersectbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 22
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_jaccard": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_links": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 2
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_makewindowsbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 4
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_map": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 6
+   },
+   "version": "2.31.1.3"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_maskfastabed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_mergebed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 5
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multicovtbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": true,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "failed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 1,
+    "failure": 0,
+    "skip": 0,
+    "success": 0
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_multiintersectbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_nucbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_overlapbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_randombed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_reldistbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_shufflebed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 4
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_slopbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 2
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_sortbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1+galaxy0"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_spacingbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_subtractbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_tagbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 1
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_unionbedgraph": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 4
+   },
+   "version": "2.31.1"
+  },
+  "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_windowbed": {
+   "expected_failure": false,
+   "expected_reason": "",
+   "potentially_broken": false,
+   "repository": "iuc/bedtools",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/37633712397",
+   "status": "passed",
+   "tested_at": "2026-10-07T14:45:03+00:00",
+   "tests": {
+    "error": 0,
+    "failure": 0,
+    "skip": 0,
+    "success": 3
+   },
+   "version": "2.31.1"
+  }
+ },
+ "updated_at": "2026-10-07T14:45:03+00:00"
 }
