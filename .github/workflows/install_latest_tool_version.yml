@@ -6,10 +6,6 @@ on:
   push:
     branches: [master]
     paths: ['*.yaml.lock']
-  # So bot PRs are installed once automerge has finished.
-  workflow_run:
-    workflows: ["Auto merge workflow PRs"]
-    types: [completed]
 
 # Queue instead of cancelling: an install stopped halfway can leave repositories stuck in "installing".
 concurrency:
@@ -18,7 +14,6 @@ concurrency:
 
 jobs:
   check-flags:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
