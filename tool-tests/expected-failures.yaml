@@ -1,0 +1,7 @@
+# Tools whose test failures are known and accepted. They are reported as
+# expected failures instead of potentially broken.
+# tool_id is a regular expression matched from the start of the tool id.
+#
+# - tool_id: toolshed.g2.bx.psu.edu/repos/iuc/example/example_tool/
+#   reason: Test data needs a reference genome we do not have.
+[]
