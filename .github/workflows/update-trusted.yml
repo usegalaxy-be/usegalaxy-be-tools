@@ -7,7 +7,6 @@ on:
     branches:
       - master
     paths:
-      - scripts/process_yaml.py
       - scripts/fix-lockfile.py
       - scripts/update-tool.py
       - Makefile
@@ -47,17 +46,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Clone usegalaxy-eu-tools repository
-        uses: actions/checkout@v4
-        with:
-          repository: usegalaxy-eu/usegalaxy-eu-tools
-          path: usegalaxy-eu-tools
-          ref: master
-      - name: Update tools_iuc.yaml from tools_iuc_eu.yaml
-        run: |
-          python3 scripts/process_yaml.py --merge_yaml --base_file tools_iuc.yaml --tools_yaml ${GITHUB_WORKSPACE}/usegalaxy-eu-tools/tools_iuc.yaml --out_file tools_iuc.yaml
-      - name: Deleting usegalaxy-eu-tools repository
-        run: rm -r usegalaxy-eu-tools
       - name: Perform linting
         run: |
             # Only tools_iuc.yaml: fix-lockfile.py on belgium-custom.yaml wipes
@@ -86,8 +74,7 @@ jobs:
           commit-message: Update Galaxy tools
           title: "Automatic updating of the tools in tools-iuc.yaml"
           body: |
-            This PR is automatically generated based on changes in the [usegalaxy.* tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools) tools
-            and updates to our own tools and new tools added.
+            New Tool Shed revisions of the tools already in our lists.
             Merged automatically once the lock-file checks pass.
           labels: |
             auto-update

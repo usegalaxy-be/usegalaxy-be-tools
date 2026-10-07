@@ -3,13 +3,15 @@
 
 This repository contains the lists of tools installed on usegalaxy.be. The tools are split into 3 lists, each with a `.yaml` (requested tools) and a matching `.lock` file (pinned revisions, what actually gets installed):
 
-- `tools_iuc.yaml(.lock)`: the IUC tool list, merged in weekly from [usegalaxy-eu-tools](https://github.com/usegalaxy-eu/usegalaxy-eu-tools).
+- `tools_iuc.yaml(.lock)`: IUC and other Tool Shed tools installed on usegalaxy.be.
 - `belgium-custom.yaml(.lock)`: tools installed only on usegalaxy.be.
 - `GTN_tutorials_tools.yaml(.lock)`: tools used by [Galaxy Training Network](https://github.com/galaxyproject/training-material) tutorials, synced weekly from the `training-material` repo.
 
 Manually requested tools are always added to `belgium-custom.yaml` unless they're iuc tools, in which case they can be added to `tools_iuc.yaml`.
 
-These 3 `.lock` files are the only ones actually deployed: the [`pdg.galaxy-tools`](https://github.com/usegalaxy-be/infrastructure-playbook/tree/main/roles/pdg.galaxy-tools) role in `infrastructure-playbook` installs from them ([`galaxy_tools_tool_list_files`](https://github.com/usegalaxy-be/infrastructure-playbook/blob/main/roles/pdg.galaxy-tools/defaults/main.yml)), one `.lock` file per day, each on its own weekly systemd timer ([`galaxy_tools_install_schedule`](https://github.com/usegalaxy-be/infrastructure-playbook/blob/main/roles/pdg.galaxy-tools/defaults/main.yml)). No manual step is needed to get a merged PR live: the next scheduled install picks it up. The role is applied by [`daily-galaxy-tools.yml`](https://github.com/usegalaxy-be/infrastructure-playbook/blob/main/playbooks/daily/daily-galaxy-tools.yml).
+These 3 `.lock` files are the only ones installed, by [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml). No manual step is needed to get a merged PR live.
+
+The weekly updates only add new revisions of tools already in these lists, so every installed version stays available. New tools come from GTN, from installs through the admin UI (synced back by `sync_tools.yml`) or from a pull request.
 
 Tool tests are run by the same role, but not by those weekly timers. Running the playbook with `test_tools: yes` starts `galaxy-tool-tests.service` once, which tests the tools installed since the date in `.last_test_since_date`. Separately, `galaxy-tool-tests-full.timer` re-tests everything once a year. So newly installed tools are only tested when someone applies the playbook, not automatically after each weekly install.
 
@@ -25,7 +27,7 @@ Other files in this repo are not deployed, they support the tooling above:
 
 | Workflow | Runs | What it does |
 |---|---|---|
-| [`update-trusted.yml`](.github/workflows/update-trusted.yml) | Sat 01:00 UTC, starts the chain | Merges `tools_iuc.yaml` from usegalaxy-eu-tools and adds new revisions for IUC tools. |
+| [`update-trusted.yml`](.github/workflows/update-trusted.yml) | Sat 01:00 UTC, starts the chain | Adds new Tool Shed revisions of the tools in `tools_iuc.yaml` and `belgium-custom.yaml`. |
 | [`gtn-updater.yml`](.github/workflows/gtn-updater.yml) | after `update-trusted` | Adds tools used in current GTN tutorials to `GTN_tutorials_tools.yaml(.lock)`. |
 | [`sync_tools.yml`](.github/workflows/sync_tools.yml) | after `gtn-updater` | Adds tools and revisions installed on usegalaxy.be outside the lock files, for example through the admin UI. |
 | [`backfill-revisions.yml`](.github/workflows/backfill-revisions.yml) | after `sync_tools` | Adds every missing installable revision to the three lock files. |
@@ -37,12 +39,7 @@ Each step opens a PR, merges it itself once `scripts/check_locks.py` passes, the
 
 ## Requesting Tools in usegalaxy.be
 
-There are 2 ways to get a tool included in usegalaxy.be:
-
-- Follow the procedure to add it to the tools_iuc list in https://github.com/usegalaxy-eu/usegalaxy-eu-tools
-- Open a pull request adding it to `belgium-custom.yaml` in this repository.
-
-For the second option:
+Open a pull request adding the tool to `tools_iuc.yaml` (IUC tools) or `belgium-custom.yaml` (anything else).
 
 ### Updating an Existing Tool
 
