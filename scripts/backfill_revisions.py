@@ -68,7 +68,10 @@ def backfill(lockfile_name, toolshed_url):
             logger.warning(f"{name},{owner}: could not get installable revisions ({e})")
             continue
 
-        missing = [r for r in installable_list if r not in current_revisions]
+        # Only revisions newer than the newest one we list: older ones were never installed here.
+        known = [i for i, r in enumerate(installable_list) if r in current_revisions]
+        start = max(known) + 1 if known else len(installable_list) - 1
+        missing = installable_list[start:]
         if not missing:
             skipped += 1
             continue
@@ -89,10 +92,8 @@ def backfill(lockfile_name, toolshed_url):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Add every toolshed-installable revision missing from a .yaml.lock file. "
-        "Complement to fix_outdated.py, which removes revisions that are no longer installable; "
-        "this adds ones that were never captured because update-tool.py only ever records the "
-        "single latest revision per run."
+        description="Add the toolshed-installable revisions newer than the newest one in a .yaml.lock file. "
+        "Complement to fix_outdated.py, which removes revisions that are no longer installable."
     )
     parser.add_argument("lockfile", help="Tool.yaml.lock file path")
     parser.add_argument(
