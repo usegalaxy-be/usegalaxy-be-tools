@@ -3393,6 +3393,7 @@ tools:
   owner: imgteam
   revisions:
   - 59e9798010ce
+  - 6fecb8056a80
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -3451,6 +3452,7 @@ tools:
 - name: 2d_feature_extraction
   owner: imgteam
   revisions:
+  - 45076fd788c9
   - 519fad2c552a
   - 5791a7f65275
   - 6a2b26c297a4
@@ -3690,6 +3692,7 @@ tools:
   revisions:
   - 16556ca0196b
   - 3b7a35d50ebf
+  - 5a35e3a8d013
   - d426a9107a6c
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3705,11 +3708,13 @@ tools:
   owner: galaxyp
   revisions:
   - 890845926d4b
+  - b8c79e70516d
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cardinal_data_exporter
   owner: galaxyp
   revisions:
+  - 4fbffddde8cd
   - 56da27be956a
   - d94770c22f13
   tool_panel_section_label: Metabolomics
@@ -3726,6 +3731,7 @@ tools:
   owner: galaxyp
   revisions:
   - 4c177985028a
+  - b18329a8ac14
   - b574b84afc4d
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3734,6 +3740,7 @@ tools:
   revisions:
   - 82f6c2f4332d
   - 91f0f5922011
+  - cc430977c8ff
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: join_files_on_column_fuzzy
@@ -3747,6 +3754,7 @@ tools:
   revisions:
   - 48c07268f341
   - a9a28e46d54a
+  - e215f71d7983
   tool_panel_section_label: Metabolomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: cardinal_preprocessing
@@ -7208,6 +7216,7 @@ tools:
   owner: iuc
   revisions:
   - 8ef74a966b58
+  - d0b737dc7712
   - f355085dd2aa
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -7407,6 +7416,7 @@ tools:
   owner: bgruening
   revisions:
   - 3c03ddb45833
+  - 3f552d62a93a
   - 430acc59e883
   - 8339f6708553
   - 9369e9b11b8d

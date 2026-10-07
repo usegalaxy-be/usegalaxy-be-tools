@@ -7969,6 +7969,7 @@ tools:
   - 16a8d1688c65
   - 5ae69a0a33bf
   - 5fb461d15c31
+  - 8f4b98b0f9a9
   - 9b383d429659
   - dd9988943f53
   - ebe2b2d82a32
@@ -7993,6 +7994,7 @@ tools:
   - 49b82255b72f
   - 59d3fa4c16f5
   - 7f88b2b4662d
+  - 8169710bd2fb
   - 910c6a1c3a27
   - 94b552c6830a
   - aeb4f3e6678d
@@ -8106,6 +8108,7 @@ tools:
   - 4f36f2d51d33
   - b1815cb2b298
   - b7cf65cb8019
+  - b9d7410b6593
   - f34ab9882252
   tool_panel_section_label: HiCExplorer
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8161,6 +8164,7 @@ tools:
   - 2f62a87d4017
   - 3b15581e7ca7
   - 3e598b8e72e7
+  - 835d4d727688
   - a83732c79949
   - e136f22c2a0f
   tool_panel_section_label: HiCExplorer
@@ -8182,6 +8186,7 @@ tools:
   owner: bgruening
   revisions:
   - 3c03ddb45833
+  - 3f552d62a93a
   - 430acc59e883
   - 8339f6708553
   - 9369e9b11b8d
@@ -8213,6 +8218,7 @@ tools:
   - 9c5078f3926b
   - b13e7a200525
   - b599d3000966
+  - b8755bb5bc56
   - ea8fb5e899e8
   tool_panel_section_label: HiCExplorer
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8285,6 +8291,7 @@ tools:
   owner: bgruening
   revisions:
   - 000ddd5f0f82
+  - 44d6bef89faa
   - 7095bb186016
   - 853c072bbb11
   - 9ea228a9afc8
@@ -10405,12 +10412,14 @@ tools:
   revisions:
   - 16556ca0196b
   - 3b7a35d50ebf
+  - 5a35e3a8d013
   - d426a9107a6c
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cardinal_data_exporter
   owner: galaxyp
   revisions:
+  - 4fbffddde8cd
   - 56da27be956a
   - d94770c22f13
   tool_panel_section_label: Proteomics
@@ -10420,6 +10429,7 @@ tools:
   revisions:
   - 48c07268f341
   - a9a28e46d54a
+  - e215f71d7983
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cardinal_spectra_plots
@@ -10450,6 +10460,7 @@ tools:
   owner: galaxyp
   revisions:
   - 4c177985028a
+  - b18329a8ac14
   - b574b84afc4d
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10458,12 +10469,14 @@ tools:
   revisions:
   - 82f6c2f4332d
   - 91f0f5922011
+  - cc430977c8ff
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cardinal_filtering
   owner: galaxyp
   revisions:
   - 890845926d4b
+  - b8c79e70516d
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: maxquant_mqpar
@@ -10652,6 +10665,7 @@ tools:
 - name: alphafold2
   owner: galaxy-australia
   revisions:
+  - 31f648b7555a
   - 3f188450ca4f
   - 6ab1a261520a
   - c62f678e5555
@@ -11806,6 +11820,7 @@ tools:
 - name: 2d_feature_extraction
   owner: imgteam
   revisions:
+  - 45076fd788c9
   - 519fad2c552a
   - 5791a7f65275
   - 6a2b26c297a4
@@ -11831,6 +11846,7 @@ tools:
   owner: imgteam
   revisions:
   - 59e9798010ce
+  - 6fecb8056a80
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -12826,6 +12842,7 @@ tools:
   owner: bgruening
   revisions:
   - 522baf0458d8
+  - cc50a058a1cb
   - ec6df5e22055
   - f0c7f0bad621
   tool_panel_section_label: Tools from workflows
@@ -13722,6 +13739,7 @@ tools:
   owner: iuc
   revisions:
   - 8ef74a966b58
+  - d0b737dc7712
   - f355085dd2aa
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu

@@ -6753,11 +6753,14 @@ tools:
 - name: data_manager_primer_scheme_bedfiles
   owner: iuc
   revisions:
+  - be70da9dc013
   - dd451e45681c
   tool_panel_section_label: Data Managers
 - name: data_manager_mitos
   owner: iuc
   revisions:
+  - 14785f8a3725
+  - 1ff9996995ee
   - d9339bb8127e
   tool_panel_section_label: Data Managers
 - name: data_manager_mash_sketch_builder
@@ -7664,6 +7667,7 @@ tools:
   owner: bgruening
   revisions:
   - 000ddd5f0f82
+  - 44d6bef89faa
   - 7095bb186016
   - 853c072bbb11
   - 9ea228a9afc8
@@ -7754,6 +7758,7 @@ tools:
   - 9c5078f3926b
   - b13e7a200525
   - b599d3000966
+  - b8755bb5bc56
   - ea8fb5e899e8
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicinfo
@@ -7772,6 +7777,7 @@ tools:
   owner: bgruening
   revisions:
   - 3c03ddb45833
+  - 3f552d62a93a
   - 430acc59e883
   - 8339f6708553
   - 9369e9b11b8d
@@ -7799,6 +7805,7 @@ tools:
   - 2f62a87d4017
   - 3b15581e7ca7
   - 3e598b8e72e7
+  - 835d4d727688
   - a83732c79949
   - e136f22c2a0f
   tool_panel_section_label: HiCExplorer
@@ -7811,6 +7818,7 @@ tools:
   - 4f36f2d51d33
   - b1815cb2b298
   - b7cf65cb8019
+  - b9d7410b6593
   - f34ab9882252
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicaverageregions
@@ -7855,6 +7863,7 @@ tools:
   - 49b82255b72f
   - 59d3fa4c16f5
   - 7f88b2b4662d
+  - 8169710bd2fb
   - 910c6a1c3a27
   - 94b552c6830a
   - aeb4f3e6678d
@@ -7879,6 +7888,7 @@ tools:
   - 16a8d1688c65
   - 5ae69a0a33bf
   - 5fb461d15c31
+  - 8f4b98b0f9a9
   - 9b383d429659
   - dd9988943f53
   - ebe2b2d82a32
@@ -9206,6 +9216,7 @@ tools:
   owner: iuc
   revisions:
   - 8ef74a966b58
+  - d0b737dc7712
   - f355085dd2aa
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin
