@@ -33,7 +33,7 @@ Other files in this repo are not deployed, they support the tooling above:
 | [`backfill-revisions.yml`](.github/workflows/backfill-revisions.yml) | after `sync_tools` | Adds every missing installable revision to the three lock files. |
 | [`fix-outdated-tools.yml`](.github/workflows/fix-outdated-tools.yml) | after `backfill-revisions` | Replaces revisions that are no longer installable. |
 | [`install_latest_tool_version.yml`](.github/workflows/install_latest_tool_version.yml) | after `fix-outdated-tools`, and on any other merge of a `.lock` file | Installs the revisions in the three lock files on usegalaxy.be, one list at a time, without resolver (conda) dependencies. |
-| [`automerge.yml`](.github/workflows/automerge.yml) | Mon 06:00 UTC | Fallback: merges any PR labelled `automerge` whose own merge failed, then triggers the install. |
+| [`automerge.yml`](.github/workflows/automerge.yml) | Mon 06:00 UTC | Fallback: merges any PR labelled `automerge` whose own merge failed. The next chain installs it. |
 
 Each step opens a PR, merges it itself once `scripts/check_locks.py` passes, then starts the next step, so every step works on the previous step's merged result. The check fails on install flags that are not real booleans, and on any tool that disappears from a lock file. To run one step without the rest, start it by hand with `chain` unticked.
 
