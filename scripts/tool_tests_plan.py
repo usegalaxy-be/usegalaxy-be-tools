@@ -6,8 +6,13 @@ list for the workflow matrix.
 
 scope=new: revisions that have no entry in the status file yet. Without a status
 file, every installed revision is recorded as a baseline and nothing is tested.
+scope=untested: like all, but only revisions without a test result yet, so a
+full sweep can be stopped and continued later.
+scope=failed: repositories with a tool whose latest result is broken, partial or infra.
+scope=flaky: repositories with a tool that failed in at least --flaky-min of its
+last runs.
 scope=all: every installed repository, latest revision only unless --all-revisions.
---repositories limits either scope to the given owner/name repositories.
+--repositories limits any scope to the given owner/name repositories.
 """
 
 import argparse
@@ -45,7 +50,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--installed", required=True, help="get-tool-list output")
     parser.add_argument("--status", help="Current status.json, if any")
-    parser.add_argument("--scope", choices=["new", "all"], default="new")
+    parser.add_argument("--scope", choices=["new", "untested", "failed", "flaky", "all"], default="new")
+    parser.add_argument("--flaky-min", type=int, default=2, help="scope=flaky: failed runs out of the last 10")
     parser.add_argument("--all-revisions", action="store_true", help="scope=all: test every installed revision")
     parser.add_argument("--repositories", default="", help="Comma-separated owner/name list to limit the run to")
     parser.add_argument("--chunk-size", type=int, default=25, help="Repository revisions per chunk")
@@ -69,11 +75,27 @@ def main():
         return
 
     only = {r.strip() for r in args.repositories.split(",") if r.strip()}
+    retest = None
+    if args.scope in ("failed", "flaky"):
+        retest = set()
+        for tool in (status or {}).get("tools", {}).values():
+            failing = [h for h in tool.get("history", []) if h["status"] in ("broken", "partial", "infra")]
+            if (args.scope == "failed" and tool.get("status") in ("broken", "partial", "infra")) or \
+               (args.scope == "flaky" and len(failing) >= args.flaky_min):
+                retest.add(tool["repository"])
     selected = {}
-    for shed, owner, name, revision in installed_revisions(installed, all_revisions=args.scope == "new" or args.all_revisions):
-        if only and f"{owner}/{name}" not in only:
+    for shed, owner, name, revision in installed_revisions(
+            installed, all_revisions=args.scope in ("new", "failed", "flaky") or args.all_revisions):
+        repo = f"{owner}/{name}"
+        tested = known.get(repo, {}).get(revision, {})
+        if only and repo not in only:
             continue
-        if args.scope == "new" and revision in known.get(f"{owner}/{name}", {}):
+        if args.scope == "new" and revision in known.get(repo, {}):
+            continue
+        if args.scope == "untested" and "tested_at" in tested:
+            continue
+        # Retest the revisions that produced the failing results.
+        if retest is not None and (repo not in retest or "tested_at" not in tested):
             continue
         revisions = selected.setdefault((shed, owner, name), [])
         # A repository can be listed once per tool panel section.

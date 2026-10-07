@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
     inputs:
       scope:
-        description: "new: revisions without a result yet. all: full sweep"
+        description: "new: just installed. untested: no result yet (resumable sweep). failed: latest result failing. flaky: failed often. all: full sweep"
         type: choice
-        options: [new, all]
+        options: [new, untested, failed, flaky, all]
         default: new
       all_revisions:
         description: "Full sweep: every installed revision, not only the latest"
@@ -19,6 +19,9 @@ on:
       repositories:
         description: "Only these repositories, comma-separated owner/name (e.g. iuc/bedtools)"
         default: ""
+      flaky_min:
+        description: "flaky: failed runs out of a tool's last 10"
+        default: "2"
       chunk_size:
         description: Repository revisions per test job
         default: "25"
@@ -67,7 +70,7 @@ jobs:
         id: plan
         run: |
           args=(--installed plan/installed.yaml --scope "${{ inputs.scope || 'new' }}"
-                --repositories "${{ inputs.repositories }}"
+                --repositories "${{ inputs.repositories }}" --flaky-min "${{ inputs.flaky_min || 2 }}"
                 --chunk-size "${{ inputs.chunk_size || 25 }}" --out-dir plan/chunks
                 --baseline-out plan/status/baseline.json)
           if [ -f plan/status/status.json ]; then args+=(--status plan/status/status.json); fi
@@ -110,11 +113,29 @@ jobs:
           GALAXY_TEST_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_TESTS }}
         run: |
           # SIGINT so ephemeris still writes the report when the time runs out.
-          timeout -s INT 330m shed-tools test -t "plan/chunks/${{ matrix.chunk }}.yaml" \
+          timeout -s INT 290m shed-tools test -t "plan/chunks/${{ matrix.chunk }}.yaml" \
             -g "$GALAXY_URL" -a "$GALAXY_API_TOKEN" --test-user-api-key "$GALAXY_TEST_API_TOKEN" \
             --test-history-name "tool-tests-${{ github.run_id }}-${{ matrix.chunk }}" \
             --parallel-tests "${{ inputs.parallel_tests || 4 }}" \
             --test-json "results-${{ matrix.chunk }}.json" || echo "::warning::shed-tools test exited with $?"
+
+      - name: Retry infrastructure failures once
+        if: always()
+        env:
+          GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
+          GALAXY_TEST_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_TESTS }}
+        run: |
+          n=$(python scripts/tool_tests_retry_list.py --chunk "plan/chunks/${{ matrix.chunk }}.yaml" \
+                --results "results-${{ matrix.chunk }}.json" --out retry.yaml)
+          echo "Repositories to retry: $n"
+          if [ "$n" -gt 0 ]; then
+            sleep 120
+            timeout -s INT 40m shed-tools test -t retry.yaml \
+              -g "$GALAXY_URL" -a "$GALAXY_API_TOKEN" --test-user-api-key "$GALAXY_TEST_API_TOKEN" \
+              --test-history-name "tool-tests-${{ github.run_id }}-${{ matrix.chunk }}-retry" \
+              --parallel-tests "${{ inputs.parallel_tests || 4 }}" \
+              --test-json "results-${{ matrix.chunk }}-retry.json" || echo "::warning::retry exited with $?"
+          fi
 
       - name: Purge the test history
         if: always()
@@ -126,7 +147,7 @@ jobs:
         if: always()
         with:
           name: results-${{ matrix.chunk }}
-          path: results-${{ matrix.chunk }}.json
+          path: results-${{ matrix.chunk }}*.json
           if-no-files-found: ignore
           retention-days: 30
 
