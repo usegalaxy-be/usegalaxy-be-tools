@@ -5,6 +5,7 @@
 - After every run of the install workflow it tests the repository revisions that have no result yet.
 - A full sweep is started by hand: Actions > Tool tests > Run workflow, scope `all`.
   It tests the latest revision of every repository, or every installed revision with `all_revisions`.
+- To (re)test specific repositories, run it with scope `all` and `repositories`, e.g. `iuc/bedtools`.
 
 Tests run as a separate Galaxy user (secret `SECRET_API_TOKEN_TOOL_TESTS`), so they do not share
 the job limit of `tool_admin`. Each test job purges its history afterwards.

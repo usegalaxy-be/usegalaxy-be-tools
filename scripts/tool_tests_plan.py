@@ -7,6 +7,7 @@ list for the workflow matrix.
 scope=new: revisions that have no entry in the status file yet. Without a status
 file, every installed revision is recorded as a baseline and nothing is tested.
 scope=all: every installed repository, latest revision only unless --all-revisions.
+--repositories limits either scope to the given owner/name repositories.
 """
 
 import argparse
@@ -46,6 +47,7 @@ def main():
     parser.add_argument("--status", help="Current status.json, if any")
     parser.add_argument("--scope", choices=["new", "all"], default="new")
     parser.add_argument("--all-revisions", action="store_true", help="scope=all: test every installed revision")
+    parser.add_argument("--repositories", default="", help="Comma-separated owner/name list to limit the run to")
     parser.add_argument("--chunk-size", type=int, default=25, help="Repository revisions per chunk")
     parser.add_argument("--out-dir", required=True)
     parser.add_argument("--baseline-out", help="Write a baseline status file here when there is none yet")
@@ -66,8 +68,11 @@ def main():
         print(json.dumps([]))
         return
 
+    only = {r.strip() for r in args.repositories.split(",") if r.strip()}
     selected = {}
     for shed, owner, name, revision in installed_revisions(installed, all_revisions=args.scope == "new" or args.all_revisions):
+        if only and f"{owner}/{name}" not in only:
+            continue
         if args.scope == "new" and revision in known.get(f"{owner}/{name}", {}):
             continue
         revisions = selected.setdefault((shed, owner, name), [])

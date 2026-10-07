@@ -16,6 +16,9 @@ on:
         description: "Full sweep: every installed revision, not only the latest"
         type: boolean
         default: false
+      repositories:
+        description: "Only these repositories, comma-separated owner/name (e.g. iuc/bedtools)"
+        default: ""
       chunk_size:
         description: Repository revisions per test job
         default: "25"
@@ -64,6 +67,7 @@ jobs:
         id: plan
         run: |
           args=(--installed plan/installed.yaml --scope "${{ inputs.scope || 'new' }}"
+                --repositories "${{ inputs.repositories }}"
                 --chunk-size "${{ inputs.chunk_size || 25 }}" --out-dir plan/chunks
                 --baseline-out plan/status/baseline.json)
           if [ -f plan/status/status.json ]; then args+=(--status plan/status/status.json); fi
