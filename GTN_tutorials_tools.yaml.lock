@@ -5837,7 +5837,6 @@ tools:
 - name: sceasy_convert
   owner: ebi-gxa
   revisions:
-  - ef1449a3f358
   - f62bc418173f
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -7311,8 +7310,6 @@ tools:
   owner: bgruening
   revisions:
   - 01b0fcc50e74
-  - 5db8bb342c59
-  - 7e8fddd87091
   tool_panel_section_label: Digital-Humanities
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: ecoregion_geonearestneighbor
@@ -7375,11 +7372,6 @@ tools:
   owner: bgruening
   revisions:
   - 3e9d14e5942f
-  - 81ca3d7b364c
-  - 983ce2a25b48
-  - af3eed1f1abe
-  - d77c67cfe2ca
-  - e708a1191202
   tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: fastq_to_fasta
@@ -7590,11 +7582,7 @@ tools:
 - name: color_deconvolution
   owner: imgteam
   revisions:
-  - 0976b373a321
   - 0cbdf78fee14
-  - 612aa1478fe1
-  - 8aa6e767f737
-  - be70a57d7174
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: split_image
@@ -7609,16 +7597,12 @@ tools:
   owner: imgteam
   revisions:
   - 0601a9056642
-  - 1dd5396c734a
-  - 862af85a50ec
-  - ae4ae9c5c56c
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: iscc_sum
   owner: imgteam
   revisions:
   - 7d2c95a58897
-  - b9caa783059f
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: iscc_sum_verify
@@ -7653,27 +7637,14 @@ tools:
 - name: concat_channels
   owner: imgteam
   revisions:
-  - 212627bfb759
-  - 2592a29a785e
-  - 30517f733f7b
   - 42f6ed8b1695
-  - 4c43875c790c
-  - 8d50a0a9e4af
   - 999c5941a6f0
-  - d42501109c05
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scale_image
   owner: imgteam
   revisions:
-  - 3179853faae9
-  - 3e4231ed875e
-  - 72b8a6b7661b
-  - 85666e555698
-  - c4c76f1ebad2
-  - d09507d3fb0e
   - e85846f4a05f
-  - f3c05a734dd1
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: clip_image
@@ -7685,7 +7656,6 @@ tools:
 - name: ridge_filter
   owner: imgteam
   revisions:
-  - a683c87ec261
   - f37d2ad5f532
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -7693,7 +7663,6 @@ tools:
   owner: iuc
   revisions:
   - 8dab52928e70
-  - e434d9b9cd13
   - f81cef6721e4
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -7701,8 +7670,6 @@ tools:
   owner: imgteam
   revisions:
   - 8fa86f0ebca2
-  - e07bfdcb1d26
-  - f4ecbb24a1dc
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: spot_detection_2d
@@ -7717,24 +7684,14 @@ tools:
 - name: omero_import
   owner: ufz
   revisions:
-  - 267227e757cb
   - 75c2257023e8
-  - 83ccd2b525e5
   - a62f0b725508
-  - afe3e24336ed
-  - f1eade5c6a5a
-  - f762de618b1f
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: omero_metadata_import
   owner: ufz
   revisions:
-  - 284c7cdb906d
-  - 352e9d4eaf70
-  - 588d6fa22fc4
   - 6a13fe2fa921
-  - 7cd85e1c50f3
-  - 931eb5fed2c0
   - b70f6440513c
   - eb967ee0ae4f
   tool_panel_section_label: Imaging
@@ -7742,10 +7699,7 @@ tools:
 - name: omero_roi_import
   owner: ufz
   revisions:
-  - 0db3327db967
-  - 4f4dc352d660
   - 8da603b949c1
-  - e957793051a8
   - fb20acd19613
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -7934,7 +7888,6 @@ tools:
   owner: iuc
   revisions:
   - 10f8abc1fbdf
-  - fe119319460a
   tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pick_value
@@ -8510,18 +8463,12 @@ tools:
 - name: spatialdata_operation
   owner: iuc
   revisions:
-  - 0d3296677452
-  - 2adfc39ffbac
   - ad593d73a014
-  - c9077cc6c532
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: spatialdata_plot
   owner: iuc
   revisions:
-  - a9c99d2d3063
-  - bc396bd25374
-  - c5928c28e2f0
   - cec3ffd4752f
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -8542,13 +8489,11 @@ tools:
   revisions:
   - 0101139cb8a5
   - 1fc548259280
-  - 7518638a7b75
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: liana_methods
   owner: iuc
   revisions:
-  - 2b4c00803eb4
   - 89635206a199
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -8780,14 +8725,7 @@ tools:
 - name: image_learner
   owner: goeckslab
   revisions:
-  - 2c3a3dfaf1a9
-  - 328ff3a13078
-  - 801a8b6973fb
-  - 94cd9ac4a9b1
   - a2e4242653ec
-  - bbf30253c99f
-  - bcfa2e234a80
-  - d17e3a1b8659
   tool_panel_section_label: Machine Learning
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flexynesis_cbioportal_import
@@ -8814,14 +8752,9 @@ tools:
   revisions:
   - 3719606b94af
   - 499a039871d0
-  - 871957823d0c
-  - 975512caae22
   - a5404f55ee6a
-  - a92f200d296e
-  - b708d0e210e6
   - baa13bb4cdcc
   - dbf05afb8e6c
-  - ed2fefc8d892
   tool_panel_section_label: Machine Learning
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: flexynesis
@@ -8920,15 +8853,12 @@ tools:
 - name: colabfold_alphafold
   owner: iuc
   revisions:
-  - 5f7a01f8ea28
   - 9d65257c56de
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: simorgh
   owner: bgruening
   revisions:
-  - 1a89c543a9fa
-  - 3c4b90211d4b
   - 7cbaa6fd99e8
   tool_panel_section_label: Machine Learning
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
