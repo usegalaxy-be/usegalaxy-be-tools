@@ -62,12 +62,22 @@ def load_results(results_dir):
 
 
 def apply_flags(tools, expected):
-    """Set regression, expected_failure and potentially_broken on every tool."""
+    """Set the version comparison and the flags on every tool.
+
+    latest: this is the newest tested version of the tool.
+    regression: fails while an older version passes.
+    potentially_broken: the latest version is broken or a regression.
+    old_version_broken: an older version fails while the latest version passes.
+    """
     by_key = {}
     for tool_id, tool in tools.items():
         by_key.setdefault(tool.get("tool", tool_key(tool_id)), []).append((tool_id, tool))
     for versions in by_key.values():
+        latest_id, latest = max(versions, key=lambda v: version_key(v[1]["version"]))
         for tool_id, tool in versions:
+            tool["latest"] = tool_id == latest_id
+            tool["latest_version"] = latest["version"]
+            tool["latest_status"] = latest["status"]
             tool["regression"] = False
             tool["regression_from"] = ""
             if tool["status"] not in ("broken", "partial"):
@@ -80,9 +90,13 @@ def apply_flags(tools, expected):
                 tool["regression_from"] = max(older_passing, key=version_key)
     for tool_id, tool in tools.items():
         reason = expected_reason(tool_id, expected)
+        failing = tool["status"] in ("broken", "partial")
         tool["expected_failure"] = reason is not None
         tool["expected_reason"] = reason or ""
-        tool["potentially_broken"] = (tool["status"] == "broken" or tool["regression"]) and reason is None
+        tool["potentially_broken"] = (tool["latest"] and (tool["status"] == "broken" or tool["regression"])
+                                      and reason is None)
+        tool["old_version_broken"] = (not tool["latest"] and failing and tool["latest_status"] == "passed"
+                                      and reason is None)
 
 
 FENCE = "`" * 3
@@ -215,11 +229,14 @@ def main():
         "",
         f"Tested in this run: {len(tested)} tools. Overall: {len(tools)} tools, "
         + ", ".join(f"{n} {s}" for s, n in sorted(states.items()))
-        + f"; {sum(t['potentially_broken'] for t in tools.values())} potentially broken.",
+        + f"; {sum(t['potentially_broken'] for t in tools.values())} potentially broken, "
+        + f"{sum(t['old_version_broken'] for t in tools.values())} failing in an older version only.",
         "",
     ]
+    old_broken = [tid for tid in tested if tools[tid]["old_version_broken"]]
     for title, items in (("Newly potentially broken", newly_broken), ("Fixed", fixed),
-                         ("Infrastructure errors after retry", infra)):
+                         ("Infrastructure errors after retry", infra),
+                         ("Failing in an older version only (latest passes)", old_broken)):
         if items:
             lines += [f"### {title}", ""]
             for tid in sorted(items):
