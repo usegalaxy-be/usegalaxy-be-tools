@@ -12,7 +12,8 @@
 
 Failed tests are classified (see `scripts/tool_tests_common.py`): setup problems (the test needs data this
 server does not have) are ignored, infrastructure errors (upload or HTTP errors, no job ran) are retried
-once, and the rest count as tool failures. A tool is `partial` when some tests fail and `broken` when all
+once, test by test (skipped when there are more than 50: rerun with scope `failed`), and the rest
+count as tool failures. A tool is `partial` when some tests fail and `broken` when all
 tests that ran failed. It is `potentially_broken` when its latest tested version is broken, or fails while an
 older version of the same tool passes (a regression). An older version that fails while
 the latest passes is marked `old_version_broken` instead: still reachable from workflows

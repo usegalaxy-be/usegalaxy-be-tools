@@ -121,21 +121,27 @@ jobs:
 
       - name: Retry infrastructure failures once
         if: always()
+        timeout-minutes: 45
         env:
           GALAXY_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_ADMIN }}
           GALAXY_TEST_API_TOKEN: ${{ secrets.SECRET_API_TOKEN_TOOL_TESTS }}
         run: |
-          n=$(python scripts/tool_tests_retry_list.py --chunk "plan/chunks/${{ matrix.chunk }}.yaml" \
-                --results "results-${{ matrix.chunk }}.json" --out retry.yaml)
-          echo "Repositories to retry: $n"
-          if [ "$n" -gt 0 ]; then
-            sleep 120
-            timeout -s INT 40m shed-tools test -t retry.yaml \
-              -g "$GALAXY_URL" -a "$GALAXY_API_TOKEN" --test-user-api-key "$GALAXY_TEST_API_TOKEN" \
-              --test-history-name "tool-tests-${{ github.run_id }}-${{ matrix.chunk }}-retry" \
-              --parallel-tests "${{ inputs.parallel_tests || 4 }}" \
-              --test-json "results-${{ matrix.chunk }}-retry.json" || echo "::warning::retry exited with $?"
+          n=$(python scripts/tool_tests_retry_list.py --results "results-${{ matrix.chunk }}.json" --out retry.tsv)
+          echo "Tests with infrastructure errors: $n"
+          if [ ! -s retry.tsv ]; then
+            if [ "$n" -gt 0 ]; then echo "::warning::$n infrastructure errors, too many to retry here; rerun with scope failed"; fi
+            exit 0
           fi
+          sleep 120
+          i=0
+          while IFS=$'\t' read -r tool version index; do
+            i=$((i + 1))
+            timeout -s INT 15m galaxy-tool-test -u "$GALAXY_URL" -k "$GALAXY_TEST_API_TOKEN" -a "$GALAXY_API_TOKEN" \
+              -t "$tool" --tool-version "$version" -i "$index" \
+              --history-name "tool-tests-${{ github.run_id }}-${{ matrix.chunk }}-retry" \
+              -j "results-${{ matrix.chunk }}-retry-$i.json" < /dev/null \
+              || echo "::warning::retry of $tool $version test $index exited with $?"
+          done < retry.tsv
 
       - name: Purge the test history
         if: always()
