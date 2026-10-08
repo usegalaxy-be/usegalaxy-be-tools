@@ -157,7 +157,8 @@ def main():
 
     for chunk in sorted(Path(args.chunks_dir).glob("*.yaml")):
         for repo in yaml.safe_load(chunk.read_text()).get("tools", []):
-            for revision in repo.get("revisions", []):
+            # No revisions: tested at the tool panel versions, recorded as "latest".
+            for revision in repo.get("revisions") or ["latest"]:
                 status["repositories"].setdefault(f"{repo['owner']}/{repo['name']}", {})[revision] = {
                     "tested_at": now, "run": args.run_url}
 
