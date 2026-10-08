@@ -67,3 +67,23 @@ jobs:
             exit 0
           fi
           exit "$rc"
+
+  # Last step of the weekly chain. When the install restarted itself to continue,
+  # the continuation run starts the tests instead.
+  tool-tests:
+    needs: install
+    if: always() && needs.install.result != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start tool-tests.yml for the newly installed revisions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          others=$(gh run list --repo ${{ github.repository }} --workflow install_latest_tool_version.yml \
+                     --json databaseId,status \
+                     -q '[.[] | select(.status != "completed" and .databaseId != ${{ github.run_id }})] | length')
+          if [ "$others" -gt 0 ]; then
+            echo "Another install run is queued or running; it starts the tool tests when it finishes."
+            exit 0
+          fi
+          gh workflow run tool-tests.yml --repo ${{ github.repository }} --ref master -f scope=new
