@@ -7,7 +7,7 @@ version of the same tool passes), and it is not listed in
 tool-tests/expected-failures.yaml.
 
 Results files whose name contains "retry" are applied last and replace the first
-attempt of the same test.
+attempt of the same test (same tool, version and test index).
 
 With --details-dir, the failed tests of a run are written to <run id>.md there,
 one section per tool, and each tool's "details" links to its section.
@@ -51,13 +51,14 @@ def version_key(version):
 
 
 def load_results(results_dir):
-    """Test results by test id, retry files overriding first attempts."""
+    """Test results by tool, version and test index, retry files overriding first attempts."""
     files = sorted(Path(results_dir).glob("**/*.json"), key=lambda p: ("retry" in p.name, p.name))
     tests = {}
     for result_file in files:
         for test in json.loads(result_file.read_text()).get("tests", []):
-            if test.get("data", {}).get("tool_id"):
-                tests[test["id"]] = test["data"]
+            data = test.get("data") or {}
+            if data.get("tool_id"):
+                tests[(data["tool_id"], data.get("tool_version", ""), data.get("test_index"))] = data
     return tests
 
 
