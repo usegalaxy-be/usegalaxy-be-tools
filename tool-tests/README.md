@@ -13,8 +13,10 @@
 Failed tests are classified (see `scripts/tool_tests_common.py`): setup problems (the test needs data this
 server does not have) are ignored, infrastructure errors (upload or HTTP errors, no job ran) are retried
 once, and the rest count as tool failures. A tool is `partial` when some tests fail and `broken` when all
-tests that ran failed. It is `potentially_broken` when it is broken, or when it fails while an older
-version of the same tool passes (a regression).
+tests that ran failed. It is `potentially_broken` when its latest tested version is broken, or fails while an
+older version of the same tool passes (a regression). An older version that fails while
+the latest passes is marked `old_version_broken` instead: still reachable from workflows
+that pin it, but a candidate to hide rather than to fix.
 
 Tests run as a separate Galaxy user (secret `SECRET_API_TOKEN_TOOL_TESTS`), so they do not share
 the job limit of `tool_admin`. Each test job purges its history afterwards.

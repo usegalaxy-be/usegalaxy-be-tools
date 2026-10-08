@@ -11,17 +11,20 @@ full sweep can be stopped and continued later.
 scope=failed: repositories with a tool whose latest result is broken, partial or infra.
 scope=flaky: repositories with a tool that failed in at least --flaky-min of its
 last runs.
-scope=all: every installed repository, latest revision only unless --all-revisions.
+scope=all: every installed repository, its newest revision only unless --all-revisions.
 --repositories limits any scope to the given owner/name repositories.
 """
 
 import argparse
 import json
 import logging
+import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
+from bioblend import toolshed
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -33,17 +36,39 @@ def load_status(path):
     return None
 
 
-def installed_revisions(installed, all_revisions):
+def revision_order(shed, owner, name):
+    """Position of each installable revision in the Tool Shed, oldest first."""
+    for attempt in range(3):
+        try:
+            revisions = toolshed.ToolShedInstance(url=f"https://{shed}").repositories.get_ordered_installable_revisions(name, owner)
+            return {rev: i for i, rev in enumerate(revisions)}
+        except Exception as e:  # noqa: BLE001
+            logger.warning("Revision order for %s/%s failed (%s), attempt %d", owner, name, e, attempt + 1)
+            time.sleep(2 * (attempt + 1))
+    return {}
+
+
+def installed_revisions(installed, all_revisions, only=()):
     """Yield (tool_shed_url, owner, name, revision) for each installed revision.
 
-    get-tool-list lists revisions oldest first, so the last one is the newest.
+    A repository can be listed once per tool panel section, each time with some of
+    its revisions in no particular order. Without all_revisions only the newest
+    one is yielded, by the Tool Shed's order.
     """
+    repos = {}
     for repo in installed.get("tools", []):
-        revisions = repo.get("revisions") or []
-        if not all_revisions:
-            revisions = revisions[-1:]
+        if only and f"{repo['owner']}/{repo['name']}" not in only:
+            continue
+        key = (repo.get("tool_shed_url", "toolshed.g2.bx.psu.edu"), repo["owner"], repo["name"])
+        revisions = repos.setdefault(key, [])
+        revisions += [r for r in repo.get("revisions") or [] if r not in revisions]
+    if not all_revisions:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            orders = dict(zip(repos, pool.map(lambda k: revision_order(*k), repos)))
+        repos = {key: [max(revs, key=lambda r: orders[key].get(r, -1))] for key, revs in repos.items() if revs}
+    for (shed, owner, name), revisions in repos.items():
         for revision in revisions:
-            yield repo.get("tool_shed_url", "toolshed.g2.bx.psu.edu"), repo["owner"], repo["name"], revision
+            yield shed, owner, name, revision
 
 
 def main():
@@ -85,7 +110,7 @@ def main():
                 retest.add(tool["repository"])
     selected = {}
     for shed, owner, name, revision in installed_revisions(
-            installed, all_revisions=args.scope in ("new", "failed", "flaky") or args.all_revisions):
+            installed, all_revisions=args.scope in ("new", "failed", "flaky") or args.all_revisions, only=only):
         repo = f"{owner}/{name}"
         tested = known.get(repo, {}).get(revision, {})
         if only and repo not in only:
@@ -97,10 +122,7 @@ def main():
         # Retest the revisions that produced the failing results.
         if retest is not None and (repo not in retest or "tested_at" not in tested):
             continue
-        revisions = selected.setdefault((shed, owner, name), [])
-        # A repository can be listed once per tool panel section.
-        if revision not in revisions:
-            revisions.append(revision)
+        selected.setdefault((shed, owner, name), []).append(revision)
 
     pairs = [(key, rev) for key, revs in sorted(selected.items()) for rev in revs]
     logger.info("Selected %d revisions from %d repositories", len(pairs), len(selected))
