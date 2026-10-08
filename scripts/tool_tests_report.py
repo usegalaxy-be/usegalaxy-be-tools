@@ -8,9 +8,13 @@ tool-tests/expected-failures.yaml.
 
 Results files whose name contains "retry" are applied last and replace the first
 attempt of the same test.
+
+With --details-dir, the failed tests of a run are written to <run id>.md there,
+one section per tool, and each tool's "details" links to its section.
 """
 
 import argparse
+import hashlib
 import json
 import logging
 import re
@@ -81,6 +85,40 @@ def apply_flags(tools, expected):
         tool["potentially_broken"] = (tool["status"] == "broken" or tool["regression"]) and reason is None
 
 
+FENCE = "`" * 3
+
+
+def excerpt(text, limit, tail=False):
+    text = (text or "").strip().replace(FENCE, "` ` `")
+    if len(text) <= limit:
+        return text
+    return "..." + text[-limit:] if tail else text[:limit] + "..."
+
+
+def anchor(tool_id):
+    return "t-" + hashlib.sha1(tool_id.encode()).hexdigest()[:12]
+
+
+def write_details(path, run_id, run_url, counts):
+    lines = [f"# Failed tool tests, run {run_id}", "", f"Workflow run: {run_url}", ""]
+    for tool_id in sorted(counts):
+        failures = counts[tool_id]["failures"]
+        if not failures:
+            continue
+        lines += [f'<a name="{anchor(tool_id)}"></a>', "", f"## {tool_id}", ""]
+        for kind, data in failures:
+            job = data.get("job") or {}
+            problem = data.get("execution_problem") or "\n".join(data.get("output_problems", []))
+            lines += [f"### Test {data.get('test_index')}: {kind}", ""]
+            if job:
+                lines += [f"Job state `{job.get('state')}`, exit code `{job.get('exit_code')}`.", ""]
+            lines += [FENCE, excerpt(problem, 1500), FENCE, ""]
+            stderr = job.get("stderr") or job.get("tool_stderr")
+            if stderr:
+                lines += ["stderr, last lines:", "", FENCE, excerpt(stderr, 1500, tail=True), FENCE, ""]
+    Path(path).write_text("\n".join(lines) + "\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--status", required=True, help="status.json to update in place (created if missing)")
@@ -90,6 +128,9 @@ def main():
     parser.add_argument("--installed", help="get-tool-list output; drops tools of repositories no longer installed")
     parser.add_argument("--run-url", default="")
     parser.add_argument("--summary", help="Write a Markdown summary here")
+    parser.add_argument("--run-id", default="local")
+    parser.add_argument("--details-dir", help="Write the failed tests of this run here as <run id>.md")
+    parser.add_argument("--details-url", default="", help="URL of --details-dir, for the per-tool links")
     args = parser.parse_args()
 
     status_path = Path(args.status)
@@ -109,8 +150,12 @@ def main():
     counts = {}
     for data in load_results(args.results_dir).values():
         entry = counts.setdefault(versioned_id(data["tool_id"], data.get("tool_version", "")), {"version": data.get("tool_version", ""),
-                                                    "tests": dict.fromkeys(("pass", "tool", "setup", "infra", "skip"), 0)})
-        entry["tests"][classify_test(data)] += 1
+                                                    "tests": dict.fromkeys(("pass", "tool", "setup", "infra", "skip"), 0),
+                                                    "failures": []})
+        kind = classify_test(data)
+        entry["tests"][kind] += 1
+        if kind not in ("pass", "skip"):
+            entry["failures"].append((kind, data))
 
     for tool_id, entry in counts.items():
         state = tool_status(entry["tests"])
@@ -127,6 +172,8 @@ def main():
             "history": history,
             "runs": old.get("runs", 0) + 1,
             "failed_runs": old.get("failed_runs", 0) + (state in FAILING),
+            "details": f"{args.details_url}/{args.run_id}.md#{anchor(tool_id)}"
+                       if args.details_dir and entry["failures"] else "",
         }
 
     apply_flags(status["tools"], expected)
@@ -140,6 +187,17 @@ def main():
             del status["repositories"][repo]
         if gone:
             logger.info("Dropped %d tools of repositories no longer installed", len(gone))
+
+    if args.details_dir:
+        details_dir = Path(args.details_dir)
+        details_dir.mkdir(parents=True, exist_ok=True)
+        if any(entry["failures"] for entry in counts.values()):
+            write_details(details_dir / f"{args.run_id}.md", args.run_id, args.run_url, counts)
+        # Keep only the pages a tool still links to.
+        linked = {t.get("details", "").split("#")[0].rsplit("/", 1)[-1] for t in status["tools"].values()}
+        for page in details_dir.glob("*.md"):
+            if page.name not in linked:
+                page.unlink()
 
     status["updated_at"] = now
     status_path.write_text(json.dumps(status, indent=1, sort_keys=True) + "\n")
