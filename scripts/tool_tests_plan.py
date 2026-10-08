@@ -11,20 +11,17 @@ full sweep can be stopped and continued later.
 scope=failed: repositories with a tool whose latest result is broken, partial or infra.
 scope=flaky: repositories with a tool that failed in at least --flaky-min of its
 last runs.
-scope=all: every installed repository, its newest revision only unless --all-revisions.
+scope=all: the tool panel version (the newest) of every tool, or every installed revision with --all-revisions.
 --repositories limits any scope to the given owner/name repositories.
 """
 
 import argparse
 import json
 import logging
-import time
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
-from bioblend import toolshed
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -36,24 +33,14 @@ def load_status(path):
     return None
 
 
-def revision_order(shed, owner, name):
-    """Position of each installable revision in the Tool Shed, oldest first."""
-    for attempt in range(3):
-        try:
-            revisions = toolshed.ToolShedInstance(url=f"https://{shed}").repositories.get_ordered_installable_revisions(name, owner)
-            return {rev: i for i, rev in enumerate(revisions)}
-        except Exception as e:  # noqa: BLE001
-            logger.warning("Revision order for %s/%s failed (%s), attempt %d", owner, name, e, attempt + 1)
-            time.sleep(2 * (attempt + 1))
-    return {}
-
-
 def installed_revisions(installed, all_revisions, only=()):
-    """Yield (tool_shed_url, owner, name, revision) for each installed revision.
+    """Yield (tool_shed_url, owner, name, revision) per installed revision.
 
     A repository can be listed once per tool panel section, each time with some of
-    its revisions in no particular order. Without all_revisions only the newest
-    one is yielded, by the Tool Shed's order.
+    its revisions. Without all_revisions each repository is yielded once with
+    revision "latest": tested without a revision, ephemeris takes the versions
+    shown in the tool panel, the newest of each tool. A single revision is not
+    enough, since a revision only holds the tools that changed in it.
     """
     repos = {}
     for repo in installed.get("tools", []):
@@ -62,12 +49,8 @@ def installed_revisions(installed, all_revisions, only=()):
         key = (repo.get("tool_shed_url", "toolshed.g2.bx.psu.edu"), repo["owner"], repo["name"])
         revisions = repos.setdefault(key, [])
         revisions += [r for r in repo.get("revisions") or [] if r not in revisions]
-    if not all_revisions:
-        with ThreadPoolExecutor(max_workers=8) as pool:
-            orders = dict(zip(repos, pool.map(lambda k: revision_order(*k), repos)))
-        repos = {key: [max(revs, key=lambda r: orders[key].get(r, -1))] for key, revs in repos.items() if revs}
     for (shed, owner, name), revisions in repos.items():
-        for revision in revisions:
+        for revision in (revisions if all_revisions else ["latest"]):
             yield shed, owner, name, revision
 
 
@@ -123,6 +106,12 @@ def main():
         if retest is not None and (repo not in retest or "tested_at" not in tested):
             continue
         selected.setdefault((shed, owner, name), []).append(revision)
+    if retest is not None:
+        # Repositories last tested at their panel versions are tested that way again.
+        for shed, owner, name, _ in installed_revisions(installed, all_revisions=False, only=only):
+            repo = f"{owner}/{name}"
+            if repo in retest and "tested_at" in known.get(repo, {}).get("latest", {}):
+                selected.setdefault((shed, owner, name), []).append("latest")
 
     pairs = [(key, rev) for key, revs in sorted(selected.items()) for rev in revs]
     logger.info("Selected %d revisions from %d repositories", len(pairs), len(selected))
@@ -133,8 +122,9 @@ def main():
     for start in range(0, len(pairs), args.chunk_size):
         tools = {}
         for (shed, owner, name), rev in pairs[start:start + args.chunk_size]:
-            entry = tools.setdefault((shed, owner, name), {"name": name, "owner": owner, "tool_shed_url": shed, "revisions": []})
-            entry["revisions"].append(rev)
+            entry = tools.setdefault((shed, owner, name), {"name": name, "owner": owner, "tool_shed_url": shed})
+            if rev != "latest":
+                entry.setdefault("revisions", []).append(rev)
         chunk = f"chunk-{len(chunks):03d}"
         (out_dir / f"{chunk}.yaml").write_text(yaml.safe_dump({"tools": list(tools.values())}, sort_keys=False))
         chunks.append(chunk)
