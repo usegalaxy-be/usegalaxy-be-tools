@@ -200,13 +200,15 @@ jobs:
             --expected tool-tests/expected-failures.yaml \
             --installed plan/installed.yaml \
             --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            --summary "$GITHUB_STEP_SUMMARY"
+            --summary "$GITHUB_STEP_SUMMARY" \
+            --run-id "${{ github.run_id }}" --details-dir status/tool-tests/runs \
+            --details-url "${{ github.server_url }}/${{ github.repository }}/blob/${{ env.STATUS_BRANCH }}/tool-tests/runs"
 
       - name: Push the status
         working-directory: status
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tool-tests/status.json
+          git add -A tool-tests
           git diff --cached --quiet || git commit -q -m "Tool test status from run ${{ github.run_id }}"
           git push -q origin "HEAD:$STATUS_BRANCH"
