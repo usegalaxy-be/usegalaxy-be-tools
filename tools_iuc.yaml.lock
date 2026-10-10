@@ -4626,7 +4626,6 @@ tools:
   revisions:
   - 03dd3c928d65
   - 1979ff89fbde
-  - c3f0b847dc40
   tool_panel_section_label: Mothur
 - name: mothur_merge_files
   owner: iuc

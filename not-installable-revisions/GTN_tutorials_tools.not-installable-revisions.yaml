@@ -1424,3 +1424,23 @@ tools:
   owner: goeckslab
   revisions:
   - d5c582cf74bc
+- name: pycytominer_aggregate
+  owner: imgteam
+  revisions:
+  - 4c98cf453fd1
+- name: pycytominer_annotate
+  owner: imgteam
+  revisions:
+  - 2403cfc019eb
+- name: pycytominer_normalize
+  owner: imgteam
+  revisions:
+  - f42a3b502790
+- name: pycytominer_feature_select
+  owner: imgteam
+  revisions:
+  - a2c40ccbfe6c
+- name: pycytominer_consensus
+  owner: imgteam
+  revisions:
+  - 139977ffa202
