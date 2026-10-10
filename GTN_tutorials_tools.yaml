@@ -1236,7 +1236,7 @@ tools:
   owner: padge
   revisions:
   - '770695339600'
-  tool_panel_section_label: Annotation
+  tool_panel_section_label: Species abundance
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: phykit
   owner: padge
@@ -2345,6 +2345,36 @@ tools:
   - 068da7f7cd83
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pycytominer_aggregate
+  owner: imgteam
+  revisions:
+  - 4c98cf453fd1
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pycytominer_annotate
+  owner: imgteam
+  revisions:
+  - 2403cfc019eb
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pycytominer_normalize
+  owner: imgteam
+  revisions:
+  - f42a3b502790
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pycytominer_feature_select
+  owner: imgteam
+  revisions:
+  - a2c40ccbfe6c
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: pycytominer_consensus
+  owner: imgteam
+  revisions:
+  - 139977ffa202
+  tool_panel_section_label: Imaging
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: iscc_sum
   owner: imgteam
   revisions:
@@ -2863,7 +2893,7 @@ tools:
   owner: iuc
   revisions:
   - 10f8abc1fbdf
-  tool_panel_section_label: Metagenomic Analysis
+  tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan
   owner: iuc
@@ -2882,7 +2912,7 @@ tools:
   owner: iuc
   revisions:
   - 303e095c89c6
-  tool_panel_section_label: Metagenomic Analysis
+  tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: clair3
   owner: iuc
@@ -3338,6 +3368,7 @@ tools:
 - name: biom_convert
   owner: iuc
   revisions:
+  - b3858ab7f598
   - d4d4e9febf5c
   tool_panel_section_label: Convert Formats
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -3504,6 +3535,108 @@ tools:
   revisions:
   - 87064cb77a52
   tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2_core__tools__import
+  owner: q2d2
+  revisions:
+  - 95475922280e
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__demux__summarize
+  owner: q2d2
+  revisions:
+  - 9d4d7f37ba01
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__dada2__denoise_paired
+  owner: q2d2
+  revisions:
+  - 569b33f54ed0
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__feature_table__tabulate_seqs
+  owner: q2d2
+  revisions:
+  - f85a59f6a6dc
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__metadata__tabulate
+  owner: q2d2
+  revisions:
+  - 92bb3663bb96
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__feature_table__summarize
+  owner: q2d2
+  revisions:
+  - 41e9af5ca46b
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__feature_classifier__classify_sklearn
+  owner: q2d2
+  revisions:
+  - 6131ad924c9d
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__phylogeny__align_to_tree_mafft_fasttree
+  owner: q2d2
+  revisions:
+  - 1eae9d13a91e
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__taxa__filter_table
+  owner: q2d2
+  revisions:
+  - baef54e1b523
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2_core__tools__export
+  owner: q2d2
+  revisions:
+  - b6e4d26e4e7a
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__taxa__barplot
+  owner: q2d2
+  revisions:
+  - 3fa5e4d759dc
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__composition__ancombc2
+  owner: q2d2
+  revisions:
+  - 2129213700fb
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__diversity__alpha_rarefaction
+  owner: q2d2
+  revisions:
+  - 3a8c645430a2
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__diversity__core_metrics_phylogenetic
+  owner: q2d2
+  revisions:
+  - 4fe98252a16f
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__composition__ancombc2_visualizer
+  owner: q2d2
+  revisions:
+  - 58be27be4069
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__diversity__alpha_group_significance
+  owner: q2d2
+  revisions:
+  - 6698547705c9
+  tool_panel_section_label: Microbiome
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: qiime2__diversity__beta_group_significance
+  owner: q2d2
+  revisions:
+  - 8f112ef712c3
+  tool_panel_section_label: Microbiome
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: concoct_cut_up_fasta
   owner: iuc
@@ -4627,37 +4760,37 @@ tools:
   owner: iuc
   revisions:
   - ad593d73a014
-  tool_panel_section_label: Spatial Omics
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: squidpy_plot
   owner: iuc
   revisions:
   - 0a089e4b62d7
-  tool_panel_section_label: Spatial Omics
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: squidpy_graph
   owner: iuc
   revisions:
   - 662e929f44fa
-  tool_panel_section_label: Spatial Omics
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: celltypist
   owner: iuc
   revisions:
   - 1fc548259280
-  tool_panel_section_label: Single-cell
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: liana_methods
   owner: iuc
   revisions:
   - 89635206a199
-  tool_panel_section_label: Single-cell
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: spatialdata_plot
   owner: iuc
   revisions:
   - cec3ffd4752f
-  tool_panel_section_label: Spatial Omics
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: goenrichment
   owner: iuc
@@ -4712,7 +4845,7 @@ tools:
   owner: iuc
   revisions:
   - 74fa68f4e579
-  tool_panel_section_label: RNA Analysis
+  tool_panel_section_label: Single-Cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scanpy_run_fdg
   owner: ebi-gxa
@@ -5180,7 +5313,7 @@ tools:
   owner: iuc
   revisions:
   - 9d65257c56de
-  tool_panel_section_label: Proteomics
+  tool_panel_section_label: Machine Learning
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: simorgh
   owner: bgruening
@@ -5234,7 +5367,7 @@ tools:
   owner: tduigou
   revisions:
   - ea590c609fec
-  tool_panel_section_label: Other Tools
+  tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rpextractsink
   owner: tduigou
@@ -5252,7 +5385,7 @@ tools:
   owner: tduigou
   revisions:
   - e3db7fb2c85e
-  tool_panel_section_label: Other Tools
+  tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rpcompletion
   owner: tduigou
@@ -5270,13 +5403,13 @@ tools:
   owner: tduigou
   revisions:
   - de9f53630349
-  tool_panel_section_label: Other Tools
+  tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: dnabot
   owner: tduigou
   revisions:
   - de6812daba39
-  tool_panel_section_label: Other Tools
+  tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: rpfba
   owner: iuc
