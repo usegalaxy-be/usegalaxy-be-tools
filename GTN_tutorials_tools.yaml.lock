@@ -627,6 +627,7 @@ tools:
   - c78cf6fe3018
   - ce3c7f062223
   - d25966c8ddeb
+  - d57471728f7b
   - db1841942d2b
   - dde39ba9c031
   - e0cec48a4695
@@ -999,6 +1000,7 @@ tools:
   owner: devteam
   revisions:
   - 04866f817daa
+  - 49be7ffc00e2
   - 4d343c1f606b
   - 887a9bf73d1a
   - 8eb649e67987
@@ -9208,6 +9210,7 @@ tools:
 - name: pycytominer_aggregate
   owner: imgteam
   revisions:
+  - 32b51ca17b99
   - 4c98cf453fd1
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -9215,11 +9218,13 @@ tools:
   owner: imgteam
   revisions:
   - 2403cfc019eb
+  - d7d9a7955cca
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pycytominer_normalize
   owner: imgteam
   revisions:
+  - ecc1d28dc344
   - f42a3b502790
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -9227,12 +9232,14 @@ tools:
   owner: imgteam
   revisions:
   - a2c40ccbfe6c
+  - b36d0fb80349
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: pycytominer_consensus
   owner: imgteam
   revisions:
   - 139977ffa202
+  - 17d95ef305d2
   tool_panel_section_label: Imaging
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: qiime2_core__tools__import
