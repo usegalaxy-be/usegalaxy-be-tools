@@ -441,7 +441,6 @@ tools:
   - 11869c5becd8
   - 355a82227003
   - 398e5104f8a2
-  - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
   - bf96015d2492
@@ -7485,7 +7484,6 @@ tools:
   - 3b4b2121842f
   - 4805fe3d8fda
   - 65432c3abf6c
-  - b11e8e9c23bf
   - dfadc322b065
   - e1461b5c52a0
   tool_panel_section_label: Variant Calling
@@ -7494,7 +7492,6 @@ tools:
   revisions:
   - 4165b712b569
   - 426d707dfc47
-  - 971e07ca4456
   - c27549b9aa1f
   - f4473557ffc7
   tool_panel_section_label: Variant Calling
@@ -7504,7 +7501,6 @@ tools:
   - 3e0e44d971d5
   - 6f9ffff040ce
   - 701d134358ad
-  - 7dfca164d2e3
   - 9cb929f21cfa
   tool_panel_section_label: Variant Calling
 - name: lofreq_alnqual
@@ -7513,7 +7509,6 @@ tools:
   - 09d6e4693887
   - 3ee7d4ac76f3
   - 435b157bed6d
-  - 791f73caa0c8
   - e61c9ac190ad
   tool_panel_section_label: Variant Calling
 - name: lofreq_viterbi
@@ -7521,7 +7516,6 @@ tools:
   revisions:
   - 3330ebe7c0c7
   - 33a416e1659e
-  - aa35ee7f3ab2
   - cdaab621d454
   - dbd9f2db9ed8
   tool_panel_section_label: Variant Calling
@@ -8273,7 +8267,6 @@ tools:
   owner: iuc
   revisions:
   - 10112d9127af
-  - 16888c5c9ed5
   - 26abc7846e6f
   - 4850f0d15f01
   - 54fb02338510

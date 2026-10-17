@@ -498,11 +498,13 @@ tools:
 - name: lofreq_viterbi
   owner: iuc
   revisions:
+  - aa35ee7f3ab2
   - af7e416d8176
 - name: lofreq_indelqual
   owner: iuc
   revisions:
   - 354b534eeab7
+  - 971e07ca4456
 - name: cardinal_quality_report
   owner: galaxyp
   revisions:
@@ -1444,3 +1446,15 @@ tools:
   owner: imgteam
   revisions:
   - 139977ffa202
+- name: proteinortho
+  owner: iuc
+  revisions:
+  - 16888c5c9ed5
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - b11e8e9c23bf
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 6b9816a913de
