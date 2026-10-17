@@ -107,6 +107,7 @@ tools:
   owner: iuc
   revisions:
   - 1f0242e49a58
+  - 6b9816a913de
 - name: idr
   owner: iuc
   revisions:
@@ -1866,10 +1867,12 @@ tools:
   owner: iuc
   revisions:
   - 2ae554b4bcca
+  - 971e07ca4456
 - name: lofreq_alnqual
   owner: iuc
   revisions:
   - 2953c43180c0
+  - 791f73caa0c8
 - name: bcftools_merge
   owner: iuc
   revisions:
@@ -2772,3 +2775,19 @@ tools:
   owner: iuc
   revisions:
   - 0d9782fed2ac
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - b11e8e9c23bf
+- name: lofreq_filter
+  owner: iuc
+  revisions:
+  - 7dfca164d2e3
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - aa35ee7f3ab2
+- name: proteinortho
+  owner: iuc
+  revisions:
+  - 16888c5c9ed5

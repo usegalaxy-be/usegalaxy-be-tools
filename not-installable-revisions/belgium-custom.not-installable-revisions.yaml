@@ -1532,3 +1532,31 @@ tools:
   owner: bgruening
   revisions:
   - 3489e5c15882
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - b11e8e9c23bf
+- name: lofreq_indelqual
+  owner: iuc
+  revisions:
+  - 971e07ca4456
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - aa35ee7f3ab2
+- name: lofreq_alnqual
+  owner: iuc
+  revisions:
+  - 791f73caa0c8
+- name: lofreq_filter
+  owner: iuc
+  revisions:
+  - 7dfca164d2e3
+- name: proteinortho
+  owner: iuc
+  revisions:
+  - 16888c5c9ed5
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 6b9816a913de
