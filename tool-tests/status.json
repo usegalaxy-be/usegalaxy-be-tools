@@ -915,6 +915,10 @@
   "bgruening/salmon": {
    "29e12b90949d": {
     "baseline_at": "2026-10-07T13:50:25+00:00"
+   },
+   "latest": {
+    "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/39271975268",
+    "tested_at": "2026-10-19T14:56:28+00:00"
    }
   },
   "bgruening/salmonquantmerge": {
@@ -8094,6 +8098,39 @@
   }
  },
  "tools": {
+  "toolshed.g2.bx.psu.edu/repos/bgruening/salmon/salmon/1.10.1+galaxy5": {
+   "details": "https://github.com/usegalaxy-be/usegalaxy-be-tools/blob/tool-test-results/tool-tests/runs/39271975268.md#t-da245e48e157",
+   "expected_failure": false,
+   "expected_reason": "",
+   "failed_runs": 0,
+   "history": [
+    {
+     "at": "2026-10-19T14:56:28+00:00",
+     "status": "passed"
+    }
+   ],
+   "latest": true,
+   "latest_status": "passed",
+   "latest_version": "1.10.1+galaxy5",
+   "old_version_broken": false,
+   "potentially_broken": false,
+   "regression": false,
+   "regression_from": "",
+   "repository": "bgruening/salmon",
+   "run": "https://github.com/usegalaxy-be/usegalaxy-be-tools/actions/runs/39271975268",
+   "runs": 1,
+   "status": "passed",
+   "tested_at": "2026-10-19T14:56:28+00:00",
+   "tests": {
+    "infra": 0,
+    "pass": 12,
+    "setup": 1,
+    "skip": 0,
+    "tool": 0
+   },
+   "tool": "bgruening/salmon/salmon",
+   "version": "1.10.1+galaxy5"
+  },
   "toolshed.g2.bx.psu.edu/repos/iuc/bedtools/bedtools_annotatebed/2.27.0.0": {
    "expected_failure": false,
    "expected_reason": "",
@@ -12012,5 +12049,5 @@
    "version": "2.31.1"
   }
  },
- "updated_at": "2026-10-08T18:20:16+00:00"
+ "updated_at": "2026-10-19T14:56:28+00:00"
 }
