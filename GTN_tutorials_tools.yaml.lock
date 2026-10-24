@@ -54,6 +54,7 @@ tools:
   - 7591bce96601
   - 75c93c70d094
   - 862943c10425
+  - 94b6bea727ae
   - 97255f6fdf7e
   - 9a913cdee30e
   - 9e2e788ba5eb
@@ -552,6 +553,7 @@ tools:
   - 9bc5cdefb090
   - 9cd341095afd
   - aff5135563c6
+  - b6236eb1a50b
   - be25c075ed54
   tool_panel_section_label: Text Manipulation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -662,6 +664,7 @@ tools:
   - 9ec9c22767c8
   - c4fb391275a0
   - cfc412b91a57
+  - da25e82a51a8
   - ff02cf8f66f0
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -769,6 +772,7 @@ tools:
   - 3ad7ef0ba385
   - 4b6f16a79fe4
   - 4bafaa074484
+  - 8096daf9ce73
   - 8a22554cdde2
   - 95505a9fa26f
   - a17498c603ec
@@ -878,6 +882,7 @@ tools:
   - 53af7b5b1b56
   - 6eeacf19a38e
   - 75a3b8da8e76
+  - 7bbc3fad1d3b
   - 898b67846b47
   - 9a38087e3bfd
   - a60283899c6d
@@ -2066,6 +2071,7 @@ tools:
   - 54fb02338510
   - 5532c0e5d4a6
   - 6140163233a5
+  - 7d96269dd8c5
   - 85c411546123
   - 8a701e0754a1
   - 9b99159b2b23
@@ -2079,6 +2085,7 @@ tools:
   revisions:
   - 079fffa782df
   - 1187ff061d62
+  - 1b4711bb2eb9
   - 36dffb2bc194
   - 4ab23324f633
   - 6eec1c6410fe
@@ -2095,6 +2102,7 @@ tools:
   owner: devteam
   revisions:
   - 5b097fde95dd
+  - baa38def0230
   - d6694932c5e0
   - f8aad74cc8c1
   tool_panel_section_label: Multiple Alignments
@@ -2943,6 +2951,7 @@ tools:
   - 776ebd1239da
   - 82f2b6f20fa2
   - 9bccc8404a3c
+  - c3b0d50d1b53
   - c9a8ef2aa380
   - d220115f882b
   - e32aac2299fb
@@ -2971,6 +2980,7 @@ tools:
   owner: iuc
   revisions:
   - 16364014b8a9
+  - 1e1ce62b4869
   - 26ccb678abc8
   - 29648e5e83a8
   - 382518f24d6d
@@ -3276,6 +3286,7 @@ tools:
   - 4dea02886337
   - 69e0806b63a4
   - 6ea09f60dee9
+  - 88fecd593368
   - 9f243677c4c6
   tool_panel_section_label: Convert Formats
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4268,6 +4279,7 @@ tools:
   - b482293b2987
   - cd8c76234b0c
   - eb35257d2e29
+  - f7746d145125
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: metaphlan
@@ -4305,6 +4317,7 @@ tools:
   revisions:
   - a6fd47ecbff8
   - c2803012bbb3
+  - f131572be91e
   - fc6c328c292f
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4517,7 +4530,9 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 04eb022d7409
   - 3b1963f729cb
+  - 4bf1e2701504
   - f329328da134
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -5323,6 +5338,7 @@ tools:
   - 53460afd5115
   - '566197475670'
   - 6a097d09fca3
+  - 94f3fd9ade04
   - c6bfec911a41
   - ca7cb0eaad62
   - cb04f3235a4e
@@ -5961,6 +5977,7 @@ tools:
   - 2d455a7e8a3d
   - 8f333f90d8d6
   - b834074a9aff
+  - fad352ff02ad
   - fd808de478b1
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -5969,6 +5986,7 @@ tools:
   revisions:
   - 2e41b35b5bdd
   - 4887c4c69847
+  - 63dc52ce8c73
   - 81e5bdff4853
   - ef4c80837bc5
   tool_panel_section_label: Single-cell
@@ -5980,12 +5998,14 @@ tools:
   - 7a365ec81b52
   - b7ea9f09c02f
   - e6ca62ac65c6
+  - ede400b28a58
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scater_plot_pca
   owner: iuc
   revisions:
   - 46fc6751d746
+  - 7022861faab0
   - 9e5c0bb18d08
   - bea3359ba852
   - c99ba278dfa9
@@ -6509,6 +6529,7 @@ tools:
   - '677858820055'
   - 6e66d970a5a0
   - b11a2b599c39
+  - d14ba7d5549e
   - d5c53a916005
   tool_panel_section_label: Synthetic-Biology
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -6523,6 +6544,7 @@ tools:
   owner: tduigou
   revisions:
   - 21a900eee812
+  - 278c257354d8
   - 4525f388f3ac
   - b2eb5f498ed9
   tool_panel_section_label: Synthetic-Biology
@@ -6530,6 +6552,7 @@ tools:
 - name: rpscore
   owner: tduigou
   revisions:
+  - 50e9b34feaca
   - da8ae7fa5ed3
   - eddae32301bd
   tool_panel_section_label: Synthetic-Biology
@@ -6562,6 +6585,7 @@ tools:
 - name: length_and_gc_content
   owner: iuc
   revisions:
+  - 0e7eadbd461c
   - 2ca1baabdae0
   - e3ba567abdf5
   - f088370d2a3c
@@ -6609,6 +6633,7 @@ tools:
   - 2275d0688bca
   - 24a09ca67621
   - 25204a860b79
+  - 2a1ad8a533dc
   - 3bf1b3ec1ddf
   - 6a3a025714d3
   - 6c363db8c702
@@ -6860,6 +6885,7 @@ tools:
   - 872c99389c69
   - ab74e99f7b26
   - b3065e4df04c
+  - bd21dd94c221
   - c319651a733a
   - c6457d9348ab
   - dd2b0bde0be1
@@ -6873,6 +6899,7 @@ tools:
   - 1d3be7700f70
   - 2059413473af
   - 39bb70c2764e
+  - 4ac1b4148127
   - 62f0216cdfab
   - 668f0b2f63ec
   - 67a73fead553
@@ -6896,6 +6923,7 @@ tools:
   - 35f433d0bd7f
   - 5221e0f4c8e8
   - 6492560fe1b4
+  - 672029ec4a0b
   - 6caee0d165fe
   - 7f9cf152cf8f
   - 948f4bc1f030
@@ -6926,6 +6954,7 @@ tools:
   - 903f7a4cfbf0
   - 96ed25eb39f0
   - a1694947910f
+  - a2bba8b2db55
   - aee9afe5de77
   - e0f08a05b24c
   - e40017f9cff1
@@ -6938,6 +6967,7 @@ tools:
   revisions:
   - 061844f6837f
   - 3be9e8b0ab2d
+  - 44c50b0714d9
   - 56b2d956a1a6
   - 5b4cd19272d5
   - 6977e9b7143d
@@ -6987,6 +7017,7 @@ tools:
   revisions:
   - 298d81e5e138
   - d3377a16d881
+  - ecb3e2432f4f
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: trinotate
@@ -7631,6 +7662,7 @@ tools:
   - 02dfbbf869d8
   - 10ef1bf99074
   - 156d0908e232
+  - 2dfd91f7b71d
   - 8a18547725cf
   - 95a9dc82fc9a
   - be2d899bf34a
@@ -7891,6 +7923,7 @@ tools:
   revisions:
   - 507d59b036c5
   - 7075b7a5441b
+  - 8621b220c13e
   tool_panel_section_label: Annotation
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: integron_finder
@@ -8573,6 +8606,8 @@ tools:
 - name: krakentools_beta_diversity
   owner: iuc
   revisions:
+  - 13b4ae988a8e
+  - 4505d7643673
   - 5fa703b1f68a
   - c254d75b8b67
   tool_panel_section_label: Metagenomic Analysis
@@ -8667,6 +8702,7 @@ tools:
   owner: iuc
   revisions:
   - 30e275ed0442
+  - d177e58c5a5e
   - f1d1dafc836d
   tool_panel_section_label: Metagenomic Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
