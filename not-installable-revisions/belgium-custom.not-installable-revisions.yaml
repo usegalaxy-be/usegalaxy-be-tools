@@ -76,6 +76,7 @@ tools:
   owner: devteam
   revisions:
   - 61f9ddbc63ca
+  - 9bc5cdefb090
 - name: gff3_rebase
   owner: iuc
   revisions:
@@ -197,6 +198,7 @@ tools:
   owner: iuc
   revisions:
   - 8ec7636fa875
+  - f3534b94ad05
 - name: fargene
   owner: iuc
   revisions:
@@ -758,6 +760,7 @@ tools:
   owner: iuc
   revisions:
   - a00df747f03c
+  - a6fd47ecbff8
 - name: mothur_taxonomy_to_krona
   owner: iuc
   revisions:
@@ -1242,6 +1245,7 @@ tools:
 - name: proteinortho_grab_proteins
   owner: iuc
   revisions:
+  - a83f63833669
   - d348c3a151d9
 - name: alphafold2
   owner: galaxy-australia
@@ -1556,7 +1560,64 @@ tools:
   owner: iuc
   revisions:
   - 16888c5c9ed5
+  - 9d3e89076101
 - name: ggplot2_histogram
   owner: iuc
   revisions:
   - 6b9816a913de
+- name: gffread
+  owner: devteam
+  revisions:
+  - 3e436657dcd0
+- name: flair_correct
+  owner: iuc
+  revisions:
+  - c784170f3b5e
+- name: flair_collapse
+  owner: iuc
+  revisions:
+  - 1fdcbfcca71c
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 5b097fde95dd
+- name: tximport
+  owner: iuc
+  revisions:
+  - 0bcc35b10569
+- name: scater_plot_pca
+  owner: iuc
+  revisions:
+  - c99ba278dfa9
+- name: scater_plot_dist_scatter
+  owner: iuc
+  revisions:
+  - ef4c80837bc5
+- name: scater_filter
+  owner: iuc
+  revisions:
+  - 652923ce664f
+- name: scater_create_qcmetric_ready_sce
+  owner: iuc
+  revisions:
+  - 8f333f90d8d6
+- name: scater_plot_tsne
+  owner: iuc
+  revisions:
+  - 99f912d5af9f
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - 6a097d09fca3
+- name: mapseq
+  owner: iuc
+  revisions:
+  - 30e275ed0442
+- name: krakentools_beta_diversity
+  owner: iuc
+  revisions:
+  - 5fa703b1f68a
+- name: krakentools_extract_kraken_reads
+  owner: iuc
+  revisions:
+  - 3b1963f729cb

@@ -42,6 +42,7 @@ tools:
   owner: devteam
   revisions:
   - 61f9ddbc63ca
+  - 9bc5cdefb090
 - name: text_processing
   owner: bgruening
   revisions:
@@ -250,11 +251,13 @@ tools:
 - name: proteinortho_grab_proteins
   owner: iuc
   revisions:
+  - a83f63833669
   - d348c3a151d9
 - name: clustalw
   owner: devteam
   revisions:
   - 4daabc25df00
+  - 5b097fde95dd
 - name: srs_spectral_indices
   owner: ecology
   revisions:
@@ -654,6 +657,7 @@ tools:
   owner: iuc
   revisions:
   - a00df747f03c
+  - a6fd47ecbff8
 - name: kraken2
   owner: iuc
   revisions:
@@ -1450,6 +1454,7 @@ tools:
   owner: iuc
   revisions:
   - 16888c5c9ed5
+  - 9d3e89076101
 - name: lofreq_call
   owner: iuc
   revisions:
@@ -1458,3 +1463,39 @@ tools:
   owner: iuc
   revisions:
   - 6b9816a913de
+- name: gffread
+  owner: devteam
+  revisions:
+  - 3e436657dcd0
+- name: krakentools_extract_kraken_reads
+  owner: iuc
+  revisions:
+  - 3b1963f729cb
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - 6a097d09fca3
+- name: scater_create_qcmetric_ready_sce
+  owner: iuc
+  revisions:
+  - 8f333f90d8d6
+- name: scater_plot_dist_scatter
+  owner: iuc
+  revisions:
+  - ef4c80837bc5
+- name: scater_filter
+  owner: iuc
+  revisions:
+  - 652923ce664f
+- name: scater_plot_pca
+  owner: iuc
+  revisions:
+  - c99ba278dfa9
+- name: krakentools_beta_diversity
+  owner: iuc
+  revisions:
+  - 5fa703b1f68a
+- name: mapseq
+  owner: iuc
+  revisions:
+  - 30e275ed0442
