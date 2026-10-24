@@ -2060,6 +2060,7 @@ tools:
   owner: iuc
   revisions:
   - 10112d9127af
+  - 16888c5c9ed5
   - 26abc7846e6f
   - 4850f0d15f01
   - 54fb02338510
@@ -3255,6 +3256,7 @@ tools:
   - 1b3626164087
   - 2e3535db1bfa
   - 326f9c294b09
+  - e408aa831db3
   - e906fa778440
   - f1912d5575df
   tool_panel_section_label: Annotation
@@ -4963,6 +4965,7 @@ tools:
   owner: jay
   revisions:
   - 0973f093d98f
+  - 8697dc4a7f45
   - aa0b1cb1260c
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -4971,6 +4974,7 @@ tools:
   revisions:
   - 080b372fe513
   - 15b6eec94c40
+  - 738ee8fc0ede
   - 7d247e27ff11
   tool_panel_section_label: Proteomics
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -5087,6 +5091,7 @@ tools:
 - name: pdaug_peptide_sequence_analysis
   owner: jay
   revisions:
+  - 5eb62fb8a2d0
   - 90e3b1968ae6
   - b73ba641e514
   tool_panel_section_label: Proteomics
