@@ -84,7 +84,6 @@ tools:
   - 916cb26bd9d3
   - 971e20519fb8
   - a6dcb86af112
-  - c5a9d57d7eb1
   - f320093f1e8e
   - f5d08224af89
   - fb117b3ee99a
@@ -627,7 +626,6 @@ tools:
   - 734abc7ac21d
   - 751a694ec620
   - 83c7d564b128
-  - 8848455c0270
   - 964579f93c54
   - 9a776b080193
   - aad3885b3216
@@ -1053,7 +1051,6 @@ tools:
 - name: collection_column_join
   owner: iuc
   revisions:
-  - 3ddd99c7efee
   - 4b00d89e8690
   - 9c8536c7ed42
   - dfde09461b1e
@@ -1105,7 +1102,6 @@ tools:
   owner: iuc
   revisions:
   - 285afb58a631
-  - e25ee6bac872
   - f24a9ff28d3c
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -1127,7 +1123,6 @@ tools:
   owner: iuc
   revisions:
   - 33de73363690
-  - b026dae67fba
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biom_convert
@@ -1310,7 +1305,6 @@ tools:
   revisions:
   - 3da72230c066
   - 4b494533146a
-  - 8511b6d85fc7
   - a019807f4e67
   - a09586d5149a
   - bc7d99f46a5d
@@ -2468,7 +2462,6 @@ tools:
   - 543cbeef3949
   - 5f76b20953e5
   - 93d623d9979c
-  - a2899db6bd6e
   - c398c6b9381f
   tool_panel_section_label: Nanopore
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2527,7 +2520,6 @@ tools:
   revisions:
   - 1b3626164087
   - 326f9c294b09
-  - e408aa831db3
   - e906fa778440
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2597,7 +2589,6 @@ tools:
   - 2449e1c81166
   - 2ec5e1ad1da7
   - 314b778b8ffa
-  - 54b92ae4f75b
   - ae4754e7c97a
   - b28e8ed99424
   - b4fe2f703b4b
@@ -2664,7 +2655,6 @@ tools:
   - 216b19e6c317
   - 25fa92aa34c0
   - 347a1f935f4c
-  - 4a54e4c9188b
   - b49a4465041d
   - be072920a53e
   - be7097d6e3ff
@@ -2675,7 +2665,6 @@ tools:
   owner: iuc
   revisions:
   - 1b4fa39357ab
-  - 37bcc9fb0bb1
   - 3c27cd24641d
   - 74fc6d7d40f1
   - 8267b6ad0b45
@@ -2695,7 +2684,6 @@ tools:
   - 5113c71c7031
   - 5cbef50c0c63
   - 793967b6ae8a
-  - 9fdeca68a6b5
   - d4fda6672a64
   - d9ce554da9b4
   tool_panel_section_label: Annotation
@@ -2711,7 +2699,6 @@ tools:
   - e07176c0925d
   - e7d281a290a6
   - f68b43be32d7
-  - fb1305d0d1c6
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: hmmer_hmmalign
@@ -2732,7 +2719,6 @@ tools:
   - 1cd4d0cf8fd9
   - 368f47898569
   - 7b7ff4d209f7
-  - 82d6ca8212dc
   - 855e2b978e3a
   - a6f41287ef2b
   - e9d622609fb5
@@ -2750,7 +2736,6 @@ tools:
   - 6867ed975e25
   - b774ae8e1609
   - d753d9169482
-  - df7a52791be9
   - e779d71f871a
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -2988,7 +2973,6 @@ tools:
   revisions:
   - 637ec5d5368c
   - 6ecd78daae1b
-  - b7e91ff1a894
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: jcvi_gff_stats
@@ -3274,7 +3258,6 @@ tools:
   - 0c37cb9102d0
   - 0f42cf7485e8
   - 4fc0cb2ac8ae
-  - 75e15ee43896
   - c0cedc12fcc5
   - e8c60daa41e0
   - ebe3b0f84de9
@@ -3298,7 +3281,6 @@ tools:
   owner: iuc
   revisions:
   - 27fff8d3793e
-  - 298dceed950c
   - 5b0b49b5421c
   - 636b049e6141
   - 7cd7a55a678d
@@ -3326,7 +3308,6 @@ tools:
   revisions:
   - 0f7ebb3a2f0e
   - 2f4d9668d3b4
-  - 355f84a894bf
   - 48823c9635a4
   - 48badcd29c5d
   - 57f042937ba7
@@ -3473,7 +3454,6 @@ tools:
   - 8b6d0d85252b
   - 8dee0218ac7d
   - a7b889b90140
-  - b799a615995d
   tool_panel_section_label: Assembly
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: spades
@@ -3608,7 +3588,6 @@ tools:
   - 792acb18fb24
   - 98242353faa4
   - a96f3ad4e0d8
-  - ab208c87d973
   - de387b2b2803
   - edc663aadfa8
   tool_panel_section_label: Assembly
@@ -3687,7 +3666,6 @@ tools:
   - c7c55b694974
   - d5659efd66aa
   - d681e989ac95
-  - d8d32326fbfb
   - de21b616f03a
   - e132e7d02a3e
   tool_panel_section_label: Mapping
@@ -3766,7 +3744,6 @@ tools:
   - 58b278def57e
   - 5ef7ec16b04f
   - 79b885ce78d7
-  - 7f694df20f73
   - 9ee34ba73ebf
   - a00cceb45700
   - b8f5f6e87f5c
@@ -4000,7 +3977,6 @@ tools:
   revisions:
   - 03627f24605f
   - 074d44697036
-  - 14af3b671440
   - 3b4b2121842f
   - 4805fe3d8fda
   - 65432c3abf6c
@@ -4013,7 +3989,6 @@ tools:
   owner: iuc
   revisions:
   - 07cd2a0e530d
-  - 4165b712b569
   - 426d707dfc47
   - c27549b9aa1f
   - f4473557ffc7
@@ -4022,7 +3997,6 @@ tools:
 - name: lofreq_viterbi
   owner: iuc
   revisions:
-  - 3330ebe7c0c7
   - 33a416e1659e
   - cdaab621d454
   - dbd9f2db9ed8
@@ -4083,7 +4057,6 @@ tools:
   owner: iuc
   revisions:
   - 09d6e4693887
-  - 3ee7d4ac76f3
   - 435b157bed6d
   - 4e7fc9795034
   - e61c9ac190ad
@@ -4225,7 +4198,6 @@ tools:
   - 43fffeed243f
   - 93c4b04a0769
   - c7a721c21e01
-  - dcd4681273f7
   tool_panel_section_label: Variant Calling
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: delly_filter
@@ -4769,7 +4741,6 @@ tools:
   - a5937157062f
   - ae2f044f7b1c
   - bf27106652f3
-  - c752293b798c
   - da6e10dee68b
   - e54bb199a47b
   - e698621cca1f
@@ -4992,7 +4963,6 @@ tools:
 - name: mcdoe
   owner: padge
   revisions:
-  - cc0957c46408
   - d5832ac370e3
   tool_panel_section_label: Genome editing
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -5293,7 +5263,6 @@ tools:
   - 73281fbdf6c1
   - a8a083193440
   - ba2111ae6eb4
-  - fba1660fb717
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tetoolkit_tetranscripts
@@ -5320,7 +5289,6 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
-  - 04adc9db1581
   - 1707a530e598
   - 22cf48ad7b16
   - 424d49834830
@@ -5437,7 +5405,6 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
-  - 2b80a2596064
   - 5a69f2ff055e
   - 5f589c91566e
   tool_panel_section_label: RNA Analysis
@@ -5456,7 +5423,6 @@ tools:
 - name: cufflinks
   owner: devteam
   revisions:
-  - 6926716bbfb5
   - 7498f5a8fe06
   - 83bec71c5c9f
   - 9aab29e159a7
@@ -5477,7 +5443,6 @@ tools:
   - 7fb01ea4a641
   - 8b22e9adae34
   - 9a3f7a890da6
-  - ad5d061fbdf2
   - e66b9b5b8580
   - f648e5180e40
   tool_panel_section_label: RNA Analysis
@@ -5486,7 +5451,6 @@ tools:
   owner: devteam
   revisions:
   - 679d93c99757
-  - 93148c05136f
   - a55f47f580e9
   - b2ee2bef1926
   tool_panel_section_label: RNA Analysis
@@ -5508,7 +5472,6 @@ tools:
   - 4e6f043995ff
   - 604fa75232a2
   - 8da0eade1f59
-  - a85acc5199c7
   - cd969b7f207c
   - db57b46b05bf
   - f1b92120dfaa
@@ -5522,7 +5485,6 @@ tools:
   - 2872c633f07e
   - 4ca0e679f21e
   - 62adf13b86ea
-  - 74ec758e63a4
   - 98fd01004439
   - 9a7c5b6d8f1e
   - b47c006d90c5
@@ -5702,7 +5664,6 @@ tools:
   revisions:
   - 00a42b66e522
   - 0921444c832d
-  - 119b069fc845
   - 3133e833b3ce
   - 32511f586472
   - 38aab66ae5cb
@@ -5829,7 +5790,6 @@ tools:
   revisions:
   - 01247aaf0a10
   - 1c75aa5de15e
-  - 3741c4204eb5
   - 5ae5c312d718
   - 63f76b9f4ba7
   - 87c11c05d238
@@ -5872,7 +5832,6 @@ tools:
   - a2b65af988d2
   - b818b23df1e0
   - c971db6f0fe5
-  - f71c54748ff2
   tool_panel_section_label: RNA Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deg_annotate
@@ -5941,7 +5900,6 @@ tools:
 - name: genrich
   owner: iuc
   revisions:
-  - 8353f3cc03db
   - 9dcc695d5242
   - a41d96fc0b20
   - db50f51a2952
@@ -5955,7 +5913,6 @@ tools:
   - 495a4173006f
   - 56e104999978
   - 640d3af5d833
-  - 86e2413cf3f8
   - acbd3fb47f90
   - bfe57d6e0c4c
   - c16dbe4e2db2
@@ -6046,7 +6003,6 @@ tools:
 - name: moabs
   owner: iuc
   revisions:
-  - 214874e24cd6
   - 26d7ec4af119
   - 9ba290647b05
   tool_panel_section_label: Epigenetics
@@ -8449,7 +8405,6 @@ tools:
   - 5830a37dfa76
   - 95286af4139b
   - ac2d98d6ff8e
-  - d1fad35bdb4a
   - d504d945a655
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8468,7 +8423,6 @@ tools:
   - 33e11cb7d404
   - 55814b6afe69
   - 77f5db795774
-  - 8479d9a67998
   - f4a15ab64300
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -8476,7 +8430,6 @@ tools:
   owner: iuc
   revisions:
   - 1bd61efeff47
-  - 40cde06ae34a
   - 5bd1418f4227
   - 6a7c5e218732
   - c541e62d6c56
@@ -8489,7 +8442,6 @@ tools:
   - 26ad8a52d9fd
   - 8b6f471264f0
   - ba76bd1eef47
-  - d7a482f44e08
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: stacks_procrad
@@ -8498,14 +8450,12 @@ tools:
   - 11642e18f2b0
   - 343073e3b095
   - 5d12647ff71f
-  - eded025438db
   - f1f715f5d2f3
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: stacks_assembleperead
   owner: iuc
   revisions:
-  - 38ecfb8d52c6
   - bc108981ca68
   - e194abc415a6
   - ee52d9cfaffc
@@ -8529,13 +8479,11 @@ tools:
   - 48b49c5b3427
   - b8827c571fbd
   - bab631cc9f64
-  - fdbcc560c691
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: stacks_genotypes
   owner: iuc
   revisions:
-  - 62a4b8e5e139
   - 639f2db87df0
   - aa333a0a7d5a
   - ccadf9b291cd
@@ -8957,7 +8905,6 @@ tools:
 - name: bio_hansel
   owner: iuc
   revisions:
-  - 1b88c1cf803d
   - 2fc6a1bd13f3
   - e3698ac146d7
   tool_panel_section_label: Metagenomic Analysis
@@ -9792,7 +9739,6 @@ tools:
   revisions:
   - 03dd3c928d65
   - 1979ff89fbde
-  - c3f0b847dc40
   tool_panel_section_label: Mothur
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_seqs
@@ -10069,7 +10015,6 @@ tools:
 - name: pdaug_ml_models
   owner: jay
   revisions:
-  - 8697dc4a7f45
   - aa0b1cb1260c
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10318,7 +10263,6 @@ tools:
   owner: jay
   revisions:
   - 15b6eec94c40
-  - 738ee8fc0ede
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pdaug_merge_dataframes
@@ -10348,7 +10292,6 @@ tools:
 - name: pdaug_peptide_sequence_analysis
   owner: jay
   revisions:
-  - 5eb62fb8a2d0
   - 90e3b1968ae6
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -10548,7 +10491,6 @@ tools:
   - 3a6b78c39dca
   - a8e9456dbead
   - cf34c344508d
-  - cf4397560712
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: diapysef
@@ -11204,7 +11146,6 @@ tools:
   owner: iuc
   revisions:
   - 4e25e18415c0
-  - f28678233baf
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sklearn_searchcv
@@ -11552,7 +11493,6 @@ tools:
   - 7f13dc906cb9
   - a64dc31ab7f2
   - ae9994cf526f
-  - c4bde687c846
   - df7356989ac1
   - fd59d783248a
   tool_panel_section_label: Graph/Display Data
@@ -11868,7 +11808,6 @@ tools:
   - 8cb34dd46b16
   - b2b8e75a962d
   - ba71e26d5bdc
-  - dba114391c98
   tool_panel_section_label: Evolution
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: weblogo3
@@ -11884,7 +11823,6 @@ tools:
   revisions:
   - 6095db402811
   - 717980a2e234
-  - cc100e0f61f4
   tool_panel_section_label: Motif Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: meme_psp_gen
@@ -11895,7 +11833,6 @@ tools:
   - 5f95d385a33c
   - 67671cc188d2
   - 793225b11202
-  - 8436beac5eed
   - b48e673af4e8
   tool_panel_section_label: Motif Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -11906,7 +11843,6 @@ tools:
   - 02f6ad791bbf
   - 40b8472e91ca
   - 5275798cf013
-  - 613c75eee7bd
   - b3f7ff168b9a
   - c1a9a297ba8b
   - c5209f38700d
@@ -11976,7 +11912,6 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
-  - bc939965ce41
   - c7e73acfa3eb
   - e7dca6f804c1
   tool_panel_section_label: Genome Diversity
@@ -12347,7 +12282,6 @@ tools:
   revisions:
   - 5671e1d3d5ee
   - 5d6ed46cc101
-  - 6606a8c97889
   - 7bd020da0ce5
   - 8858fa037a15
   - 8b20bc80ebf4
@@ -12380,7 +12314,6 @@ tools:
   - 12d66d0d05ac
   - 41c7ba073a9b
   - 584beffa972b
-  - 5e5dfc9e71e2
   - 924aef5ed7ae
   - c5c9f02b6167
   tool_panel_section_label: Virology
@@ -13492,7 +13425,6 @@ tools:
 - name: ete_treeviewer
   owner: iuc
   revisions:
-  - 2d4402c70eed
   - 892889cd8bbe
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -13967,7 +13899,6 @@ tools:
 - name: smudgeplot
   owner: galaxy-australia
   revisions:
-  - 015283de3004
   - 24e471d13fe9
   - 5e0825476fb7
   - 806d8eeb716b
@@ -14388,7 +14319,6 @@ tools:
   owner: iuc
   revisions:
   - e188e2c2598b
-  - fb61eb03e313
   tool_panel_section_label: Tools from workflows
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: episcanpy_preprocess

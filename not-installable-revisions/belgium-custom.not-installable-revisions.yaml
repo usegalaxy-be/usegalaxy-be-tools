@@ -19,6 +19,7 @@ tools:
   owner: lparsons
   revisions:
   - 7f5a8d427b39
+  - c5a9d57d7eb1
 - name: trimmomatic
   owner: pjbriggs
   revisions:
@@ -122,10 +123,12 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 3ddd99c7efee
 - name: genebed_maf_to_fasta
   owner: iuc
   revisions:
   - 020c78e91cc5
+  - e25ee6bac872
 - name: intermine_galaxy_exchange
   owner: iuc
   revisions:
@@ -134,6 +137,7 @@ tools:
   owner: iuc
   revisions:
   - 58c8ece95b53
+  - 8511b6d85fc7
 - name: umi_tools_count
   owner: iuc
   revisions:
@@ -193,6 +197,7 @@ tools:
 - name: hmmer_hmmemit
   owner: iuc
   revisions:
+  - 82d6ca8212dc
   - be03abdc6451
 - name: kofamscan
   owner: iuc
@@ -215,6 +220,7 @@ tools:
   owner: iuc
   revisions:
   - 96e6283e4745
+  - b7e91ff1a894
 - name: mlst
   owner: iuc
   revisions:
@@ -230,6 +236,7 @@ tools:
 - name: mummer_nucmer
   owner: iuc
   revisions:
+  - 298dceed950c
   - 2d2fe522553d
 - name: idba_tran
   owner: iuc
@@ -263,9 +270,11 @@ tools:
   owner: iuc
   revisions:
   - 55c9ac3aa8f4
+  - d8d32326fbfb
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 7f694df20f73
   - a2f232ff85ed
 - name: minimap2
   owner: iuc
@@ -307,6 +316,7 @@ tools:
   owner: iuc
   revisions:
   - ceff2f6a5368
+  - dcd4681273f7
 - name: strelka_germline
   owner: iuc
   revisions:
@@ -348,6 +358,7 @@ tools:
   owner: devteam
   revisions:
   - 0d8581534009
+  - c752293b798c
 - name: varscan_copynumber
   owner: iuc
   revisions:
@@ -407,6 +418,7 @@ tools:
 - name: dexseq
   owner: iuc
   revisions:
+  - 74ec758e63a4
   - 9fd8b69e6e68
 - name: trinity_run_de_analysis
   owner: iuc
@@ -440,12 +452,14 @@ tools:
 - name: kallisto_pseudo
   owner: iuc
   revisions:
+  - 3741c4204eb5
   - ce5d418183c5
 - name: kallisto_quant
   owner: iuc
   revisions:
   - 4f9c4e6566e5
   - 60f888039fb2
+  - f71c54748ff2
 - name: snp_sites
   owner: iuc
   revisions:
@@ -727,23 +741,28 @@ tools:
 - name: stacks_rxstacks
   owner: iuc
   revisions:
+  - 8479d9a67998
   - 9d0ac63dcfcd
 - name: stacks_cstacks
   owner: iuc
   revisions:
+  - 40cde06ae34a
   - dab92afa0c98
 - name: stacks_refmap
   owner: iuc
   revisions:
   - 7c42e6768c41
+  - d7a482f44e08
 - name: stacks_procrad
   owner: iuc
   revisions:
   - 8fe258d72ff3
+  - eded025438db
 - name: stacks_assembleperead
   owner: iuc
   revisions:
   - 0c741f364d18
+  - 38ecfb8d52c6
 - name: stacks_ustacks
   owner: iuc
   revisions:
@@ -752,10 +771,12 @@ tools:
   owner: iuc
   revisions:
   - eb1e95f88e96
+  - fdbcc560c691
 - name: stacks_genotypes
   owner: iuc
   revisions:
   - 00f4a4e553ae
+  - 62a4b8e5e139
 - name: humann
   owner: iuc
   revisions:
@@ -1421,14 +1442,17 @@ tools:
   owner: iuc
   revisions:
   - 091a9d638d78
+  - cc100e0f61f4
 - name: meme_psp_gen
   owner: iuc
   revisions:
+  - 8436beac5eed
   - ff2f53a32d0e
 - name: meme_fimo
   owner: iuc
   revisions:
   - 0c5239d1aa65
+  - 613c75eee7bd
 - name: meme_meme
   owner: iuc
   revisions:
@@ -1436,6 +1460,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - bc939965ce41
   - e005e659ae21
 - name: 2d_feature_extraction
   owner: imgteam
@@ -1539,18 +1564,22 @@ tools:
 - name: lofreq_call
   owner: iuc
   revisions:
+  - 14af3b671440
   - b11e8e9c23bf
 - name: lofreq_indelqual
   owner: iuc
   revisions:
+  - 4165b712b569
   - 971e07ca4456
 - name: lofreq_viterbi
   owner: iuc
   revisions:
+  - 3330ebe7c0c7
   - aa35ee7f3ab2
 - name: lofreq_alnqual
   owner: iuc
   revisions:
+  - 3ee7d4ac76f3
   - 791f73caa0c8
 - name: lofreq_filter
   owner: iuc
@@ -1621,3 +1650,143 @@ tools:
   owner: iuc
   revisions:
   - 3b1963f729cb
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 8848455c0270
+- name: gtftobed12
+  owner: iuc
+  revisions:
+  - b026dae67fba
+- name: porechop
+  owner: iuc
+  revisions:
+  - a2899db6bd6e
+- name: hmmer_nhmmer
+  owner: iuc
+  revisions:
+  - 54b92ae4f75b
+- name: hmmer_hmmscan
+  owner: iuc
+  revisions:
+  - 4a54e4c9188b
+- name: hmmer_phmmer
+  owner: iuc
+  revisions:
+  - 37bcc9fb0bb1
+- name: hmmer_jackhmmer
+  owner: iuc
+  revisions:
+  - 9fdeca68a6b5
+- name: hmmer_nhmmscan
+  owner: iuc
+  revisions:
+  - fb1305d0d1c6
+- name: hmmer_hmmsearch
+  owner: iuc
+  revisions:
+  - df7a52791be9
+- name: mummer_mummerplot
+  owner: iuc
+  revisions:
+  - 75e15ee43896
+- name: mummer_mummer
+  owner: iuc
+  revisions:
+  - 355f84a894bf
+- name: miniasm
+  owner: iuc
+  revisions:
+  - b799a615995d
+- name: megahit
+  owner: iuc
+  revisions:
+  - ab208c87d973
+- name: egsea
+  owner: iuc
+  revisions:
+  - fba1660fb717
+- name: cuffmerge
+  owner: devteam
+  revisions:
+  - 04adc9db1581
+- name: heinz
+  owner: iuc
+  revisions:
+  - 2b80a2596064
+- name: cufflinks
+  owner: devteam
+  revisions:
+  - 6926716bbfb5
+- name: cuffcompare
+  owner: devteam
+  revisions:
+  - ad5d061fbdf2
+- name: cuffquant
+  owner: devteam
+  revisions:
+  - 93148c05136f
+- name: cuffdiff
+  owner: devteam
+  revisions:
+  - a85acc5199c7
+- name: limma_voom
+  owner: iuc
+  revisions:
+  - 119b069fc845
+- name: genrich
+  owner: iuc
+  revisions:
+  - 8353f3cc03db
+- name: macs2
+  owner: iuc
+  revisions:
+  - 86e2413cf3f8
+- name: moabs
+  owner: iuc
+  revisions:
+  - 214874e24cd6
+- name: stacks_populations
+  owner: iuc
+  revisions:
+  - d1fad35bdb4a
+- name: bio_hansel
+  owner: iuc
+  revisions:
+  - 1b88c1cf803d
+- name: query_tabular
+  owner: iuc
+  revisions:
+  - cf4397560712
+- name: graphembed
+  owner: iuc
+  revisions:
+  - f28678233baf
+- name: circos
+  owner: iuc
+  revisions:
+  - c4bde687c846
+- name: codeml
+  owner: iuc
+  revisions:
+  - dba114391c98
+- name: ivar_trim
+  owner: iuc
+  revisions:
+  - 6606a8c97889
+- name: ivar_variants
+  owner: iuc
+  revisions:
+  - 5e5dfc9e71e2
+- name: ete_treeviewer
+  owner: iuc
+  revisions:
+  - 2d4402c70eed
+- name: smudgeplot
+  owner: galaxy-australia
+  revisions:
+  - 015283de3004
+- name: sinto_barcode
+  owner: iuc
+  revisions:
+  - fb61eb03e313
