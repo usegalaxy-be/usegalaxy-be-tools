@@ -13,6 +13,7 @@ tools:
   owner: iuc
   revisions:
   - 58c8ece95b53
+  - 8511b6d85fc7
 - name: unicycler
   owner: iuc
   revisions:
@@ -93,6 +94,7 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 3ddd99c7efee
   - 58228a4d58fe
 - name: filter_tabular
   owner: iuc
@@ -203,11 +205,13 @@ tools:
   revisions:
   - 2b1dd7ab69f7
   - eb1e95f88e96
+  - fdbcc560c691
 - name: stacks_genotypes
   owner: iuc
   revisions:
   - 00f4a4e553ae
   - 5af94af9ec8f
+  - 62a4b8e5e139
 - name: tabular_to_csv
   owner: mnhn65mo
   revisions:
@@ -267,11 +271,13 @@ tools:
   revisions:
   - 4ee074ca88fb
   - 7c42e6768c41
+  - d7a482f44e08
 - name: stacks_procrad
   owner: iuc
   revisions:
   - 57910d476be9
   - 8fe258d72ff3
+  - eded025438db
 - name: hicexplorer_hicbuildmatrix
   owner: bgruening
   revisions:
@@ -379,6 +385,7 @@ tools:
   revisions:
   - 4014de1b6daf
   - 55c9ac3aa8f4
+  - d8d32326fbfb
 - name: red
   owner: iuc
   revisions:
@@ -501,12 +508,14 @@ tools:
 - name: lofreq_viterbi
   owner: iuc
   revisions:
+  - 3330ebe7c0c7
   - aa35ee7f3ab2
   - af7e416d8176
 - name: lofreq_indelqual
   owner: iuc
   revisions:
   - 354b534eeab7
+  - 4165b712b569
   - 971e07ca4456
 - name: cardinal_quality_report
   owner: galaxyp
@@ -684,6 +693,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - bc939965ce41
   - e005e659ae21
 - name: mothur_chimera_vsearch
   owner: iuc
@@ -901,6 +911,7 @@ tools:
   owner: devteam
   revisions:
   - 0d8581534009
+  - c752293b798c
 - name: msstatstmt
   owner: galaxyp
   revisions:
@@ -968,6 +979,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 7f694df20f73
   - a2f232ff85ed
 - name: dropletutils
   owner: iuc
@@ -1184,6 +1196,7 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
+  - 2b80a2596064
   - e41ec5af7472
 - name: samtools_sort
   owner: devteam
@@ -1201,6 +1214,7 @@ tools:
   owner: iuc
   revisions:
   - 091a9d638d78
+  - cc100e0f61f4
 - name: goslimmer
   owner: iuc
   revisions:
@@ -1458,6 +1472,7 @@ tools:
 - name: lofreq_call
   owner: iuc
   revisions:
+  - 14af3b671440
   - b11e8e9c23bf
 - name: ggplot2_histogram
   owner: iuc
@@ -1499,3 +1514,59 @@ tools:
   owner: iuc
   revisions:
   - 30e275ed0442
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 8848455c0270
+- name: megahit
+  owner: iuc
+  revisions:
+  - ab208c87d973
+- name: smudgeplot
+  owner: galaxy-australia
+  revisions:
+  - 015283de3004
+- name: stacks_populations
+  owner: iuc
+  revisions:
+  - d1fad35bdb4a
+- name: macs2
+  owner: iuc
+  revisions:
+  - 86e2413cf3f8
+- name: miniasm
+  owner: iuc
+  revisions:
+  - b799a615995d
+- name: porechop
+  owner: iuc
+  revisions:
+  - a2899db6bd6e
+- name: query_tabular
+  owner: iuc
+  revisions:
+  - cf4397560712
+- name: sinto_barcode
+  owner: iuc
+  revisions:
+  - fb61eb03e313
+- name: gtftobed12
+  owner: iuc
+  revisions:
+  - b026dae67fba
+- name: limma_voom
+  owner: iuc
+  revisions:
+  - 119b069fc845
+- name: egsea
+  owner: iuc
+  revisions:
+  - fba1660fb717
+- name: circos
+  owner: iuc
+  revisions:
+  - c4bde687c846
+- name: ete_treeviewer
+  owner: iuc
+  revisions:
+  - 2d4402c70eed
