@@ -1,10 +1,7 @@
 name: Tool tests
 
 on:
-  # Test what the install workflow added.
-  workflow_run:
-    workflows: ["Install tools from the lock files (Ephemeris)"]
-    types: [completed]
+  # Started with scope new by the last job of install_latest_tool_version.yml.
   workflow_dispatch:
     inputs:
       scope:

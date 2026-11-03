@@ -2,7 +2,8 @@
 
 `.github/workflows/tool-tests.yml` runs the tool tests of installed tools on usegalaxy.be.
 
-- After every run of the install workflow it tests the repository revisions that have no result yet.
+- The install workflow starts it with scope `new` when an install has finished (the end of the Saturday
+  chain): it tests the repository revisions that have no result yet.
 - A full sweep is started by hand: Actions > Tool tests > Run workflow, scope `all`.
   It tests the latest revision of every repository, or every installed revision with `all_revisions`.
 - To (re)test specific repositories, run it with scope `all` and `repositories`, e.g. `iuc/bedtools`.
