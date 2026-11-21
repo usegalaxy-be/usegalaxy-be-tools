@@ -8950,6 +8950,7 @@ tools:
 - name: liana_methods
   owner: iuc
   revisions:
+  - 0542d9ffe287
   - 89635206a199
   tool_panel_section_label: Single-cell
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
