@@ -1500,6 +1500,7 @@ tools:
   revisions:
   - 2a17c789e0a5
   - 3f254c5ced1d
+  - 933d5b76e8e8
   - a1f0b3f4b781
   - bdd173c2d3e3
   tool_panel_section_label: Picard
@@ -5520,6 +5521,7 @@ tools:
 - name: gtftobed12
   owner: iuc
   revisions:
+  - 33de73363690
   - b026dae67fba
   tool_panel_section_label: Convert Formats
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -5528,6 +5530,7 @@ tools:
   revisions:
   - 27e16a30667a
   - 473382134e56
+  - 5bc075714a8b
   - f437057e46f1
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -5770,7 +5773,7 @@ tools:
 - name: jbrowse2
   owner: fubar
   revisions:
-  - e237edee9a53
+  - 329cd8314959
   tool_panel_section_label: RNA Analysis
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bcftools_mpileup
